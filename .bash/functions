@@ -1,0 +1,67 @@
+#!/bin/bash
+
+lt() {
+	depth=${1:-2}
+	exa -aT -L $depth --color=always --group-directories-first --icons
+}
+
+function path_cleanup() {
+	if [ -n "$PATH" ]; then
+		old_PATH=$PATH:
+		PATH=
+		while [ -n "$old_PATH" ]; do
+			x=${old_PATH%%:*}
+			case $PATH: in
+			*:"$x":*) ;;
+			*) PATH=$PATH:$x ;;
+			esac
+			old_PATH=${old_PATH#*:}
+		done
+		PATH=${PATH#:}
+		unset old_PATH x
+	fi
+}
+
+Bright() {
+    if [ -z "$1" ]; then
+        echo "Usage: set_brightness <value>"
+        return 1
+    fi
+
+    # Path to the brightness control file
+    BRIGHTNESS_PATH="/sys/class/backlight/intel_backlight/brightness"
+
+    # Check if the value is within allowed limits
+    MAX_BRIGHTNESS=$(cat /sys/class/backlight/intel_backlight/max_brightness)
+    
+    if [ "$1" -ge 0 ] && [ "$1" -le "$MAX_BRIGHTNESS" ]; then
+        # Use sudo to modify brightness (needs sudo access to the file)
+        echo "$1" | sudo tee "$BRIGHTNESS_PATH" > /dev/null
+        echo "Brightness set to $1 (Max: $MAX_BRIGHTNESS)"
+    else
+        echo "Error: Brightness value must be between 0 and $MAX_BRIGHTNESS"
+        return 1
+    fi
+}
+
+mpv480() {
+    if [ -z "$1" ]; then
+        echo "Usage: mpv480 <url>"
+        return 1
+    fi
+
+    # Check if DISPLAY is set (indicating X11) and if running in a compatible terminal
+    if [ -z "$DISPLAY" ]; then
+        echo "Error: No DISPLAY found. Are you running this in a graphical environment?"
+        return 1
+    fi
+
+    # Determine if current terminal supports direct video output
+    if [ -n "$TERM" ] && ! [[ "$TERM" =~ ^(xterm|screen|tmux|linux)$ ]]; then
+        echo "Launching mpv in a new xterm window for video output..."
+        xterm -hold -e mpv --ytdl-format='bestvideo[height<=480]+bestaudio/best[height<=480]' "$1" &
+    else
+        # Run mpv in a separate window if terminal is incompatible
+        mpv --ytdl-format='bestvideo[height<=480]+bestaudio/best[height<=480]' "$1" &
+    fi
+}

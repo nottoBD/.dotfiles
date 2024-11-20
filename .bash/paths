@@ -1,0 +1,1 @@
+export PATH="$HOME/.config/emacs/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/go/bin:/home/devid/go/bin:/home/devid/.local/bin:/home/devid/.config/dmscripts/scripts"
