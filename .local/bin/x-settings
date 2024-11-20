@@ -1,0 +1,2 @@
+xmodmap /home/devid/.xmodmap
+xset r rate 280 80
