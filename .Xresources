@@ -1,0 +1,47 @@
+! XTerm Configuration
+XTerm*title: xterm                      ! Window title
+XTerm*class: xterm                      ! Window class
+XTerm*termName: xterm-256color          ! TERM environment variable
+
+! Font Settings
+XTerm*faceName: Source Code Pro         ! Font family
+XTerm*faceSize: 12                      ! Font size
+
+! Colors
+XTerm*foreground: #bbc2cf
+XTerm*background: #282c34
+XTerm*cursorColor: #528bff
+
+! Normal Colors
+XTerm*color0:  #1c1f24
+XTerm*color1:  #ff6c6b
+XTerm*color2:  #98be65
+XTerm*color3:  #da8548
+XTerm*color4:  #51afef
+XTerm*color5:  #c678dd
+XTerm*color6:  #5699af
+XTerm*color7:  #abb2bf
+
+! Bright Colors
+XTerm*color8:  #5b6268
+XTerm*color9:  #da8548
+XTerm*color10: #4db5bd
+XTerm*color11: #ecbe7b
+XTerm*color12: #3071db
+XTerm*color13: #a9a1e1
+XTerm*color14: #46d9ff
+XTerm*color15: #dfdfdf
+
+! Scrolling
+XTerm*saveLines: 5000
+
+! Keyboard Translations
+XTerm*metaSendsEscape: true
+XTerm*VT100.Translations: #override \
+  Shift<KeyPress> Prior: scroll-back(1,halfpage) \n\
+  Shift<KeyPress> Next: scroll-forw(1,halfpage) \n\
+  Ctrl<KeyPress> 0: set-vt-font(d) \n\
+  Ctrl<KeyPress> KP_Subtract: set-vt-font(s) \n\
+  Ctrl<KeyPress> KP_Add: set-vt-font(l) \n\
+  Ctrl<KeyPress> L: clear-saved-lines()
+
