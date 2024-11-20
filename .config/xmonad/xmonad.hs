@@ -152,6 +152,7 @@ myStartupHook = do
     spawnOnce "batsignal -w 35 -c 25 -f 92"
     spawnOnce "numlockx"
     spawnOnce "feh --bg-fill /home/devid/pictures/wallpapers/kde6Pata-dark.png"
+    spawn "if ! mountpoint -q /home/devid/password-store; then alacritty -e /home/devid/.local/bin/mount-password-store; fi"
 
 
 myNavigation :: TwoD a (Maybe a)
