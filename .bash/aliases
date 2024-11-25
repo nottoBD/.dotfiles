@@ -22,3 +22,4 @@ alias cat='bat'
 alias Cp=' xclip -selection clipboard'
 alias Xmodmap='xmodmap /home/devid/.xmodmap'
 alias emacs="emacsclient -a '' -c"
+alias cal='cal --twelve -m'

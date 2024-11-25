@@ -106,8 +106,7 @@ myTerminal :: String
 myTerminal = "alacritty"
 
 myBrowser :: String
---myBrowser = "brave-browser-nightly"
-myBrowser = "firefox"
+myBrowser = "brave-browser-nightly"
 
 myEditor :: String
 myEditor = myTerminal ++ " -e vim "

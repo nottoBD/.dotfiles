@@ -3,7 +3,6 @@ export DOOMDIR="$HOME/.config/doom.d"
 export HISTFILE=/home/$USER/.bash/history/.bash_history
 export CLICOLOR=1
 export EDITOR=vim
-export EDITOR=vim
 export GPT_TTY=$(tty)
 export HISTCONTROL=ignorespace
 export HISTFILE=/home/$USER/.bash/.bash_history
