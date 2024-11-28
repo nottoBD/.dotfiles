@@ -15,4 +15,4 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_RUNTIME_DIR="/run/user/1000"
 export XDG_SESSION_TYPE=x11
 export XMONAD_CONFIG_DIR="$HOME/.config/xmonad"
-
+export CHEAT_PATH=~/.config/cheat
