@@ -24,3 +24,4 @@ alias Xmodmap='xmodmap /home/devid/.xmodmap'
 alias emacs="emacsclient -a '' -c"
 alias cal='cal --twelve -m'
 alias vmware='sudo sysctl vm.compaction_proactiveness=0 && vmware'
+alias cheat='cheat -c '
