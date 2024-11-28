@@ -1,5 +1,5 @@
 # /etc/profile.d/
-export DOOMDIR="$HOME/.config/doom.d"
+export DOOMDIR="$HOME/.config/.doom.d"
 export HISTFILE=/home/$USER/.bash/history/.bash_history
 export CLICOLOR=1
 export EDITOR=vim

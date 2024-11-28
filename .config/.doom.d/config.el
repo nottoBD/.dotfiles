@@ -40,7 +40,7 @@
 
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
-(setq org-directory "~/.config/org/")
+(setq org-directory "~/synthesis/org/")
 
 
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
@@ -153,3 +153,38 @@
 (setq warning-suppress-types '((org-element)))
 
 
+
+;; Auto-sync org-noter to pdfview
+(add-hook 'org-mode-hook
+          (lambda ()
+            (when (bound-and-true-p org-noter-session) ; Ensure org-noter is active
+              (add-hook 'after-change-functions
+                        (lambda (_beg _end _len)
+                          (when (org-entry-get nil "NOTER_PAGE") ; Check for NOTER_PAGE property
+                            (org-noter-sync-current-note)))
+                        nil t))))
+
+
+;; Customize font size for annotations in org-noter
+(after! org
+  (custom-set-faces!
+    '(org-default :inherit default :height 1.3) ;; Adjust general text size
+    '(org-noter-notes :inherit default :height 1.4))) ;; Specifically for org-noter notes
+;; Existing configuration remains unchanged...
+
+;; Org-noter customization
+(after! org-noter
+  (setq org-noter-auto-save-last-location t
+        org-noter-doc-split-fraction '(0.7 . 0.3)
+        org-noter-insert-note-no-questions t) ;; Skip asking for location
+)
+
+;; Custom function to insert note without location
+(defun my/org-noter-insert-note-without-location ()
+  "Insert a note without prompting for location."
+  (interactive)
+  (org-noter-insert-note 'no-question))
+
+;; Rebind Alt+i to insert note without location
+(after! org-noter
+  (define-key org-noter-doc-mode-map (kbd "M-i") #'my/org-noter-insert-note-without-location))
