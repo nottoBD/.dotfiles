@@ -1,3 +1,4 @@
 .gnupg/** filter=git-crypt diff=git-crypt
 .ssh/** filter=git-crypt diff=git-crypt
 .config/cheat/** filter=git-crypt diff=git-crypt
+.git-crypt/** filter=git-crypt diff=git-crypt
