@@ -1,0 +1,3 @@
+* * * * * /bin/bash -l -c ~/.cron/monitor_hotswap
+0 */12 * * * /bin/bash /home/devid/.cron/cron-github
+@reboot /bin/bash /home/devid/.cron/cron-github
