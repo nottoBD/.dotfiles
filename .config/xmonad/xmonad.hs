@@ -307,7 +307,7 @@ gsSystem =
 
 gsUtilities =
   [ ("Emacs", "emacs")
-  , ("Emacsclient", "emacsclient -c -a \'vim\' --socket-name=doom")
+  , ("Emacsclient", "emacs -c -a \'vim\' --socket-name=doom")
   , ("Nitrogen", "nitrogen")
   , ("Vim", (myTerminal ++ " -e vim"))
   ]
