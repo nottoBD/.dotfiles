@@ -18,7 +18,7 @@ Config { font            = "Ubuntu Bold 9"
                     , Run Com "/home/devid/.local/bin/kernel" [] "kernel" 36000
 
                         -- Battery status and time left
-                    , Run BatteryP ["BAT1"] ["-t", "<acstatus> <left>% - <timeleft>", "--", "-O", "<fn=3>\xf0a6</fn>" , "-i", "Ready", "-L", "20", "-H", "80", "-l", "red", "-m", "blue", "-h", "green"] 160
+                    , Run BatteryP ["BAT1"] ["-t", "<acstatus> <left>% - <timeleft>", "--", "-O", "" , "-i", "Ready", "-L", "20", "-H", "80", "-l", "red", "-m", "blue", "-h", "green"] 160
                         -- Battery icon
                     , Run Com "echo" ["<fn=1>\xf0e7</fn>"] "baticon" 3600
 
@@ -46,6 +46,6 @@ Config { font            = "Ubuntu Bold 9"
                     ]
        , sepChar = "%"
        , alignSep = "}{"
-       , template = " %UnsafeStdinReader% }{   <box type=Bottom width=2 mb=2 color=#a74cc1><fc=#a74cc1>%bell%   <action=`alacritty -e sudo pacman -Syuv`>%pacupdate%</action></fc></box>    <box type=Bottom width=2 mb=2 color=#d6384a><fc=#d6384a>%heart%  %kernel%</fc></box>    <box type=Bottom width=2 mb=2 color=#a1ea52><fc=#a1ea52><action=`alacritty -e btop`>%cpu%</action></fc></box>    <box type=Bottom width=2 mb=2 color=#46d9ff><fc=#46d9ff><action=`alacritty -e btop`>%memory%</action></fc></box>    <box type=Bottom width=2 mb=2 color=#a9a1e1><fc=#a9a1e1>%disku%</fc></box>    <box type=Bottom width=2 mb=2 color=#98be65><fc=#98be65>%uparrow%  %uptime%</fc></box>     <box type=Bottom width=2 mb=2 color=#da8548><fc=#da8548>%baticon%  %battery%</fc></box>    <box type=Bottom width=2 mb=2 color=#46d9ff><fc=#46d9ff><action=`alacritty --config-file ~/.config/alacritty/low_zoom.toml -e sh -c 'cal -m --twelve | bat; exec sh'`>%date%</action></fc></box>%trayerpad%  "
+       , template = " %UnsafeStdinReader% }{   <box type=Bottom width=2 mb=2 color=#a74cc1><fc=#a74cc1>%bell%   <action=`alacritty -e sudo pacman -Syuv`>%pacupdate%</action></fc></box>    <box type=Bottom width=2 mb=2 color=#d6384a><fc=#d6384a>%heart%  %kernel%</fc></box>    <box type=Bottom width=2 mb=2 color=#a1ea52><fc=#a1ea52><action=`alacritty -e btop`>%cpu%</action></fc></box>    <box type=Bottom width=2 mb=2 color=#46d9ff><fc=#46d9ff><action=`alacritty -e btop`>%memory%</action></fc></box>    <box type=Bottom width=2 mb=2 color=#a9a1e1><fc=#a9a1e1>%disku%</fc></box>    <box type=Bottom width=2 mb=2 color=#98be65><fc=#98be65>%uparrow%  %uptime%</fc></box>    <box type=Bottom width=2 mb=2 color=#fff41f><fc=#fff41f>%baticon% %battery%</fc></box>    <box type=Bottom width=2 mb=2 color=#ffffff><fc=#ffffff><action=`alacritty --config-file ~/.config/alacritty/low_zoom.toml -e sh -c 'cal -m --twelve | bat; exec sh'`>%date%</action></fc></box>%trayerpad%  "
        }
 

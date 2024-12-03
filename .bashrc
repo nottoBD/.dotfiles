@@ -1,6 +1,10 @@
 # /etc/bash.bashrc
 [[ $- != *i* ]] && return
 
+if [ -f ~/.bash/bash_profile ]; then
+    . ~/.bash/bash_profile
+fi
+
 if [ -f ~/.bash/exports ]; then
 	. ~/.bash/exports
 fi
