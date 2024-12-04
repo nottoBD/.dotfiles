@@ -30,9 +30,9 @@ Config { font            = "Ubuntu Bold 9"
                         -- Disk space free
                     , Run DiskU [("/", "<fn=1>\xf0a0</fn>  SSD: <free>")] [] 60
                         -- Echos an "up arrow" icon in front of the uptime output.
-                    , Run Com "echo" ["<fn=1>\xf0aa</fn>"] "uparrow" 3600
+                    , Run Com "echo" ["<fn=3>\xf624</fn>"] "uparrow" 3600
                         -- Uptime
-                    , Run Uptime ["-t", "uptime: <days>d <hours>h"] 360
+                    , Run Uptime ["-t", "<days>d <hours>:<minutes>"] 360
                         -- Echos a "bell" icon in front of the pacman updates.
                     , Run Com "echo" ["<fn=1>\xf0f3</fn>"] "bell" 3600
                         -- Check for pacman updates (script found in .local/bin)
