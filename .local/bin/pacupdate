@@ -1,5 +1,10 @@
 #!/bin/bash
 
-cupd=$(checkupdates | wc -l)
-echo "$cupd "
+#cupd=$(checkupdates | wc -l)
+#echo "$cupd "
+
+pacman_updates=$(checkupdates 2>/dev/null | wc -l)
+aur_updates=$(yay -Qua 2>/dev/null | wc -l)
+#total_updates=$((pacman_updates + aur_updates))
+echo "$pacman_updates + $aur_updates"
 
