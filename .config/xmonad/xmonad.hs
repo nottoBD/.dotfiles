@@ -580,7 +580,7 @@ myKeys c =
 
   -- Switch layouts
   ^++^ subKeys "Switch layouts"
-  [ ("M-<Tab>", addName "Switch to next layout"   $ sendMessage NextLayout)
+  [ -- ("M-<Tab>", addName "Switch to next layout"   $ sendMessage NextLayout)
   , ("M-<Space>", addName "Toggle noborders/full" $ sendMessage (MT.Toggle NBFULL) >> sendMessage ToggleStruts)]
 
   -- Window resizing
