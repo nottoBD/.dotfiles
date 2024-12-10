@@ -1,5 +1,7 @@
 #!/bin/sh
 
+[ -f ~/.xprofile ] && . ~/.xprofile
+
 sysresources="/home/devid/.xresources"
 sysmodmap="/home/devid/.xmodmap"
 
