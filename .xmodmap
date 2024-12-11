@@ -1,6 +1,6 @@
 clear Lock
 keycode 108 = Mode_switch
-keycode 64 = Mode_switch
+!keycode 64 = Mode_switch
 
 keycode 11 = 2 at eacute
 keycode 16 = 7 ampersand egrave
@@ -9,7 +9,7 @@ keycode 18 = 9 parenleft ccedilla
 keycode 19 = 0 parenright agrave
 keycode 20 = minus underscore
 keycode 21 = equal plus EuroSign
-keycode 23 = Tab Return Return
+!keycode 23 = Tab Return Return
 keycode 26 = e E ecircumflex
 keycode 28 = t T asciitilde
 keycode 30 = u U ucircumflex

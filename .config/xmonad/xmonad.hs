@@ -128,6 +128,7 @@ windowCount = gets $ Just . show . length . W.integrate' . W.stack . W.workspace
 
 
 myStartupHook = do
+
     -- Kill any previous instances
     safeSpawn "killall" ["conky"]
     safeSpawn "killall" ["trayer"]
@@ -139,19 +140,18 @@ myStartupHook = do
     safeSpawn "trayer" ["--edge", "top", "--align", "right", "--widthtype", "request", "--padding", "4", "--SetDockType", "true", "--SetPartialStrut", "false", "--expand", "true", "--transparent", "true", "--alpha", "0", "--tint", "0x282c34", "--height", "22", "--monitor", "primary"]
 
 
-    safeSpawn "conky" ["-c", "/home/devid/.config/conky/doom-one-01.conkyrc"]
+    safeSpawn "conky" ["-c", "$HOME/.config/conky/doom-one-01.conkyrc"]
 
     -- Run startup utilities
-    spawnOnce "nm-applet"
     spawnOnce "emacs-29.4 --daemon=doom"
-    spawnOnce "/home/devid/.local/bin/x-settings"
+    spawnOnce "$HOME/.local/bin/x-settings"
     spawnOnce "unclutter -idle 1"
     spawnOnce "dunst"
     spawnOnce "batsignal -w 35 -c 25 -f 92"
     spawnOnce "numlockx"
-    spawnOnce "feh --bg-fill /home/devid/pictures/wallpapers/kde6Pata-dark.png"
-    spawnOnce "xrdb /home/devid/.xresources"
-    spawn "if ! mountpoint -q /home/devid/password-store; then alacritty -e /home/devid/.local/bin/mount-password-store; fi"
+    spawnOnce "feh --bg-fill $HOME/pictures/wallpapers/kde6Pata-dark.png"
+    spawnOnce "xrdb $HOME/.xresources"
+    spawn "if ! mountpoint -q $HOME/password-store; then alacritty -e $HOME/.local/bin/mount-password-store; fi"
 
 
 myNavigation :: TwoD a (Maybe a)
@@ -572,7 +572,7 @@ myKeys c =
   , ("M-M1-h", addName "Launch htop"           $ spawn (myTerminal ++ " -e htop"))
   , ("M-<Escape>", addName "Selection screenshot" $ spawn "QT_STYLE_OVERRIDE=qt5ct flameshot gui")
   , ("M-C-v", addName "Primary paste" $ spawn "xdotool click 2")]
-
+  , ("M-S-l", addName "Input Lock" $ spawn "xtrlock")]
   
   ^++^ subKeys "Monitors"
   [ ("M-.", addName "Switch focus to next monitor" $ nextScreen)
@@ -654,10 +654,9 @@ myKeys c =
 
 main :: IO ()
 main = do
- -- Launching three instances of xmobar on their monitors.
   xmproc0 <- spawnPipe ("xmobar -x 0 $HOME/.config/xmobar/.xmobarrc")
   xmproc1 <- spawnPipe ("xmobar -x 1 $HOME/.config/xmobar/.xmobarrc")
---  xmproc2 <- spawnPipe ("xmobar -x 2 $HOME/.config/xmobar/" ++ colorScheme ++ "-xmobarrc")
+
   -- the xmonad, ya know...what the WM is named after!
   xmonad $ addDescrKeys' ((mod4Mask, xK_F1), showKeybindings) myKeys $ ewmh $ docks $ def
     { manageHook         = myManageHook <+> manageDocks
@@ -673,7 +672,6 @@ main = do
     , logHook = dynamicLogWithPP $  filterOutWsPP [scratchpadWorkspaceTag] $ xmobarPP
         { ppOutput = \x -> hPutStrLn xmproc0 x   -- xmobar on monitor 1
                         >> hPutStrLn xmproc1 x   -- xmobar on monitor 2
---                        >> hPutStrLn xmproc2 x   -- xmobar on monitor 3
         , ppCurrent = xmobarColor color06 "" . wrap
                       ("<box type=Bottom width=2 mb=2 color=" ++ color06 ++ ">") "</box>"
           -- Visible but not current workspace
