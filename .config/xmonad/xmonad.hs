@@ -144,14 +144,13 @@ myStartupHook = do
     -- Run startup utilities
     spawnOnce "nm-applet"
     spawnOnce "emacs-29.4 --daemon=doom"
-    spawnOnce "pnmixer"
     spawnOnce "/home/devid/.local/bin/x-settings"
     spawnOnce "unclutter -idle 1"
     spawnOnce "dunst"
     spawnOnce "batsignal -w 35 -c 25 -f 92"
     spawnOnce "numlockx"
     spawnOnce "feh --bg-fill /home/devid/pictures/wallpapers/kde6Pata-dark.png"
-    spawnOnce "xrdb /home/devid/.Xresources"
+    spawnOnce "xrdb /home/devid/.xresources"
     spawn "if ! mountpoint -q /home/devid/password-store; then alacritty -e /home/devid/.local/bin/mount-password-store; fi"
 
 
@@ -422,6 +421,7 @@ myLayoutHook = avoidStruts
 
 
 myWorkspaces = [" 1 ", " 2 ", " 3 ", " 4 ", " 5 ", " 6 ", " 7 ", " 8 ", " 9 "]
+--myWorkspaces = [" 1 ", " 2 ", " 3 ", " 4 ", " 5 "]
 -- myWorkspaces = [" dev ", " www ", " sys ", " doc ", " vbox ", " chat ", " mus ", " vid ", " gfx "]
 -- myWorkspaces =
 --         " 1 : <fn=2>\xf111</fn> " :
@@ -435,7 +435,7 @@ myWorkspaces = [" 1 ", " 2 ", " 3 ", " 4 ", " 5 ", " 6 ", " 7 ", " 8 ", " 9 "]
 --         " 9 : <fn=2>\xf21e</fn> " :
 --         []
 
-myWorkspaceIndices = M.fromList $ zipWith (,) myWorkspaces [1..] 
+myWorkspaceIndices = M.fromList $ zipWith (,) myWorkspaces [1..]
 
 clickable ws = "<action=xdotool key super+"++show i++">"++ws++"</action>"
     where i = fromJust $ M.lookup ws myWorkspaceIndices
@@ -581,7 +581,7 @@ myKeys c =
   -- Switch layouts
   ^++^ subKeys "Switch layouts"
   [ -- ("M-<Tab>", addName "Switch to next layout"   $ sendMessage NextLayout)
-  , ("M-<Space>", addName "Toggle noborders/full" $ sendMessage (MT.Toggle NBFULL) >> sendMessage ToggleStruts)]
+   ("M-<Space>", addName "Toggle noborders/full" $ sendMessage (MT.Toggle NBFULL) >> sendMessage ToggleStruts)]
 
   -- Window resizing
   ^++^ subKeys "Window resizing"
