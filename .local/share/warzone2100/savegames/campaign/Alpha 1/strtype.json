@@ -1,0 +1,40 @@
+{
+    "player_0": {
+        "A0ADemolishStructure": 1,
+        "A0CommandCentre": 1,
+        "A0LightFactory": 1,
+        "A0PowerGenerator": 1,
+        "A0ResearchFacility": 1,
+        "A0ResourceExtractor": 1
+    },
+    "player_1": {
+        "A0ADemolishStructure": 1
+    },
+    "player_10": {
+        "A0ADemolishStructure": 1
+    },
+    "player_2": {
+        "A0ADemolishStructure": 1
+    },
+    "player_3": {
+        "A0ADemolishStructure": 1
+    },
+    "player_4": {
+        "A0ADemolishStructure": 1
+    },
+    "player_5": {
+        "A0ADemolishStructure": 1
+    },
+    "player_6": {
+        "A0ADemolishStructure": 1
+    },
+    "player_7": {
+        "A0ADemolishStructure": 1
+    },
+    "player_8": {
+        "A0ADemolishStructure": 1
+    },
+    "player_9": {
+        "A0ADemolishStructure": 1
+    }
+}

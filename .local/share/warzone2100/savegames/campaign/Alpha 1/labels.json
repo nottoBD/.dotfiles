@@ -1,0 +1,281 @@
+{
+    "area_0": {
+        "label": "factoryTrigger",
+        "player": -1,
+        "pos1": [
+            2880,
+            1600
+        ],
+        "pos2": [
+            3136,
+            2112
+        ],
+        "subscriber": 0,
+        "triggered": 0
+    },
+    "area_1": {
+        "label": "landingZone",
+        "player": -1,
+        "pos1": [
+            1280,
+            6528
+        ],
+        "pos2": [
+            1536,
+            6784
+        ],
+        "subscriber": -1,
+        "triggered": 160003
+    },
+    "area_2": {
+        "label": "launchScavAttack",
+        "player": -1,
+        "pos1": [
+            2496,
+            6080
+        ],
+        "pos2": [
+            4928,
+            7232
+        ],
+        "subscriber": 0,
+        "triggered": 160025
+    },
+    "area_3": {
+        "label": "raidGroup",
+        "player": -1,
+        "pos1": [
+            3392,
+            576
+        ],
+        "pos2": [
+            3904,
+            1088
+        ],
+        "subscriber": -1,
+        "triggered": 0
+    },
+    "area_4": {
+        "label": "raidTrigger",
+        "player": -1,
+        "pos1": [
+            2900,
+            500
+        ],
+        "pos2": [
+            3800,
+            3200
+        ],
+        "subscriber": 0,
+        "triggered": 0
+    },
+    "area_5": {
+        "label": "roadblockArea",
+        "player": -1,
+        "pos1": [
+            4500,
+            3600
+        ],
+        "pos2": [
+            5500,
+            4700
+        ],
+        "subscriber": 0,
+        "triggered": 0
+    },
+    "area_6": {
+        "label": "scavBase1Cleanup",
+        "player": -1,
+        "pos1": [
+            3520,
+            4416
+        ],
+        "pos2": [
+            4416,
+            5056
+        ],
+        "subscriber": -1,
+        "triggered": 160019
+    },
+    "area_7": {
+        "label": "scavBase2Cleanup",
+        "player": -1,
+        "pos1": [
+            4544,
+            1856
+        ],
+        "pos2": [
+            5440,
+            2496
+        ],
+        "subscriber": -1,
+        "triggered": 0
+    },
+    "area_8": {
+        "label": "scavBase3Cleanup",
+        "player": -1,
+        "pos1": [
+            1088,
+            1216
+        ],
+        "pos2": [
+            2240,
+            2240
+        ],
+        "subscriber": 0,
+        "triggered": 0
+    },
+    "area_9": {
+        "label": "scavBase4Cleanup",
+        "player": -1,
+        "pos1": [
+            1472,
+            3776
+        ],
+        "pos2": [
+            2752,
+            5440
+        ],
+        "subscriber": -1,
+        "triggered": 0
+    },
+    "group_0": {
+        "label": "scavGroup1",
+        "members": [],
+        "player": -1,
+        "subscriber": 0,
+        "triggered": 0
+    },
+    "group_1": {
+        "label": "scavGroup2",
+        "members": [],
+        "player": -1,
+        "subscriber": 0,
+        "triggered": 0
+    },
+    "group_2": {
+        "label": "scavGroup3",
+        "members": [],
+        "player": -1,
+        "subscriber": 0,
+        "triggered": 0
+    },
+    "group_3": {
+        "label": "scavGroup4",
+        "members": [],
+        "player": -1,
+        "subscriber": 0,
+        "triggered": 0
+    },
+    "object_0": {
+        "id": 160281,
+        "label": "base1ArtifactPos_artifact_label",
+        "player": 12,
+        "triggered": -1,
+        "type": 2
+    },
+    "object_1": {
+        "id": 160171,
+        "label": "base2Factory",
+        "player": 7,
+        "triggered": -1,
+        "type": 1
+    },
+    "object_2": {
+        "id": 160173,
+        "label": "base3Factory",
+        "player": 6,
+        "triggered": -1,
+        "type": 1
+    },
+    "object_3": {
+        "id": 160255,
+        "label": "base4Factory",
+        "player": 6,
+        "triggered": -1,
+        "type": 1
+    },
+    "position_0": {
+        "label": "base1ArtifactPos",
+        "pos": [
+            3776,
+            4544
+        ],
+        "triggered": -1
+    },
+    "position_1": {
+        "label": "base2Assembly",
+        "pos": [
+            5056,
+            2752
+        ],
+        "triggered": -1
+    },
+    "position_2": {
+        "label": "base3Assembly",
+        "pos": [
+            1600,
+            2240
+        ],
+        "triggered": -1
+    },
+    "position_3": {
+        "label": "base4Assembly",
+        "pos": [
+            2112,
+            3648
+        ],
+        "triggered": -1
+    },
+    "position_4": {
+        "label": "oilPatch",
+        "pos": [
+            4928,
+            5568
+        ],
+        "triggered": -1
+    },
+    "position_5": {
+        "label": "playerBase",
+        "pos": [
+            2100,
+            6700
+        ],
+        "triggered": -1
+    },
+    "position_6": {
+        "label": "retreat1",
+        "pos": [
+            3904,
+            4416
+        ],
+        "triggered": -1
+    },
+    "position_7": {
+        "label": "retreat2",
+        "pos": [
+            5440,
+            2368
+        ],
+        "triggered": -1
+    },
+    "position_8": {
+        "label": "startPosition",
+        "pos": [
+            1728,
+            6720
+        ],
+        "triggered": -1
+    },
+    "radius_0": {
+        "label": "scavAttack1",
+        "player": -1,
+        "pos": [
+            5184,
+            6592
+        ],
+        "radius": 640,
+        "subscriber": 0,
+        "triggered": 0
+    }
+}

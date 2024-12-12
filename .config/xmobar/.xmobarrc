@@ -1,9 +1,5 @@
 Config { font            = "Source Code Pro Semibold 9"
-                           -- "Ubuntu Bold 9"
-       , additionalFonts = [ "Mononoki Semibold 12"
-                           , "Font Awesome 6 Free Solid 12"
-                           , "Font Awesome 6 Brands 12"
-                           ]
+       , additionalFonts = [ "Mononoki Semibold 11"]
        , bgColor      = "#282c34"
        , fgColor      = "#ff6c6b"
        , position     = TopSize L 100 24
@@ -13,55 +9,62 @@ Config { font            = "Source Code Pro Semibold 9"
        , persistent   = True
        , iconRoot     = "/home/devid/.config/xmobar/xpm/"  -- default: "."
        , commands = [
-                        -- Echos a "messages" icon in front of the notify-log output.
+                        -- XMONAD
+                      Run UnsafeStdinReader
 
-                      Run Com "echo" ["<fn=3>\xf21e</fn>"] "heart" 3600
-                    , Run Com "/home/devid/.local/bin/kernel" [] "kernel" 36000
-
-                        -- Battery status and time left
-                    , Run BatteryP ["BAT1"] ["-t", "<acstatus> <left>% <timeleft>", "--", "-O", "" , "-i", "Ready", "-L", "20", "-H", "80", "-l", "red", "-m", "blue", "-h", "green"] 160
-                        -- Battery icon
-                    , Run Com "echo" ["<fn=1>\xf0e7</fn>"] "baticon" 3600
-
-                        -- Get kernel version (script found in .local/bin)
-
-                        -- Cpu usage in percent
-                    , Run Cpu ["-t", "<fn=2>\xf2db</fn> <total>%","-H","50","--high","red"] 20
-
-                        -- Ram used number and percent
-                    , Run Memory ["-t", "<fn=1>\xf538</fn> <used>M"] 20
-
-                        -- Disk space free
-                    , Run DiskU [("/", "<fn=1>\xf0a0</fn> <free>")] [] 20
-
-                        -- Echos a "bell" icon in front of the pacman updates.
-                    , Run Com "echo" ["<fn=1>\xf0f3</fn>"] "bell" 3600
-
-                        -- Check for pacman updates (script found in .local/bin)
+                        -- PACMAN.YAY
+                    , Run Com "echo" ["<fn=4>\xf0f3</fn>"] "bell" 3600
                     , Run Com "/home/devid/.local/bin/pacupdate" [] "pacupdate" 6000
 
-                        -- Time and date
-                    , Run Date "<fn=1>\x23f2</fn> %a, %b %d %H:%M" "date" 10
+                        -- KERNEL
+                    , Run Com "echo" ["<fn=4>\xf21e</fn>"] "heart" 3600
+                    , Run Com "/home/devid/.local/bin/kernel" [] "kernel" 36000
 
-                    , Run Com "bash" ["-c", "/home/devid/.local/bin/get-volume"] "volume" 10
-                    , Run Com "echo" ["<fn=2>\xf028</fn>"] "volumeicon" 3600
-                    , Run Com "echo" ["<fn=2>\xf026</fn>"] "volumemuteicon" 3600
+                        -- CPU
+                    , Run Cpu ["-t", "<fn=4>\xf2db</fn> <total>%","-H","50","--high","red"] 20
 
+                        -- RAM
+                    , Run Memory ["-t", "<fn=4>\xf538</fn> <used>M"] 20
+
+                        -- SSD
+                    , Run DiskU [("/", "<fn=4>\xf0a0</fn> <free>")] [] 20
+
+                        -- WIFI
                     , Run Com "bash" ["-c", "/home/devid/.local/bin/wifi-status"] "wifi" 20
-                    , Run Com "echo" ["<fn=1>\xf1eb</fn>"] "wifiicon" 3600
-                    , Run Com "echo" ["<fn=1>\xf1e0</fn>"] "nowifiicon" 3600
-                    
-                    , Run Com "bash" ["-c", "/home/devid/.local/bin/get-brightness"] "brightness" 10
-                    , Run Com "echo" ["<fn=2>\xf185</fn>"] "sun" 3600
+                    , Run Com "echo" ["<fn=4>\xf1eb</fn>"] "wifiicon" 3600
+                    , Run Com "echo" ["<fn=4>\xf1e0</fn>"] "nowifiicon" 3600
 
-                        -- Script that dynamically adjusts xmobar padding depending on number of trayer icons.
-                    , Run Com "/home/devid/.local/bin/trayer-padding-icon.sh" [] "trayerpad" 10 
+                        -- BATTERY
+                    , Run Com "echo" ["<fn=4>\xf0e7</fn>"] "baticon" 3600
+                    , Run BatteryP ["BAT1"] [
+                          "-t", "<left>% <timeleft>", "--", 
+                          "-O", "" ,          -- charging
+                          "-i", "",           -- charged
+                          "-o", "",           -- unplugged
+                          "-L", "20",         -- low bat
+                          "-H", "80",         -- high bat
+                          "-l", "red",        -- low bat
+                          "-m", "blue",       -- med bat
+                          "-h", "green"
+                          ] 160
 
-                        -- Prints out the left side items such as workspaces, layout, etc.
-                    , Run UnsafeStdinReader
+                        -- CALENDAR
+                    , Run Date "<fn=4>\x231b</fn> %a, %b %d %H:%M" "date" 10
+
+                        -- VOLUME
+                    , Run Com "bash" ["-c", "/home/devid/.local/bin/get-volume"] "volume" 5
+                    , Run Com "echo" ["<fn=4>\xf028</fn>"] "volumeicon" 3600
+                    , Run Com "echo" ["<fn=4>\xf026</fn>"] "volumemuteicon" 3600
+
+                        -- BRIGHTNESS
+                    , Run Com "bash" ["-c", "/home/devid/.local/bin/get-brightness"] "brightness" 5
+                    , Run Com "echo" ["<fn=4>\xf185</fn>"] "sun" 3600
+
+                        -- TRAYER
+                    , Run Com "/home/devid/.local/bin/trayer-padding-icon.sh" [] "trayerpad" 50
                     ]
        , sepChar = "%"
        , alignSep = "}{"
-       , template = " %UnsafeStdinReader% }{<fn=1><box type=Bottom width=2 mb=2 color=#a74cc1><fc=#a74cc1>%bell% <action=`alacritty -e sudo pacman -Syuv`>%pacupdate%</action></fc></box> <box type=Bottom width=2 mb=2 color=#d6384a><fc=#d6384a>%heart% %kernel%</fc></box> <box type=Bottom width=2 mb=2 color=#a1ea52><fc=#a1ea52><action=`alacritty -e btop`>%cpu%</action></fc></box> <box type=Bottom width=2 mb=2 color=#46d9ff><fc=#46d9ff><action=`alacritty -e btop`>%memory%</action></fc></box> <box type=Bottom width=2 mb=2 color=#a9a1e1><fc=#a9a1e1>%disku%</fc></box> <box type=Bottom width=2 mb=2 color=#0892d0><fc=#0892d0><action=`/home/devid/.local/bin/get-wifi`>%wifiicon% %wifi%</action></fc></box> <box type=Bottom width=2 mb=2 color=#fff41f><fc=#fff41f>%baticon%%battery%</fc></box> <box type=Bottom width=2 mb=2 color=#FFC0CB><fc=#FFC0CB><action=`alacritty --config-file ~/.config/alacritty/low_zoom.toml -e sh -c 'cal -m --twelve | bat; exec sh'`>%date%</action></fc></box> <box type=Bottom width=2 mb=2 color=#CCCCCC><fc=#CCCCCC><action=`pavucontrol`>%volumeicon% %volume%</action></fc></box> <box type=Bottom width=2 mb=2 color=#CCCCCC><fc=#CCCCCC>%sun%%brightness%</fc></box>%trayerpad%</fn>"
-       }
+                        -- VOMIT
+       , template = " %UnsafeStdinReader% }{<fn=1><box type=Bottom width=2 mb=2 color=#a74cc1><fc=#a74cc1>%bell% <action=`alacritty -e sudo pacman -Syuv`>%pacupdate%</action></fc></box> <box type=Bottom width=2 mb=2 color=#d6384a><fc=#d6384a>%heart% %kernel%</fc></box> <box type=Bottom width=2 mb=2 color=#a1ea52><fc=#a1ea52><action=`alacritty -e btop`>%cpu%</action></fc></box> <box type=Bottom width=2 mb=2 color=#46d9ff><fc=#46d9ff><action=`alacritty -e btop`>%memory%</action></fc></box> <box type=Bottom width=2 mb=2 color=#a9a1e1><fc=#a9a1e1>%disku%</fc></box> <box type=Bottom width=2 mb=2 color=#0892d0><fc=#0892d0><action=`/home/devid/.local/bin/get-wifi`>%wifiicon% %wifi%</action></fc></box> <box type=Bottom width=2 mb=2 color=#fff41f><fc=#fff41f>%baticon% %battery%</fc></box> <box type=Bottom width=2 mb=2 color=#FFC0CB><fc=#FFC0CB><action=`alacritty --config-file ~/.config/alacritty/low_zoom.toml -e sh -c 'cal -m --twelve | bat; exec sh'`>%date%</action></fc></box> <box type=Bottom width=2 mb=2 color=#CCCCCC><fc=#CCCCCC><action=`pavucontrol`>%volumeicon% %volume%</action></fc></box> <box type=Bottom width=2 mb=2 color=#CCCCCC><fc=#CCCCCC>%sun%%brightness%</fc></box>%trayerpad%</fn>"}
 
