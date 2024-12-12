@@ -1,0 +1,32 @@
+#!/bin/bash
+SSID=$(nmcli -t -f active,ssid dev wifi | grep '^yes' | cut -d':' -f2)
+CHANNEL=$(nmcli -t -f active,chan dev wifi | grep '^yes' | cut -d':' -f2)
+
+if [ -z "$CHANNEL" ]; then
+    BAND="X"
+else
+    if [ "$CHANNEL" -le 14 ]; then
+        BAND="2.4GHz"
+    elif [ "$CHANNEL" -ge 36 ]; then
+        BAND="5GHz"
+    else
+        BAND="X"
+    fi
+fi
+
+if [ -n "$SSID" ]; then
+    SSID_SHORT=$(echo "$SSID" | cut -c1-7)  # First 7 characters
+    CHAR_8=$(echo "$SSID" | cut -c8)       # 8th character
+    if [[ "$CHAR_8" =~ [a-zA-Z0-9] ]]; then
+        SSID_SHORT="$SSID_SHORT$CHAR_8"
+    fi
+else
+    SSID_SHORT="Nihil"
+fi
+
+if [ "$BAND" == "X" ]; then
+    echo "$SSID_SHORT:X"
+else
+    echo "$BAND:$SSID_SHORT"
+fi
+

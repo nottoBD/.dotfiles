@@ -150,6 +150,8 @@ myStartupHook = do
     spawnOnce "numlockx"
     spawnOnce "feh --bg-fill $HOME/pictures/wallpapers/kde6Pata-dark.png"
     spawn "if ! mountpoint -q $HOME/password-store; then alacritty -e $HOME/.local/bin/mount-password-store; fi"
+    spawnOnce "sudo tlp start"
+    
 
 
 myNavigation :: TwoD a (Maybe a)
@@ -639,7 +641,9 @@ myKeys c =
   , ("<XF86AudioNext>", addName "mocp prev"           $ spawn "mocp --next")
   , ("<XF86AudioMute>", addName "Toggle audio mute"   $ spawn "amixer set Master toggle")
   , ("<XF86AudioLowerVolume>", addName "Lower vol"    $ spawn "amixer set Master 5%- unmute")
-  , ("<XF86AudioRaiseVolume>", addName "Raise vol"    $ spawn "amixer set Master 5%+ unmute")
+  , ("<XF86AudioRaiseVolume>", addName "Raise vol"    $ spawn "amixer set Master 2%+ unmute")
+  , ("<XF86MonBrightnessDown>", addName "Decrease brightness" $ spawn "$HOME/.local/bin/brightness-decrease")
+  , ("<XF86MonBrightnessUp>", addName "Increase brightness" $ spawn "$HOME/.local/bin/brightness-increase")
   , ("<XF86HomePage>", addName "Open home page"       $ spawn (myBrowser ++ " https://www.youtube.com/c/DistroTube"))
   , ("<XF86Search>", addName "Web search (dmscripts)" $ spawn "dm-websearch")
   , ("<XF86Mail>", addName "Email client"             $ runOrRaise "thunderbird" (resource =? "thunderbird"))
