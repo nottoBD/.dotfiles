@@ -571,8 +571,8 @@ myKeys c =
   , ("M-d", addName "Launch Doom Emacs"        $ spawn "emacsclient -c -a \"vim\" --socket-name=doom")
   , ("M-M1-h", addName "Launch htop"           $ spawn (myTerminal ++ " -e htop"))
   , ("M-<Escape>", addName "Selection screenshot" $ spawn "QT_STYLE_OVERRIDE=qt5ct flameshot gui")
-  , ("M-C-v", addName "Primary paste" $ spawn "xdotool click 2")]
-  , ("M-S-l", addName "Input Lock" $ spawn "xtrlock")]
+  , ("M-C-v", addName "Primary paste" $ spawn "xdotool click 2")
+  , ("M-S-l", addName "Input Lock"             $ spawn "xtrlock")]
   
   ^++^ subKeys "Monitors"
   [ ("M-.", addName "Switch focus to next monitor" $ nextScreen)
