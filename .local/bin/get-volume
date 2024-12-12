@@ -3,6 +3,6 @@ VOL=$(pamixer --get-volume)
 if pamixer --get-mute | grep -q true; then
     echo "/ "
 else
-    echo "$VOL%"
+    echo "$VOL"
 fi
 

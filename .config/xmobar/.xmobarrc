@@ -50,6 +50,9 @@ Config { font            = "Source Code Pro Semibold 9"
                     , Run Com "bash" ["-c", "/home/devid/.local/bin/wifi-status"] "wifi" 20
                     , Run Com "echo" ["<fn=1>\xf1eb</fn>"] "wifiicon" 3600
                     , Run Com "echo" ["<fn=1>\xf1e0</fn>"] "nowifiicon" 3600
+                    
+                    , Run Com "bash" ["-c", "/home/devid/.local/bin/get-brightness"] "brightness" 10
+                    , Run Com "echo" ["<fn=2>\xf185</fn>"] "sun" 3600
 
                         -- Script that dynamically adjusts xmobar padding depending on number of trayer icons.
                     , Run Com "/home/devid/.local/bin/trayer-padding-icon.sh" [] "trayerpad" 10 
@@ -59,6 +62,6 @@ Config { font            = "Source Code Pro Semibold 9"
                     ]
        , sepChar = "%"
        , alignSep = "}{"
-       , template = " %UnsafeStdinReader% }{<fn=1><box type=Bottom width=2 mb=2 color=#a74cc1><fc=#a74cc1>%bell% <action=`alacritty -e sudo pacman -Syuv`>%pacupdate%</action></fc></box> <box type=Bottom width=2 mb=2 color=#d6384a><fc=#d6384a>%heart% %kernel%</fc></box> <box type=Bottom width=2 mb=2 color=#a1ea52><fc=#a1ea52><action=`alacritty -e btop`>%cpu%</action></fc></box> <box type=Bottom width=2 mb=2 color=#46d9ff><fc=#46d9ff><action=`alacritty -e btop`>%memory%</action></fc></box> <box type=Bottom width=2 mb=2 color=#a9a1e1><fc=#a9a1e1>%disku%</fc></box> <box type=Bottom width=2 mb=2 color=#0892d0><fc=#0892d0><action=`/home/devid/.local/bin/get-wifi`>%wifiicon% %wifi%</action></fc></box> <box type=Bottom width=2 mb=2 color=#FFC0CB><fc=#FFC0CB><action=`alacritty --config-file ~/.config/alacritty/low_zoom.toml -e sh -c 'cal -m --twelve | bat; exec sh'`>%date%</action></fc></box> <box type=Bottom width=2 mb=2 color=#fff41f><fc=#fff41f>%baticon%%battery%</fc></box> <box type=Bottom width=2 mb=2 color=#CCCCCC><fc=#CCCCCC><action=`pavucontrol`>%volumeicon% %volume%</action></fc></box>%trayerpad%</fn>"
+       , template = " %UnsafeStdinReader% }{<fn=1><box type=Bottom width=2 mb=2 color=#a74cc1><fc=#a74cc1>%bell% <action=`alacritty -e sudo pacman -Syuv`>%pacupdate%</action></fc></box> <box type=Bottom width=2 mb=2 color=#d6384a><fc=#d6384a>%heart% %kernel%</fc></box> <box type=Bottom width=2 mb=2 color=#a1ea52><fc=#a1ea52><action=`alacritty -e btop`>%cpu%</action></fc></box> <box type=Bottom width=2 mb=2 color=#46d9ff><fc=#46d9ff><action=`alacritty -e btop`>%memory%</action></fc></box> <box type=Bottom width=2 mb=2 color=#a9a1e1><fc=#a9a1e1>%disku%</fc></box> <box type=Bottom width=2 mb=2 color=#0892d0><fc=#0892d0><action=`/home/devid/.local/bin/get-wifi`>%wifiicon% %wifi%</action></fc></box> <box type=Bottom width=2 mb=2 color=#fff41f><fc=#fff41f>%baticon%%battery%</fc></box> <box type=Bottom width=2 mb=2 color=#FFC0CB><fc=#FFC0CB><action=`alacritty --config-file ~/.config/alacritty/low_zoom.toml -e sh -c 'cal -m --twelve | bat; exec sh'`>%date%</action></fc></box> <box type=Bottom width=2 mb=2 color=#CCCCCC><fc=#CCCCCC><action=`pavucontrol`>%volumeicon% %volume%</action></fc></box> <box type=Bottom width=2 mb=2 color=#CCCCCC><fc=#CCCCCC>%sun%%brightness%</fc></box>%trayerpad%</fn>"
        }
 
