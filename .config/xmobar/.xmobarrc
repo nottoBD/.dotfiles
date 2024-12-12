@@ -24,22 +24,24 @@ Config { font            = "Source Code Pro Semibold 9"
                     , Run Com "echo" ["<fn=1>\xf0e7</fn>"] "baticon" 3600
 
                         -- Get kernel version (script found in .local/bin)
+
                         -- Cpu usage in percent
                     , Run Cpu ["-t", "<fn=2>\xf2db</fn> <total>%","-H","50","--high","red"] 20
+
                         -- Ram used number and percent
                     , Run Memory ["-t", "<fn=1>\xf538</fn> <used>M"] 20
+
                         -- Disk space free
-                    , Run DiskU [("/", "<fn=1>\xf0a0</fn> <free>")] [] 60
-                        -- Echos an "up arrow" icon in front of the uptime output.
-                    , Run Com "echo" ["<fn=3>\xf624</fn>"] "uparrow" 3600
-                        -- Uptime
-                    , Run Uptime ["-t", "<days>d <hours>:<minutes>"] 360
+                    , Run DiskU [("/", "<fn=1>\xf0a0</fn> <free>")] [] 20
+
                         -- Echos a "bell" icon in front of the pacman updates.
                     , Run Com "echo" ["<fn=1>\xf0f3</fn>"] "bell" 3600
+
                         -- Check for pacman updates (script found in .local/bin)
                     , Run Com "/home/devid/.local/bin/pacupdate" [] "pacupdate" 6000
+
                         -- Time and date
-                    , Run Date "<fn=1>\x23f2</fn> %a, %b %d - %H:%M" "date" 10
+                    , Run Date "<fn=1>\x23f2</fn> %a, %b %d %H:%M" "date" 10
 
                     , Run Com "bash" ["-c", "/home/devid/.local/bin/get-volume"] "volume" 10
                     , Run Com "echo" ["<fn=2>\xf028</fn>"] "volumeicon" 3600
@@ -50,12 +52,13 @@ Config { font            = "Source Code Pro Semibold 9"
                     , Run Com "echo" ["<fn=1>\xf1e0</fn>"] "nowifiicon" 3600
 
                         -- Script that dynamically adjusts xmobar padding depending on number of trayer icons.
-                    , Run Com "/home/devid/.local/bin/trayer-padding-icon.sh" [] "trayerpad" 10
+                    , Run Com "/home/devid/.local/bin/trayer-padding-icon.sh" [] "trayerpad" 10 
+
                         -- Prints out the left side items such as workspaces, layout, etc.
                     , Run UnsafeStdinReader
                     ]
        , sepChar = "%"
        , alignSep = "}{"
-       , template = " %UnsafeStdinReader%}{<fn=1><box type=Bottom width=2 mb=2 color=#a74cc1><fc=#a74cc1>%bell% <action=`alacritty -e sudo pacman -Syuv`>%pacupdate%</action></fc></box> <box type=Bottom width=2 mb=2 color=#d6384a><fc=#d6384a>%heart% %kernel%</fc></box> <box type=Bottom width=2 mb=2 color=#a1ea52><fc=#a1ea52><action=`alacritty -e btop`>%cpu%</action></fc></box> <box type=Bottom width=2 mb=2 color=#46d9ff><fc=#46d9ff><action=`alacritty -e btop`>%memory%</action></fc></box> <box type=Bottom width=2 mb=2 color=#a9a1e1><fc=#a9a1e1>%disku%</fc></box> <box type=Bottom width=2 mb=2 color=#98be65><fc=#98be65>%uparrow% %uptime%</fc></box> <box type=Bottom width=2 mb=2 color=#fff41f><fc=#fff41f>%baticon%%battery%</fc></box> <box type=Bottom width=2 mb=2 color=#DAF7A6><fc=#DAF7A6><action=`pavucontrol`>%volumeicon% %volume%</action></fc></box> <box type=Bottom width=2 mb=2 color=#00ffff><fc=#00ffff><action=`nm-connection-editor`>%wifiicon% %wifi%</action></fc></box> <box type=Bottom width=2 mb=2 color=#ffffff><fc=#ffffff><action=`alacritty --config-file ~/.config/alacritty/low_zoom.toml -e sh -c 'cal -m --twelve | bat; exec sh'`>%date%</action></fc></box>%trayerpad%</fn>"
+       , template = " %UnsafeStdinReader% }{<fn=1><box type=Bottom width=2 mb=2 color=#a74cc1><fc=#a74cc1>%bell% <action=`alacritty -e sudo pacman -Syuv`>%pacupdate%</action></fc></box> <box type=Bottom width=2 mb=2 color=#d6384a><fc=#d6384a>%heart% %kernel%</fc></box> <box type=Bottom width=2 mb=2 color=#a1ea52><fc=#a1ea52><action=`alacritty -e btop`>%cpu%</action></fc></box> <box type=Bottom width=2 mb=2 color=#46d9ff><fc=#46d9ff><action=`alacritty -e btop`>%memory%</action></fc></box> <box type=Bottom width=2 mb=2 color=#a9a1e1><fc=#a9a1e1>%disku%</fc></box> <box type=Bottom width=2 mb=2 color=#0892d0><fc=#0892d0><action=`/home/devid/.local/bin/get-wifi`>%wifiicon% %wifi%</action></fc></box> <box type=Bottom width=2 mb=2 color=#FFC0CB><fc=#FFC0CB><action=`alacritty --config-file ~/.config/alacritty/low_zoom.toml -e sh -c 'cal -m --twelve | bat; exec sh'`>%date%</action></fc></box> <box type=Bottom width=2 mb=2 color=#fff41f><fc=#fff41f>%baticon%%battery%</fc></box> <box type=Bottom width=2 mb=2 color=#CCCCCC><fc=#CCCCCC><action=`pavucontrol`>%volumeicon% %volume%</action></fc></box>%trayerpad%</fn>"
        }
 
