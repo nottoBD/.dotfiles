@@ -572,6 +572,7 @@ myKeys c =
   , ("M-M1-h", addName "Launch htop"           $ spawn (myTerminal ++ " -e htop"))
   , ("M-<Escape>", addName "Selection screenshot" $ spawn "QT_STYLE_OVERRIDE=qt5ct flameshot gui")
   , ("M-C-v", addName "Primary paste"          $ spawn "xdotool click 1")
+  , ("M-v", addName "Selection paste"          $ spawn "$HOME/.local/bin/paste_primary")
   , ("C-M1-t", addName "Secondary Terminal"     $ spawn "xterm")
   , ("M-S-l", addName "Input lock"             $ spawn "xtrlock")]
   

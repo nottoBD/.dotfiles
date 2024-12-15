@@ -1,0 +1,19 @@
+#!/bin/bash
+
+sudo systemctl start bluetooth.service
+
+MOUSE_NAME="HP 435 Wireless Mouse"
+
+echo "Waiting for $MOUSE_NAME to pair..."
+while ! xinput list | grep -F "$MOUSE_NAME" | grep -v "Keyboard" > /dev/null; do
+    sleep 1
+done
+
+echo "$MOUSE_NAME paired. Configuring sensitivity..."
+
+MOUSEID=$(xinput list | grep -F "$MOUSE_NAME" | grep -v "Keyboard" | grep -oP 'id=\K[0-9]+')
+
+xinput --set-prop "$MOUSEID" "Coordinate Transformation Matrix" 0.74 0 0 0 0.74 0 0 0 1
+
+echo "Sensitivity for $MOUSE_NAME adjusted (ID: $MOUSEID)."
+
