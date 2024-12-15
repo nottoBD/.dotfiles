@@ -1,3 +1,5 @@
-# /etc/profile.d/
-PS1='\[\e[m\] \A \[\e[36m\]\u\[\e[m\]@\h: [\[\e[36m\]\w\[\e[m\]]\[\e[36m\] \[\e[m\]'
+source /usr/share/git/git-prompt.sh
+PS1_CMD1='$(__git_ps1 " (%s)")';
+export PS1="\[\033[2;5;36m\]${PS1_CMD1} \[\033[1;32m\]\u@\h \[\033[1;33m\]\w \[\033[1;31m\]\$(if [[ \$? != 0 ]]; then echo '✗'; else echo '✔'; fi) \[\033[0m\]» "
+
 
