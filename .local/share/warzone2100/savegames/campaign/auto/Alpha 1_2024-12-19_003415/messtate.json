@@ -1,0 +1,36 @@
+{
+    "message_0": {
+        "dataType": 0,
+        "id": 0,
+        "name": "CMB1_MSG",
+        "player": 0,
+        "read": false,
+        "type": 1
+    },
+    "message_1": {
+        "dataType": 0,
+        "id": 1,
+        "name": "MB1A_MSG",
+        "player": 0,
+        "read": false,
+        "type": 2
+    },
+    "message_2": {
+        "dataType": 0,
+        "id": 2,
+        "obj/id": 160347,
+        "obj/player": 12,
+        "obj/type": 2,
+        "player": 0,
+        "read": false,
+        "type": 3
+    },
+    "message_3": {
+        "dataType": 0,
+        "id": 3,
+        "name": "C1A_BASE2",
+        "player": 0,
+        "read": false,
+        "type": 3
+    }
+}

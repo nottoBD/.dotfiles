@@ -1,0 +1,2766 @@
+{
+    "effect_0": {
+        "baseScale": 0,
+        "birthTime": 2,
+        "control": 88,
+        "frameDelay": 120,
+        "frameNumber": 0,
+        "group": 0,
+        "imd_name": "fxlightr.pie",
+        "lastFrame": 599762,
+        "lifeSpan": 360,
+        "position": [
+            1472.0,
+            16.0,
+            6720.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 120,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 15,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_1": {
+        "baseScale": 0,
+        "birthTime": 2,
+        "control": 88,
+        "frameDelay": 120,
+        "frameNumber": 0,
+        "group": 0,
+        "imd_name": "fxlightr.pie",
+        "lastFrame": 599762,
+        "lifeSpan": 360,
+        "position": [
+            1600.0,
+            16.0,
+            6848.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 120,
+        "specific": 2,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 15,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_10": {
+        "baseScale": 0,
+        "birthTime": 599662,
+        "control": 19,
+        "frameDelay": 29,
+        "frameNumber": 7,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 599865,
+        "lifeSpan": 232,
+        "position": [
+            1044.0,
+            101.0,
+            5866.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_11": {
+        "baseScale": 17,
+        "birthTime": 596603,
+        "control": 53,
+        "frameDelay": 50,
+        "frameNumber": 1,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599853,
+        "lifeSpan": 4632,
+        "position": [
+            2646.0,
+            129.85000610351563,
+            6445.7470703125
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            0.0,
+            25.0,
+            9.0
+        ]
+    },
+    "effect_12": {
+        "baseScale": 17,
+        "birthTime": 599003,
+        "control": 54,
+        "frameDelay": 47,
+        "frameNumber": 2,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599849,
+        "lifeSpan": 4803,
+        "position": [
+            2672.869384765625,
+            84.62800598144531,
+            6425.91650390625
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            10.0,
+            44.0,
+            -9.0
+        ]
+    },
+    "effect_13": {
+        "baseScale": 25,
+        "birthTime": 598140,
+        "control": 52,
+        "frameDelay": 65,
+        "frameNumber": 2,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599830,
+        "lifeSpan": 6918,
+        "position": [
+            4783.64306640625,
+            201.40391540527344,
+            2090.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 22,
+        "velocity": [
+            1.0,
+            41.0,
+            0.0
+        ]
+    },
+    "effect_14": {
+        "baseScale": 0,
+        "birthTime": 599867,
+        "control": 16,
+        "frameDelay": 31,
+        "frameNumber": 0,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 599867,
+        "lifeSpan": 248,
+        "position": [
+            1013.0,
+            81.0,
+            5858.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_15": {
+        "baseScale": 25,
+        "birthTime": 595069,
+        "control": 54,
+        "frameDelay": 69,
+        "frameNumber": 5,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599830,
+        "lifeSpan": 8837,
+        "position": [
+            4844.15185546875,
+            445.1899108886719,
+            2137.148193359375
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 22,
+        "velocity": [
+            10.0,
+            66.0,
+            10.0
+        ]
+    },
+    "effect_16": {
+        "baseScale": 25,
+        "birthTime": 593665,
+        "control": 53,
+        "frameDelay": 58,
+        "frameNumber": 2,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599813,
+        "lifeSpan": 8106,
+        "position": [
+            4808.8388671875,
+            592.925048828125,
+            2141.596923828125
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 22,
+        "velocity": [
+            7.0,
+            75.0,
+            5.0
+        ]
+    },
+    "effect_17": {
+        "baseScale": 25,
+        "birthTime": 598484,
+        "control": 53,
+        "frameDelay": 52,
+        "frameNumber": 2,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599836,
+        "lifeSpan": 6359,
+        "position": [
+            4796.29931640625,
+            198.99998474121094,
+            2102.199951171875
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 22,
+        "velocity": [
+            11.0,
+            50.0,
+            -6.0
+        ]
+    },
+    "effect_18": {
+        "baseScale": 17,
+        "birthTime": 597003,
+        "control": 54,
+        "frameDelay": 48,
+        "frameNumber": 3,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599835,
+        "lifeSpan": 4515,
+        "position": [
+            4696.47998046875,
+            305.6849670410156,
+            2159.585693359375
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            17.0,
+            45.0,
+            2.0
+        ]
+    },
+    "effect_19": {
+        "baseScale": 17,
+        "birthTime": 596603,
+        "control": 55,
+        "frameDelay": 60,
+        "frameNumber": 6,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599843,
+        "lifeSpan": 4531,
+        "position": [
+            2741.7158203125,
+            149.40200805664063,
+            6372.36181640625
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            14.0,
+            33.0,
+            7.0
+        ]
+    },
+    "effect_2": {
+        "baseScale": 0,
+        "birthTime": 2,
+        "control": 90,
+        "frameDelay": 120,
+        "frameNumber": 0,
+        "group": 0,
+        "imd_name": "fxlightr.pie",
+        "lastFrame": 599762,
+        "lifeSpan": 360,
+        "position": [
+            1600.0,
+            25.0,
+            6592.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 120,
+        "specific": 2,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 15,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_20": {
+        "baseScale": 0,
+        "birthTime": 599510,
+        "control": 16,
+        "frameDelay": 34,
+        "frameNumber": 10,
+        "group": 0,
+        "imd_name": "fxsexp.pie",
+        "lastFrame": 599850,
+        "lifeSpan": 544,
+        "position": [
+            4823.0,
+            134.0,
+            2095.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 126,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 0,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_21": {
+        "baseScale": 17,
+        "birthTime": 595803,
+        "control": 52,
+        "frameDelay": 50,
+        "frameNumber": 1,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599853,
+        "lifeSpan": 4102,
+        "position": [
+            2714.843994140625,
+            277.3160400390625,
+            6436.03466796875
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            13.0,
+            57.0,
+            -3.0
+        ]
+    },
+    "effect_22": {
+        "baseScale": 0,
+        "birthTime": 599734,
+        "control": 17,
+        "frameDelay": 18,
+        "frameNumber": 7,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 599860,
+        "lifeSpan": 144,
+        "position": [
+            1035.0,
+            81.0,
+            5859.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_23": {
+        "baseScale": 25,
+        "birthTime": 598847,
+        "control": 55,
+        "frameDelay": 68,
+        "frameNumber": 6,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599799,
+        "lifeSpan": 8715,
+        "position": [
+            4802.92822265625,
+            206.14898681640625,
+            2107.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 22,
+        "velocity": [
+            17.0,
+            77.0,
+            0.0
+        ]
+    },
+    "effect_24": {
+        "baseScale": 0,
+        "birthTime": 599734,
+        "control": 18,
+        "frameDelay": 28,
+        "frameNumber": 4,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 599846,
+        "lifeSpan": 224,
+        "position": [
+            1013.0,
+            81.0,
+            5917.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_25": {
+        "baseScale": 0,
+        "birthTime": 599734,
+        "control": 17,
+        "frameDelay": 32,
+        "frameNumber": 4,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 599862,
+        "lifeSpan": 256,
+        "position": [
+            1034.0,
+            101.0,
+            5861.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_26": {
+        "baseScale": 0,
+        "birthTime": 599734,
+        "control": 16,
+        "frameDelay": 26,
+        "frameNumber": 5,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 599864,
+        "lifeSpan": 208,
+        "position": [
+            1014.0,
+            101.0,
+            5915.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_27": {
+        "baseScale": 25,
+        "birthTime": 599209,
+        "control": 54,
+        "frameDelay": 46,
+        "frameNumber": 6,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599853,
+        "lifeSpan": 7282,
+        "position": [
+            4795.02587890625,
+            182.30003356933594,
+            2081.724609375
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 22,
+        "velocity": [
+            7.0,
+            84.0,
+            3.0
+        ]
+    },
+    "effect_28": {
+        "baseScale": 25,
+        "birthTime": 594707,
+        "control": 55,
+        "frameDelay": 62,
+        "frameNumber": 3,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599853,
+        "lifeSpan": 8032,
+        "position": [
+            4801.615234375,
+            423.3890686035156,
+            2106.922607421875
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 22,
+        "velocity": [
+            8.0,
+            57.0,
+            -1.0
+        ]
+    },
+    "effect_29": {
+        "baseScale": 0,
+        "birthTime": 599867,
+        "control": 19,
+        "frameDelay": 42,
+        "frameNumber": 0,
+        "group": 0,
+        "imd_name": "fxsexp.pie",
+        "lastFrame": 599867,
+        "lifeSpan": 672,
+        "position": [
+            4791.0,
+            134.0,
+            2142.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 99,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 0,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_3": {
+        "baseScale": 0,
+        "birthTime": 2,
+        "control": 90,
+        "frameDelay": 120,
+        "frameNumber": 0,
+        "group": 0,
+        "imd_name": "fxlightr.pie",
+        "lastFrame": 599762,
+        "lifeSpan": 360,
+        "position": [
+            1344.0,
+            16.0,
+            6848.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 120,
+        "specific": 2,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 15,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_30": {
+        "baseScale": 0,
+        "birthTime": 599867,
+        "control": 16,
+        "frameDelay": 29,
+        "frameNumber": 0,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 599867,
+        "lifeSpan": 232,
+        "position": [
+            1035.0,
+            81.0,
+            5918.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_31": {
+        "baseScale": 0,
+        "birthTime": 599797,
+        "control": 19,
+        "frameDelay": 20,
+        "frameNumber": 3,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 599857,
+        "lifeSpan": 160,
+        "position": [
+            1024.0,
+            81.0,
+            5857.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_32": {
+        "baseScale": 0,
+        "birthTime": 599867,
+        "control": 18,
+        "frameDelay": 31,
+        "frameNumber": 0,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 599867,
+        "lifeSpan": 248,
+        "position": [
+            1014.0,
+            101.0,
+            5860.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_33": {
+        "baseScale": 0,
+        "birthTime": 599797,
+        "control": 16,
+        "frameDelay": 20,
+        "frameNumber": 3,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 599857,
+        "lifeSpan": 160,
+        "position": [
+            1024.0,
+            81.0,
+            5919.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_34": {
+        "baseScale": 17,
+        "birthTime": 598303,
+        "control": 52,
+        "frameDelay": 66,
+        "frameNumber": 7,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599821,
+        "lifeSpan": 5381,
+        "position": [
+            2656.747802734375,
+            141.7019805908203,
+            6555.02587890625
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            19.0,
+            54.0,
+            2.0
+        ]
+    },
+    "effect_35": {
+        "baseScale": 0,
+        "birthTime": 599797,
+        "control": 17,
+        "frameDelay": 19,
+        "frameNumber": 3,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 599854,
+        "lifeSpan": 152,
+        "position": [
+            1024.0,
+            101.0,
+            5859.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_36": {
+        "baseScale": 25,
+        "birthTime": 596780,
+        "control": 53,
+        "frameDelay": 68,
+        "frameNumber": 5,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599840,
+        "lifeSpan": 6985,
+        "position": [
+            4800.01513671875,
+            275.1879577636719,
+            2109.00390625
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 22,
+        "velocity": [
+            4.0,
+            47.0,
+            1.0
+        ]
+    },
+    "effect_37": {
+        "baseScale": 0,
+        "birthTime": 571075,
+        "control": 8,
+        "frameDelay": 300,
+        "frameNumber": 0,
+        "group": 8,
+        "lastFrame": 599867,
+        "lifeSpan": 60000,
+        "position": [
+            4800.0,
+            134.0,
+            2112.0
+        ],
+        "radius": 42,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 28,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_38": {
+        "baseScale": 17,
+        "birthTime": 596603,
+        "control": 52,
+        "frameDelay": 61,
+        "frameNumber": 5,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599836,
+        "lifeSpan": 3650,
+        "position": [
+            2654.134765625,
+            230.67002868652344,
+            6464.2529296875
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            11.0,
+            55.0,
+            -9.0
+        ]
+    },
+    "effect_39": {
+        "baseScale": 25,
+        "birthTime": 599510,
+        "control": 54,
+        "frameDelay": 65,
+        "frameNumber": 5,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599835,
+        "lifeSpan": 6584,
+        "position": [
+            4774.2255859375,
+            155.88900756835938,
+            2103.661376953125
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 22,
+        "velocity": [
+            6.0,
+            59.0,
+            -9.0
+        ]
+    },
+    "effect_4": {
+        "baseScale": 0,
+        "birthTime": 2,
+        "control": 91,
+        "frameDelay": 120,
+        "frameNumber": 0,
+        "group": 0,
+        "imd_name": "fxlightr.pie",
+        "lastFrame": 599762,
+        "lifeSpan": 360,
+        "position": [
+            1344.0,
+            20.0,
+            6592.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 120,
+        "specific": 2,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 15,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_40": {
+        "baseScale": 17,
+        "birthTime": 597403,
+        "control": 54,
+        "frameDelay": 56,
+        "frameNumber": 3,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599811,
+        "lifeSpan": 4636,
+        "position": [
+            2668.599853515625,
+            117.19996643066406,
+            6437.6015625
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            4.0,
+            28.0,
+            -1.0
+        ]
+    },
+    "effect_41": {
+        "baseScale": 17,
+        "birthTime": 597503,
+        "control": 53,
+        "frameDelay": 69,
+        "frameNumber": 2,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599849,
+        "lifeSpan": 5110,
+        "position": [
+            2606.829345703125,
+            115.69397735595703,
+            6408.6796875
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            15.0,
+            27.0,
+            -1.0
+        ]
+    },
+    "effect_42": {
+        "baseScale": 25,
+        "birthTime": 592296,
+        "control": 52,
+        "frameDelay": 68,
+        "frameNumber": 7,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599844,
+        "lifeSpan": 7637,
+        "position": [
+            4898.13720703125,
+            677.52783203125,
+            2119.646240234375
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 22,
+        "velocity": [
+            13.0,
+            72.0,
+            3.0
+        ]
+    },
+    "effect_43": {
+        "baseScale": 0,
+        "birthTime": 599797,
+        "control": 19,
+        "frameDelay": 29,
+        "frameNumber": 2,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 599855,
+        "lifeSpan": 232,
+        "position": [
+            1024.0,
+            101.0,
+            5917.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_44": {
+        "baseScale": 17,
+        "birthTime": 598603,
+        "control": 52,
+        "frameDelay": 48,
+        "frameNumber": 2,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599851,
+        "lifeSpan": 5748,
+        "position": [
+            2668.429931640625,
+            102.2449951171875,
+            6446.78564453125
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            2.0,
+            43.0,
+            -1.0
+        ]
+    },
+    "effect_45": {
+        "baseScale": 17,
+        "birthTime": 599603,
+        "control": 52,
+        "frameDelay": 45,
+        "frameNumber": 5,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599828,
+        "lifeSpan": 4991,
+        "position": [
+            2550.81103515625,
+            69.41400146484375,
+            6294.69775390625
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            17.0,
+            58.0,
+            6.0
+        ]
+    },
+    "effect_46": {
+        "baseScale": 17,
+        "birthTime": 598903,
+        "control": 54,
+        "frameDelay": 55,
+        "frameNumber": 1,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599838,
+        "lifeSpan": 5236,
+        "position": [
+            2563.054931640625,
+            94.2280044555664,
+            6527.56005859375
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            15.0,
+            44.0,
+            7.0
+        ]
+    },
+    "effect_47": {
+        "baseScale": 17,
+        "birthTime": 599803,
+        "control": 54,
+        "frameDelay": 53,
+        "frameNumber": 1,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599856,
+        "lifeSpan": 4743,
+        "position": [
+            2653.56005859375,
+            53.43000030517578,
+            6433.64990234375
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            8.0,
+            49.0,
+            -5.0
+        ]
+    },
+    "effect_48": {
+        "baseScale": 17,
+        "birthTime": 598203,
+        "control": 53,
+        "frameDelay": 57,
+        "frameNumber": 5,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599856,
+        "lifeSpan": 4448,
+        "position": [
+            2669.163818359375,
+            108.53398895263672,
+            6416.67236328125
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            2.0,
+            37.0,
+            -4.0
+        ]
+    },
+    "effect_49": {
+        "baseScale": 17,
+        "birthTime": 598203,
+        "control": 55,
+        "frameDelay": 41,
+        "frameNumber": 0,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599843,
+        "lifeSpan": 5137,
+        "position": [
+            2702.7451171875,
+            104.11599731445313,
+            6350.4189453125
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            3.0,
+            38.0,
+            -1.0
+        ]
+    },
+    "effect_5": {
+        "baseScale": 0,
+        "birthTime": 2,
+        "control": 90,
+        "frameDelay": 120,
+        "frameNumber": 0,
+        "group": 0,
+        "imd_name": "fxlightr.pie",
+        "lastFrame": 599762,
+        "lifeSpan": 360,
+        "position": [
+            1536.0,
+            16.0,
+            6784.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 120,
+        "specific": 1,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 15,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_50": {
+        "baseScale": 25,
+        "birthTime": 595370,
+        "control": 53,
+        "frameDelay": 52,
+        "frameNumber": 6,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599842,
+        "lifeSpan": 8026,
+        "position": [
+            4814.47265625,
+            393.5500183105469,
+            2153.7998046875
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 22,
+        "velocity": [
+            1.0,
+            58.0,
+            8.0
+        ]
+    },
+    "effect_51": {
+        "baseScale": 25,
+        "birthTime": 594376,
+        "control": 52,
+        "frameDelay": 45,
+        "frameNumber": 2,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599866,
+        "lifeSpan": 6972,
+        "position": [
+            4872.26708984375,
+            572.5597534179688,
+            2063.626708984375
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 22,
+        "velocity": [
+            13.0,
+            80.0,
+            -7.0
+        ]
+    },
+    "effect_52": {
+        "baseScale": 17,
+        "birthTime": 597803,
+        "control": 53,
+        "frameDelay": 63,
+        "frameNumber": 0,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599819,
+        "lifeSpan": 5667,
+        "position": [
+            2686.934814453125,
+            137.78001403808594,
+            6418.03173828125
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            13.0,
+            44.0,
+            -6.0
+        ]
+    },
+    "effect_53": {
+        "baseScale": 17,
+        "birthTime": 595403,
+        "control": 52,
+        "frameDelay": 52,
+        "frameNumber": 5,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599823,
+        "lifeSpan": 5492,
+        "position": [
+            2663.65576171875,
+            253.0439910888672,
+            6472.90234375
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            4.0,
+            46.0,
+            7.0
+        ]
+    },
+    "effect_54": {
+        "baseScale": 17,
+        "birthTime": 595603,
+        "control": 54,
+        "frameDelay": 44,
+        "frameNumber": 0,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599827,
+        "lifeSpan": 4667,
+        "position": [
+            2580.96826171875,
+            212.4860076904297,
+            6308.78662109375
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            10.0,
+            38.0,
+            4.0
+        ]
+    },
+    "effect_55": {
+        "baseScale": 17,
+        "birthTime": 594903,
+        "control": 52,
+        "frameDelay": 54,
+        "frameNumber": 3,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599817,
+        "lifeSpan": 5365,
+        "position": [
+            2549.72607421875,
+            315.08502197265625,
+            6566.66845703125
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            5.0,
+            53.0,
+            6.0
+        ]
+    },
+    "effect_56": {
+        "baseScale": 17,
+        "birthTime": 596303,
+        "control": 53,
+        "frameDelay": 51,
+        "frameNumber": 5,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599822,
+        "lifeSpan": 5279,
+        "position": [
+            2581.859619140625,
+            247.7000274658203,
+            6450.31982421875
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            9.0,
+            55.0,
+            8.0
+        ]
+    },
+    "effect_57": {
+        "baseScale": 17,
+        "birthTime": 597003,
+        "control": 55,
+        "frameDelay": 52,
+        "frameNumber": 7,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599863,
+        "lifeSpan": 4039,
+        "position": [
+            2725.06787109375,
+            128.20396423339844,
+            6414.03515625
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            19.0,
+            28.0,
+            -5.0
+        ]
+    },
+    "effect_58": {
+        "baseScale": 25,
+        "birthTime": 593323,
+        "control": 53,
+        "frameDelay": 42,
+        "frameNumber": 3,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599833,
+        "lifeSpan": 8415,
+        "position": [
+            4810.70166015625,
+            414.7043151855469,
+            2077.41650390625
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 22,
+        "velocity": [
+            7.0,
+            43.0,
+            -3.0
+        ]
+    },
+    "effect_59": {
+        "baseScale": 25,
+        "birthTime": 596100,
+        "control": 55,
+        "frameDelay": 68,
+        "frameNumber": 7,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599840,
+        "lifeSpan": 6254,
+        "position": [
+            4850.4697265625,
+            351.3840637207031,
+            2084.268310546875
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 22,
+        "velocity": [
+            14.0,
+            58.0,
+            -9.0
+        ]
+    },
+    "effect_6": {
+        "baseScale": 0,
+        "birthTime": 2,
+        "control": 90,
+        "frameDelay": 120,
+        "frameNumber": 0,
+        "group": 0,
+        "imd_name": "fxlightr.pie",
+        "lastFrame": 599762,
+        "lifeSpan": 360,
+        "position": [
+            1536.0,
+            16.0,
+            6656.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 120,
+        "specific": 1,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 15,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_60": {
+        "baseScale": 17,
+        "birthTime": 599803,
+        "control": 55,
+        "frameDelay": 58,
+        "frameNumber": 1,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599861,
+        "lifeSpan": 4850,
+        "position": [
+            4631.77001953125,
+            181.88999938964844,
+            2156.7900390625
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            11.0,
+            27.0,
+            -3.0
+        ]
+    },
+    "effect_61": {
+        "baseScale": 17,
+        "birthTime": 597903,
+        "control": 53,
+        "frameDelay": 52,
+        "frameNumber": 5,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599827,
+        "lifeSpan": 3359,
+        "position": [
+            2456.474365234375,
+            122.29999542236328,
+            6539.326171875
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            7.0,
+            36.0,
+            9.0
+        ]
+    },
+    "effect_62": {
+        "baseScale": 17,
+        "birthTime": 597603,
+        "control": 55,
+        "frameDelay": 67,
+        "frameNumber": 1,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599814,
+        "lifeSpan": 3136,
+        "position": [
+            2570.8642578125,
+            151.5950164794922,
+            6305.38232421875
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            15.0,
+            45.0,
+            2.0
+        ]
+    },
+    "effect_63": {
+        "baseScale": 25,
+        "birthTime": 597462,
+        "control": 55,
+        "frameDelay": 56,
+        "frameNumber": 2,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599814,
+        "lifeSpan": 8743,
+        "position": [
+            4791.59912109375,
+            287.6000061035156,
+            2093.801025390625
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 22,
+        "velocity": [
+            4.0,
+            64.0,
+            -3.0
+        ]
+    },
+    "effect_64": {
+        "baseScale": 25,
+        "birthTime": 595744,
+        "control": 54,
+        "frameDelay": 41,
+        "frameNumber": 4,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599844,
+        "lifeSpan": 7736,
+        "position": [
+            4858.357421875,
+            443.8249816894531,
+            2070.607666015625
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 22,
+        "velocity": [
+            18.0,
+            75.0,
+            -3.0
+        ]
+    },
+    "effect_65": {
+        "baseScale": 0,
+        "birthTime": 599867,
+        "control": 19,
+        "frameDelay": 17,
+        "frameNumber": 0,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 599867,
+        "lifeSpan": 136,
+        "position": [
+            1034.0,
+            101.0,
+            5916.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_66": {
+        "baseScale": 17,
+        "birthTime": 599403,
+        "control": 53,
+        "frameDelay": 68,
+        "frameNumber": 6,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599811,
+        "lifeSpan": 4009,
+        "position": [
+            2653.3046875,
+            71.31500244140625,
+            6443.609375
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            3.0,
+            49.0,
+            6.0
+        ]
+    },
+    "effect_67": {
+        "baseScale": 17,
+        "birthTime": 596203,
+        "control": 55,
+        "frameDelay": 61,
+        "frameNumber": 4,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599863,
+        "lifeSpan": 3713,
+        "position": [
+            2668.21533203125,
+            212.36000061035156,
+            6400.740234375
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            2.0,
+            45.0,
+            -7.0
+        ]
+    },
+    "effect_68": {
+        "baseScale": 25,
+        "birthTime": 594027,
+        "control": 53,
+        "frameDelay": 62,
+        "frameNumber": 6,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599855,
+        "lifeSpan": 8953,
+        "position": [
+            4852.4892578125,
+            478.08807373046875,
+            2167.487548828125
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 22,
+        "velocity": [
+            9.0,
+            59.0,
+            9.0
+        ]
+    },
+    "effect_69": {
+        "baseScale": 25,
+        "birthTime": 596459,
+        "control": 52,
+        "frameDelay": 41,
+        "frameNumber": 3,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599862,
+        "lifeSpan": 6677,
+        "position": [
+            4782.80029296875,
+            365.1999206542969,
+            2075.599609375
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 22,
+        "velocity": [
+            2.0,
+            68.0,
+            -6.0
+        ]
+    },
+    "effect_7": {
+        "baseScale": 0,
+        "birthTime": 2,
+        "control": 90,
+        "frameDelay": 120,
+        "frameNumber": 0,
+        "group": 0,
+        "imd_name": "fxlightr.pie",
+        "lastFrame": 599762,
+        "lifeSpan": 360,
+        "position": [
+            1408.0,
+            16.0,
+            6784.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 120,
+        "specific": 1,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 15,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_70": {
+        "baseScale": 17,
+        "birthTime": 596903,
+        "control": 55,
+        "frameDelay": 45,
+        "frameNumber": 1,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599828,
+        "lifeSpan": 3731,
+        "position": [
+            2578.241943359375,
+            140.9300079345703,
+            6498.4794921875
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            11.0,
+            30.0,
+            -7.0
+        ]
+    },
+    "effect_71": {
+        "baseScale": 17,
+        "birthTime": 595903,
+        "control": 54,
+        "frameDelay": 45,
+        "frameNumber": 0,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599863,
+        "lifeSpan": 4410,
+        "position": [
+            2495.078369140625,
+            158.51602172851563,
+            6550.72509765625
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            10.0,
+            27.0,
+            3.0
+        ]
+    },
+    "effect_72": {
+        "baseScale": 17,
+        "birthTime": 599803,
+        "control": 55,
+        "frameDelay": 57,
+        "frameNumber": 1,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599860,
+        "lifeSpan": 5701,
+        "position": [
+            2672.280029296875,
+            48.060001373291016,
+            6349.64990234375
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            4.0,
+            58.0,
+            -5.0
+        ]
+    },
+    "effect_73": {
+        "baseScale": 0,
+        "birthTime": 599662,
+        "control": 16,
+        "frameDelay": 30,
+        "frameNumber": 6,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 599842,
+        "lifeSpan": 240,
+        "position": [
+            1003.0,
+            81.0,
+            5911.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_74": {
+        "baseScale": 17,
+        "birthTime": 598203,
+        "control": 54,
+        "frameDelay": 67,
+        "frameNumber": 0,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599811,
+        "lifeSpan": 4829,
+        "position": [
+            2629.56591796875,
+            108.78800201416016,
+            6487.8359375
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            13.0,
+            34.0,
+            -2.0
+        ]
+    },
+    "effect_75": {
+        "baseScale": 17,
+        "birthTime": 599803,
+        "control": 54,
+        "frameDelay": 41,
+        "frameNumber": 1,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599844,
+        "lifeSpan": 4938,
+        "position": [
+            2609.56005859375,
+            57.65999984741211,
+            6484.490234375
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            8.0,
+            38.0,
+            7.0
+        ]
+    },
+    "effect_76": {
+        "baseScale": 25,
+        "birthTime": 597789,
+        "control": 53,
+        "frameDelay": 56,
+        "frameNumber": 5,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599861,
+        "lifeSpan": 6142,
+        "position": [
+            4847.12109375,
+            263.71697998046875,
+            2090.5283203125
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 22,
+        "velocity": [
+            19.0,
+            63.0,
+            -8.0
+        ]
+    },
+    "effect_77": {
+        "baseScale": 17,
+        "birthTime": 598703,
+        "control": 54,
+        "frameDelay": 52,
+        "frameNumber": 6,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599847,
+        "lifeSpan": 3207,
+        "position": [
+            2566.55615234375,
+            119.23597717285156,
+            6401.2841796875
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 23,
+        "velocity": [
+            18.0,
+            58.0,
+            2.0
+        ]
+    },
+    "effect_78": {
+        "baseScale": 25,
+        "birthTime": 597126,
+        "control": 53,
+        "frameDelay": 42,
+        "frameNumber": 1,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599856,
+        "lifeSpan": 6977,
+        "position": [
+            4788.0,
+            343.8251037597656,
+            2098.55029296875
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 22,
+        "velocity": [
+            0.0,
+            77.0,
+            -2.0
+        ]
+    },
+    "effect_8": {
+        "baseScale": 0,
+        "birthTime": 2,
+        "control": 90,
+        "frameDelay": 120,
+        "frameNumber": 0,
+        "group": 0,
+        "imd_name": "fxlightr.pie",
+        "lastFrame": 599762,
+        "lifeSpan": 360,
+        "position": [
+            1408.0,
+            16.0,
+            6656.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 120,
+        "specific": 1,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 15,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_9": {
+        "baseScale": 25,
+        "birthTime": 599867,
+        "control": 54,
+        "frameDelay": 69,
+        "frameNumber": 0,
+        "group": 2,
+        "imd_name": "fxsmoke.pie",
+        "lastFrame": 599867,
+        "lifeSpan": 6872,
+        "position": [
+            4799.0,
+            134.0,
+            2092.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 22,
+        "velocity": [
+            10.0,
+            74.0,
+            7.0
+        ]
+    }
+}

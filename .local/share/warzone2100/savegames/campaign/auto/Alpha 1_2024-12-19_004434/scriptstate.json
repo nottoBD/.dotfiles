@@ -1,0 +1,439 @@
+{
+    "globals_0": {
+        "lastHitTime": 1191002,
+        "mainReticule": true,
+        "me": 0,
+        "scriptName": "rules",
+        "scriptPath": "script"
+    },
+    "globals_1": {
+        "__camAllowVictoryMsgClear": true,
+        "__camArtifacts": {
+            "base1ArtifactPos": {
+                "pickedUp": true,
+                "placed": true,
+                "tech": [
+                    "R-Wpn-MG-Damage01",
+                    "R-Sys-Engineering01"
+                ]
+            },
+            "base2Factory": {
+                "id": "160171",
+                "pickedUp": true,
+                "placed": true,
+                "tech": [
+                    "R-Wpn-Flamer01Mk1",
+                    "R-Sys-MobileRepairTurret01"
+                ]
+            },
+            "base3Factory": {
+                "id": "160173",
+                "pickedUp": true,
+                "placed": true,
+                "tech": "R-Wpn-MG-Damage02"
+            },
+            "base4Factory": {
+                "id": "160255",
+                "placed": false,
+                "tech": "R-Wpn-MG-ROF01"
+            }
+        },
+        "__camCalledOnce": {
+            "cam1A_doNeedPowerTopics": true,
+            "raidAttack": true
+        },
+        "__camCheatMode": false,
+        "__camClassicModActive": false,
+        "__camDebuggedOnce": {},
+        "__camDefeatOnTimeout": true,
+        "__camEnemyBases": {
+            "scavGroup1": {
+                "cleanup": "scavBase1Cleanup",
+                "detectMsg": "C1A_BASE0",
+                "detectSnd": "pcv375.ogg",
+                "detected": true,
+                "eliminateSnd": "pcv391.ogg",
+                "eliminated": true,
+                "group": 1
+            },
+            "scavGroup2": {
+                "cleanup": "scavBase2Cleanup",
+                "detectMsg": "C1A_BASE1",
+                "detectSnd": "pcv374.ogg",
+                "detected": true,
+                "eliminateSnd": "pcv392.ogg",
+                "eliminated": true,
+                "group": 2
+            },
+            "scavGroup3": {
+                "cleanup": "scavBase3Cleanup",
+                "detectMsg": "C1A_BASE2",
+                "detectSnd": "pcv374.ogg",
+                "detected": true,
+                "eliminateSnd": "pcv392.ogg",
+                "eliminated": false,
+                "group": 3
+            },
+            "scavGroup4": {
+                "cleanup": "scavBase4Cleanup",
+                "detectMsg": "C1A_BASE3",
+                "detectSnd": "pcv374.ogg",
+                "detected": false,
+                "eliminateSnd": "pcv392.ogg",
+                "eliminated": false,
+                "group": 4
+            }
+        },
+        "__camExpLevel": 0,
+        "__camExtraObjectiveMessage": null,
+        "__camFactoryInfo": {
+            "base2Factory": {
+                "assembly": "base2Assembly",
+                "data": {
+                    "count": 3,
+                    "pos": [
+                        {
+                            "type": 4,
+                            "x": 16,
+                            "y": 52
+                        }
+                    ]
+                },
+                "enabled": true,
+                "group": 14,
+                "groupSize": 3,
+                "lastprod": 544002,
+                "maxSize": 3,
+                "order": 0,
+                "state": 1,
+                "templates": [
+                    {
+                        "body": "B4body-sml-trike01",
+                        "prop": "BaBaProp",
+                        "weap": "BabaTrikeMG"
+                    },
+                    {
+                        "body": "B1BaBaPerson01",
+                        "prop": "BaBaLegs",
+                        "weap": "BabaMG"
+                    }
+                ],
+                "throttle": 15300
+            },
+            "base3Factory": {
+                "assembly": "base3Assembly",
+                "data": {
+                    "count": 4,
+                    "pos": [
+                        {
+                            "type": 4,
+                            "x": 16,
+                            "y": 52
+                        }
+                    ]
+                },
+                "enabled": true,
+                "group": 21,
+                "groupSize": 4,
+                "lastprod": 836002,
+                "maxSize": 4,
+                "order": 0,
+                "state": 2,
+                "templates": [
+                    {
+                        "body": "B1BaBaPerson01",
+                        "prop": "BaBaLegs",
+                        "weap": "BabaMG"
+                    },
+                    {
+                        "body": "B3body-sml-buggy01",
+                        "prop": "BaBaProp",
+                        "weap": "BabaBuggyMG"
+                    },
+                    {
+                        "body": "B1BaBaPerson01",
+                        "prop": "BaBaLegs",
+                        "weap": "BabaMG"
+                    }
+                ],
+                "throttle": 11900
+            },
+            "base4Factory": {
+                "assembly": "base4Assembly",
+                "data": {
+                    "count": 4,
+                    "pos": [
+                        {
+                            "type": 4,
+                            "x": 16,
+                            "y": 52
+                        }
+                    ]
+                },
+                "enabled": true,
+                "group": 30,
+                "groupSize": 4,
+                "lastprod": 1196802,
+                "maxSize": 4,
+                "order": 0,
+                "state": 3,
+                "templates": [
+                    {
+                        "body": "B2JeepBody",
+                        "prop": "BaBaProp",
+                        "weap": "BabaJeepMG"
+                    },
+                    {
+                        "body": "B1BaBaPerson01",
+                        "prop": "BaBaLegs",
+                        "weap": "BabaMG"
+                    },
+                    {
+                        "body": "B4body-sml-trike01",
+                        "prop": "BaBaProp",
+                        "weap": "BabaTrikeMG"
+                    },
+                    {
+                        "body": "B1BaBaPerson01",
+                        "prop": "BaBaLegs",
+                        "weap": "BabaMG"
+                    }
+                ],
+                "throttle": 10200
+            }
+        },
+        "__camFactoryQueue": {},
+        "__camGroupAvgCoord": {
+            "x": 15,
+            "y": 29
+        },
+        "__camGroupInfo": {
+            "30": {
+                "count": 3,
+                "data": {
+                    "pos": [
+                        {
+                            "type": 4,
+                            "x": 16,
+                            "y": 28
+                        }
+                    ]
+                },
+                "order": 1,
+                "target": {
+                    "x": 16,
+                    "y": 28
+                }
+            }
+        },
+        "__camIncomingTransports": {},
+        "__camLZCompromisedTicker": 0,
+        "__camLastAttackTriggered": false,
+        "__camLastNexusAttack": 0,
+        "__camLevelEnded": false,
+        "__camMarkedTiles": {},
+        "__camNeedBonusTime": true,
+        "__camNeverGroupDroids": [],
+        "__camNewGroupCounter": 30,
+        "__camNextLevel": "CAM_1B",
+        "__camNexusActivated": false,
+        "__camNumArtifacts": 3,
+        "__camNumEnemyBases": 2,
+        "__camNumTransporterExits": 0,
+        "__camPlayerTransports": {},
+        "__camPropulsionTypeLimit": "NO_USE",
+        "__camRTLZTicker": 0,
+        "__camSaveLoading": false,
+        "__camTracedOnce": {},
+        "__camTransporterMessage": null,
+        "__camTransporterQueue": [],
+        "__camTruckInfo": {},
+        "__camVictoryData": null,
+        "__camVideoSequences": [],
+        "__camVtolDataSystem": [],
+        "__camWinLossCallback": "__camVictoryStandard",
+        "me": 0,
+        "scriptName": "cam1a",
+        "scriptPath": "script/campaign"
+    },
+    "groups_0": {
+        "lastNewGroupId": 0,
+        "me": 0,
+        "scriptName": "rules"
+    },
+    "groups_1": {
+        "160187": [
+            "3"
+        ],
+        "160241": [
+            "4"
+        ],
+        "160253": [
+            "4"
+        ],
+        "160255": [
+            "4"
+        ],
+        "160275": [
+            "4"
+        ],
+        "160277": [
+            "4"
+        ],
+        "160279": [
+            "4"
+        ],
+        "160495": [
+            "30"
+        ],
+        "160497": [
+            "30"
+        ],
+        "160501": [
+            "30"
+        ],
+        "lastNewGroupId": 0,
+        "me": 0,
+        "scriptName": "cam1a"
+    },
+    "triggers_0": {
+        "calls": 2,
+        "frame": 1800002,
+        "functionRestoreInfo": {
+            "function": "autoSave",
+            "stringArg": ""
+        },
+        "me": 0,
+        "ms": 600000,
+        "scriptName": "rules",
+        "timerID": 2,
+        "timerName": "autoSave",
+        "type": 0
+    },
+    "triggers_1": {
+        "calls": 2400,
+        "frame": 1200502,
+        "functionRestoreInfo": {
+            "function": "__camSpawnVtols",
+            "stringArg": ""
+        },
+        "me": 0,
+        "ms": 500,
+        "scriptName": "cam1a",
+        "timerID": 3,
+        "timerName": "__camSpawnVtols",
+        "type": 0
+    },
+    "triggers_2": {
+        "calls": 1333,
+        "frame": 1200602,
+        "functionRestoreInfo": {
+            "function": "__camRetreatVtols",
+            "stringArg": ""
+        },
+        "me": 0,
+        "ms": 900,
+        "scriptName": "cam1a",
+        "timerID": 4,
+        "timerName": "__camRetreatVtols",
+        "type": 0
+    },
+    "triggers_3": {
+        "calls": 240,
+        "frame": 1205002,
+        "functionRestoreInfo": {
+            "function": "__checkVtolSpawnObject",
+            "stringArg": ""
+        },
+        "me": 0,
+        "ms": 5000,
+        "scriptName": "cam1a",
+        "timerID": 5,
+        "timerName": "__checkVtolSpawnObject",
+        "type": 0
+    },
+    "triggers_4": {
+        "calls": 1500,
+        "frame": 1200802,
+        "functionRestoreInfo": {
+            "function": "__checkEnemyFactoryProductionTick",
+            "stringArg": ""
+        },
+        "me": 0,
+        "ms": 800,
+        "scriptName": "cam1a",
+        "timerID": 6,
+        "timerName": "__checkEnemyFactoryProductionTick",
+        "type": 0
+    },
+    "triggers_5": {
+        "calls": 1200,
+        "frame": 1201002,
+        "functionRestoreInfo": {
+            "function": "__camTick",
+            "stringArg": ""
+        },
+        "me": 0,
+        "ms": 1000,
+        "scriptName": "cam1a",
+        "timerID": 7,
+        "timerName": "__camTick",
+        "type": 0
+    },
+    "triggers_6": {
+        "calls": 118,
+        "frame": 1201902,
+        "functionRestoreInfo": {
+            "function": "__camTruckTick",
+            "stringArg": ""
+        },
+        "me": 0,
+        "ms": 10100,
+        "scriptName": "cam1a",
+        "timerID": 8,
+        "timerName": "__camTruckTick",
+        "type": 0
+    },
+    "triggers_7": {
+        "calls": 6,
+        "frame": 1260002,
+        "functionRestoreInfo": {
+            "function": "__camAiPowerReset",
+            "stringArg": ""
+        },
+        "me": 0,
+        "ms": 180000,
+        "scriptName": "cam1a",
+        "timerID": 9,
+        "timerName": "__camAiPowerReset",
+        "type": 0
+    },
+    "triggers_8": {
+        "calls": 4,
+        "frame": 1500002,
+        "functionRestoreInfo": {
+            "function": "__camShowVictoryConditions",
+            "stringArg": ""
+        },
+        "me": 0,
+        "ms": 300000,
+        "scriptName": "cam1a",
+        "timerID": 10,
+        "timerName": "__camShowVictoryConditions",
+        "type": 0
+    },
+    "triggers_9": {
+        "calls": 1,
+        "frame": 1200202,
+        "functionRestoreInfo": {
+            "function": "__camTacticsTick",
+            "stringArg": ""
+        },
+        "me": 0,
+        "ms": 200,
+        "scriptName": "cam1a",
+        "timerID": 12115,
+        "timerName": "__camTacticsTick",
+        "type": 0
+    }
+}

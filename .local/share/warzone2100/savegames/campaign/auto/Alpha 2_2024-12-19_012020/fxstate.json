@@ -1,0 +1,1367 @@
+{
+    "effect_0": {
+        "baseScale": 0,
+        "birthTime": 1494011,
+        "control": 89,
+        "frameDelay": 120,
+        "frameNumber": 2,
+        "group": 0,
+        "imd_name": "fxlightr.pie",
+        "lastFrame": 3293891,
+        "lifeSpan": 360,
+        "position": [
+            1472.0,
+            16.0,
+            6720.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 120,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 15,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_1": {
+        "baseScale": 0,
+        "birthTime": 1494011,
+        "control": 91,
+        "frameDelay": 120,
+        "frameNumber": 2,
+        "group": 0,
+        "imd_name": "fxlightr.pie",
+        "lastFrame": 3293891,
+        "lifeSpan": 360,
+        "position": [
+            1600.0,
+            16.0,
+            6848.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 120,
+        "specific": 2,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 15,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_10": {
+        "baseScale": 0,
+        "birthTime": 3293904,
+        "control": 22,
+        "frameDelay": 49,
+        "frameNumber": 0,
+        "group": 1,
+        "imd_name": "fxdust.pie",
+        "lastFrame": 3293904,
+        "lifeSpan": 5000,
+        "position": [
+            1919.0,
+            28.0,
+            6657.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 30,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_11": {
+        "baseScale": 0,
+        "birthTime": 3293944,
+        "control": 17,
+        "frameDelay": 14,
+        "frameNumber": 0,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 3293944,
+        "lifeSpan": 112,
+        "position": [
+            1399.0,
+            126.0,
+            5914.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_12": {
+        "baseScale": 0,
+        "birthTime": 3293944,
+        "control": 19,
+        "frameDelay": 30,
+        "frameNumber": 0,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 3293944,
+        "lifeSpan": 240,
+        "position": [
+            1417.0,
+            126.0,
+            5862.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_13": {
+        "baseScale": 0,
+        "birthTime": 3293785,
+        "control": 17,
+        "frameDelay": 21,
+        "frameNumber": 7,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 3293932,
+        "lifeSpan": 168,
+        "position": [
+            1377.0,
+            86.0,
+            5895.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_14": {
+        "baseScale": 0,
+        "birthTime": 3293785,
+        "control": 18,
+        "frameDelay": 26,
+        "frameNumber": 6,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 3293941,
+        "lifeSpan": 208,
+        "position": [
+            1379.0,
+            106.0,
+            5895.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_15": {
+        "baseScale": 0,
+        "birthTime": 3293904,
+        "control": 21,
+        "frameDelay": 43,
+        "frameNumber": 0,
+        "group": 1,
+        "imd_name": "fxdust.pie",
+        "lastFrame": 3293904,
+        "lifeSpan": 5000,
+        "position": [
+            1889.0,
+            27.91900062561035,
+            6627.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 30,
+        "velocity": [
+            0.0,
+            -1.0,
+            0.0
+        ]
+    },
+    "effect_16": {
+        "baseScale": 0,
+        "birthTime": 3293863,
+        "control": 16,
+        "frameDelay": 30,
+        "frameNumber": 2,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 3293923,
+        "lifeSpan": 240,
+        "position": [
+            1431.0,
+            86.0,
+            5867.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_17": {
+        "baseScale": 0,
+        "birthTime": 3293904,
+        "control": 21,
+        "frameDelay": 54,
+        "frameNumber": 0,
+        "group": 1,
+        "imd_name": "fxdust.pie",
+        "lastFrame": 3293904,
+        "lifeSpan": 5000,
+        "position": [
+            1889.0,
+            27.83799934387207,
+            6687.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 30,
+        "velocity": [
+            0.0,
+            -2.0,
+            0.0
+        ]
+    },
+    "effect_18": {
+        "baseScale": 0,
+        "birthTime": 3293904,
+        "control": 22,
+        "frameDelay": 67,
+        "frameNumber": 0,
+        "group": 1,
+        "imd_name": "fxdust.pie",
+        "lastFrame": 3293904,
+        "lifeSpan": 5000,
+        "position": [
+            1949.0,
+            27.91900062561035,
+            6687.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 30,
+        "velocity": [
+            0.0,
+            -1.0,
+            0.0
+        ]
+    },
+    "effect_19": {
+        "baseScale": 0,
+        "birthTime": 3293713,
+        "control": 17,
+        "frameDelay": 30,
+        "frameNumber": 7,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 3293923,
+        "lifeSpan": 240,
+        "position": [
+            1377.0,
+            86.0,
+            5881.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_2": {
+        "baseScale": 0,
+        "birthTime": 1494011,
+        "control": 91,
+        "frameDelay": 120,
+        "frameNumber": 2,
+        "group": 0,
+        "imd_name": "fxlightr.pie",
+        "lastFrame": 3293891,
+        "lifeSpan": 360,
+        "position": [
+            1600.0,
+            21.0,
+            6592.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 120,
+        "specific": 2,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 15,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_20": {
+        "baseScale": 0,
+        "birthTime": 3293904,
+        "control": 23,
+        "frameDelay": 53,
+        "frameNumber": 0,
+        "group": 1,
+        "imd_name": "fxdust.pie",
+        "lastFrame": 3293904,
+        "lifeSpan": 5000,
+        "position": [
+            1949.0,
+            28.0,
+            6627.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 0,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 30,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_21": {
+        "baseScale": 0,
+        "birthTime": 3293785,
+        "control": 19,
+        "frameDelay": 20,
+        "frameNumber": 7,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 3293925,
+        "lifeSpan": 160,
+        "position": [
+            1381.0,
+            126.0,
+            5894.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_22": {
+        "baseScale": 0,
+        "birthTime": 3293863,
+        "control": 19,
+        "frameDelay": 31,
+        "frameNumber": 2,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 3293925,
+        "lifeSpan": 248,
+        "position": [
+            1386.0,
+            106.0,
+            5907.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_23": {
+        "baseScale": 0,
+        "birthTime": 3293863,
+        "control": 16,
+        "frameDelay": 21,
+        "frameNumber": 3,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 3293926,
+        "lifeSpan": 168,
+        "position": [
+            1430.0,
+            106.0,
+            5869.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_24": {
+        "baseScale": 0,
+        "birthTime": 3293863,
+        "control": 17,
+        "frameDelay": 25,
+        "frameNumber": 3,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 3293938,
+        "lifeSpan": 200,
+        "position": [
+            1388.0,
+            126.0,
+            5906.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_25": {
+        "baseScale": 0,
+        "birthTime": 3293944,
+        "control": 17,
+        "frameDelay": 21,
+        "frameNumber": 0,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 3293944,
+        "lifeSpan": 168,
+        "position": [
+            1399.0,
+            146.0,
+            5912.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_26": {
+        "baseScale": 0,
+        "birthTime": 3293863,
+        "control": 17,
+        "frameDelay": 14,
+        "frameNumber": 5,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 3293933,
+        "lifeSpan": 112,
+        "position": [
+            1428.0,
+            126.0,
+            5870.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_27": {
+        "baseScale": 0,
+        "birthTime": 3293944,
+        "control": 17,
+        "frameDelay": 25,
+        "frameNumber": 0,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 3293944,
+        "lifeSpan": 200,
+        "position": [
+            1417.0,
+            146.0,
+            5864.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_28": {
+        "baseScale": 0,
+        "birthTime": 3293944,
+        "control": 17,
+        "frameDelay": 40,
+        "frameNumber": 0,
+        "group": 0,
+        "imd_name": "fxplasma.pie",
+        "lastFrame": 3293944,
+        "lifeSpan": 320,
+        "position": [
+            5837.0,
+            72.0,
+            14374.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 30,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 4,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_29": {
+        "baseScale": 0,
+        "birthTime": 3293944,
+        "control": 17,
+        "frameDelay": 18,
+        "frameNumber": 0,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 3293944,
+        "lifeSpan": 144,
+        "position": [
+            1397.0,
+            86.0,
+            5917.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_3": {
+        "baseScale": 0,
+        "birthTime": 1494011,
+        "control": 89,
+        "frameDelay": 120,
+        "frameNumber": 2,
+        "group": 0,
+        "imd_name": "fxlightr.pie",
+        "lastFrame": 3293891,
+        "lifeSpan": 360,
+        "position": [
+            1344.0,
+            16.0,
+            6848.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 120,
+        "specific": 2,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 15,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_30": {
+        "baseScale": 0,
+        "birthTime": 3293944,
+        "control": 18,
+        "frameDelay": 24,
+        "frameNumber": 0,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 3293944,
+        "lifeSpan": 192,
+        "position": [
+            1419.0,
+            86.0,
+            5859.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_31": {
+        "baseScale": 0,
+        "birthTime": 3293944,
+        "control": 18,
+        "frameDelay": 32,
+        "frameNumber": 0,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 3293944,
+        "lifeSpan": 256,
+        "position": [
+            1398.0,
+            106.0,
+            5916.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_32": {
+        "baseScale": 0,
+        "birthTime": 3293785,
+        "control": 17,
+        "frameDelay": 26,
+        "frameNumber": 6,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 3293941,
+        "lifeSpan": 208,
+        "position": [
+            1435.0,
+            126.0,
+            5882.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_33": {
+        "baseScale": 0,
+        "birthTime": 3293785,
+        "control": 17,
+        "frameDelay": 25,
+        "frameNumber": 6,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 3293935,
+        "lifeSpan": 200,
+        "position": [
+            1383.0,
+            146.0,
+            5894.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_34": {
+        "baseScale": 0,
+        "birthTime": 3293713,
+        "control": 17,
+        "frameDelay": 29,
+        "frameNumber": 7,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 3293916,
+        "lifeSpan": 232,
+        "position": [
+            1383.0,
+            146.0,
+            5882.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_35": {
+        "baseScale": 0,
+        "birthTime": 3293944,
+        "control": 18,
+        "frameDelay": 16,
+        "frameNumber": 0,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 3293944,
+        "lifeSpan": 128,
+        "position": [
+            1418.0,
+            106.0,
+            5860.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_36": {
+        "baseScale": 0,
+        "birthTime": 3293863,
+        "control": 19,
+        "frameDelay": 51,
+        "frameNumber": 1,
+        "group": 0,
+        "imd_name": "fxplasma.pie",
+        "lastFrame": 3293914,
+        "lifeSpan": 408,
+        "position": [
+            5831.0,
+            72.0,
+            14378.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 30,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 4,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_37": {
+        "baseScale": 0,
+        "birthTime": 3293863,
+        "control": 16,
+        "frameDelay": 15,
+        "frameNumber": 5,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 3293938,
+        "lifeSpan": 120,
+        "position": [
+            1389.0,
+            146.0,
+            5905.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_38": {
+        "baseScale": 0,
+        "birthTime": 3293863,
+        "control": 16,
+        "frameDelay": 18,
+        "frameNumber": 4,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 3293935,
+        "lifeSpan": 144,
+        "position": [
+            1427.0,
+            146.0,
+            5871.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_4": {
+        "baseScale": 0,
+        "birthTime": 1494011,
+        "control": 88,
+        "frameDelay": 120,
+        "frameNumber": 2,
+        "group": 0,
+        "imd_name": "fxlightr.pie",
+        "lastFrame": 3293891,
+        "lifeSpan": 360,
+        "position": [
+            1344.0,
+            21.0,
+            6592.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 120,
+        "specific": 2,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 15,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_5": {
+        "baseScale": 0,
+        "birthTime": 1494011,
+        "control": 91,
+        "frameDelay": 120,
+        "frameNumber": 2,
+        "group": 0,
+        "imd_name": "fxlightr.pie",
+        "lastFrame": 3293891,
+        "lifeSpan": 360,
+        "position": [
+            1536.0,
+            16.0,
+            6784.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 120,
+        "specific": 1,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 15,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_6": {
+        "baseScale": 0,
+        "birthTime": 1494011,
+        "control": 91,
+        "frameDelay": 120,
+        "frameNumber": 2,
+        "group": 0,
+        "imd_name": "fxlightr.pie",
+        "lastFrame": 3293891,
+        "lifeSpan": 360,
+        "position": [
+            1536.0,
+            16.0,
+            6656.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 120,
+        "specific": 1,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 15,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_7": {
+        "baseScale": 0,
+        "birthTime": 1494011,
+        "control": 89,
+        "frameDelay": 120,
+        "frameNumber": 2,
+        "group": 0,
+        "imd_name": "fxlightr.pie",
+        "lastFrame": 3293891,
+        "lifeSpan": 360,
+        "position": [
+            1408.0,
+            16.0,
+            6784.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 120,
+        "specific": 1,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 15,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_8": {
+        "baseScale": 0,
+        "birthTime": 1494011,
+        "control": 90,
+        "frameDelay": 120,
+        "frameNumber": 2,
+        "group": 0,
+        "imd_name": "fxlightr.pie",
+        "lastFrame": 3293891,
+        "lifeSpan": 360,
+        "position": [
+            1408.0,
+            16.0,
+            6656.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 120,
+        "specific": 1,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 15,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "effect_9": {
+        "baseScale": 0,
+        "birthTime": 3293863,
+        "control": 18,
+        "frameDelay": 31,
+        "frameNumber": 2,
+        "group": 0,
+        "imd_name": "fxft.pie",
+        "lastFrame": 3293925,
+        "lifeSpan": 248,
+        "position": [
+            1385.0,
+            86.0,
+            5909.0
+        ],
+        "radius": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "size": 60,
+        "specific": 0,
+        "spin": [
+            0,
+            0,
+            0
+        ],
+        "type": 9,
+        "velocity": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    }
+}

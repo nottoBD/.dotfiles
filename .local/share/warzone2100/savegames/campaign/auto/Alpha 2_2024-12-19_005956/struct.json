@@ -1,0 +1,1742 @@
+{
+    "structure_0000000000": {
+        "Factory/Run/0/built": 2,
+        "Factory/Run/0/quantity": 4,
+        "Factory/Run/0/template": 225192,
+        "Factory/Run/1/built": 0,
+        "Factory/Run/1/quantity": 4,
+        "Factory/Run/1/template": 223696,
+        "Factory/assemblyPoint/number": 1,
+        "Factory/assemblyPoint/pos": [
+            4928,
+            8512,
+            114
+        ],
+        "Factory/buildPointsRemaining": 168,
+        "Factory/loopsPerformed": 0,
+        "Factory/productionLoops": 0,
+        "Factory/productionRuns": 2,
+        "Factory/secondaryOrder": 158,
+        "Factory/template": 225192,
+        "Factory/timeStartHold": 0,
+        "Factory/timeStarted": 2080203,
+        "born": 1287202,
+        "currentBuildPts": 500,
+        "health": 500,
+        "id": 160527,
+        "modules": 0,
+        "name": "A0LightFactory",
+        "player": 0,
+        "position": [
+            1472,
+            6336,
+            11
+        ],
+        "productToGroup": 255,
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000001": {
+        "animationEvent": 1,
+        "born": 633402,
+        "currentBuildPts": 100,
+        "health": 200,
+        "id": 160353,
+        "name": "A0ResourceExtractor",
+        "player": 0,
+        "position": [
+            4800,
+            2112,
+            134
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "timeAnimationStarted": 644381,
+        "visible/0": 255,
+        "visible/6": 255,
+        "weapons": 0
+    },
+    "structure_0000000002": {
+        "animationEvent": 1,
+        "born": 438102,
+        "currentBuildPts": 100,
+        "health": 200,
+        "id": 160325,
+        "name": "A0ResourceExtractor",
+        "player": 0,
+        "position": [
+            4032,
+            4544,
+            48
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "timeAnimationStarted": 445980,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000003": {
+        "Research/target": "R-Wpn-Flamer-Range01",
+        "Research/timeStartHold": 0,
+        "born": 80002,
+        "currentBuildPts": 500,
+        "health": 400,
+        "id": 160291,
+        "modules": 0,
+        "name": "A0ResearchFacility",
+        "player": 0,
+        "position": [
+            640,
+            6400,
+            32
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000004": {
+        "Factory/Run/0/built": 3,
+        "Factory/Run/0/quantity": 7,
+        "Factory/Run/0/template": 223696,
+        "Factory/assemblyPoint/number": 0,
+        "Factory/assemblyPoint/pos": [
+            4672,
+            8512,
+            113
+        ],
+        "Factory/buildPointsRemaining": 103,
+        "Factory/loopsPerformed": 0,
+        "Factory/productionLoops": 0,
+        "Factory/productionRuns": 1,
+        "Factory/secondaryOrder": 158,
+        "Factory/template": 223696,
+        "Factory/timeStartHold": 0,
+        "Factory/timeStarted": 2080703,
+        "born": 71402,
+        "currentBuildPts": 500,
+        "health": 500,
+        "id": 160289,
+        "modules": 0,
+        "name": "A0LightFactory",
+        "player": 0,
+        "position": [
+            1984,
+            6464,
+            8
+        ],
+        "productToGroup": 255,
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000005": {
+        "born": 39902,
+        "currentBuildPts": 500,
+        "health": 500,
+        "id": 160287,
+        "modules": 0,
+        "name": "A0PowerGenerator",
+        "player": 0,
+        "position": [
+            1024,
+            5888,
+            17
+        ],
+        "resistance": 300,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000006": {
+        "born": 29602,
+        "currentBuildPts": 500,
+        "health": 500,
+        "id": 160285,
+        "name": "A0CommandCentre",
+        "player": 0,
+        "position": [
+            2432,
+            6400,
+            9
+        ],
+        "resistance": 300,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000007": {
+        "animationEvent": 1,
+        "born": 29302,
+        "currentBuildPts": 100,
+        "health": 200,
+        "id": 160283,
+        "lastEmission": 59979,
+        "name": "A0ResourceExtractor",
+        "player": 0,
+        "position": [
+            2752,
+            6336,
+            0
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "timeAnimationStarted": 76796,
+        "timeLastHit": 42702,
+        "visible/0": 255,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000008": {
+        "ammo/0": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 150,
+        "id": 160901,
+        "lastFired/0": 0,
+        "name": "A0BaBaFlameTower",
+        "parts/weapon/1": "BabaFlame",
+        "player": 7,
+        "position": [
+            3776,
+            14016,
+            232
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/1": 255,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "structure_0000000009": {
+        "ammo/0": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 150,
+        "id": 160899,
+        "lastFired/0": 0,
+        "name": "A0BaBaFlameTower",
+        "parts/weapon/1": "BabaFlame",
+        "player": 7,
+        "position": [
+            4032,
+            13504,
+            272
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/1": 255,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "structure_0000000010": {
+        "ammo/0": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 150,
+        "id": 160897,
+        "lastFired/0": 0,
+        "name": "A0BaBaFlameTower",
+        "parts/weapon/1": "BabaFlame",
+        "player": 7,
+        "position": [
+            1984,
+            8896,
+            280
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "structure_0000000011": {
+        "ammo/0": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 150,
+        "id": 160895,
+        "lastFired/0": 0,
+        "name": "A0BaBaFlameTower",
+        "parts/weapon/1": "BabaFlame",
+        "player": 7,
+        "position": [
+            1216,
+            9920,
+            266
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/6": 255,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "structure_0000000012": {
+        "ammo/0": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 140,
+        "id": 160893,
+        "lastEmission": 2091636,
+        "lastFired/0": 2079304,
+        "name": "A0BaBaGunTower",
+        "parts/weapon/1": "BabaTowerMG",
+        "player": 7,
+        "position": [
+            2368,
+            9408,
+            306
+        ],
+        "resistance": 150,
+        "rotation": [
+            49152,
+            0,
+            0
+        ],
+        "rotation/0": [
+            16384,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 18,
+        "timeLastHit": 2076403,
+        "visible/0": 255,
+        "visible/6": 255,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "structure_0000000013": {
+        "ammo/0": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 150,
+        "id": 160891,
+        "lastFired/0": 2075004,
+        "name": "A0BaBaGunTower",
+        "parts/weapon/1": "BabaTowerMG",
+        "player": 7,
+        "position": [
+            2368,
+            9024,
+            306
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            16384,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 6,
+        "visible/0": 255,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "structure_0000000014": {
+        "Wall/type": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 100,
+        "id": 160889,
+        "name": "A0BaBaHorizontalWall",
+        "player": 7,
+        "position": [
+            1728,
+            9280,
+            320
+        ],
+        "rotation": [
+            16384,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000015": {
+        "Wall/type": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 100,
+        "id": 160887,
+        "name": "A0BaBaHorizontalWall",
+        "player": 7,
+        "position": [
+            2368,
+            9280,
+            306
+        ],
+        "rotation": [
+            16384,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000016": {
+        "Wall/type": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 100,
+        "id": 160885,
+        "name": "A0BaBaHorizontalWall",
+        "player": 7,
+        "position": [
+            2368,
+            9152,
+            306
+        ],
+        "rotation": [
+            16384,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000017": {
+        "Wall/type": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 100,
+        "id": 160883,
+        "name": "A0BaBaHorizontalWall",
+        "player": 7,
+        "position": [
+            2240,
+            9408,
+            327
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "visible/6": 255,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000018": {
+        "Wall/type": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 100,
+        "id": 160881,
+        "name": "A0BaBaHorizontalWall",
+        "player": 7,
+        "position": [
+            2240,
+            9024,
+            306
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000019": {
+        "Wall/type": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 100,
+        "id": 160879,
+        "name": "A0BaBaHorizontalWall",
+        "player": 7,
+        "position": [
+            1728,
+            9152,
+            280
+        ],
+        "rotation": [
+            16384,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000020": {
+        "Wall/type": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 100,
+        "id": 160877,
+        "name": "A0BaBaHorizontalWall",
+        "player": 7,
+        "position": [
+            2112,
+            9408,
+            327
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000021": {
+        "Wall/type": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 100,
+        "id": 160875,
+        "name": "A0BaBaHorizontalWall",
+        "player": 7,
+        "position": [
+            1984,
+            9024,
+            280
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000022": {
+        "Wall/type": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 100,
+        "id": 160873,
+        "name": "A0BaBaHorizontalWall",
+        "player": 7,
+        "position": [
+            1856,
+            9024,
+            280
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000023": {
+        "Wall/type": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 100,
+        "id": 160871,
+        "name": "A0BaBaHorizontalWall",
+        "player": 7,
+        "position": [
+            1984,
+            9408,
+            331
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000024": {
+        "Wall/type": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 100,
+        "id": 160869,
+        "name": "A0BaBaHorizontalWall",
+        "player": 7,
+        "position": [
+            1856,
+            9408,
+            331
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000025": {
+        "ammo/0": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 150,
+        "id": 160867,
+        "lastFired/0": 0,
+        "name": "A0BaBaFlameTower",
+        "parts/weapon/1": "BabaFlame",
+        "player": 7,
+        "position": [
+            2240,
+            9152,
+            306
+        ],
+        "resistance": 150,
+        "rotation": [
+            49152,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/0": 255,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "structure_0000000026": {
+        "ammo/0": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 150,
+        "id": 160865,
+        "lastFired/0": 0,
+        "name": "A0BaBaGunTower",
+        "parts/weapon/1": "BabaTowerMG",
+        "player": 7,
+        "position": [
+            1728,
+            9024,
+            280
+        ],
+        "resistance": 150,
+        "rotation": [
+            16384,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "structure_0000000027": {
+        "ammo/0": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 150,
+        "id": 160863,
+        "lastFired/0": 0,
+        "name": "A0BaBaGunTower",
+        "parts/weapon/1": "BabaTowerMG",
+        "player": 7,
+        "position": [
+            1728,
+            9408,
+            320
+        ],
+        "resistance": 150,
+        "rotation": [
+            32768,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "structure_0000000028": {
+        "Factory/assemblyPoint/number": 1,
+        "Factory/assemblyPoint/pos": [
+            2112,
+            9280,
+            311
+        ],
+        "Factory/buildPointsRemaining": -277,
+        "Factory/loopsPerformed": 0,
+        "Factory/productionLoops": 1,
+        "Factory/productionRuns": 0,
+        "Factory/secondaryOrder": 158,
+        "Factory/timeStartHold": 0,
+        "Factory/timeStarted": 0,
+        "born": 1494103,
+        "currentBuildPts": 1,
+        "health": 175,
+        "id": 160859,
+        "modules": 0,
+        "name": "A0BaBaFactory",
+        "player": 7,
+        "position": [
+            1920,
+            9152,
+            280
+        ],
+        "productToGroup": 255,
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000029": {
+        "ammo/0": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 300,
+        "id": 160857,
+        "lastFired/0": 0,
+        "name": "A0BaBaBunker",
+        "parts/weapon/1": "MG3-Tower",
+        "player": 7,
+        "position": [
+            2752,
+            13248,
+            116
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "structure_0000000030": {
+        "ammo/0": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 300,
+        "id": 160855,
+        "lastFired/0": 0,
+        "name": "A0BaBaBunker",
+        "parts/weapon/1": "MG3-Tower",
+        "player": 7,
+        "position": [
+            3136,
+            12608,
+            62
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "structure_0000000031": {
+        "ammo/0": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 300,
+        "id": 160853,
+        "lastFired/0": 0,
+        "name": "A0BaBaBunker",
+        "parts/weapon/1": "MG3-Tower",
+        "player": 7,
+        "position": [
+            3392,
+            13248,
+            126
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/1": 255,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "structure_0000000032": {
+        "ammo/0": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 300,
+        "id": 160851,
+        "lastFired/0": 0,
+        "name": "A0BaBaBunker",
+        "parts/weapon/1": "MG3-Tower",
+        "player": 7,
+        "position": [
+            1088,
+            10176,
+            164
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/6": 255,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "structure_0000000033": {
+        "ammo/0": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 300,
+        "id": 160847,
+        "lastFired/0": 0,
+        "name": "A0BaBaBunker",
+        "parts/weapon/1": "MG3-Tower",
+        "player": 7,
+        "position": [
+            832,
+            10560,
+            162
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/6": 255,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "structure_0000000034": {
+        "ammo/0": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 300,
+        "id": 160843,
+        "lastFired/0": 0,
+        "name": "A0BaBaBunker",
+        "parts/weapon/1": "MG3-Tower",
+        "player": 7,
+        "position": [
+            3392,
+            11712,
+            372
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "structure_0000000035": {
+        "born": 1494103,
+        "currentBuildPts": 300,
+        "health": 350,
+        "id": 160839,
+        "name": "Sys-SensoTower01",
+        "player": 7,
+        "position": [
+            3904,
+            11328,
+            410
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "visible/1": 255,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000036": {
+        "Wall/type": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 100,
+        "id": 160837,
+        "name": "A0BaBaHorizontalWall",
+        "player": 7,
+        "position": [
+            3520,
+            14144,
+            248
+        ],
+        "rotation": [
+            16384,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/1": 255,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000037": {
+        "born": 1494103,
+        "currentBuildPts": 3,
+        "health": 100,
+        "id": 160835,
+        "name": "A0BabaCornerWall",
+        "player": 7,
+        "position": [
+            3264,
+            14272,
+            247
+        ],
+        "rotation": [
+            32768,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000038": {
+        "born": 1494103,
+        "currentBuildPts": 3,
+        "health": 100,
+        "id": 160833,
+        "name": "A0BabaCornerWall",
+        "player": 7,
+        "position": [
+            3264,
+            14144,
+            254
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000039": {
+        "ammo/0": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 300,
+        "id": 160831,
+        "lastFired/0": 0,
+        "name": "A0BaBaBunker",
+        "parts/weapon/1": "MG3-Tower",
+        "player": 7,
+        "position": [
+            5056,
+            13760,
+            118
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/1": 255,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "structure_0000000040": {
+        "ammo/0": 0,
+        "born": 1494103,
+        "currentBuildPts": 5,
+        "health": 200,
+        "id": 160829,
+        "lastFired/0": 0,
+        "name": "A0CannonTower",
+        "parts/weapon/1": "BabaCannon",
+        "player": 7,
+        "position": [
+            2624,
+            14272,
+            234
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "structure_0000000041": {
+        "ammo/0": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 300,
+        "id": 160827,
+        "lastFired/0": 0,
+        "name": "A0BaBaBunker",
+        "parts/weapon/1": "MG3-Tower",
+        "player": 7,
+        "position": [
+            4544,
+            13504,
+            108
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/1": 255,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "structure_0000000042": {
+        "ammo/0": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 300,
+        "id": 160825,
+        "lastFired/0": 0,
+        "name": "A0BaBaBunker",
+        "parts/weapon/1": "MG3-Tower",
+        "player": 7,
+        "position": [
+            4672,
+            13888,
+            106
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/1": 255,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "structure_0000000043": {
+        "born": 1494103,
+        "currentBuildPts": 3,
+        "health": 100,
+        "id": 160823,
+        "name": "A0BabaCornerWall",
+        "player": 7,
+        "position": [
+            3520,
+            13504,
+            247
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/1": 255,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000044": {
+        "ammo/0": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 150,
+        "id": 160813,
+        "lastFired/0": 0,
+        "name": "A0BaBaGunTower",
+        "parts/weapon/1": "BabaTowerMG",
+        "player": 7,
+        "position": [
+            2880,
+            13504,
+            250
+        ],
+        "resistance": 150,
+        "rotation": [
+            16384,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "structure_0000000045": {
+        "animationEvent": 1,
+        "born": 1494103,
+        "currentBuildPts": 100,
+        "health": 200,
+        "id": 160811,
+        "name": "A0ResourceExtractor",
+        "player": 7,
+        "position": [
+            3392,
+            14016,
+            248
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "timeAnimationStarted": 1494624,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000046": {
+        "born": 1494103,
+        "currentBuildPts": 3,
+        "health": 100,
+        "id": 160809,
+        "name": "A0BabaCornerWall",
+        "player": 7,
+        "position": [
+            3520,
+            14272,
+            257
+        ],
+        "rotation": [
+            49152,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/1": 255,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000047": {
+        "Wall/type": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 100,
+        "id": 160807,
+        "name": "A0BaBaHorizontalWall",
+        "player": 7,
+        "position": [
+            3392,
+            14272,
+            253
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000048": {
+        "Wall/type": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 100,
+        "id": 160805,
+        "name": "A0BaBaHorizontalWall",
+        "player": 7,
+        "position": [
+            3008,
+            14144,
+            251
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000049": {
+        "Wall/type": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 100,
+        "id": 160803,
+        "name": "A0BaBaHorizontalWall",
+        "player": 7,
+        "position": [
+            3136,
+            14144,
+            251
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000050": {
+        "born": 1494103,
+        "currentBuildPts": 3,
+        "health": 100,
+        "id": 160801,
+        "name": "A0BabaCornerWall",
+        "player": 7,
+        "position": [
+            2880,
+            14144,
+            251
+        ],
+        "rotation": [
+            32768,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000051": {
+        "ammo/0": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 150,
+        "id": 160799,
+        "lastFired/0": 0,
+        "name": "A0BaBaGunTower",
+        "parts/weapon/1": "BabaTowerMG",
+        "player": 7,
+        "position": [
+            3520,
+            13632,
+            248
+        ],
+        "resistance": 150,
+        "rotation": [
+            49152,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/1": 255,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "structure_0000000052": {
+        "ammo/0": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 150,
+        "id": 160797,
+        "lastFired/0": 0,
+        "name": "A0BaBaGunTower",
+        "parts/weapon/1": "BabaTowerMG",
+        "player": 7,
+        "position": [
+            3520,
+            13888,
+            248
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/1": 255,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "structure_0000000053": {
+        "Wall/type": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 100,
+        "id": 160795,
+        "name": "A0BaBaHorizontalWall",
+        "player": 7,
+        "position": [
+            3392,
+            13504,
+            248
+        ],
+        "rotation": [
+            32768,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/1": 255,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000054": {
+        "Factory/assemblyPoint/number": 0,
+        "Factory/assemblyPoint/pos": [
+            3264,
+            13760,
+            259
+        ],
+        "Factory/buildPointsRemaining": -216,
+        "Factory/loopsPerformed": 0,
+        "Factory/productionLoops": 1,
+        "Factory/productionRuns": 0,
+        "Factory/secondaryOrder": 158,
+        "Factory/timeStartHold": 0,
+        "Factory/timeStarted": 0,
+        "born": 1494103,
+        "currentBuildPts": 1,
+        "health": 175,
+        "id": 160793,
+        "modules": 0,
+        "name": "A0BaBaFactory",
+        "player": 7,
+        "position": [
+            3072,
+            13632,
+            248
+        ],
+        "productToGroup": 255,
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000055": {
+        "Wall/type": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 100,
+        "id": 160791,
+        "name": "A0BaBaHorizontalWall",
+        "player": 7,
+        "position": [
+            3520,
+            14016,
+            248
+        ],
+        "rotation": [
+            16384,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/1": 255,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000056": {
+        "Wall/type": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 100,
+        "id": 160789,
+        "name": "A0BaBaHorizontalWall",
+        "player": 7,
+        "position": [
+            3264,
+            13504,
+            248
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000057": {
+        "Wall/type": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 100,
+        "id": 160787,
+        "name": "A0BaBaHorizontalWall",
+        "player": 7,
+        "position": [
+            3136,
+            13504,
+            248
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000058": {
+        "Wall/type": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 100,
+        "id": 160785,
+        "name": "A0BaBaHorizontalWall",
+        "player": 7,
+        "position": [
+            3008,
+            13504,
+            248
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000059": {
+        "Wall/type": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 100,
+        "id": 160783,
+        "name": "A0BaBaHorizontalWall",
+        "player": 7,
+        "position": [
+            2880,
+            13632,
+            248
+        ],
+        "rotation": [
+            16384,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000060": {
+        "Wall/type": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 100,
+        "id": 160781,
+        "name": "A0BaBaHorizontalWall",
+        "player": 7,
+        "position": [
+            2880,
+            13760,
+            251
+        ],
+        "rotation": [
+            16384,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000061": {
+        "Wall/type": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 100,
+        "id": 160779,
+        "name": "A0BaBaHorizontalWall",
+        "player": 7,
+        "position": [
+            2880,
+            13888,
+            251
+        ],
+        "rotation": [
+            16384,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000062": {
+        "Wall/type": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 100,
+        "id": 160777,
+        "name": "A0BaBaHorizontalWall",
+        "player": 7,
+        "position": [
+            2880,
+            14016,
+            251
+        ],
+        "rotation": [
+            16384,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000063": {
+        "born": 1494103,
+        "currentBuildPts": 250,
+        "health": 500,
+        "id": 160775,
+        "modules": 1,
+        "name": "A0PowerGenerator",
+        "player": 7,
+        "position": [
+            3072,
+            13952,
+            254
+        ],
+        "resistance": 300,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000064": {
+        "born": 1494103,
+        "currentBuildPts": 1,
+        "health": 150,
+        "id": 160773,
+        "modules": 0,
+        "name": "A0BaBaPowerGenerator",
+        "player": 7,
+        "position": [
+            3264,
+            13632,
+            248
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255,
+        "weapons": 0
+    }
+}
