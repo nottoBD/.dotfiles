@@ -5,3 +5,4 @@
 .config/tabliss/** filter=git-crypt diff=git-crypt
 .cron/cron_github filter=git-crypt diff=git-crypt
 racine/** filter=git-crypt diff=git-crypt
+.bash/paths filter=git-crypt diff=git-crypt
