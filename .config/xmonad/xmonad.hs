@@ -497,7 +497,7 @@ myKeys c =
   --(subtitle "Custom Keys":) $ mkNamedKeymap c $
   let subKeys str ks = subtitle' str : mkNamedKeymap c ks in
   subKeys "Xmonad Essentials"
-  [ ("M-C-r", addName "Recompile XMonad"       $ spawn "xmonad --recompile")
+  [ ("M-C-r", addName "Recompile XMonad"       $ spawn "ghc --make $HOME/.config/xmonad/xmonad.hs -i -ilib -dynamic -fforce-recomp  -o xmonad-x86_64-linux ; xmonad --restart")
   , ("M-S-r", addName "Restart XMonad"         $ spawn "xmonad --restart")
   --, ("M-S-q", addName "Quit XMonad"            $ sequence_ [spawn (mySoundPlayer ++ shutdownSound), io exitSuccess])
   , ("M-S-q", addName "Quit XMonad"            $ io exitSuccess)
