@@ -1,21 +1,25 @@
 [[ $- != *i* ]] && return
 
-if [ -f ~/.bash/prompt ]; then
-	. ~/.bash/prompt
+if [ -f $HOME/.bash/prompt ]; then
+	. $HOME/.bash/prompt
 fi
 
-if [ -f ~/.bash/aliases ]; then
-	. ~/.bash/aliases
+if [ -f $HOME/.bash/aliases ]; then
+	. $HOME/.bash/aliases
 fi
 
-if [ -f ~/.bash/functions ]; then
-	. ~/.bash/functions
+if [ -f $HOME/.bash/functions ]; then
+	. $HOME/.bash/functions
 fi
 
-if [ -f ~/.bash/exports ]; then
-	. ~/.bash/exports
+if [ -f $HOME/.bash/exports ]; then
+	. $HOME/.bash/exports
 fi
 
-if [ -f ~/.bash/paths ]; then
-	. ~/.bash/paths
+if [ -f $HOME/.bash/paths ]; then
+	. $HOME/.bash/paths
+fi
+
+if [ -f /etc/bash.command-not-found ]; then
+    . /etc/bash.command-not-found
 fi
