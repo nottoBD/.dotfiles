@@ -1,0 +1,3023 @@
+{
+    "droid_0000000000": {
+        "action": 1,
+        "action/pos": [
+            4738,
+            2473
+        ],
+        "actionPoints": 0,
+        "actionStarted": 4628105,
+        "actionString": "DACTION_MOVE",
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 1594003,
+        "bumpDir": 59409,
+        "bumpPosition": [
+            4102,
+            2938
+        ],
+        "bumpTime": 0,
+        "droidType": 8,
+        "formation": {
+            "direction": 28470,
+            "x": 4738,
+            "y": 2473
+        },
+        "group": 3,
+        "health": 230,
+        "id": 160935,
+        "lastBump": 0,
+        "lastEmission": 4585106,
+        "moveDestination": [
+            4738,
+            2473
+        ],
+        "moveDirection": 24493,
+        "moveSource": [
+            4537,
+            2577
+        ],
+        "moveSpeed": 104,
+        "moveStatus": 4,
+        "moveTarget": [
+            4738,
+            2473
+        ],
+        "name": "Repair Turret Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            4738,
+            2473
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 2,
+        "orderList/size": 0,
+        "originalBody": 230,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "LightRepair1",
+            "sensor": "ZNULLSENSOR"
+        },
+        "pathIndex": 6,
+        "pathLength": 6,
+        "pathNode/0": [
+            4160,
+            2884
+        ],
+        "pathNode/1": [
+            4288,
+            2756
+        ],
+        "pathNode/2": [
+            4416,
+            2698
+        ],
+        "pathNode/3": [
+            4544,
+            2624
+        ],
+        "pathNode/4": [
+            4672,
+            2624
+        ],
+        "pathNode/5": [
+            4738,
+            2473
+        ],
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            4544,
+            2570,
+            156
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            24493,
+            63379,
+            62644
+        ],
+        "secondaryOrder": 154,
+        "selected": 1,
+        "shuffleStart": 4593005,
+        "timeLastHit": 4577205,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "droid_0000000001": {
+        "action": 6,
+        "action/pos": [
+            4736,
+            2461
+        ],
+        "actionPoints": 0,
+        "actionStarted": 4631005,
+        "actionString": "DACTION_ATTACK",
+        "actionTarget/0/id": 167663,
+        "actionTarget/0/player": 7,
+        "actionTarget/0/type": 1,
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 1091902,
+        "bumpDir": 28152,
+        "bumpPosition": [
+            4692,
+            2520
+        ],
+        "bumpTime": 0,
+        "droidType": 0,
+        "experience": 1536579,
+        "group": 1,
+        "health": 205,
+        "id": 160471,
+        "kills": 20,
+        "lastBump": 0,
+        "lastEmission": 4270906,
+        "lastFired/0": 4631006,
+        "moveDestination": [
+            4928,
+            1728
+        ],
+        "moveDirection": 28562,
+        "moveSource": [
+            4742,
+            2453
+        ],
+        "moveSpeed": 103,
+        "moveStatus": 8,
+        "moveTarget": [
+            4619,
+            2419
+        ],
+        "name": "Machinegun Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/obj/id": 167663,
+        "order/obj/player": 7,
+        "order/obj/type": 1,
+        "order/pos": [
+            0,
+            0
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 3,
+        "orderList/size": 0,
+        "originalBody": 205,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "MG1Mk1"
+        },
+        "pathIndex": 0,
+        "pathLength": 0,
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            4746,
+            2443,
+            97
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            28562,
+            1090,
+            64307
+        ],
+        "rotation/0": [
+            3920,
+            65087,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 1,
+        "shotsFired/0": 507,
+        "shuffleStart": 4631005,
+        "timeLastHit": 4530305,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "droid_0000000002": {
+        "action": 1,
+        "action/pos": [
+            4928,
+            1728
+        ],
+        "actionPoints": 0,
+        "actionStarted": 4630105,
+        "actionString": "DACTION_MOVE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 291402,
+        "bumpDir": 31183,
+        "bumpPosition": [
+            4406,
+            2394
+        ],
+        "bumpTime": 0,
+        "droidType": 0,
+        "experience": 2027978,
+        "formation": {
+            "direction": 24576,
+            "x": 4928,
+            "y": 1728
+        },
+        "group": 1,
+        "health": 205,
+        "id": 160305,
+        "kills": 21,
+        "lastBump": 0,
+        "lastEmission": 4282606,
+        "lastFired/0": 4577306,
+        "moveDestination": [
+            4928,
+            1728
+        ],
+        "moveDirection": 30234,
+        "moveSource": [
+            4420,
+            2324
+        ],
+        "moveSpeed": 192,
+        "moveStatus": 4,
+        "moveTarget": [
+            4928,
+            1728
+        ],
+        "name": "Machinegun Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/obj/id": 167663,
+        "order/obj/player": 7,
+        "order/obj/type": 1,
+        "order/pos": [
+            0,
+            0
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 3,
+        "orderList/size": 0,
+        "originalBody": 205,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "MG1Mk1"
+        },
+        "pathIndex": 7,
+        "pathLength": 7,
+        "pathNode/0": [
+            4416,
+            2496
+        ],
+        "pathNode/1": [
+            4544,
+            2368
+        ],
+        "pathNode/2": [
+            4544,
+            2240
+        ],
+        "pathNode/3": [
+            4628,
+            2112
+        ],
+        "pathNode/4": [
+            4702,
+            1984
+        ],
+        "pathNode/5": [
+            4830,
+            1856
+        ],
+        "pathNode/6": [
+            4928,
+            1728
+        ],
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            4424,
+            2305,
+            96
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            30234,
+            318,
+            883
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 1,
+        "shotsFired/0": 854,
+        "shuffleStart": 4592905,
+        "timeLastHit": 4530905,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "droid_0000000003": {
+        "action": 1,
+        "action/pos": [
+            4928,
+            1728
+        ],
+        "actionPoints": 0,
+        "actionStarted": 4630105,
+        "actionString": "DACTION_MOVE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 1237202,
+        "bumpDir": 27086,
+        "bumpPosition": [
+            4664,
+            2556
+        ],
+        "bumpTime": 4630805,
+        "droidType": 0,
+        "experience": 984093,
+        "formation": {
+            "direction": 24576,
+            "x": 4928,
+            "y": 1728
+        },
+        "group": 1,
+        "health": 205,
+        "id": 160511,
+        "kills": 16,
+        "lastBump": 200,
+        "lastEmission": 4548406,
+        "lastFired/0": 4576306,
+        "moveDestination": [
+            4928,
+            1728
+        ],
+        "moveDirection": 27028,
+        "moveSource": [
+            4671,
+            2528
+        ],
+        "moveSpeed": 271,
+        "moveStatus": 4,
+        "moveTarget": [
+            4860,
+            1856
+        ],
+        "name": "Machinegun Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/obj/id": 167663,
+        "order/obj/player": 7,
+        "order/obj/type": 1,
+        "order/pos": [
+            0,
+            0
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 3,
+        "orderList/size": 0,
+        "originalBody": 205,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "MG1Mk1"
+        },
+        "pathIndex": 7,
+        "pathLength": 8,
+        "pathNode/0": [
+            4544,
+            2624
+        ],
+        "pathNode/1": [
+            4544,
+            2496
+        ],
+        "pathNode/2": [
+            4608,
+            2368
+        ],
+        "pathNode/3": [
+            4608,
+            2240
+        ],
+        "pathNode/4": [
+            4658,
+            2112
+        ],
+        "pathNode/5": [
+            4732,
+            1984
+        ],
+        "pathNode/6": [
+            4860,
+            1856
+        ],
+        "pathNode/7": [
+            4928,
+            1728
+        ],
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            4685,
+            2504,
+            101
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            27028,
+            63044,
+            3503
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 1,
+        "shotsFired/0": 520,
+        "shuffleStart": 4588205,
+        "timeLastHit": 4518405,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "droid_0000000004": {
+        "action": 6,
+        "action/pos": [
+            4574,
+            2401
+        ],
+        "actionPoints": 0,
+        "actionStarted": 4631105,
+        "actionString": "DACTION_ATTACK",
+        "actionTarget/0/id": 167663,
+        "actionTarget/0/player": 7,
+        "actionTarget/0/type": 1,
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 1068002,
+        "bumpDir": 23195,
+        "bumpPosition": [
+            4528,
+            2575
+        ],
+        "bumpTime": 0,
+        "droidType": 0,
+        "experience": 1197009,
+        "group": 1,
+        "health": 205,
+        "id": 160465,
+        "kills": 11,
+        "lastBump": 0,
+        "lastEmission": 4313406,
+        "lastFired/0": 4567406,
+        "moveDestination": [
+            4928,
+            1728
+        ],
+        "moveDirection": 33505,
+        "moveSource": [
+            4574,
+            2422
+        ],
+        "moveSpeed": 128,
+        "moveStatus": 0,
+        "moveTarget": [
+            4928,
+            1728
+        ],
+        "name": "Machinegun Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/obj/id": 167663,
+        "order/obj/player": 7,
+        "order/obj/type": 1,
+        "order/pos": [
+            0,
+            0
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 3,
+        "orderList/size": 0,
+        "originalBody": 205,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "MG1Mk1"
+        },
+        "pathIndex": 8,
+        "pathLength": 8,
+        "pathNode/0": [
+            4544,
+            2624
+        ],
+        "pathNode/1": [
+            4544,
+            2496
+        ],
+        "pathNode/2": [
+            4608,
+            2368
+        ],
+        "pathNode/3": [
+            4608,
+            2240
+        ],
+        "pathNode/4": [
+            4658,
+            2112
+        ],
+        "pathNode/5": [
+            4732,
+            1984
+        ],
+        "pathNode/6": [
+            4860,
+            1856
+        ],
+        "pathNode/7": [
+            4928,
+            1728
+        ],
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            4573,
+            2389,
+            92
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            33505,
+            0,
+            0
+        ],
+        "rotation/0": [
+            62260,
+            65224,
+            0
+        ],
+        "secondaryOrder": 174,
+        "selected": 1,
+        "shotsFired/0": 393,
+        "shuffleStart": 4592805,
+        "timeLastHit": 4471605,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "droid_0000000005": {
+        "action": 6,
+        "action/pos": [
+            4651,
+            2437
+        ],
+        "actionPoints": 0,
+        "actionStarted": 4630605,
+        "actionString": "DACTION_ATTACK",
+        "actionTarget/0/id": 167663,
+        "actionTarget/0/player": 7,
+        "actionTarget/0/type": 1,
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 825002,
+        "bumpDir": 55233,
+        "bumpPosition": [
+            4208,
+            2807
+        ],
+        "bumpTime": 0,
+        "droidType": 0,
+        "experience": 875668,
+        "group": 1,
+        "health": 191,
+        "id": 160397,
+        "kills": 10,
+        "lastBump": 0,
+        "lastEmission": 4318106,
+        "lastFired/0": 4630906,
+        "moveDestination": [
+            4928,
+            1728
+        ],
+        "moveDirection": 27457,
+        "moveSource": [
+            4639,
+            2458
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            4860,
+            1856
+        ],
+        "name": "Machinegun Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/obj/id": 167663,
+        "order/obj/player": 7,
+        "order/obj/type": 1,
+        "order/pos": [
+            0,
+            0
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 3,
+        "orderList/size": 0,
+        "originalBody": 205,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "MG1Mk1"
+        },
+        "pathIndex": 6,
+        "pathLength": 7,
+        "pathNode/0": [
+            4544,
+            2496
+        ],
+        "pathNode/1": [
+            4608,
+            2368
+        ],
+        "pathNode/2": [
+            4608,
+            2240
+        ],
+        "pathNode/3": [
+            4658,
+            2112
+        ],
+        "pathNode/4": [
+            4732,
+            1984
+        ],
+        "pathNode/5": [
+            4860,
+            1856
+        ],
+        "pathNode/6": [
+            4928,
+            1728
+        ],
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            4665,
+            2414,
+            92
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            27457,
+            0,
+            0
+        ],
+        "rotation/0": [
+            1492,
+            65213,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 1,
+        "shotsFired/0": 455,
+        "shuffleStart": 4579505,
+        "timeLastHit": 4630105,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "droid_0000000006": {
+        "action": 6,
+        "action/pos": [
+            4499,
+            2349
+        ],
+        "actionPoints": 0,
+        "actionStarted": 4630905,
+        "actionString": "DACTION_ATTACK",
+        "actionTarget/0/id": 167663,
+        "actionTarget/0/player": 7,
+        "actionTarget/0/type": 1,
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 2,
+        "bumpDir": 29990,
+        "bumpPosition": [
+            4488,
+            2402
+        ],
+        "bumpTime": 0,
+        "droidType": 0,
+        "experience": 1462832,
+        "group": 1,
+        "health": 205,
+        "id": 160089,
+        "kills": 25,
+        "lastBump": 0,
+        "lastEmission": 4244206,
+        "lastFired/0": 4630806,
+        "moveDestination": [
+            4928,
+            1728
+        ],
+        "moveDirection": 28710,
+        "moveSource": [
+            4491,
+            2368
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            4928,
+            1728
+        ],
+        "name": "Machinegun Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/obj/id": 167663,
+        "order/obj/player": 7,
+        "order/obj/type": 1,
+        "order/pos": [
+            0,
+            0
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 3,
+        "orderList/size": 0,
+        "originalBody": 205,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "MG1Mk1"
+        },
+        "pathIndex": 7,
+        "pathLength": 7,
+        "pathNode/0": [
+            4416,
+            2496
+        ],
+        "pathNode/1": [
+            4544,
+            2368
+        ],
+        "pathNode/2": [
+            4544,
+            2240
+        ],
+        "pathNode/3": [
+            4628,
+            2112
+        ],
+        "pathNode/4": [
+            4702,
+            1984
+        ],
+        "pathNode/5": [
+            4830,
+            1856
+        ],
+        "pathNode/6": [
+            4928,
+            1728
+        ],
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            4505,
+            2334,
+            92
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            28710,
+            0,
+            0
+        ],
+        "rotation/0": [
+            63238,
+            65215,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 1,
+        "shotsFired/0": 596,
+        "shuffleStart": 4595905,
+        "timeLastHit": 4568905,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "droid_0000000007": {
+        "action": 1,
+        "action/pos": [
+            4928,
+            1728
+        ],
+        "actionPoints": 0,
+        "actionStarted": 4630105,
+        "actionString": "DACTION_MOVE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 393302,
+        "bumpDir": 26123,
+        "bumpPosition": [
+            4588,
+            2659
+        ],
+        "bumpTime": 0,
+        "droidType": 0,
+        "experience": 1233527,
+        "formation": {
+            "direction": 24576,
+            "x": 4928,
+            "y": 1728
+        },
+        "group": 1,
+        "health": 205,
+        "id": 160317,
+        "kills": 22,
+        "lastBump": 0,
+        "lastEmission": 4616806,
+        "lastFired/0": 4577206,
+        "moveDestination": [
+            4928,
+            1728
+        ],
+        "moveDirection": 26137,
+        "moveSource": [
+            4631,
+            2606
+        ],
+        "moveSpeed": 237,
+        "moveStatus": 4,
+        "moveTarget": [
+            4860,
+            1856
+        ],
+        "name": "Machinegun Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/obj/id": 167663,
+        "order/obj/player": 7,
+        "order/obj/type": 1,
+        "order/pos": [
+            0,
+            0
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 3,
+        "orderList/size": 0,
+        "originalBody": 205,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "MG1Mk1"
+        },
+        "pathIndex": 8,
+        "pathLength": 9,
+        "pathNode/0": [
+            4544,
+            2752
+        ],
+        "pathNode/1": [
+            4544,
+            2624
+        ],
+        "pathNode/2": [
+            4544,
+            2496
+        ],
+        "pathNode/3": [
+            4608,
+            2368
+        ],
+        "pathNode/4": [
+            4608,
+            2240
+        ],
+        "pathNode/5": [
+            4658,
+            2112
+        ],
+        "pathNode/6": [
+            4732,
+            1984
+        ],
+        "pathNode/7": [
+            4860,
+            1856
+        ],
+        "pathNode/8": [
+            4928,
+            1728
+        ],
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            4645,
+            2587,
+            141
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            26137,
+            60804,
+            3267
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 1,
+        "shotsFired/0": 658,
+        "shuffleStart": 4560005,
+        "timeLastHit": 4580805,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "droid_0000000008": {
+        "action": 1,
+        "action/pos": [
+            4928,
+            1728
+        ],
+        "actionPoints": 0,
+        "actionStarted": 4630105,
+        "actionString": "DACTION_MOVE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 2,
+        "bumpDir": 31345,
+        "bumpPosition": [
+            4455,
+            2683
+        ],
+        "bumpTime": 0,
+        "droidType": 0,
+        "experience": 1839538,
+        "formation": {
+            "direction": 24576,
+            "x": 4928,
+            "y": 1728
+        },
+        "group": 1,
+        "health": 205,
+        "id": 160091,
+        "kills": 24,
+        "lastBump": 0,
+        "lastEmission": 4609206,
+        "lastFired/0": 4598306,
+        "moveDestination": [
+            4928,
+            1728
+        ],
+        "moveDirection": 30028,
+        "moveSource": [
+            4445,
+            2605
+        ],
+        "moveSpeed": 299,
+        "moveStatus": 4,
+        "moveTarget": [
+            4732,
+            1984
+        ],
+        "name": "Machinegun Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/obj/id": 167663,
+        "order/obj/player": 7,
+        "order/obj/type": 1,
+        "order/pos": [
+            0,
+            0
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 3,
+        "orderList/size": 0,
+        "originalBody": 205,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "MG1Mk1"
+        },
+        "pathIndex": 7,
+        "pathLength": 9,
+        "pathNode/0": [
+            4416,
+            2752
+        ],
+        "pathNode/1": [
+            4466,
+            2624
+        ],
+        "pathNode/2": [
+            4544,
+            2496
+        ],
+        "pathNode/3": [
+            4608,
+            2368
+        ],
+        "pathNode/4": [
+            4608,
+            2240
+        ],
+        "pathNode/5": [
+            4658,
+            2112
+        ],
+        "pathNode/6": [
+            4732,
+            1984
+        ],
+        "pathNode/7": [
+            4860,
+            1856
+        ],
+        "pathNode/8": [
+            4928,
+            1728
+        ],
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            4453,
+            2576,
+            160
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            30028,
+            59872,
+            63857
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 1,
+        "shotsFired/0": 652,
+        "shuffleStart": 4593505,
+        "timeLastHit": 4598105,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "visible/7": 102,
+        "weapons": 1
+    },
+    "droid_0000000009": {
+        "action": 6,
+        "action/pos": [
+            4567,
+            2385
+        ],
+        "actionPoints": 0,
+        "actionStarted": 4630505,
+        "actionString": "DACTION_ATTACK",
+        "actionTarget/0/id": 167663,
+        "actionTarget/0/player": 7,
+        "actionTarget/0/type": 1,
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 1044102,
+        "bumpDir": 52540,
+        "bumpPosition": [
+            4025,
+            2815
+        ],
+        "bumpTime": 0,
+        "droidType": 0,
+        "experience": 1996239,
+        "group": 1,
+        "health": 205,
+        "id": 160459,
+        "kills": 20,
+        "lastBump": 0,
+        "lastEmission": 4599006,
+        "lastFired/0": 4630806,
+        "moveDestination": [
+            4928,
+            1728
+        ],
+        "moveDirection": 25945,
+        "moveSource": [
+            4572,
+            2375
+        ],
+        "moveSpeed": 199,
+        "moveStatus": 8,
+        "moveTarget": [
+            4639,
+            2267
+        ],
+        "name": "Machinegun Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/obj/id": 167663,
+        "order/obj/player": 7,
+        "order/obj/type": 1,
+        "order/pos": [
+            0,
+            0
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 3,
+        "orderList/size": 0,
+        "originalBody": 205,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "MG1Mk1"
+        },
+        "pathIndex": 0,
+        "pathLength": 0,
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            4628,
+            2281,
+            92
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            25945,
+            0,
+            0
+        ],
+        "rotation/0": [
+            1407,
+            65172,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 1,
+        "shotsFired/0": 575,
+        "shuffleStart": 4630605,
+        "timeLastHit": 4601305,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "droid_0000000010": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 4612305,
+        "bumpDir": 28210,
+        "bumpPosition": [
+            2697,
+            2237
+        ],
+        "bumpTime": 0,
+        "droidType": 0,
+        "group": 255,
+        "health": 101,
+        "id": 167793,
+        "lastBump": 0,
+        "lastFired/0": 0,
+        "moveDestination": [
+            2688,
+            2176
+        ],
+        "moveDirection": 8192,
+        "moveSource": [
+            2699,
+            2236
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            2688,
+            2176
+        ],
+        "name": "Scavenger Factory 167693 B3body-sml-buggy01 BaBaProp BabaBuggyHeavyMG",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            2699,
+            2236
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 25,
+        "orderList/size": 0,
+        "originalBody": 101,
+        "parts": {
+            "body": "B3body-sml-buggy01",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "BaBaProp",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "BabaBuggyHeavyMG"
+        },
+        "pathIndex": 5,
+        "pathLength": 5,
+        "pathNode/0": [
+            2240,
+            1984
+        ],
+        "pathNode/1": [
+            2368,
+            1984
+        ],
+        "pathNode/2": [
+            2496,
+            2112
+        ],
+        "pathNode/3": [
+            2624,
+            2112
+        ],
+        "pathNode/4": [
+            2688,
+            2176
+        ],
+        "pauseTime": 0,
+        "player": 7,
+        "position": [
+            2699,
+            2236,
+            62
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            8192,
+            65167,
+            2181
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 0,
+        "shotsFired/0": 0,
+        "shuffleStart": 0,
+        "vertSpeed": 0,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "droid_0000000011": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 4586705,
+        "bumpDir": 37121,
+        "bumpPosition": [
+            2724,
+            2179
+        ],
+        "bumpTime": 0,
+        "droidType": 4,
+        "group": 255,
+        "health": 30,
+        "id": 167791,
+        "lastBump": 0,
+        "lastFired/0": 0,
+        "moveDestination": [
+            2688,
+            2176
+        ],
+        "moveDirection": 14441,
+        "moveSource": [
+            2724,
+            2177
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            2688,
+            2176
+        ],
+        "name": "Scavenger Factory 167693 B1BaBaPerson01 BaBaLegs BabaHeavyMG",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            2724,
+            2177
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 25,
+        "orderList/size": 0,
+        "originalBody": 30,
+        "parts": {
+            "body": "B1BaBaPerson01",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "BaBaLegs",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "BabaHeavyMG"
+        },
+        "pathIndex": 6,
+        "pathLength": 6,
+        "pathNode/0": [
+            2112,
+            1984
+        ],
+        "pathNode/1": [
+            2240,
+            1984
+        ],
+        "pathNode/2": [
+            2368,
+            1984
+        ],
+        "pathNode/3": [
+            2496,
+            2112
+        ],
+        "pathNode/4": [
+            2624,
+            2112
+        ],
+        "pathNode/5": [
+            2688,
+            2176
+        ],
+        "pauseTime": 0,
+        "player": 7,
+        "position": [
+            2724,
+            2177,
+            75
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            14441,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 0,
+        "shotsFired/0": 0,
+        "shuffleStart": 0,
+        "vertSpeed": 0,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "droid_0000000012": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 4561105,
+        "bumpDir": 17952,
+        "bumpPosition": [
+            2664,
+            2164
+        ],
+        "bumpTime": 0,
+        "droidType": 0,
+        "group": 255,
+        "health": 81,
+        "id": 167789,
+        "lastBump": 0,
+        "lastFired/0": 0,
+        "moveDestination": [
+            2688,
+            2176
+        ],
+        "moveDirection": 17952,
+        "moveSource": [
+            2668,
+            2162
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            2658,
+            2290
+        ],
+        "name": "Scavenger Factory 167693 B4body-sml-trike01 BaBaProp BabaTrikeHeavyMG",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            2662,
+            2164
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 25,
+        "orderList/size": 0,
+        "originalBody": 81,
+        "parts": {
+            "body": "B4body-sml-trike01",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "BaBaProp",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "BabaTrikeHeavyMG"
+        },
+        "pathIndex": 0,
+        "pathLength": 0,
+        "pauseTime": 0,
+        "player": 7,
+        "position": [
+            2668,
+            2162,
+            75
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            17952,
+            64919,
+            1144
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 0,
+        "shotsFired/0": 0,
+        "shuffleStart": 4620805,
+        "vertSpeed": 0,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "droid_0000000013": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 4031205,
+        "bumpDir": 0,
+        "bumpPosition": [
+            0,
+            0
+        ],
+        "bumpTime": 0,
+        "droidType": 0,
+        "group": 255,
+        "health": 121,
+        "id": 167779,
+        "lastBump": 0,
+        "lastFired/0": 0,
+        "moveDestination": [
+            0,
+            0
+        ],
+        "moveDirection": 0,
+        "moveSource": [
+            0,
+            0
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            0,
+            0
+        ],
+        "name": "*Jeep MG* *Jeep Body* BaBaProp",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            3776,
+            1088
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 25,
+        "orderList/size": 0,
+        "originalBody": 121,
+        "parts": {
+            "body": "B2JeepBody",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "BaBaProp",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "BabaJeepTwinMG"
+        },
+        "pathIndex": 0,
+        "pathLength": 0,
+        "pauseTime": 0,
+        "player": 7,
+        "position": [
+            3776,
+            1088,
+            82
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 0,
+        "shotsFired/0": 0,
+        "shuffleStart": 0,
+        "vertSpeed": 0,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "droid_0000000014": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 4031205,
+        "bumpDir": 57860,
+        "bumpPosition": [
+            3646,
+            1224
+        ],
+        "bumpTime": 0,
+        "droidType": 0,
+        "group": 255,
+        "health": 121,
+        "id": 167775,
+        "lastBump": 0,
+        "lastFired/0": 0,
+        "moveDestination": [
+            0,
+            0
+        ],
+        "moveDirection": 57860,
+        "moveSource": [
+            3640,
+            1229
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            3513,
+            1212
+        ],
+        "name": "*Jeep MG* *Jeep Body* BaBaProp",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            3648,
+            1216
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 25,
+        "orderList/size": 0,
+        "originalBody": 121,
+        "parts": {
+            "body": "B2JeepBody",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "BaBaProp",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "BabaJeepTwinMG"
+        },
+        "pathIndex": 0,
+        "pathLength": 0,
+        "pauseTime": 0,
+        "player": 7,
+        "position": [
+            3640,
+            1229,
+            82
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            57860,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 0,
+        "shotsFired/0": 0,
+        "shuffleStart": 4531305,
+        "vertSpeed": 0,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "droid_0000000015": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 4031205,
+        "bumpDir": 0,
+        "bumpPosition": [
+            0,
+            0
+        ],
+        "bumpTime": 0,
+        "droidType": 0,
+        "group": 255,
+        "health": 101,
+        "id": 167759,
+        "lastBump": 0,
+        "lastFired/0": 0,
+        "moveDestination": [
+            0,
+            0
+        ],
+        "moveDirection": 0,
+        "moveSource": [
+            0,
+            0
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            0,
+            0
+        ],
+        "name": "*Buggy MG* *Buggy Body* BaBaProp",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            704,
+            1344
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 25,
+        "orderList/size": 0,
+        "originalBody": 101,
+        "parts": {
+            "body": "B3body-sml-buggy01",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "BaBaProp",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "BabaBuggyTwinMG"
+        },
+        "pathIndex": 0,
+        "pathLength": 0,
+        "pauseTime": 0,
+        "player": 7,
+        "position": [
+            704,
+            1344,
+            431
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            0,
+            0,
+            65275
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 0,
+        "shotsFired/0": 0,
+        "shuffleStart": 0,
+        "vertSpeed": 0,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "droid_0000000016": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 4031205,
+        "bumpDir": 0,
+        "bumpPosition": [
+            0,
+            0
+        ],
+        "bumpTime": 0,
+        "droidType": 0,
+        "group": 255,
+        "health": 101,
+        "id": 167757,
+        "lastBump": 0,
+        "lastFired/0": 0,
+        "moveDestination": [
+            0,
+            0
+        ],
+        "moveDirection": 0,
+        "moveSource": [
+            0,
+            0
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            0,
+            0
+        ],
+        "name": "*Buggy MG* *Buggy Body* BaBaProp",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            704,
+            1472
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 25,
+        "orderList/size": 0,
+        "originalBody": 101,
+        "parts": {
+            "body": "B3body-sml-buggy01",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "BaBaProp",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "BabaBuggyTwinMG"
+        },
+        "pathIndex": 0,
+        "pathLength": 0,
+        "pauseTime": 0,
+        "player": 7,
+        "position": [
+            704,
+            1472,
+            413
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            0,
+            522,
+            64497
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 0,
+        "shotsFired/0": 0,
+        "shuffleStart": 0,
+        "vertSpeed": 0,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "droid_0000000017": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 4031205,
+        "bumpDir": 0,
+        "bumpPosition": [
+            0,
+            0
+        ],
+        "bumpTime": 0,
+        "droidType": 0,
+        "group": 255,
+        "health": 101,
+        "id": 167755,
+        "lastBump": 0,
+        "lastFired/0": 0,
+        "moveDestination": [
+            0,
+            0
+        ],
+        "moveDirection": 0,
+        "moveSource": [
+            0,
+            0
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            0,
+            0
+        ],
+        "name": "*Buggy MG* *Buggy Body* BaBaProp",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            832,
+            1472
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 25,
+        "orderList/size": 0,
+        "originalBody": 101,
+        "parts": {
+            "body": "B3body-sml-buggy01",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "BaBaProp",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "BabaBuggyTwinMG"
+        },
+        "pathIndex": 0,
+        "pathLength": 0,
+        "pauseTime": 0,
+        "player": 7,
+        "position": [
+            832,
+            1472,
+            402
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            0,
+            0,
+            64497
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 0,
+        "shotsFired/0": 0,
+        "shuffleStart": 0,
+        "vertSpeed": 0,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "droid_0000000018": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 4031205,
+        "bumpDir": 0,
+        "bumpPosition": [
+            0,
+            0
+        ],
+        "bumpTime": 0,
+        "droidType": 0,
+        "group": 255,
+        "health": 101,
+        "id": 167753,
+        "lastBump": 0,
+        "lastFired/0": 0,
+        "moveDestination": [
+            0,
+            0
+        ],
+        "moveDirection": 0,
+        "moveSource": [
+            0,
+            0
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            0,
+            0
+        ],
+        "name": "*Buggy MG* *Buggy Body* BaBaProp",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            832,
+            1600
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 25,
+        "orderList/size": 0,
+        "originalBody": 101,
+        "parts": {
+            "body": "B3body-sml-buggy01",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "BaBaProp",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "BabaBuggyTwinMG"
+        },
+        "pathIndex": 0,
+        "pathLength": 0,
+        "pauseTime": 0,
+        "player": 7,
+        "position": [
+            832,
+            1600,
+            399
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            0,
+            0,
+            65014
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 0,
+        "shotsFired/0": 0,
+        "shuffleStart": 0,
+        "vertSpeed": 0,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "droid_0000000019": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 4031205,
+        "bumpDir": 27561,
+        "bumpPosition": [
+            2140,
+            1758
+        ],
+        "bumpTime": 0,
+        "droidType": 0,
+        "group": 255,
+        "health": 101,
+        "id": 167749,
+        "lastBump": 0,
+        "lastFired/0": 0,
+        "moveDestination": [
+            2176,
+            1664
+        ],
+        "moveDirection": 27561,
+        "moveSource": [
+            2140,
+            1758
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            2154,
+            1631
+        ],
+        "name": "*Buggy MG* *Buggy Body* BaBaProp",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            2140,
+            1758
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 25,
+        "orderList/size": 0,
+        "originalBody": 101,
+        "parts": {
+            "body": "B3body-sml-buggy01",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "BaBaProp",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "BabaBuggyTwinMG"
+        },
+        "pathIndex": 0,
+        "pathLength": 0,
+        "pauseTime": 0,
+        "player": 7,
+        "position": [
+            2140,
+            1758,
+            84
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            27561,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 0,
+        "shotsFired/0": 0,
+        "shuffleStart": 4538505,
+        "vertSpeed": 0,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "droid_0000000020": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 4031205,
+        "bumpDir": 9162,
+        "bumpPosition": [
+            2205,
+            1613
+        ],
+        "bumpTime": 0,
+        "droidType": 0,
+        "group": 255,
+        "health": 101,
+        "id": 167747,
+        "lastBump": 0,
+        "lastFired/0": 0,
+        "moveDestination": [
+            2176,
+            1664
+        ],
+        "moveDirection": 9162,
+        "moveSource": [
+            2210,
+            1616
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            2176,
+            1664
+        ],
+        "name": "*Buggy MG* *Buggy Body* BaBaProp",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            2210,
+            1616
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 25,
+        "orderList/size": 0,
+        "originalBody": 101,
+        "parts": {
+            "body": "B3body-sml-buggy01",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "BaBaProp",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "BabaBuggyTwinMG"
+        },
+        "pathIndex": 3,
+        "pathLength": 3,
+        "pathNode/0": [
+            1984,
+            1600
+        ],
+        "pathNode/1": [
+            2112,
+            1600
+        ],
+        "pathNode/2": [
+            2176,
+            1664
+        ],
+        "pauseTime": 0,
+        "player": 7,
+        "position": [
+            2210,
+            1616,
+            84
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            9162,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 0,
+        "shotsFired/0": 0,
+        "shuffleStart": 4537905,
+        "vertSpeed": 0,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "droid_0000000021": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 4031205,
+        "bumpDir": 10909,
+        "bumpPosition": [
+            2076,
+            1672
+        ],
+        "bumpTime": 0,
+        "droidType": 0,
+        "group": 255,
+        "health": 101,
+        "id": 167745,
+        "lastBump": 0,
+        "lastFired/0": 0,
+        "moveDestination": [
+            2176,
+            1664
+        ],
+        "moveDirection": 10909,
+        "moveSource": [
+            2076,
+            1674
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            2204,
+            1687
+        ],
+        "name": "*Buggy MG* *Buggy Body* BaBaProp",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            2074,
+            1671
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 25,
+        "orderList/size": 0,
+        "originalBody": 101,
+        "parts": {
+            "body": "B3body-sml-buggy01",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "BaBaProp",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "BabaBuggyTwinMG"
+        },
+        "pathIndex": 0,
+        "pathLength": 0,
+        "pauseTime": 0,
+        "player": 7,
+        "position": [
+            2076,
+            1674,
+            84
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            10909,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 0,
+        "shotsFired/0": 0,
+        "shuffleStart": 4541005,
+        "vertSpeed": 0,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "droid_0000000022": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 4031205,
+        "bumpDir": 31166,
+        "bumpPosition": [
+            2157,
+            1677
+        ],
+        "bumpTime": 0,
+        "droidType": 0,
+        "group": 255,
+        "health": 101,
+        "id": 167743,
+        "lastBump": 0,
+        "lastFired/0": 0,
+        "moveDestination": [
+            2176,
+            1664
+        ],
+        "moveDirection": 31166,
+        "moveSource": [
+            2157,
+            1677
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            2045,
+            1613
+        ],
+        "name": "*Buggy MG* *Buggy Body* BaBaProp",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            2153,
+            1679
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 25,
+        "orderList/size": 0,
+        "originalBody": 101,
+        "parts": {
+            "body": "B3body-sml-buggy01",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "BaBaProp",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "BabaBuggyTwinMG"
+        },
+        "pathIndex": 0,
+        "pathLength": 0,
+        "pauseTime": 0,
+        "player": 7,
+        "position": [
+            2156,
+            1676,
+            84
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            31166,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 0,
+        "shotsFired/0": 0,
+        "shuffleStart": 4545405,
+        "vertSpeed": 0,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "droid_0000000023": {
+        "action": 0,
+        "action/pos": [
+            2112,
+            5312
+        ],
+        "actionPoints": 0,
+        "actionStarted": 4459005,
+        "actionString": "DACTION_NONE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 4031205,
+        "bumpDir": 0,
+        "bumpPosition": [
+            0,
+            0
+        ],
+        "bumpTime": 0,
+        "droidType": 4,
+        "group": 255,
+        "health": 30,
+        "id": 167727,
+        "lastBump": 0,
+        "lastFired/0": 0,
+        "moveDestination": [
+            2112,
+            5312
+        ],
+        "moveDirection": 34490,
+        "moveSource": [
+            2116,
+            5337
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            2112,
+            5312
+        ],
+        "name": "*BaBa MG* *BaBa Body* BaBaLegs",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            2112,
+            5312
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 25,
+        "orderList/size": 0,
+        "originalBody": 30,
+        "parts": {
+            "body": "B1BaBaPerson01",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "BaBaLegs",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "BabaHeavyMG"
+        },
+        "pathIndex": 4,
+        "pathLength": 4,
+        "pathNode/0": [
+            2240,
+            5696
+        ],
+        "pathNode/1": [
+            2240,
+            5568
+        ],
+        "pathNode/2": [
+            2240,
+            5440
+        ],
+        "pathNode/3": [
+            2112,
+            5312
+        ],
+        "pauseTime": 0,
+        "player": 7,
+        "position": [
+            2111,
+            5315,
+            80
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            34490,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 0,
+        "shotsFired/0": 0,
+        "shuffleStart": 0,
+        "vertSpeed": 0,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "droid_0000000024": {
+        "action": 0,
+        "action/pos": [
+            2752,
+            7744
+        ],
+        "actionPoints": 0,
+        "actionStarted": 4446205,
+        "actionString": "DACTION_NONE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 4031205,
+        "bumpDir": 0,
+        "bumpPosition": [
+            0,
+            0
+        ],
+        "bumpTime": 0,
+        "droidType": 4,
+        "group": 255,
+        "health": 30,
+        "id": 167721,
+        "lastBump": 0,
+        "lastFired/0": 0,
+        "moveDestination": [
+            2752,
+            7744
+        ],
+        "moveDirection": 32272,
+        "moveSource": [
+            2751,
+            7769
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            2752,
+            7744
+        ],
+        "name": "*BaBa MG* *BaBa Body* BaBaLegs",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            2752,
+            7744
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 25,
+        "orderList/size": 0,
+        "originalBody": 30,
+        "parts": {
+            "body": "B1BaBaPerson01",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "BaBaLegs",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "BabaHeavyMG"
+        },
+        "pathIndex": 4,
+        "pathLength": 4,
+        "pathNode/0": [
+            2752,
+            8128
+        ],
+        "pathNode/1": [
+            2752,
+            8000
+        ],
+        "pathNode/2": [
+            2752,
+            7872
+        ],
+        "pathNode/3": [
+            2752,
+            7744
+        ],
+        "pauseTime": 0,
+        "player": 7,
+        "position": [
+            2752,
+            7747,
+            50
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            32272,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 0,
+        "shotsFired/0": 0,
+        "shuffleStart": 0,
+        "vertSpeed": 0,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "droid_0000000025": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 4031205,
+        "bumpDir": 0,
+        "bumpPosition": [
+            0,
+            0
+        ],
+        "bumpTime": 0,
+        "droidType": 4,
+        "group": 255,
+        "health": 30,
+        "id": 167701,
+        "lastBump": 0,
+        "lastFired/0": 0,
+        "moveDestination": [
+            0,
+            0
+        ],
+        "moveDirection": 0,
+        "moveSource": [
+            0,
+            0
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            0,
+            0
+        ],
+        "name": "*BaBa MG* *BaBa Body* BaBaLegs",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            5056,
+            1344
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 25,
+        "orderList/size": 0,
+        "originalBody": 30,
+        "parts": {
+            "body": "B1BaBaPerson01",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "BaBaLegs",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "BabaHeavyMG"
+        },
+        "pathIndex": 0,
+        "pathLength": 0,
+        "pauseTime": 0,
+        "player": 7,
+        "position": [
+            5056,
+            1344,
+            92
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 0,
+        "shotsFired/0": 0,
+        "shuffleStart": 0,
+        "vertSpeed": 0,
+        "visible/7": 255,
+        "weapons": 1
+    },
+    "droid_0000000026": {
+        "action": 0,
+        "action/pos": [
+            5184,
+            1472
+        ],
+        "actionPoints": 0,
+        "actionStarted": 4573505,
+        "actionString": "DACTION_NONE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 4031205,
+        "bumpDir": 0,
+        "bumpPosition": [
+            0,
+            0
+        ],
+        "bumpTime": 0,
+        "droidType": 4,
+        "experience": 7672,
+        "group": 255,
+        "health": 30,
+        "id": 167699,
+        "lastBump": 0,
+        "lastFired/0": 4572606,
+        "moveDestination": [
+            5184,
+            1472
+        ],
+        "moveDirection": 28583,
+        "moveSource": [
+            5177,
+            1491
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            5184,
+            1472
+        ],
+        "name": "*BaBa MG* *BaBa Body* BaBaLegs",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            5184,
+            1472
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 25,
+        "orderList/size": 0,
+        "originalBody": 30,
+        "parts": {
+            "body": "B1BaBaPerson01",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "BaBaLegs",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "BabaHeavyMG"
+        },
+        "pathIndex": 4,
+        "pathLength": 4,
+        "pathNode/0": [
+            5056,
+            1856
+        ],
+        "pathNode/1": [
+            5056,
+            1728
+        ],
+        "pathNode/2": [
+            5184,
+            1600
+        ],
+        "pathNode/3": [
+            5184,
+            1472
+        ],
+        "pauseTime": 0,
+        "player": 7,
+        "position": [
+            5184,
+            1470,
+            92
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            28583,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 0,
+        "shotsFired/0": 4,
+        "shuffleStart": 0,
+        "vertSpeed": 0,
+        "visible/0": 51,
+        "visible/7": 255,
+        "weapons": 1
+    }
+}

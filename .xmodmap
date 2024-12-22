@@ -1,6 +1,11 @@
+! This config allows FR-latin symbols in US-en layout using a convenient mode switch
 clear Lock
+
+! 94: additional key for angle bracket
+keycode 94 = Mode_switch              
+! 108: right Alt
 keycode 108 = Mode_switch
-!keycode 64 = Mode_switch
+
 
 keycode 11 = 2 at eacute
 keycode 16 = 7 ampersand egrave
