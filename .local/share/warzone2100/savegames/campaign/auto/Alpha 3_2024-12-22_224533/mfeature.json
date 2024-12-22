@@ -1,0 +1,477 @@
+{
+    "feature_0000000000": {
+        "born": 2,
+        "health": 0,
+        "id": 160095,
+        "name": "Boulder1",
+        "player": 12,
+        "position": [
+            2880,
+            6208,
+            0
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "visible/7": 255
+    },
+    "feature_0000000001": {
+        "born": 2,
+        "health": 25,
+        "id": 160099,
+        "name": "Boulder3",
+        "player": 12,
+        "position": [
+            3136,
+            6464,
+            7
+        ],
+        "rotation": [
+            0,
+            1297,
+            261
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "visible/7": 255
+    },
+    "feature_0000000002": {
+        "born": 2,
+        "health": 0,
+        "id": 160107,
+        "name": "Boulder1",
+        "player": 12,
+        "position": [
+            5440,
+            4672,
+            36
+        ],
+        "rotation": [
+            0,
+            63478,
+            3969
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "visible/6": 255,
+        "visible/7": 255
+    },
+    "feature_0000000003": {
+        "born": 2,
+        "health": 91,
+        "id": 160129,
+        "name": "BarbTechRuin",
+        "player": 12,
+        "position": [
+            2432,
+            4544,
+            32
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "timeLastHit": 1486202,
+        "visible/0": 255,
+        "visible/6": 255
+    },
+    "feature_0000000004": {
+        "born": 2,
+        "health": 200,
+        "id": 160131,
+        "name": "BarbWarehouse1",
+        "player": 12,
+        "position": [
+            2304,
+            4800,
+            33
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "visible/6": 255
+    },
+    "feature_0000000005": {
+        "born": 2,
+        "health": 151,
+        "id": 160133,
+        "name": "BarbWarehouse1",
+        "player": 12,
+        "position": [
+            1792,
+            4416,
+            32
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "timeLastHit": 1483402,
+        "visible/0": 255,
+        "visible/6": 255
+    },
+    "feature_0000000006": {
+        "born": 2,
+        "health": 50,
+        "id": 160143,
+        "name": "BarbHUT",
+        "player": 12,
+        "position": [
+            2368,
+            5184,
+            50
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "visible/6": 255
+    },
+    "feature_0000000007": {
+        "born": 2,
+        "health": 50,
+        "id": 160145,
+        "name": "BarbHUT",
+        "player": 12,
+        "position": [
+            2624,
+            4416,
+            32
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "visible/6": 255
+    },
+    "feature_0000000008": {
+        "born": 2,
+        "health": 50,
+        "id": 160147,
+        "name": "BarbHUT",
+        "player": 12,
+        "position": [
+            2240,
+            5312,
+            50
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255
+    },
+    "feature_0000000009": {
+        "born": 2,
+        "health": 50,
+        "id": 160149,
+        "name": "BarbHUT",
+        "player": 12,
+        "position": [
+            2240,
+            5056,
+            50
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "visible/6": 255
+    },
+    "feature_0000000010": {
+        "born": 2,
+        "health": 25,
+        "id": 160159,
+        "name": "OilDrum",
+        "player": 12,
+        "position": [
+            6336,
+            4032,
+            65
+        ],
+        "rotation": [
+            0,
+            64497,
+            1297
+        ],
+        "selected": 0
+    },
+    "feature_0000000011": {
+        "born": 1494103,
+        "health": 91,
+        "id": 160691,
+        "name": "Ruin5",
+        "player": 12,
+        "position": [
+            1984,
+            10432,
+            24
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "timeLastHit": 2097803,
+        "visible/0": 255,
+        "visible/6": 255,
+        "visible/7": 255
+    },
+    "feature_0000000012": {
+        "born": 1494103,
+        "health": 35,
+        "id": 160693,
+        "name": "Ruin5",
+        "player": 12,
+        "position": [
+            1856,
+            10432,
+            21
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "timeLastHit": 2287303,
+        "visible/0": 255,
+        "visible/6": 255,
+        "visible/7": 255
+    },
+    "feature_0000000013": {
+        "born": 1494103,
+        "health": 100,
+        "id": 160703,
+        "name": "Ruin4",
+        "player": 12,
+        "position": [
+            1984,
+            10560,
+            20
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "visible/6": 255,
+        "visible/7": 255
+    },
+    "feature_0000000014": {
+        "born": 1494103,
+        "health": 3,
+        "id": 160707,
+        "name": "Ruin4",
+        "player": 12,
+        "position": [
+            1728,
+            10176,
+            36
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "timeLastHit": 2286903,
+        "visible/0": 255,
+        "visible/6": 255,
+        "visible/7": 255
+    },
+    "feature_0000000015": {
+        "born": 1494103,
+        "health": 100,
+        "id": 160715,
+        "name": "Ruin4",
+        "player": 12,
+        "position": [
+            5568,
+            11968,
+            0
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "visible/1": 255,
+        "visible/7": 255
+    },
+    "feature_0000000016": {
+        "born": 1494103,
+        "health": 80,
+        "id": 160717,
+        "name": "Ruin4",
+        "player": 12,
+        "position": [
+            5568,
+            11200,
+            15
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "timeLastHit": 2166403,
+        "visible/0": 255,
+        "visible/1": 255,
+        "visible/7": 255
+    },
+    "feature_0000000017": {
+        "born": 1494103,
+        "health": 89,
+        "id": 160723,
+        "name": "Ruin5",
+        "player": 12,
+        "position": [
+            5696,
+            11456,
+            21
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "timeLastHit": 2168003,
+        "visible/0": 255,
+        "visible/1": 255,
+        "visible/7": 255
+    },
+    "feature_0000000018": {
+        "born": 1494103,
+        "health": 49,
+        "id": 160725,
+        "name": "Ruin5",
+        "player": 12,
+        "position": [
+            5568,
+            11328,
+            9
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "timeLastHit": 2168003,
+        "visible/0": 255,
+        "visible/1": 255,
+        "visible/7": 255
+    },
+    "feature_0000000019": {
+        "born": 1494103,
+        "health": 80,
+        "id": 160729,
+        "name": "Ruin4",
+        "player": 12,
+        "position": [
+            5696,
+            11328,
+            18
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "timeLastHit": 2167203,
+        "visible/0": 255,
+        "visible/1": 255,
+        "visible/7": 255
+    },
+    "feature_0000000020": {
+        "born": 1494103,
+        "health": 0,
+        "id": 160731,
+        "name": "Boulder2",
+        "player": 12,
+        "position": [
+            6464,
+            9664,
+            396
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "visible/6": 255
+    },
+    "feature_0000000021": {
+        "born": 1494103,
+        "health": 0,
+        "id": 160733,
+        "name": "Boulder1",
+        "player": 12,
+        "position": [
+            6336,
+            9792,
+            396
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "visible/1": 255,
+        "visible/6": 255
+    },
+    "feature_0000000022": {
+        "born": 1494103,
+        "health": 25,
+        "id": 160743,
+        "name": "OilDrum",
+        "player": 12,
+        "position": [
+            1088,
+            12864,
+            15
+        ],
+        "rotation": [
+            0,
+            1553,
+            63983
+        ],
+        "selected": 0
+    }
+}

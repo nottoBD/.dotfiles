@@ -1,0 +1,403 @@
+{
+    "globals_0": {
+        "lastHitTime": 2846303,
+        "mainReticule": true,
+        "me": 0,
+        "scriptName": "rules",
+        "scriptPath": "script"
+    },
+    "globals_1": {
+        "NPScout": null,
+        "__camAllowVictoryMsgClear": true,
+        "__camArtifacts": {
+            "base1factory": {
+                "id": "160747",
+                "pickedUp": true,
+                "placed": true,
+                "tech": "R-Wpn-Flamer-Damage02"
+            },
+            "base2factory": {
+                "id": "160859",
+                "pickedUp": true,
+                "placed": true,
+                "tech": "R-Wpn-MG2Mk1"
+            },
+            "base3sensor": {
+                "id": "160839",
+                "placed": true,
+                "tech": "R-Sys-Sensor-Turret01"
+            },
+            "base4gen": {
+                "id": "160775",
+                "pickedUp": true,
+                "placed": true,
+                "tech": "R-Struc-PowerModuleMk1"
+            }
+        },
+        "__camCalledOnce": {
+            "doNPRetreat": true
+        },
+        "__camCheatMode": false,
+        "__camClassicModActive": false,
+        "__camDebuggedOnce": {},
+        "__camDefeatOnTimeout": true,
+        "__camEnemyBases": {
+            "base1group": {
+                "cleanup": "enemybase1",
+                "detectMsg": "C1B_BASE1",
+                "detectSnd": "pcv374.ogg",
+                "detected": true,
+                "eliminateSnd": "pcv392.ogg",
+                "eliminated": true,
+                "group": 1
+            },
+            "base2group": {
+                "cleanup": "enemybase2",
+                "detectMsg": "C1B_BASE0",
+                "detectSnd": "pcv374.ogg",
+                "detected": true,
+                "eliminateSnd": "pcv392.ogg",
+                "eliminated": true,
+                "group": 2
+            },
+            "base3group": {
+                "cleanup": "enemybase3",
+                "detectMsg": "C1B_BASE3",
+                "detectSnd": "pcv375.ogg",
+                "detected": true,
+                "eliminateSnd": "pcv391.ogg",
+                "eliminated": true,
+                "group": 3
+            },
+            "base4group": {
+                "cleanup": "enemybase4",
+                "detectMsg": "C1B_BASE2",
+                "detectSnd": "pcv374.ogg",
+                "detected": true,
+                "eliminateSnd": "pcv392.ogg",
+                "eliminated": true,
+                "group": 4
+            }
+        },
+        "__camExpLevel": 0,
+        "__camExtraObjectiveMessage": null,
+        "__camFactoryInfo": {
+            "base1factory": {
+                "assembly": "assembly1",
+                "data": {
+                    "count": 6,
+                    "pos": [
+                        {
+                            "type": 4,
+                            "x": 16,
+                            "y": 52
+                        }
+                    ]
+                },
+                "enabled": true,
+                "group": 19,
+                "groupSize": 6,
+                "lastprod": 1904503,
+                "maxSize": 6,
+                "order": 0,
+                "state": 1,
+                "templates": [
+                    {
+                        "body": "B4body-sml-trike01",
+                        "prop": "BaBaProp",
+                        "weap": "BabaTrikeTwinMG"
+                    },
+                    {
+                        "body": "B1BaBaPerson01",
+                        "prop": "BaBaLegs",
+                        "weap": "BabaTwinMG"
+                    },
+                    {
+                        "body": "B3body-sml-buggy01",
+                        "prop": "BaBaProp",
+                        "weap": "BabaBuggyTwinMG"
+                    },
+                    {
+                        "body": "B1BaBaPerson01",
+                        "prop": "BaBaLegs",
+                        "weap": "BabaTwinMG"
+                    }
+                ],
+                "throttle": 6800
+            },
+            "base2factory": {
+                "assembly": "assembly2",
+                "data": {
+                    "count": 10,
+                    "pos": [
+                        {
+                            "type": 4,
+                            "x": 16,
+                            "y": 52
+                        }
+                    ]
+                },
+                "enabled": true,
+                "group": 29,
+                "groupSize": 10,
+                "lastprod": 2327703,
+                "maxSize": 10,
+                "order": 0,
+                "state": 1,
+                "templates": [
+                    {
+                        "body": "B4body-sml-trike01",
+                        "prop": "BaBaProp",
+                        "weap": "BabaTrikeTwinMG"
+                    },
+                    {
+                        "body": "B1BaBaPerson01",
+                        "prop": "BaBaLegs",
+                        "weap": "BabaTwinMG"
+                    },
+                    {
+                        "body": "B3body-sml-buggy01",
+                        "prop": "BaBaProp",
+                        "weap": "BabaBuggyTwinMG"
+                    },
+                    {
+                        "body": "B1BaBaPerson01",
+                        "prop": "BaBaLegs",
+                        "weap": "BabaTwinMG"
+                    }
+                ],
+                "throttle": 12750
+            },
+            "base4factory": {
+                "assembly": "assembly4",
+                "data": {
+                    "count": 8,
+                    "pos": [
+                        {
+                            "type": 4,
+                            "x": 16,
+                            "y": 52
+                        }
+                    ]
+                },
+                "enabled": true,
+                "group": 37,
+                "groupSize": 8,
+                "lastprod": 2632503,
+                "maxSize": 8,
+                "order": 0,
+                "state": 1,
+                "templates": [
+                    {
+                        "body": "B4body-sml-trike01",
+                        "prop": "BaBaProp",
+                        "weap": "BabaTrikeMG"
+                    },
+                    {
+                        "body": "B1BaBaPerson01",
+                        "prop": "BaBaLegs",
+                        "weap": "BabaTwinMG"
+                    },
+                    {
+                        "body": "B3body-sml-buggy01",
+                        "prop": "BaBaProp",
+                        "weap": "BabaBuggyTwinMG"
+                    },
+                    {
+                        "body": "B2JeepBody",
+                        "prop": "BaBaProp",
+                        "weap": "BabaJeepTwinMG"
+                    }
+                ],
+                "throttle": 10200
+            }
+        },
+        "__camFactoryQueue": {},
+        "__camGroupAvgCoord": {
+            "x": 26,
+            "y": 106
+        },
+        "__camGroupInfo": {},
+        "__camIncomingTransports": {},
+        "__camLZCompromisedTicker": 0,
+        "__camLastAttackTriggered": false,
+        "__camLastNexusAttack": 0,
+        "__camLevelEnded": false,
+        "__camMarkedTiles": {},
+        "__camNeedBonusTime": true,
+        "__camNeverGroupDroids": [
+            160687
+        ],
+        "__camNewGroupCounter": 38,
+        "__camNextLevel": "SUB_1_1S",
+        "__camNexusActivated": false,
+        "__camNumArtifacts": 3,
+        "__camNumEnemyBases": 4,
+        "__camNumTransporterExits": 0,
+        "__camPlayerTransports": {},
+        "__camPropulsionTypeLimit": "NO_USE",
+        "__camRTLZTicker": 0,
+        "__camSaveLoading": false,
+        "__camTracedOnce": {},
+        "__camTransporterMessage": null,
+        "__camTransporterQueue": [],
+        "__camTruckInfo": {},
+        "__camVictoryData": null,
+        "__camVideoSequences": [],
+        "__camVtolDataSystem": [],
+        "__camWinLossCallback": "__camVictoryStandard",
+        "me": 0,
+        "scriptName": "cam1b",
+        "scriptPath": "script/campaign"
+    },
+    "groups_0": {
+        "lastNewGroupId": 0,
+        "me": 0,
+        "scriptName": "rules"
+    },
+    "groups_1": {
+        "lastNewGroupId": 0,
+        "me": 0,
+        "scriptName": "cam1b"
+    },
+    "triggers_0": {
+        "calls": 3,
+        "frame": 3894103,
+        "functionRestoreInfo": {
+            "function": "autoSave",
+            "stringArg": ""
+        },
+        "me": 0,
+        "ms": 600000,
+        "scriptName": "rules",
+        "timerID": 2,
+        "timerName": "autoSave",
+        "type": 0
+    },
+    "triggers_1": {
+        "calls": 3600,
+        "frame": 3294603,
+        "functionRestoreInfo": {
+            "function": "__camSpawnVtols",
+            "stringArg": ""
+        },
+        "me": 0,
+        "ms": 500,
+        "scriptName": "cam1b",
+        "timerID": 3,
+        "timerName": "__camSpawnVtols",
+        "type": 0
+    },
+    "triggers_2": {
+        "calls": 2000,
+        "frame": 3295003,
+        "functionRestoreInfo": {
+            "function": "__camRetreatVtols",
+            "stringArg": ""
+        },
+        "me": 0,
+        "ms": 900,
+        "scriptName": "cam1b",
+        "timerID": 4,
+        "timerName": "__camRetreatVtols",
+        "type": 0
+    },
+    "triggers_3": {
+        "calls": 360,
+        "frame": 3299103,
+        "functionRestoreInfo": {
+            "function": "__checkVtolSpawnObject",
+            "stringArg": ""
+        },
+        "me": 0,
+        "ms": 5000,
+        "scriptName": "cam1b",
+        "timerID": 5,
+        "timerName": "__checkVtolSpawnObject",
+        "type": 0
+    },
+    "triggers_4": {
+        "calls": 2250,
+        "frame": 3294903,
+        "functionRestoreInfo": {
+            "function": "__checkEnemyFactoryProductionTick",
+            "stringArg": ""
+        },
+        "me": 0,
+        "ms": 800,
+        "scriptName": "cam1b",
+        "timerID": 6,
+        "timerName": "__checkEnemyFactoryProductionTick",
+        "type": 0
+    },
+    "triggers_5": {
+        "calls": 1800,
+        "frame": 3295103,
+        "functionRestoreInfo": {
+            "function": "__camTick",
+            "stringArg": ""
+        },
+        "me": 0,
+        "ms": 1000,
+        "scriptName": "cam1b",
+        "timerID": 7,
+        "timerName": "__camTick",
+        "type": 0
+    },
+    "triggers_6": {
+        "calls": 178,
+        "frame": 3302003,
+        "functionRestoreInfo": {
+            "function": "__camTruckTick",
+            "stringArg": ""
+        },
+        "me": 0,
+        "ms": 10100,
+        "scriptName": "cam1b",
+        "timerID": 8,
+        "timerName": "__camTruckTick",
+        "type": 0
+    },
+    "triggers_7": {
+        "calls": 10,
+        "frame": 3474103,
+        "functionRestoreInfo": {
+            "function": "__camAiPowerReset",
+            "stringArg": ""
+        },
+        "me": 0,
+        "ms": 180000,
+        "scriptName": "cam1b",
+        "timerID": 9,
+        "timerName": "__camAiPowerReset",
+        "type": 0
+    },
+    "triggers_8": {
+        "calls": 6,
+        "frame": 3594103,
+        "functionRestoreInfo": {
+            "function": "__camShowVictoryConditions",
+            "stringArg": ""
+        },
+        "me": 0,
+        "ms": 300000,
+        "scriptName": "cam1b",
+        "timerID": 10,
+        "timerName": "__camShowVictoryConditions",
+        "type": 0
+    },
+    "triggers_9": {
+        "calls": 1,
+        "frame": 3294203,
+        "functionRestoreInfo": {
+            "function": "__camTacticsTick",
+            "stringArg": ""
+        },
+        "me": 0,
+        "ms": 100,
+        "scriptName": "cam1b",
+        "timerID": 18236,
+        "timerName": "__camTacticsTick",
+        "type": 0
+    }
+}

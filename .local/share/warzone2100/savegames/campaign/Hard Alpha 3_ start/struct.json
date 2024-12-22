@@ -1,0 +1,1036 @@
+{
+    "structure_0000000000": {
+        "born": 3746104,
+        "currentBuildPts": 300,
+        "health": 350,
+        "id": 167501,
+        "name": "Sys-SensoTower01",
+        "player": 0,
+        "position": [
+            3776,
+            11328,
+            417
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000001": {
+        "born": 3727904,
+        "currentBuildPts": 300,
+        "health": 350,
+        "id": 167499,
+        "name": "Sys-SensoTower01",
+        "player": 0,
+        "position": [
+            6336,
+            6080,
+            21
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000002": {
+        "born": 3688504,
+        "currentBuildPts": 300,
+        "health": 350,
+        "id": 167497,
+        "name": "Sys-SensoTower01",
+        "player": 0,
+        "position": [
+            6208,
+            7488,
+            63
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000003": {
+        "born": 3684704,
+        "currentBuildPts": 300,
+        "health": 350,
+        "id": 167495,
+        "name": "Sys-SensoTower01",
+        "player": 0,
+        "position": [
+            3904,
+            8640,
+            341
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000004": {
+        "born": 3677604,
+        "currentBuildPts": 300,
+        "health": 350,
+        "id": 167493,
+        "name": "Sys-SensoTower01",
+        "player": 0,
+        "position": [
+            4032,
+            14272,
+            311
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000005": {
+        "born": 3645004,
+        "currentBuildPts": 300,
+        "health": 350,
+        "id": 167491,
+        "name": "Sys-SensoTower01",
+        "player": 0,
+        "position": [
+            4032,
+            13376,
+            263
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000006": {
+        "Research/timeStartHold": 0,
+        "born": 3427803,
+        "currentBuildPts": 500,
+        "health": 400,
+        "id": 167487,
+        "modules": 0,
+        "name": "A0ResearchFacility",
+        "player": 0,
+        "position": [
+            3328,
+            7040,
+            33
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000007": {
+        "Factory/assemblyPoint/number": 2,
+        "Factory/assemblyPoint/pos": [
+            2752,
+            7488,
+            71
+        ],
+        "Factory/buildPointsRemaining": 0,
+        "Factory/loopsPerformed": 0,
+        "Factory/productionLoops": 0,
+        "Factory/productionRuns": 0,
+        "Factory/secondaryOrder": 158,
+        "Factory/timeStartHold": 0,
+        "Factory/timeStarted": 0,
+        "born": 3181403,
+        "currentBuildPts": 500,
+        "health": 500,
+        "id": 167465,
+        "modules": 0,
+        "name": "A0LightFactory",
+        "player": 0,
+        "position": [
+            2624,
+            6976,
+            9
+        ],
+        "productToGroup": 255,
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000008": {
+        "ammo/0": 0,
+        "born": 3175603,
+        "currentBuildPts": 225,
+        "health": 230,
+        "id": 167463,
+        "lastFired/0": 0,
+        "name": "GuardTower2",
+        "parts/weapon/1": "MG2-Tower",
+        "player": 0,
+        "position": [
+            4160,
+            11968,
+            241
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "structure_0000000009": {
+        "born": 3156903,
+        "currentBuildPts": 500,
+        "health": 500,
+        "id": 167461,
+        "modules": 0,
+        "name": "A0PowerGenerator",
+        "player": 0,
+        "position": [
+            2176,
+            7296,
+            19
+        ],
+        "resistance": 300,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000010": {
+        "born": 3132903,
+        "currentBuildPts": 250,
+        "health": 500,
+        "id": 167459,
+        "modules": 1,
+        "name": "A0PowerGenerator",
+        "player": 0,
+        "position": [
+            2176,
+            6912,
+            1
+        ],
+        "resistance": 300,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000011": {
+        "ammo/0": 0,
+        "born": 3120403,
+        "currentBuildPts": 225,
+        "health": 230,
+        "id": 167457,
+        "lastFired/0": 0,
+        "name": "GuardTower4",
+        "parts/weapon/1": "Flame1Mk1-Tower",
+        "player": 0,
+        "position": [
+            3392,
+            13888,
+            248
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "structure_0000000012": {
+        "Research/timeStartHold": 0,
+        "born": 3107103,
+        "currentBuildPts": 500,
+        "health": 400,
+        "id": 167455,
+        "modules": 0,
+        "name": "A0ResearchFacility",
+        "player": 0,
+        "position": [
+            1792,
+            7040,
+            5
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000013": {
+        "ammo/0": 0,
+        "born": 3099803,
+        "currentBuildPts": 225,
+        "health": 230,
+        "id": 167453,
+        "lastFired/0": 0,
+        "name": "GuardTower4",
+        "parts/weapon/1": "Flame1Mk1-Tower",
+        "player": 0,
+        "position": [
+            3392,
+            13760,
+            248
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "structure_0000000014": {
+        "Research/timeStartHold": 0,
+        "born": 3084003,
+        "currentBuildPts": 500,
+        "health": 400,
+        "id": 167451,
+        "modules": 0,
+        "name": "A0ResearchFacility",
+        "player": 0,
+        "position": [
+            1408,
+            7040,
+            1
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000015": {
+        "ammo/0": 0,
+        "born": 3067703,
+        "currentBuildPts": 225,
+        "health": 230,
+        "id": 167449,
+        "lastFired/0": 0,
+        "name": "GuardTower2",
+        "parts/weapon/1": "MG2-Tower",
+        "player": 0,
+        "position": [
+            2624,
+            7488,
+            76
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "structure_0000000016": {
+        "ammo/0": 0,
+        "born": 3059903,
+        "currentBuildPts": 225,
+        "health": 230,
+        "id": 167447,
+        "lastFired/0": 0,
+        "name": "GuardTower2",
+        "parts/weapon/1": "MG2-Tower",
+        "player": 0,
+        "position": [
+            5824,
+            13760,
+            101
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "structure_0000000017": {
+        "ammo/0": 0,
+        "born": 3053503,
+        "currentBuildPts": 225,
+        "health": 230,
+        "id": 167445,
+        "lastFired/0": 0,
+        "name": "GuardTower2",
+        "parts/weapon/1": "MG2-Tower",
+        "player": 0,
+        "position": [
+            2240,
+            7488,
+            49
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "structure_0000000018": {
+        "ammo/0": 0,
+        "born": 3038003,
+        "currentBuildPts": 225,
+        "health": 230,
+        "id": 167443,
+        "lastFired/0": 0,
+        "name": "GuardTower2",
+        "parts/weapon/1": "MG2-Tower",
+        "player": 0,
+        "position": [
+            1600,
+            7360,
+            34
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "structure_0000000019": {
+        "ammo/0": 0,
+        "born": 3036103,
+        "currentBuildPts": 225,
+        "health": 230,
+        "id": 167441,
+        "lastFired/0": 0,
+        "name": "GuardTower2",
+        "parts/weapon/1": "MG2-Tower",
+        "player": 0,
+        "position": [
+            5824,
+            14016,
+            114
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "structure_0000000020": {
+        "ammo/0": 0,
+        "born": 3023003,
+        "currentBuildPts": 225,
+        "health": 230,
+        "id": 167439,
+        "lastFired/0": 0,
+        "name": "GuardTower2",
+        "parts/weapon/1": "MG2-Tower",
+        "player": 0,
+        "position": [
+            832,
+            7360,
+            60
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "structure_0000000021": {
+        "ammo/0": 0,
+        "born": 3015503,
+        "currentBuildPts": 225,
+        "health": 230,
+        "id": 167437,
+        "lastFired/0": 0,
+        "name": "GuardTower2",
+        "parts/weapon/1": "MG2-Tower",
+        "player": 0,
+        "position": [
+            5824,
+            14272,
+            80
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "structure_0000000022": {
+        "ammo/0": 0,
+        "born": 2993503,
+        "currentBuildPts": 225,
+        "health": 230,
+        "id": 167435,
+        "lastFired/0": 0,
+        "name": "GuardTower2",
+        "parts/weapon/1": "MG2-Tower",
+        "player": 0,
+        "position": [
+            5696,
+            14144,
+            109
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "structure_0000000023": {
+        "born": 2989803,
+        "currentBuildPts": 500,
+        "health": 500,
+        "id": 167433,
+        "modules": 0,
+        "name": "A0PowerGenerator",
+        "player": 0,
+        "position": [
+            1024,
+            6784,
+            18
+        ],
+        "resistance": 300,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000024": {
+        "ammo/0": 0,
+        "born": 2970503,
+        "currentBuildPts": 225,
+        "health": 230,
+        "id": 167431,
+        "lastFired/0": 0,
+        "name": "GuardTower2",
+        "parts/weapon/1": "MG2-Tower",
+        "player": 0,
+        "position": [
+            5696,
+            13888,
+            123
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "structure_0000000025": {
+        "ammo/0": 0,
+        "born": 2945403,
+        "currentBuildPts": 225,
+        "health": 230,
+        "id": 167429,
+        "lastFired/0": 0,
+        "name": "GuardTower2",
+        "parts/weapon/1": "MG2-Tower",
+        "player": 0,
+        "position": [
+            5696,
+            13632,
+            75
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "structure_0000000026": {
+        "ammo/0": 0,
+        "born": 2924803,
+        "currentBuildPts": 225,
+        "health": 230,
+        "id": 167427,
+        "lastFired/0": 0,
+        "name": "GuardTower2",
+        "parts/weapon/1": "MG2-Tower",
+        "player": 0,
+        "position": [
+            5824,
+            13504,
+            30
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "structure_0000000027": {
+        "animationEvent": 1,
+        "born": 2902603,
+        "currentBuildPts": 100,
+        "health": 200,
+        "id": 167425,
+        "name": "A0ResourceExtractor",
+        "player": 0,
+        "position": [
+            3392,
+            14016,
+            248
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "timeAnimationStarted": 2913011,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000028": {
+        "animationEvent": 1,
+        "born": 29302,
+        "currentBuildPts": 100,
+        "health": 200,
+        "id": 160283,
+        "lastEmission": 59979,
+        "name": "A0ResourceExtractor",
+        "player": 0,
+        "position": [
+            2752,
+            6336,
+            0
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "timeAnimationStarted": 76796,
+        "timeLastHit": 42702,
+        "visible/0": 255,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000029": {
+        "born": 29602,
+        "currentBuildPts": 500,
+        "health": 500,
+        "id": 160285,
+        "name": "A0CommandCentre",
+        "player": 0,
+        "position": [
+            2432,
+            6400,
+            9
+        ],
+        "resistance": 300,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000030": {
+        "born": 39902,
+        "currentBuildPts": 500,
+        "health": 500,
+        "id": 160287,
+        "modules": 0,
+        "name": "A0PowerGenerator",
+        "player": 0,
+        "position": [
+            1024,
+            5888,
+            17
+        ],
+        "resistance": 300,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000031": {
+        "Factory/assemblyPoint/number": 0,
+        "Factory/assemblyPoint/pos": [
+            4672,
+            8384,
+            102
+        ],
+        "Factory/buildPointsRemaining": 0,
+        "Factory/loopsPerformed": 0,
+        "Factory/productionLoops": 0,
+        "Factory/productionRuns": 0,
+        "Factory/secondaryOrder": 158,
+        "Factory/timeStartHold": 0,
+        "Factory/timeStarted": 0,
+        "born": 71402,
+        "currentBuildPts": 500,
+        "health": 500,
+        "id": 160289,
+        "modules": 0,
+        "name": "A0LightFactory",
+        "player": 0,
+        "position": [
+            1984,
+            6464,
+            8
+        ],
+        "productToGroup": 255,
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000032": {
+        "Research/timeStartHold": 0,
+        "born": 80002,
+        "currentBuildPts": 500,
+        "health": 400,
+        "id": 160291,
+        "modules": 0,
+        "name": "A0ResearchFacility",
+        "player": 0,
+        "position": [
+            640,
+            6400,
+            32
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000033": {
+        "animationEvent": 1,
+        "born": 438102,
+        "currentBuildPts": 100,
+        "health": 200,
+        "id": 160325,
+        "name": "A0ResourceExtractor",
+        "player": 0,
+        "position": [
+            4032,
+            4544,
+            48
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "timeAnimationStarted": 445980,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000034": {
+        "animationEvent": 1,
+        "born": 633402,
+        "currentBuildPts": 100,
+        "health": 200,
+        "id": 160353,
+        "name": "A0ResourceExtractor",
+        "player": 0,
+        "position": [
+            4800,
+            2112,
+            134
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "timeAnimationStarted": 644381,
+        "visible/0": 255,
+        "visible/6": 255,
+        "weapons": 0
+    },
+    "structure_0000000035": {
+        "Factory/assemblyPoint/number": 1,
+        "Factory/assemblyPoint/pos": [
+            3008,
+            7104,
+            14
+        ],
+        "Factory/buildPointsRemaining": 0,
+        "Factory/loopsPerformed": 0,
+        "Factory/productionLoops": 0,
+        "Factory/productionRuns": 0,
+        "Factory/secondaryOrder": 158,
+        "Factory/timeStartHold": 0,
+        "Factory/timeStarted": 0,
+        "born": 1287202,
+        "currentBuildPts": 500,
+        "health": 500,
+        "id": 160527,
+        "modules": 0,
+        "name": "A0LightFactory",
+        "player": 0,
+        "position": [
+            1472,
+            6336,
+            11
+        ],
+        "productToGroup": 255,
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000036": {
+        "Research/timeStartHold": 0,
+        "born": 2544703,
+        "currentBuildPts": 500,
+        "health": 400,
+        "id": 161371,
+        "modules": 0,
+        "name": "A0ResearchFacility",
+        "player": 0,
+        "position": [
+            1024,
+            6400,
+            14
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000037": {
+        "born": 2619103,
+        "currentBuildPts": 500,
+        "health": 500,
+        "id": 161389,
+        "modules": 0,
+        "name": "A0PowerGenerator",
+        "player": 0,
+        "position": [
+            1408,
+            5888,
+            22
+        ],
+        "resistance": 300,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    }
+}

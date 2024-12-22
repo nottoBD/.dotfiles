@@ -1,0 +1,450 @@
+{
+    "localTemplates": [
+        {
+            "body": "Body1REC",
+            "construct": "Spade1Mk1",
+            "enabled": true,
+            "multiPlayerID": 221342,
+            "name": "Truck Viper Wheels",
+            "prefab": false,
+            "propulsion": "wheeled01",
+            "ref": 786432,
+            "stored": false,
+            "type": "CONSTRUCT"
+        },
+        {
+            "body": "CyborgLightBody",
+            "enabled": true,
+            "multiPlayerID": 221386,
+            "name": "Scourge Cyborg",
+            "prefab": false,
+            "propulsion": "CyborgLegs",
+            "ref": 786432,
+            "stored": false,
+            "type": "CYBORG",
+            "weapons": [
+                "Cyb-Wpn-Atmiss"
+            ]
+        },
+        {
+            "body": "CyborgLightBody",
+            "enabled": true,
+            "multiPlayerID": 221474,
+            "name": "Flashlight Gunner Cyborg",
+            "prefab": false,
+            "propulsion": "CyborgLegs",
+            "ref": 786432,
+            "stored": false,
+            "type": "CYBORG",
+            "weapons": [
+                "Cyb-Wpn-Laser"
+            ]
+        },
+        {
+            "body": "CyborgLightBody",
+            "enabled": true,
+            "multiPlayerID": 221496,
+            "name": "Needle Gunner Cyborg",
+            "prefab": false,
+            "propulsion": "CyborgLegs",
+            "ref": 786432,
+            "stored": false,
+            "type": "CYBORG",
+            "weapons": [
+                "Cyb-Wpn-Rail1"
+            ]
+        },
+        {
+            "body": "CyborgLightBody",
+            "enabled": true,
+            "multiPlayerID": 221540,
+            "name": "Assault Gunner Cyborg",
+            "prefab": false,
+            "propulsion": "CyborgLegs",
+            "ref": 786432,
+            "stored": false,
+            "type": "CYBORG",
+            "weapons": [
+                "CyborgRotMG"
+            ]
+        },
+        {
+            "body": "CyborgLightBody",
+            "enabled": true,
+            "multiPlayerID": 221562,
+            "name": "Heavy Gunner Cyborg",
+            "prefab": false,
+            "propulsion": "CyborgLegs",
+            "ref": 786432,
+            "stored": false,
+            "type": "CYBORG",
+            "weapons": [
+                "CyborgCannon"
+            ]
+        },
+        {
+            "body": "CyborgLightBody",
+            "enabled": true,
+            "multiPlayerID": 221584,
+            "name": "Sniper Cyborg",
+            "prefab": false,
+            "propulsion": "CyborgLegs",
+            "ref": 786432,
+            "stored": false,
+            "type": "CYBORG",
+            "weapons": [
+                "CyborgCannon02"
+            ]
+        },
+        {
+            "body": "CyborgLightBody",
+            "enabled": true,
+            "multiPlayerID": 221606,
+            "name": "Machinegunner Cyborg",
+            "prefab": false,
+            "propulsion": "CyborgLegs",
+            "ref": 786432,
+            "stored": false,
+            "type": "CYBORG",
+            "weapons": [
+                "CyborgChaingun"
+            ]
+        },
+        {
+            "body": "CyborgLightBody",
+            "enabled": true,
+            "multiPlayerID": 221628,
+            "name": "Flamer Cyborg",
+            "prefab": false,
+            "propulsion": "CyborgLegs",
+            "ref": 786432,
+            "stored": false,
+            "type": "CYBORG",
+            "weapons": [
+                "CyborgFlamer01"
+            ]
+        },
+        {
+            "body": "CyborgLightBody",
+            "enabled": true,
+            "multiPlayerID": 221650,
+            "name": "Thermite Cyborg",
+            "prefab": false,
+            "propulsion": "CyborgLegs",
+            "ref": 786432,
+            "stored": false,
+            "type": "CYBORG",
+            "weapons": [
+                "CyborgFlamer02"
+            ]
+        },
+        {
+            "body": "CyborgLightBody",
+            "enabled": true,
+            "multiPlayerID": 221672,
+            "name": "Lancer Cyborg",
+            "prefab": false,
+            "propulsion": "CyborgLegs",
+            "ref": 786432,
+            "stored": false,
+            "type": "CYBORG",
+            "weapons": [
+                "CyborgRocket"
+            ]
+        },
+        {
+            "body": "CyborgLightBody",
+            "enabled": true,
+            "multiPlayerID": 221694,
+            "name": "Tank Killer Cyborg",
+            "prefab": false,
+            "propulsion": "CyborgLegs",
+            "ref": 786432,
+            "stored": false,
+            "type": "CYBORG",
+            "weapons": [
+                "CyborgRocket02"
+            ]
+        },
+        {
+            "body": "Body1REC",
+            "enabled": true,
+            "multiPlayerID": 223696,
+            "name": "Machinegun Viper Wheels",
+            "prefab": false,
+            "propulsion": "wheeled01",
+            "ref": 786432,
+            "stored": false,
+            "type": "WEAPON",
+            "weapons": [
+                "MG1Mk1"
+            ]
+        },
+        {
+            "body": "Body1REC",
+            "enabled": true,
+            "multiPlayerID": 224004,
+            "name": "Repair Turret Viper Wheels",
+            "prefab": false,
+            "propulsion": "wheeled01",
+            "ref": 786432,
+            "repair": "LightRepair1",
+            "stored": false,
+            "type": "REPAIR"
+        },
+        {
+            "body": "Body1REC",
+            "enabled": true,
+            "multiPlayerID": 225192,
+            "name": "Flamer Viper Wheels",
+            "prefab": false,
+            "propulsion": "wheeled01",
+            "ref": 786432,
+            "stored": false,
+            "type": "WEAPON",
+            "weapons": [
+                "Flame1Mk1"
+            ]
+        },
+        {
+            "body": "Body1REC",
+            "enabled": true,
+            "multiPlayerID": 230208,
+            "name": "Twin Machinegun Viper Wheels",
+            "prefab": false,
+            "propulsion": "wheeled01",
+            "ref": 786432,
+            "stored": false,
+            "type": "WEAPON",
+            "weapons": [
+                "MG2Mk1"
+            ]
+        }
+    ],
+    "player_0": {
+        "player": 0,
+        "templates": [
+            {
+                "body": "Body1REC",
+                "construct": "Spade1Mk1",
+                "enabled": true,
+                "multiPlayerID": 221342,
+                "name": "Truck Viper Wheels",
+                "prefab": false,
+                "propulsion": "wheeled01",
+                "ref": 786432,
+                "stored": false,
+                "type": "CONSTRUCT"
+            },
+            {
+                "body": "CyborgLightBody",
+                "enabled": true,
+                "multiPlayerID": 221386,
+                "name": "Scourge Cyborg",
+                "prefab": false,
+                "propulsion": "CyborgLegs",
+                "ref": 786432,
+                "stored": false,
+                "type": "CYBORG",
+                "weapons": [
+                    "Cyb-Wpn-Atmiss"
+                ]
+            },
+            {
+                "body": "CyborgLightBody",
+                "enabled": true,
+                "multiPlayerID": 221474,
+                "name": "Flashlight Gunner Cyborg",
+                "prefab": false,
+                "propulsion": "CyborgLegs",
+                "ref": 786432,
+                "stored": false,
+                "type": "CYBORG",
+                "weapons": [
+                    "Cyb-Wpn-Laser"
+                ]
+            },
+            {
+                "body": "CyborgLightBody",
+                "enabled": true,
+                "multiPlayerID": 221496,
+                "name": "Needle Gunner Cyborg",
+                "prefab": false,
+                "propulsion": "CyborgLegs",
+                "ref": 786432,
+                "stored": false,
+                "type": "CYBORG",
+                "weapons": [
+                    "Cyb-Wpn-Rail1"
+                ]
+            },
+            {
+                "body": "CyborgLightBody",
+                "enabled": true,
+                "multiPlayerID": 221540,
+                "name": "Assault Gunner Cyborg",
+                "prefab": false,
+                "propulsion": "CyborgLegs",
+                "ref": 786432,
+                "stored": false,
+                "type": "CYBORG",
+                "weapons": [
+                    "CyborgRotMG"
+                ]
+            },
+            {
+                "body": "CyborgLightBody",
+                "enabled": true,
+                "multiPlayerID": 221562,
+                "name": "Heavy Gunner Cyborg",
+                "prefab": false,
+                "propulsion": "CyborgLegs",
+                "ref": 786432,
+                "stored": false,
+                "type": "CYBORG",
+                "weapons": [
+                    "CyborgCannon"
+                ]
+            },
+            {
+                "body": "CyborgLightBody",
+                "enabled": true,
+                "multiPlayerID": 221584,
+                "name": "Sniper Cyborg",
+                "prefab": false,
+                "propulsion": "CyborgLegs",
+                "ref": 786432,
+                "stored": false,
+                "type": "CYBORG",
+                "weapons": [
+                    "CyborgCannon02"
+                ]
+            },
+            {
+                "body": "CyborgLightBody",
+                "enabled": true,
+                "multiPlayerID": 221606,
+                "name": "Machinegunner Cyborg",
+                "prefab": false,
+                "propulsion": "CyborgLegs",
+                "ref": 786432,
+                "stored": false,
+                "type": "CYBORG",
+                "weapons": [
+                    "CyborgChaingun"
+                ]
+            },
+            {
+                "body": "CyborgLightBody",
+                "enabled": true,
+                "multiPlayerID": 221628,
+                "name": "Flamer Cyborg",
+                "prefab": false,
+                "propulsion": "CyborgLegs",
+                "ref": 786432,
+                "stored": false,
+                "type": "CYBORG",
+                "weapons": [
+                    "CyborgFlamer01"
+                ]
+            },
+            {
+                "body": "CyborgLightBody",
+                "enabled": true,
+                "multiPlayerID": 221650,
+                "name": "Thermite Cyborg",
+                "prefab": false,
+                "propulsion": "CyborgLegs",
+                "ref": 786432,
+                "stored": false,
+                "type": "CYBORG",
+                "weapons": [
+                    "CyborgFlamer02"
+                ]
+            },
+            {
+                "body": "CyborgLightBody",
+                "enabled": true,
+                "multiPlayerID": 221672,
+                "name": "Lancer Cyborg",
+                "prefab": false,
+                "propulsion": "CyborgLegs",
+                "ref": 786432,
+                "stored": false,
+                "type": "CYBORG",
+                "weapons": [
+                    "CyborgRocket"
+                ]
+            },
+            {
+                "body": "CyborgLightBody",
+                "enabled": true,
+                "multiPlayerID": 221694,
+                "name": "Tank Killer Cyborg",
+                "prefab": false,
+                "propulsion": "CyborgLegs",
+                "ref": 786432,
+                "stored": false,
+                "type": "CYBORG",
+                "weapons": [
+                    "CyborgRocket02"
+                ]
+            },
+            {
+                "body": "Body1REC",
+                "enabled": true,
+                "multiPlayerID": 223696,
+                "name": "Machinegun Viper Wheels",
+                "prefab": false,
+                "propulsion": "wheeled01",
+                "ref": 786432,
+                "stored": false,
+                "type": "WEAPON",
+                "weapons": [
+                    "MG1Mk1"
+                ]
+            },
+            {
+                "body": "Body1REC",
+                "enabled": true,
+                "multiPlayerID": 224004,
+                "name": "Repair Turret Viper Wheels",
+                "prefab": false,
+                "propulsion": "wheeled01",
+                "ref": 786432,
+                "repair": "LightRepair1",
+                "stored": false,
+                "type": "REPAIR"
+            },
+            {
+                "body": "Body1REC",
+                "enabled": true,
+                "multiPlayerID": 225192,
+                "name": "Flamer Viper Wheels",
+                "prefab": false,
+                "propulsion": "wheeled01",
+                "ref": 786432,
+                "stored": false,
+                "type": "WEAPON",
+                "weapons": [
+                    "Flame1Mk1"
+                ]
+            },
+            {
+                "body": "Body1REC",
+                "enabled": true,
+                "multiPlayerID": 230208,
+                "name": "Twin Machinegun Viper Wheels",
+                "prefab": false,
+                "propulsion": "wheeled01",
+                "ref": 786432,
+                "stored": false,
+                "type": "WEAPON",
+                "weapons": [
+                    "MG2Mk1"
+                ]
+            }
+        ]
+    },
+    "version": 1
+}

@@ -1,0 +1,677 @@
+{
+    "GameType": 4,
+    "RubbleTile": 67,
+    "ScrollMaxX": 53,
+    "ScrollMaxY": 128,
+    "ScrollMinX": 0,
+    "ScrollMinY": 0,
+    "VTOLReturnPos": [
+        {
+            "x": 0,
+            "y": 0
+        },
+        {
+            "x": 0,
+            "y": 0
+        },
+        {
+            "x": 0,
+            "y": 0
+        },
+        {
+            "x": 0,
+            "y": 0
+        },
+        {
+            "x": 0,
+            "y": 0
+        },
+        {
+            "x": 0,
+            "y": 0
+        },
+        {
+            "x": 0,
+            "y": 0
+        },
+        {
+            "x": 0,
+            "y": 0
+        },
+        {
+            "x": 0,
+            "y": 0
+        },
+        {
+            "x": 0,
+            "y": 0
+        },
+        {
+            "x": 0,
+            "y": 0
+        }
+    ],
+    "WaterTile": 17,
+    "alliances": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+    ],
+    "bDroidsToSafetyFlag": 0,
+    "bExtraFailFlag": 0,
+    "bExtraVictoryFlag": 0,
+    "bPlayCountDown": 1,
+    "bPlayerHasLost": 0,
+    "bPlayerHasWon": 0,
+    "bTrackTransporter": 0,
+    "buildDate": "",
+    "colours": [
+        5,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+    ],
+    "data": [
+        {
+            "aDefaultECM": 0,
+            "aDefaultRepair": 0,
+            "aDefaultSensor": 0,
+            "iTranspEntryTileX": 0,
+            "iTranspEntryTileY": 0,
+            "iTranspExitTileX": 0,
+            "iTranspExitTileY": 0
+        },
+        {
+            "aDefaultECM": 0,
+            "aDefaultRepair": 0,
+            "aDefaultSensor": 0,
+            "iTranspEntryTileX": 0,
+            "iTranspEntryTileY": 0,
+            "iTranspExitTileX": 0,
+            "iTranspExitTileY": 0
+        },
+        {
+            "aDefaultECM": 0,
+            "aDefaultRepair": 0,
+            "aDefaultSensor": 0,
+            "iTranspEntryTileX": 0,
+            "iTranspEntryTileY": 0,
+            "iTranspExitTileX": 0,
+            "iTranspExitTileY": 0
+        },
+        {
+            "aDefaultECM": 0,
+            "aDefaultRepair": 0,
+            "aDefaultSensor": 0,
+            "iTranspEntryTileX": 0,
+            "iTranspEntryTileY": 0,
+            "iTranspExitTileX": 0,
+            "iTranspExitTileY": 0
+        },
+        {
+            "aDefaultECM": 0,
+            "aDefaultRepair": 0,
+            "aDefaultSensor": 0,
+            "iTranspEntryTileX": 0,
+            "iTranspEntryTileY": 0,
+            "iTranspExitTileX": 0,
+            "iTranspExitTileY": 0
+        },
+        {
+            "aDefaultECM": 0,
+            "aDefaultRepair": 0,
+            "aDefaultSensor": 0,
+            "iTranspEntryTileX": 0,
+            "iTranspEntryTileY": 0,
+            "iTranspExitTileX": 0,
+            "iTranspExitTileY": 0
+        },
+        {
+            "aDefaultECM": 0,
+            "aDefaultRepair": 0,
+            "aDefaultSensor": 0,
+            "iTranspEntryTileX": 0,
+            "iTranspEntryTileY": 0,
+            "iTranspExitTileX": 0,
+            "iTranspExitTileY": 0
+        },
+        {
+            "aDefaultECM": 0,
+            "aDefaultRepair": 0,
+            "aDefaultSensor": 0,
+            "iTranspEntryTileX": 0,
+            "iTranspEntryTileY": 0,
+            "iTranspExitTileX": 0,
+            "iTranspExitTileY": 0
+        },
+        {
+            "aDefaultECM": 0,
+            "aDefaultRepair": 0,
+            "aDefaultSensor": 0,
+            "iTranspEntryTileX": 0,
+            "iTranspEntryTileY": 0,
+            "iTranspExitTileX": 0,
+            "iTranspExitTileY": 0
+        },
+        {
+            "aDefaultECM": 0,
+            "aDefaultRepair": 0,
+            "aDefaultSensor": 0,
+            "iTranspEntryTileX": 0,
+            "iTranspEntryTileY": 0,
+            "iTranspExitTileX": 0,
+            "iTranspExitTileY": 0
+        },
+        {
+            "aDefaultECM": 0,
+            "aDefaultRepair": 0,
+            "aDefaultSensor": 0,
+            "iTranspEntryTileX": 0,
+            "iTranspEntryTileY": 0,
+            "iTranspExitTileX": 0,
+            "iTranspExitTileY": 0
+        }
+    ],
+    "gameTime": 3294103,
+    "landingZones": [
+        {
+            "x1": 10,
+            "x2": 12,
+            "y1": 51,
+            "y2": 53
+        },
+        {
+            "x1": 0,
+            "x2": 0,
+            "y1": 0,
+            "y2": 0
+        },
+        {
+            "x1": 0,
+            "x2": 0,
+            "y1": 0,
+            "y2": 0
+        },
+        {
+            "x1": 0,
+            "x2": 0,
+            "y1": 0,
+            "y2": 0
+        },
+        {
+            "x1": 0,
+            "x2": 0,
+            "y1": 0,
+            "y2": 0
+        },
+        {
+            "x1": 0,
+            "x2": 0,
+            "y1": 0,
+            "y2": 0
+        },
+        {
+            "x1": 0,
+            "x2": 0,
+            "y1": 0,
+            "y2": 0
+        },
+        {
+            "x1": 0,
+            "x2": 0,
+            "y1": 0,
+            "y2": 0
+        },
+        {
+            "x1": 0,
+            "x2": 0,
+            "y1": 0,
+            "y2": 0
+        },
+        {
+            "x1": 0,
+            "x2": 0,
+            "y1": 0,
+            "y2": 0
+        },
+        {
+            "x1": 0,
+            "x2": 0,
+            "y1": 0,
+            "y2": 0
+        },
+        {
+            "x1": 0,
+            "x2": 0,
+            "y1": 0,
+            "y2": 0
+        }
+    ],
+    "levelName": "CAM_1B",
+    "missionCheatTime": 0,
+    "missionETA": -1,
+    "missionHomeLZ_X": 0,
+    "missionHomeLZ_Y": 0,
+    "missionOffTime": 3060000,
+    "missionPlayerX": 0,
+    "missionPlayerY": 0,
+    "missionScrollMaxX": 0,
+    "missionScrollMaxY": 0,
+    "missionScrollMinX": 0,
+    "missionScrollMinY": 0,
+    "missionTime": 1494103,
+    "modList": "",
+    "multiAlliance": 0,
+    "multiBase": 1,
+    "multiGameName": "My Game",
+    "multiHash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "multiHashBytes": 32,
+    "multiMapName": "Sk-Rush",
+    "multiMaxPlayers": 10,
+    "multiPlayer": 0,
+    "multiPower": 1,
+    "multiType": 12,
+    "netHostPlayer": 0,
+    "netPlayerCount": 0,
+    "netPlayers": [
+        {
+            "aiName": "Nexus",
+            "allocated": 1,
+            "colour": 5,
+            "difficulty": -2,
+            "name": "Commander",
+            "position": 0,
+            "team": 0
+        },
+        {
+            "aiName": "Nexus",
+            "allocated": 0,
+            "colour": 1,
+            "difficulty": -1,
+            "name": "Nexus",
+            "position": 1,
+            "team": 1
+        },
+        {
+            "aiName": "Nexus",
+            "allocated": 0,
+            "colour": 2,
+            "difficulty": -1,
+            "name": "Nexus",
+            "position": 2,
+            "team": 2
+        },
+        {
+            "aiName": "Nexus",
+            "allocated": 0,
+            "colour": 3,
+            "difficulty": -1,
+            "name": "Nexus",
+            "position": 3,
+            "team": 3
+        },
+        {
+            "aiName": "Nexus",
+            "allocated": 0,
+            "colour": 4,
+            "difficulty": -1,
+            "name": "Nexus",
+            "position": 4,
+            "team": 4
+        },
+        {
+            "aiName": "Nexus",
+            "allocated": 0,
+            "colour": 5,
+            "difficulty": -1,
+            "name": "Nexus",
+            "position": 5,
+            "team": 5
+        },
+        {
+            "aiName": "Nexus",
+            "allocated": 0,
+            "colour": 6,
+            "difficulty": -1,
+            "name": "Nexus",
+            "position": 6,
+            "team": 6
+        },
+        {
+            "aiName": "Nexus",
+            "allocated": 0,
+            "colour": 7,
+            "difficulty": -1,
+            "name": "Nexus",
+            "position": 7,
+            "team": 7
+        },
+        {
+            "aiName": "Nexus",
+            "allocated": 0,
+            "colour": 8,
+            "difficulty": -1,
+            "name": "Nexus",
+            "position": 8,
+            "team": 8
+        },
+        {
+            "aiName": "Nexus",
+            "allocated": 0,
+            "colour": 9,
+            "difficulty": -1,
+            "name": "Nexus",
+            "position": 9,
+            "team": 9
+        },
+        {
+            "aiName": "Nexus",
+            "allocated": 0,
+            "colour": 10,
+            "difficulty": -1,
+            "name": "Nexus",
+            "position": 10,
+            "team": 10
+        }
+    ],
+    "netScavengers": 1,
+    "netSelectedPlayer": 0,
+    "netbComms": false,
+    "objId": 20934,
+    "offWorldKeepLists": 0,
+    "oldestVersion": 0,
+    "playerNames": [
+        "Commander",
+        "Nexus",
+        "Nexus",
+        "Nexus",
+        "Nexus",
+        "Nexus",
+        "Nexus",
+        "Nexus",
+        "Nexus",
+        "Nexus",
+        "Nexus"
+    ],
+    "power": [
+        {
+            "currentPower": 1092,
+            "extractedPower": 1
+        },
+        {
+            "currentPower": 999999,
+            "extractedPower": 1
+        },
+        {
+            "currentPower": 999999,
+            "extractedPower": 0
+        },
+        {
+            "currentPower": 999999,
+            "extractedPower": 0
+        },
+        {
+            "currentPower": 999999,
+            "extractedPower": 0
+        },
+        {
+            "currentPower": 999999,
+            "extractedPower": 0
+        },
+        {
+            "currentPower": 999999,
+            "extractedPower": 0
+        },
+        {
+            "currentPower": 999999,
+            "extractedPower": 0
+        },
+        {
+            "currentPower": 0,
+            "extractedPower": 0
+        },
+        {
+            "currentPower": 0,
+            "extractedPower": 0
+        },
+        {
+            "currentPower": 0,
+            "extractedPower": 0
+        }
+    ],
+    "radarZoom": 24,
+    "reinforceTime": 0,
+    "runData": [
+        {
+            "forceLevel": 0,
+            "healthLevel": 0,
+            "leadership": 0,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "forceLevel": 0,
+            "healthLevel": 0,
+            "leadership": 0,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "forceLevel": 0,
+            "healthLevel": 0,
+            "leadership": 0,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "forceLevel": 0,
+            "healthLevel": 0,
+            "leadership": 0,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "forceLevel": 0,
+            "healthLevel": 0,
+            "leadership": 0,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "forceLevel": 0,
+            "healthLevel": 0,
+            "leadership": 0,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "forceLevel": 0,
+            "healthLevel": 0,
+            "leadership": 0,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "forceLevel": 0,
+            "healthLevel": 0,
+            "leadership": 0,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "forceLevel": 0,
+            "healthLevel": 0,
+            "leadership": 0,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "forceLevel": 0,
+            "healthLevel": 0,
+            "leadership": 0,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "forceLevel": 0,
+            "healthLevel": 0,
+            "leadership": 0,
+            "x": 0,
+            "y": 0
+        }
+    ],
+    "sPlayerIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+    ],
+    "sPname": "Commander",
+    "saveKey": 1,
+    "savePlayer": 0,
+    "scrGameLevel": 0,
+    "validityKey": 0,
+    "version": 39,
+    "viewDataP": {
+        "x": 3622,
+        "y": 600,
+        "z": 7009
+    },
+    "viewDataR": {
+        "x": 57847,
+        "y": 719,
+        "z": 0
+    }
+}

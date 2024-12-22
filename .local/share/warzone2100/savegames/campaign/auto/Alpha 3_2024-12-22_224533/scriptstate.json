@@ -1,0 +1,294 @@
+{
+    "globals_0": {
+        "lastHitTime": 4625605,
+        "mainReticule": true,
+        "me": 0,
+        "scriptName": "rules",
+        "scriptPath": "script"
+    },
+    "globals_1": {
+        "__camAllowVictoryMsgClear": true,
+        "__camArtifacts": {
+            "scavFactory1": {
+                "id": "167693",
+                "placed": false,
+                "tech": "R-Wpn-MG3Mk1"
+            }
+        },
+        "__camCalledOnce": {},
+        "__camCheatMode": false,
+        "__camClassicModActive": false,
+        "__camDebuggedOnce": {},
+        "__camDefeatOnTimeout": true,
+        "__camEnemyBases": {},
+        "__camExpLevel": 0,
+        "__camExtraObjectiveMessage": null,
+        "__camFactoryInfo": {
+            "scavFactory1": {
+                "assembly": "Assembly",
+                "data": {
+                    "count": -1,
+                    "regroup": false,
+                    "repair": 66
+                },
+                "enabled": true,
+                "group": 8,
+                "groupSize": 4,
+                "lastprod": 4639305,
+                "order": 0,
+                "state": 2,
+                "templates": [
+                    {
+                        "body": "B4body-sml-trike01",
+                        "prop": "BaBaProp",
+                        "weap": "BabaTrikeHeavyMG"
+                    },
+                    {
+                        "body": "B1BaBaPerson01",
+                        "prop": "BaBaLegs",
+                        "weap": "BabaHeavyMG"
+                    },
+                    {
+                        "body": "B3body-sml-buggy01",
+                        "prop": "BaBaProp",
+                        "weap": "BabaBuggyHeavyMG"
+                    },
+                    {
+                        "body": "B2JeepBody",
+                        "prop": "BaBaProp",
+                        "weap": "BabaJeepHeavyMG"
+                    }
+                ],
+                "throttle": 25500
+            }
+        },
+        "__camFactoryQueue": {},
+        "__camGroupAvgCoord": {
+            "x": 21,
+            "y": 16
+        },
+        "__camGroupInfo": {
+            "8": {
+                "count": 1,
+                "data": {
+                    "pos": [
+                        {
+                            "type": 4,
+                            "x": 21,
+                            "y": 17
+                        }
+                    ]
+                },
+                "order": 1,
+                "target": {
+                    "x": 21,
+                    "y": 17
+                }
+            }
+        },
+        "__camIncomingTransports": {},
+        "__camLZCompromisedTicker": 0,
+        "__camLastAttackTriggered": false,
+        "__camLastNexusAttack": 0,
+        "__camLevelEnded": false,
+        "__camMarkedTiles": {
+            "ambush1Trigger": true,
+            "ambush2Trigger": true
+        },
+        "__camNeedBonusTime": true,
+        "__camNeverGroupDroids": [],
+        "__camNewGroupCounter": 8,
+        "__camNextLevel": "SUB_1_2S",
+        "__camNexusActivated": false,
+        "__camNumArtifacts": 0,
+        "__camNumEnemyBases": 0,
+        "__camNumTransporterExits": 1,
+        "__camPlayerTransports": {},
+        "__camPropulsionTypeLimit": "NO_USE",
+        "__camRTLZTicker": 0,
+        "__camSaveLoading": false,
+        "__camTracedOnce": {},
+        "__camTransporterMessage": null,
+        "__camTransporterQueue": [],
+        "__camTruckInfo": {},
+        "__camVictoryData": {
+            "area": "RTLZ",
+            "message": "C1-1_LZ",
+            "reinforcements": -1,
+            "retlz": true
+        },
+        "__camVideoSequences": [],
+        "__camVtolDataSystem": [],
+        "__camWinLossCallback": "__camVictoryOffworld",
+        "me": 0,
+        "scriptName": "cam1-1",
+        "scriptPath": "script/campaign"
+    },
+    "groups_0": {
+        "lastNewGroupId": 0,
+        "me": 0,
+        "scriptName": "rules"
+    },
+    "groups_1": {
+        "167813": [
+            "8"
+        ],
+        "lastNewGroupId": 0,
+        "me": 0,
+        "scriptName": "cam1-1"
+    },
+    "triggers_0": {
+        "calls": 1,
+        "frame": 5259305,
+        "functionRestoreInfo": {
+            "function": "autoSave",
+            "stringArg": ""
+        },
+        "me": 0,
+        "ms": 600000,
+        "scriptName": "rules",
+        "timerID": 2,
+        "timerName": "autoSave",
+        "type": 0
+    },
+    "triggers_1": {
+        "calls": 1200,
+        "frame": 4659805,
+        "functionRestoreInfo": {
+            "function": "__camSpawnVtols",
+            "stringArg": ""
+        },
+        "me": 0,
+        "ms": 500,
+        "scriptName": "cam1-1",
+        "timerID": 3,
+        "timerName": "__camSpawnVtols",
+        "type": 0
+    },
+    "triggers_10": {
+        "calls": 1,
+        "frame": 4659505,
+        "functionRestoreInfo": {
+            "function": "__camTacticsTick",
+            "stringArg": ""
+        },
+        "me": 0,
+        "ms": 200,
+        "scriptName": "cam1-1",
+        "timerID": 6034,
+        "timerName": "__camTacticsTick",
+        "type": 0
+    },
+    "triggers_2": {
+        "calls": 666,
+        "frame": 4659605,
+        "functionRestoreInfo": {
+            "function": "__camRetreatVtols",
+            "stringArg": ""
+        },
+        "me": 0,
+        "ms": 900,
+        "scriptName": "cam1-1",
+        "timerID": 4,
+        "timerName": "__camRetreatVtols",
+        "type": 0
+    },
+    "triggers_3": {
+        "calls": 120,
+        "frame": 4664305,
+        "functionRestoreInfo": {
+            "function": "__checkVtolSpawnObject",
+            "stringArg": ""
+        },
+        "me": 0,
+        "ms": 5000,
+        "scriptName": "cam1-1",
+        "timerID": 5,
+        "timerName": "__checkVtolSpawnObject",
+        "type": 0
+    },
+    "triggers_4": {
+        "calls": 750,
+        "frame": 4660105,
+        "functionRestoreInfo": {
+            "function": "__checkEnemyFactoryProductionTick",
+            "stringArg": ""
+        },
+        "me": 0,
+        "ms": 800,
+        "scriptName": "cam1-1",
+        "timerID": 6,
+        "timerName": "__checkEnemyFactoryProductionTick",
+        "type": 0
+    },
+    "triggers_5": {
+        "calls": 600,
+        "frame": 4660305,
+        "functionRestoreInfo": {
+            "function": "__camTick",
+            "stringArg": ""
+        },
+        "me": 0,
+        "ms": 1000,
+        "scriptName": "cam1-1",
+        "timerID": 7,
+        "timerName": "__camTick",
+        "type": 0
+    },
+    "triggers_6": {
+        "calls": 59,
+        "frame": 4665305,
+        "functionRestoreInfo": {
+            "function": "__camTruckTick",
+            "stringArg": ""
+        },
+        "me": 0,
+        "ms": 10100,
+        "scriptName": "cam1-1",
+        "timerID": 8,
+        "timerName": "__camTruckTick",
+        "type": 0
+    },
+    "triggers_7": {
+        "calls": 3,
+        "frame": 4779305,
+        "functionRestoreInfo": {
+            "function": "__camAiPowerReset",
+            "stringArg": ""
+        },
+        "me": 0,
+        "ms": 180000,
+        "scriptName": "cam1-1",
+        "timerID": 9,
+        "timerName": "__camAiPowerReset",
+        "type": 0
+    },
+    "triggers_8": {
+        "calls": 2,
+        "frame": 4959305,
+        "functionRestoreInfo": {
+            "function": "__camShowVictoryConditions",
+            "stringArg": ""
+        },
+        "me": 0,
+        "ms": 300000,
+        "scriptName": "cam1-1",
+        "timerID": 10,
+        "timerName": "__camShowVictoryConditions",
+        "type": 0
+    },
+    "triggers_9": {
+        "calls": 120,
+        "frame": 4664305,
+        "functionRestoreInfo": {
+            "function": "checkFrontBunkers",
+            "stringArg": ""
+        },
+        "me": 0,
+        "ms": 5000,
+        "scriptName": "cam1-1",
+        "timerID": 15,
+        "timerName": "checkFrontBunkers",
+        "type": 0
+    }
+}
