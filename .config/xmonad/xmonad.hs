@@ -137,9 +137,7 @@ myStartupHook = do
 
     -- Start trayer and conky
     safeSpawn "trayer" ["--edge", "top", "--align", "right", "--widthtype", "request", "--padding", "4", "--SetDockType", "true", "--SetPartialStrut", "false", "--expand", "true", "--transparent", "true", "--alpha", "0", "--tint", "0x282c34", "--height", "22", "--monitor", "primary"]
-
-
-    safeSpawn "conky" ["-c", "$HOME/.config/conky/doom-one-01.conkyrc"]
+    spawn "conky" ["-c", "$HOME/.config/conky/doom-one-01.conkyrc"]
 
     -- Run startup utilities
     spawnOnce "emacs-29.4 --daemon=doom"
