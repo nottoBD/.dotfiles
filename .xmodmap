@@ -1,10 +1,15 @@
 ! This config allows FR-latin symbols in US-en layout using a convenient mode switch
 clear Lock
 
-! 94: additional key for angle bracket
+! 94: left Alt
 keycode 94 = Mode_switch              
 ! 108: right Alt
 keycode 108 = Mode_switch
+! 52: chevron key <>
+keycode 52 = Mode_switch
+
+
+! ! ! ! ! ! ! ! ! ! ! ! ! 
 
 
 keycode 11 = 2 at eacute
@@ -14,7 +19,8 @@ keycode 18 = 9 parenleft ccedilla
 keycode 19 = 0 parenright agrave
 keycode 20 = minus underscore degree
 keycode 21 = equal plus EuroSign
-!keycode 23 = Tab Return Return
+! Testing 23
+keycode 23 = Tab Return Return
 keycode 26 = e E ecircumflex
 keycode 28 = t T asciitilde
 keycode 30 = u U ucircumflex
