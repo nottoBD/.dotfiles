@@ -1,4 +1,15 @@
 #!/bin/bash
+function _img() { 
+    if [[ -f $1 ]]; then 
+        mpv --no-terminal --loop-file --image-display-duration=inf "$1" || {
+            tmpfile="/tmp/$(basename "$1").mp4"
+            ffmpeg -y -loop 1 -i "$1" -f lavfi -i anullsrc -shortest -vf format=yuv420p -t 5 "$tmpfile" && mpv "$tmpfile";
+        }
+    else 
+        echo "Error: File '$1' not found."
+    fi 
+}
+
 
 lt() {
 	depth=${1:-2}
