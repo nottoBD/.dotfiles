@@ -4,7 +4,7 @@ clear Lock
 ! 94: left Alt
 !keycode 64 = Mode_switch              
 ! 108: right Alt
-keycode 108 = Mode_switch
+!keycode 108 = Mode_switch
 ! 94: chevron key <>
 keycode 94 = Mode_switch
 
