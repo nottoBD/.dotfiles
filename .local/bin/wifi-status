@@ -1,6 +1,6 @@
 #!/bin/bash
-SSID=$(nmcli -t -f active,ssid dev wifi | grep '^yes' | cut -d':' -f2)
-CHANNEL=$(nmcli -t -f active,chan dev wifi | grep '^yes' | cut -d':' -f2)
+SSID=$(iwgetid -r)
+CHANNEL=$(iw dev wlan0 info | grep 'channel' | awk '{print $2}')
 
 if [ -z "$CHANNEL" ]; then
     BAND="X"
@@ -15,8 +15,8 @@ else
 fi
 
 if [ -n "$SSID" ]; then
-    SSID_SHORT=$(echo "$SSID" | cut -c1-7)  # First 7 characters
-    CHAR_8=$(echo "$SSID" | cut -c8)       # 8th character
+    SSID_SHORT=$(echo "$SSID" | cut -c1-7)
+    CHAR_8=$(echo "$SSID" | cut -c8)
     if [[ "$CHAR_8" =~ [a-zA-Z0-9] ]]; then
         SSID_SHORT="$SSID_SHORT$CHAR_8"
     fi
@@ -24,9 +24,4 @@ else
     SSID_SHORT="Nihil"
 fi
 
-if [ "$BAND" == "X" ]; then
-    echo "$SSID_SHORT:X"
-else
-    echo "$BAND:$SSID_SHORT"
-fi
-
+echo "$BAND:$SSID_SHORT"
