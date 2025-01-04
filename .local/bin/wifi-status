@@ -6,11 +6,11 @@ if [ -z "$CHANNEL" ]; then
     BAND="X"
 else
     if [ "$CHANNEL" -le 14 ]; then
-        BAND="2.4GHz"
+	BAND="(2.4)"
     elif [ "$CHANNEL" -ge 36 ]; then
-        BAND="5GHz"
+	BAND="(5)"
     else
-        BAND="X"
+        BAND=""
     fi
 fi
 
@@ -24,4 +24,4 @@ else
     SSID_SHORT="Nihil"
 fi
 
-echo "$BAND:$SSID_SHORT"
+echo "$SSID_SHORT$BAND"

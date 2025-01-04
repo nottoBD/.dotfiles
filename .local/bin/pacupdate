@@ -1,10 +1,17 @@
 #!/bin/bash
 
-#cupd=$(checkupdates | wc -l)
-#echo "$cupd "
+pacman_out=$(checkupdates 2>/dev/null)
+aur_out=$(yay -Qua 2>/dev/null)
 
-pacman_updates=$(checkupdates 2>/dev/null | wc -l)
-aur_updates=$(yay -Qua 2>/dev/null | wc -l)
-#total_updates=$((pacman_updates + aur_updates))
+pacman_updates=0
+aur_updates=0
+
+if [ ! -z "$pacman_out" ]; then
+    pacman_updates=$(echo "$pacman_out" | wc -l)
+fi
+
+if [ ! -z "$aur_out" ]; then
+    aur_updates=$(echo "$aur_out" | wc -l)
+fi
+
 echo "$pacman_updates.$aur_updates"
-

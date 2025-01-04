@@ -133,18 +133,18 @@ myStartupHook = do
     safeSpawn "killall" ["trayer"]
 
     -- Wait for 2 seconds to allow other processes to settle
-    liftIO $ threadDelay (1 * 1000000)
+    liftIO $ threadDelay (2 * 1000000)
 
     -- Start trayer and conky
     safeSpawn "trayer" ["--edge", "top", "--align", "right", "--widthtype", "request", "--padding", "4", "--SetDockType", "true", "--SetPartialStrut", "false", "--expand", "true", "--transparent", "true", "--alpha", "0", "--tint", "0x282c34", "--height", "22", "--monitor", "primary"]
-    safeSpawn "conky" ["-c", "$HOME/.config/conky/doom-one-01.conkyrc"]
+    safeSpawn "conky" ["-c", "/home/devid/.config/conky/doom-one-01.conkyrc", "-d"]
 
     -- Run startup utilities
     spawnOnce "emacs-29.4 --daemon=doom"
     spawnOnce "$HOME/.local/bin/x-settings"
     spawnOnce "unclutter -idle 1"
     spawnOnce "dunst"
-    spawnOnce "batsignal -w 30 -c 20 -f 92"
+    spawnOnce "batsignal -w 30 -c 20 -d 10 -f 89"
     spawnOnce "numlockx"
     spawnOnce "feh --bg-fill $HOME/pictures/wallpapers/kde6Pata-dark.png"
     spawn "if ! mountpoint -q $HOME/password-store; then alacritty -e $HOME/.local/bin/mount-password-store; fi"
