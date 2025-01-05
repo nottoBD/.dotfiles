@@ -137,14 +137,14 @@ myStartupHook = do
 
     -- Start trayer and conky
     safeSpawn "trayer" ["--edge", "top", "--align", "right", "--widthtype", "request", "--padding", "4", "--SetDockType", "true", "--SetPartialStrut", "false", "--expand", "true", "--transparent", "true", "--alpha", "0", "--tint", "0x282c34", "--height", "22", "--monitor", "primary"]
-    safeSpawn "conky" ["-c", "/home/devid/.config/conky/doom-one-01.conkyrc &"]
+    safeSpawn "unclutter" ["-idle", "1"]
+    safeSpawn "dunst" []
+    safeSpawn "batsignal" ["-w", "30", "-c", "20", "-d", "10", "-f", "89"]
+    safeSpawn $ "conky -c " ++ "/home/devid/.config/conky/doom-one-01.conkyrc"
 
     -- Run startup utilities
     spawnOnce "emacs-29.4 --daemon=doom"
     spawnOnce "$HOME/.local/bin/x-settings"
-    spawnOnce "unclutter -idle 1"
-    spawnOnce "dunst"
-    spawnOnce "batsignal -w 30 -c 20 -d 10 -f 89"
     spawnOnce "numlockx"
     spawnOnce "feh --bg-fill $HOME/pictures/wallpapers/kde6Pata-dark.png"
     spawn "if ! mountpoint -q $HOME/password-store; then alacritty -e $HOME/.local/bin/mount-password-store; fi"
@@ -495,11 +495,12 @@ myKeys c =
   --(subtitle "Custom Keys":) $ mkNamedKeymap c $
   let subKeys str ks = subtitle' str : mkNamedKeymap c ks in
   subKeys "Xmonad Essentials"
-  [ ("M-C-r", addName "Recompile XMonad"       $ spawn "ghc --make $HOME/.config/xmonad/xmonad.hs -i -ilib -dynamic -fforce-recomp  -o xmonad-x86_64-linux ; xmonad --restart")
+  [ ("M-C-r", addName "Recompile XMonad"       $ spawn "ghc --make $HOME/.config/xmonad/xmonad.hs -i -ilib -dynamic -fforce-recomp  -o $HOME/.config/xmonad/xmonad-x86_64-linux ; xmonad --restart")
   , ("M-S-r", addName "Restart XMonad"         $ spawn "xmonad --restart")
   --, ("M-S-q", addName "Quit XMonad"            $ sequence_ [spawn (mySoundPlayer ++ shutdownSound), io exitSuccess])
-  , ("M-S-q", addName "Quit XMonad"            $ io exitSuccess)
+  --, ("M-S-q", addName "Quit XMonad"            $ io exitSuccess)
   , ("M-S-c", addName "Kill focused window"    $ kill1)
+  , ("M-S-q", addName "Quit XMonad"            $ spawn "dm-logout")
   , ("M-S-a", addName "Kill all windows on WS" $ killAll)
   , ("M-S-<Return>", addName "Run prompt"      $ sequence_ [spawn (mySoundPlayer ++ dmenuSound), spawn "PATH='$PATH' dmenu_path | dmenu_run -c -bw 2 -l 20 -g 4"])
   , ("M-S-b", addName "Toggle bar show/hide"   $ sendMessage ToggleStruts)
