@@ -131,12 +131,15 @@ myStartupHook = do
     -- Kill any previous instances
     safeSpawn "killall" ["conky"]
     safeSpawn "killall" ["trayer"]
+    safeSpawn "killall" ["blueman-applet"]
 
     -- Wait for 2 seconds to allow other processes to settle
     liftIO $ threadDelay (2 * 1000000)
 
     -- Start trayer and conky
     safeSpawn "trayer" ["--edge", "top", "--align", "right", "--widthtype", "request", "--padding", "4", "--SetDockType", "true", "--SetPartialStrut", "false", "--expand", "true", "--transparent", "true", "--alpha", "0", "--tint", "0x282c34", "--height", "22", "--monitor", "primary"]
+    spawnOnce "blueman-applet"
+
     safeSpawn "unclutter" ["-idle", "1"]
     safeSpawn "dunst" []
     safeSpawn "batsignal" ["-w", "30", "-c", "20", "-d", "10", "-f", "89"]
