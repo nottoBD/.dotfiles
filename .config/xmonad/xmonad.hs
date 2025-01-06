@@ -140,7 +140,7 @@ myStartupHook = do
     safeSpawn "unclutter" ["-idle", "1"]
     safeSpawn "dunst" []
     safeSpawn "batsignal" ["-w", "30", "-c", "20", "-d", "10", "-f", "89"]
-    safeSpawn $ "conky -c " ++ "/home/devid/.config/conky/doom-one-01.conkyrc"
+    safeSpawn "conky" ["-c", "/home/devid/.config/conky/doom-one-01.conkyrc"]
 
     -- Run startup utilities
     spawnOnce "emacs-29.4 --daemon=doom"
