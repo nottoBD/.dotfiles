@@ -147,7 +147,7 @@ myStartupHook = do
     safeSpawn "conky" ["-c", "/home/devid/.config/conky/doom-one-01.conkyrc"]
 
     -- Run startup utilities
-    spawnOnce "emacs-29.4 --daemon=doom"
+    spawnOnce "emacs-29.4 --daemon=doom &"
     spawnOnce "$HOME/.local/bin/x-settings"
     spawnOnce "numlockx"
     spawnOnce "feh --bg-fill $HOME/pictures/wallpapers/kde6Pata-dark.png"
@@ -370,7 +370,7 @@ monocle  = renamed [Replace "monocle"]
            $ windowNavigation
            $ addTabs shrinkText myTabTheme
            $ subLayout [] (smartBorders Simplest)
-           $ Full
+           $ avoidStruts Full
 floats   = renamed [Replace "floats"]
            $ smartBorders
            $ simplestFloat
@@ -661,7 +661,7 @@ myKeys c =
 
 main :: IO ()
 main = do
-  callCommand "$HOME/.local/bin/pacupdate"
+--  callCommand "$HOME/.local/bin/pacupdate"
 
  -- Launching three instances of xmobar on their monitors.
   xmproc0 <- spawnPipe ("xmobar -x 0 $HOME/.config/xmobar/.xmobarrc")
