@@ -1,17 +1,21 @@
 #!/bin/bash
 
-pacman_out=$(checkupdates 2>/dev/null)
-aur_out=$(yay -Qua 2>/dev/null)
+: '
+Previous approaches using locks failed because xmobar instances run simultaneously.
+This version uses a state file that is atomically updated and read, ensuring
+both monitors show the same values regardless of execution timing.
+'
 
-pacman_updates=0
-aur_updates=0
+STATE_FILE="/tmp/update-count"
+TEMP_FILE="/tmp/update-count.tmp"
 
-if [ ! -z "$pacman_out" ]; then
-    pacman_updates=$(echo "$pacman_out" | wc -l)
+if [ ! -f "$STATE_FILE" ] || [ $(($(date +%s) - $(stat -c %Y "$STATE_FILE"))) -gt 60 ]; then
+    pacman_out=$(checkupdates 2>/dev/null)
+    aur_out=$(yay -Qua 2>/dev/null)
+    pacman_count=$(echo "$pacman_out" | grep -cv "^$" || echo 0)
+    aur_count=$(echo "$aur_out" | grep -cv "^$" || echo 0)
+    echo "$pacman_count.$aur_count" > "$TEMP_FILE"
+    mv "$TEMP_FILE" "$STATE_FILE"
 fi
 
-if [ ! -z "$aur_out" ]; then
-    aur_updates=$(echo "$aur_out" | wc -l)
-fi
-
-echo "$pacman_updates.$aur_updates"
+cat "$STATE_FILE"

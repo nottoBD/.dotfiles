@@ -1,4 +1,6 @@
 pactl set-sink-volume @DEFAULT_SINK@ 0%
+xautolock -time 4 -locker "xtrlock" &
 xset b off
 xset s off
+xset s noblank
 xset r rate 280 80

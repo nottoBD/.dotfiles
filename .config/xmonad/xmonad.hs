@@ -2,6 +2,7 @@
 import XMonad
 import System.Directory
 import System.IO (hClose, hPutStr, hPutStrLn)
+import System.Process (callCommand)
 import System.Exit (exitSuccess)
 import qualified XMonad.StackSet as W
 
@@ -660,6 +661,8 @@ myKeys c =
 
 main :: IO ()
 main = do
+  callCommand "$HOME/.local/bin/pacupdate"
+
  -- Launching three instances of xmobar on their monitors.
   xmproc0 <- spawnPipe ("xmobar -x 0 $HOME/.config/xmobar/.xmobarrc")
   xmproc1 <- spawnPipe ("xmobar -x 1 $HOME/.config/xmobar/.xmobarrc")
