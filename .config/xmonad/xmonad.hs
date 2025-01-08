@@ -362,7 +362,7 @@ tall     = renamed [Replace "tall"]
            $ windowNavigation
            $ addTabs shrinkText myTabTheme
            $ subLayout [] (smartBorders Simplest)
-           $ mySpacing 6
+           $ mySpacing 5
            $ reflectHoriz                           -- Right handed master pane
            $ ResizableTall 1 (3/100) (1/2) []
 monocle  = renamed [Replace "monocle"]
@@ -384,8 +384,6 @@ grid     = renamed [Replace "grid"]
            $ mkToggle (single MIRROR)
            $ Grid (16/10)
 tabs     = renamed [Replace "tabs"]
-           -- I cannot add spacing to this layout because it will
-           -- add spacing between window and tabs which looks bad.
            $ tabbed shrinkText myTabTheme
 
 -- setting colors for tabs layout and tabs sublayout.
@@ -504,7 +502,7 @@ myKeys c =
   --, ("M-S-q", addName "Quit XMonad"            $ sequence_ [spawn (mySoundPlayer ++ shutdownSound), io exitSuccess])
   --, ("M-S-q", addName "Quit XMonad"            $ io exitSuccess)
   , ("M-S-c", addName "Kill focused window"    $ kill1)
-  , ("M-S-q", addName "Quit XMonad"            $ spawn "dm-logout")
+  , ("M-S-q", addName "Quit XMonad"            $ spawn "$HOME/.local/bin/dm-logout")
   , ("M-S-a", addName "Kill all windows on WS" $ killAll)
   , ("M-S-<Return>", addName "Run prompt"      $ sequence_ [spawn (mySoundPlayer ++ dmenuSound), spawn "PATH='$PATH' dmenu_path | dmenu_run -c -bw 2 -l 20 -g 4"])
   , ("M-S-b", addName "Toggle bar show/hide"   $ sendMessage ToggleStruts)
