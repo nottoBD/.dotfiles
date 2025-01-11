@@ -6,3 +6,4 @@
 .cron/cron_github filter=git-crypt diff=git-crypt
 racine/** filter=git-crypt diff=git-crypt
 .bash/paths filter=git-crypt diff=git-crypt
+sources/** filter=git-crypt diff=git-crypt
