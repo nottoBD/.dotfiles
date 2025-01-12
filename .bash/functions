@@ -23,8 +23,9 @@ cd() {
 	else
 		builtin cd "$1"
 		num_elements=$(exa -al --color=always --group-directories-first | wc -l)
-		if [ "$num_elements" -le 25 ]; then
-			exa -al --color=always --group-directories-first --icons
+		if [ "$num_elements" -le 55 ]; then
+			#exa -al --color=always --group-directories-first --icons
+			lt
 		fi
 	fi
 }

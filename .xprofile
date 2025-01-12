@@ -5,3 +5,4 @@ xset s off
 xset s noblank
 xset r rate 280 80
 xset dpms 2900 4100 4900
+export PATH="$PATH:$HOME/.config/emacs/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/go/bin:/home/devid/go/bin:/home/devid/.local/bin:/home/devid/.config/dmscripts/scripts:/home/devid/.cron"
