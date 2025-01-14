@@ -1,0 +1,51 @@
+{
+    "player_0": {
+        "Body1REC": 1,
+        "Flame1Mk1": 1,
+        "LightRepair1": 1,
+        "MG1Mk1": 1,
+        "Spade1Mk1": 1,
+        "wheeled01": 1
+    },
+    "player_1": {},
+    "player_10": {},
+    "player_2": {},
+    "player_3": {},
+    "player_4": {},
+    "player_5": {},
+    "player_6": {
+        "B1BaBaPerson01": 1,
+        "B2JeepBody": 1,
+        "B3body-sml-buggy01": 1,
+        "B4body-sml-trike01": 1,
+        "BaBaLegs": 1,
+        "BaBaProp": 1,
+        "BabaBuggyMG": 1,
+        "BabaBuggyTwinMG": 1,
+        "BabaJeepMG": 1,
+        "BabaMG": 1,
+        "BabaTrikeMG": 1,
+        "BabaTrikeTwinMG": 1,
+        "BabaTwinMG": 1,
+        "Flame1Mk1": 1,
+        "MG1Mk1": 1
+    },
+    "player_7": {
+        "B1BaBaPerson01": 1,
+        "B2JeepBody": 1,
+        "B3body-sml-buggy01": 1,
+        "B4body-sml-trike01": 1,
+        "BaBaLegs": 1,
+        "BaBaProp": 1,
+        "BabaBuggyTwinMG": 1,
+        "BabaJeepTwinMG": 1,
+        "BabaMG": 1,
+        "BabaTrikeMG": 1,
+        "BabaTrikeTwinMG": 1,
+        "BabaTwinMG": 1,
+        "Flame1Mk1": 1,
+        "MG1Mk1": 1
+    },
+    "player_8": {},
+    "player_9": {}
+}

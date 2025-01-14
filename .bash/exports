@@ -6,7 +6,6 @@ export EDITOR=vim
 export GPT_TTY=$(tty)
 export HISTCONTROL=ignorespace
 export LSCOLORS=ExFxBxDxCxegedabagacad
-export QT_QPA_PLATFORMTHEME="qt5ct"
 export VIMCONFIG=~/.config/nvim
 export VIMDATA=~/.local/share/nvim
 export VISUAL=vim

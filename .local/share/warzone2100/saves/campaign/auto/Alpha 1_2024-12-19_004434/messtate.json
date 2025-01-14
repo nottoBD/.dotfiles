@@ -1,0 +1,90 @@
+{
+    "message_0": {
+        "dataType": 0,
+        "id": 0,
+        "name": "CMB1_MSG",
+        "player": 0,
+        "read": false,
+        "type": 1
+    },
+    "message_1": {
+        "dataType": 0,
+        "id": 1,
+        "name": "MB1A_MSG",
+        "player": 0,
+        "read": false,
+        "type": 2
+    },
+    "message_10": {
+        "dataType": 0,
+        "id": 10,
+        "name": "RES_TOWER4",
+        "player": 0,
+        "read": false,
+        "type": 0
+    },
+    "message_2": {
+        "dataType": 0,
+        "id": 2,
+        "name": "C1A_BASE2",
+        "player": 0,
+        "read": false,
+        "type": 3
+    },
+    "message_3": {
+        "dataType": 0,
+        "id": 3,
+        "name": "RES_REPTU1",
+        "player": 0,
+        "read": false,
+        "type": 0
+    },
+    "message_4": {
+        "dataType": 0,
+        "id": 4,
+        "name": "RES_W_MG_D1",
+        "player": 0,
+        "read": false,
+        "type": 0
+    },
+    "message_5": {
+        "dataType": 0,
+        "id": 5,
+        "name": "RES_W_MG_D2",
+        "player": 0,
+        "read": false,
+        "type": 0
+    },
+    "message_6": {
+        "dataType": 0,
+        "id": 6,
+        "name": "RES_ENGIN1",
+        "player": 0,
+        "read": false,
+        "type": 0
+    },
+    "message_7": {
+        "dataType": 0,
+        "id": 7,
+        "name": "RES_TOWER1",
+        "player": 0,
+        "read": false,
+        "type": 0
+    },
+    "message_8": {
+        "dataType": 0,
+        "id": 8,
+        "name": "RES_TTRAP1",
+        "player": 0,
+        "read": false,
+        "type": 0
+    },
+    "message_9": {
+        "dataType": 0,
+        "id": 9,
+        "name": "RES_FLAME1",
+        "player": 0,
+        "read": false,
+        "type": 0
+    }
+}

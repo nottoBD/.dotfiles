@@ -1,0 +1,968 @@
+{
+    "feature_0000000000": {
+        "born": 4059305,
+        "health": 25,
+        "id": 167627,
+        "name": "Boulder3",
+        "player": 12,
+        "position": [
+            1472,
+            10176,
+            26
+        ],
+        "rotation": [
+            0,
+            2058,
+            65014
+        ],
+        "selected": 0,
+        "visible/0": 255
+    },
+    "feature_0000000001": {
+        "born": 4059305,
+        "health": 0,
+        "id": 167625,
+        "name": "Boulder1",
+        "player": 12,
+        "position": [
+            704,
+            10688,
+            13
+        ],
+        "rotation": [
+            0,
+            64239,
+            63478
+        ],
+        "selected": 0,
+        "visible/0": 255
+    },
+    "feature_0000000002": {
+        "born": 4059305,
+        "health": 100,
+        "id": 167623,
+        "name": "Ruin1",
+        "player": 12,
+        "position": [
+            4928,
+            1472,
+            92
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255
+    },
+    "feature_0000000003": {
+        "born": 4059305,
+        "health": 100,
+        "id": 167621,
+        "name": "Ruin1",
+        "player": 12,
+        "position": [
+            4928,
+            1344,
+            92
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255
+    },
+    "feature_0000000004": {
+        "born": 4059305,
+        "health": 100,
+        "id": 167619,
+        "name": "Ruin1",
+        "player": 12,
+        "position": [
+            5056,
+            1472,
+            92
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255
+    },
+    "feature_0000000005": {
+        "born": 4059305,
+        "health": 75,
+        "id": 167617,
+        "name": "BarbWarehouse3",
+        "player": 12,
+        "position": [
+            448,
+            960,
+            436
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255
+    },
+    "feature_0000000006": {
+        "born": 4059305,
+        "health": 100,
+        "id": 167615,
+        "name": "Ruin4",
+        "player": 12,
+        "position": [
+            576,
+            832,
+            436
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255
+    },
+    "feature_0000000007": {
+        "born": 4059305,
+        "health": 100,
+        "id": 167613,
+        "name": "miruin2",
+        "player": 12,
+        "position": [
+            576,
+            1088,
+            436
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255
+    },
+    "feature_0000000008": {
+        "born": 4059305,
+        "health": 100,
+        "id": 167611,
+        "name": "Ruin1",
+        "player": 12,
+        "position": [
+            832,
+            832,
+            436
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255
+    },
+    "feature_0000000009": {
+        "born": 4059305,
+        "health": 0,
+        "id": 167609,
+        "name": "Boulder1",
+        "player": 12,
+        "position": [
+            1216,
+            2880,
+            108
+        ],
+        "rotation": [
+            0,
+            0,
+            61794
+        ],
+        "selected": 0,
+        "visible/7": 255
+    },
+    "feature_0000000010": {
+        "born": 4059305,
+        "health": 0,
+        "id": 167607,
+        "name": "Boulder1",
+        "player": 12,
+        "position": [
+            960,
+            5824,
+            464
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255
+    },
+    "feature_0000000011": {
+        "born": 4059305,
+        "health": 50,
+        "id": 167605,
+        "name": "BarbHUT",
+        "player": 12,
+        "position": [
+            960,
+            9920,
+            436
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255
+    },
+    "feature_0000000012": {
+        "born": 4059305,
+        "health": 100,
+        "id": 167603,
+        "name": "Ruin5",
+        "player": 12,
+        "position": [
+            832,
+            9792,
+            435
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0
+    },
+    "feature_0000000013": {
+        "born": 4059305,
+        "health": 100,
+        "id": 167601,
+        "name": "miruin2",
+        "player": 12,
+        "position": [
+            1088,
+            9664,
+            400
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0
+    },
+    "feature_0000000014": {
+        "born": 4059305,
+        "health": 100,
+        "id": 167599,
+        "name": "Ruin1",
+        "player": 12,
+        "position": [
+            960,
+            9664,
+            422
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0
+    },
+    "feature_0000000015": {
+        "born": 4059305,
+        "health": 100,
+        "id": 167597,
+        "name": "Ruin3",
+        "player": 12,
+        "position": [
+            832,
+            9664,
+            431
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0
+    },
+    "feature_0000000016": {
+        "born": 4059305,
+        "health": 25,
+        "id": 167595,
+        "name": "Boulder3",
+        "player": 12,
+        "position": [
+            1088,
+            9408,
+            425
+        ],
+        "rotation": [
+            0,
+            63983,
+            64239
+        ],
+        "selected": 0,
+        "visible/7": 255
+    },
+    "feature_0000000017": {
+        "born": 4059305,
+        "health": 40,
+        "id": 167593,
+        "name": "WreckedSuzukiJeep",
+        "player": 12,
+        "position": [
+            4928,
+            8768,
+            303
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0
+    },
+    "feature_0000000018": {
+        "born": 4059305,
+        "health": 75,
+        "id": 167591,
+        "name": "WreckedTankerV",
+        "player": 12,
+        "position": [
+            4544,
+            7168,
+            344
+        ],
+        "rotation": [
+            0,
+            65014,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255
+    },
+    "feature_0000000019": {
+        "born": 4059305,
+        "health": 25,
+        "id": 167589,
+        "name": "Boulder3",
+        "player": 12,
+        "position": [
+            5312,
+            1088,
+            116
+        ],
+        "rotation": [
+            0,
+            0,
+            3742
+        ],
+        "selected": 0,
+        "visible/7": 255
+    },
+    "feature_0000000020": {
+        "born": 4059305,
+        "health": 0,
+        "id": 167587,
+        "name": "Boulder1",
+        "player": 12,
+        "position": [
+            5440,
+            3392,
+            296
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0
+    },
+    "feature_0000000021": {
+        "born": 4059305,
+        "health": 25,
+        "id": 167585,
+        "name": "Boulder3",
+        "player": 12,
+        "position": [
+            3520,
+            4416,
+            436
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "visible/7": 255
+    },
+    "feature_0000000022": {
+        "born": 4059305,
+        "health": 0,
+        "id": 167583,
+        "name": "Boulder2",
+        "player": 12,
+        "position": [
+            1344,
+            4928,
+            420
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "visible/7": 255
+    },
+    "feature_0000000023": {
+        "born": 4059305,
+        "health": 0,
+        "id": 167581,
+        "name": "Boulder1",
+        "player": 12,
+        "position": [
+            1600,
+            6080,
+            402
+        ],
+        "rotation": [
+            0,
+            0,
+            64756
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "visible/7": 255
+    },
+    "feature_0000000024": {
+        "born": 4059305,
+        "health": 25,
+        "id": 167579,
+        "name": "Boulder3",
+        "player": 12,
+        "position": [
+            1088,
+            5824,
+            464
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255
+    },
+    "feature_0000000025": {
+        "born": 4059305,
+        "health": 25,
+        "id": 167577,
+        "name": "Boulder3",
+        "player": 12,
+        "position": [
+            1600,
+            8768,
+            73
+        ],
+        "rotation": [
+            0,
+            1039,
+            63478
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "visible/7": 255
+    },
+    "feature_0000000026": {
+        "born": 4059305,
+        "health": 0,
+        "id": 167575,
+        "name": "Boulder1",
+        "player": 12,
+        "position": [
+            704,
+            11072,
+            0
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255
+    },
+    "feature_0000000027": {
+        "born": 4059305,
+        "health": 0,
+        "id": 167573,
+        "name": "Boulder1",
+        "player": 12,
+        "position": [
+            4288,
+            10944,
+            98
+        ],
+        "rotation": [
+            0,
+            61126,
+            522
+        ],
+        "selected": 0,
+        "visible/7": 255
+    },
+    "feature_0000000028": {
+        "born": 4059305,
+        "health": 25,
+        "id": 167571,
+        "name": "Boulder3",
+        "player": 12,
+        "position": [
+            5312,
+            10304,
+            304
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255
+    },
+    "feature_0000000029": {
+        "born": 4059305,
+        "health": 100,
+        "id": 167569,
+        "name": "Ruin4",
+        "player": 12,
+        "position": [
+            5312,
+            10816,
+            300
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255
+    },
+    "feature_0000000030": {
+        "born": 4059305,
+        "health": 100,
+        "id": 167567,
+        "name": "Ruin5",
+        "player": 12,
+        "position": [
+            5312,
+            10560,
+            304
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255
+    },
+    "feature_0000000031": {
+        "born": 4059305,
+        "health": 100,
+        "id": 167565,
+        "name": "Ruin1",
+        "player": 12,
+        "position": [
+            5184,
+            10816,
+            296
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255
+    },
+    "feature_0000000032": {
+        "born": 4059305,
+        "health": 0,
+        "id": 167563,
+        "name": "Boulder1",
+        "player": 12,
+        "position": [
+            5184,
+            10304,
+            300
+        ],
+        "rotation": [
+            0,
+            65014,
+            522
+        ],
+        "selected": 0,
+        "visible/7": 255
+    },
+    "feature_0000000033": {
+        "born": 4059305,
+        "health": 0,
+        "id": 167561,
+        "name": "Boulder1",
+        "player": 12,
+        "position": [
+            5440,
+            10304,
+            336
+        ],
+        "rotation": [
+            0,
+            0,
+            4836
+        ],
+        "selected": 0,
+        "visible/7": 255
+    },
+    "feature_0000000034": {
+        "born": 4059305,
+        "health": 100,
+        "id": 167559,
+        "name": "Ruin4",
+        "player": 12,
+        "position": [
+            5312,
+            8640,
+            302
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0
+    },
+    "feature_0000000035": {
+        "born": 4059305,
+        "health": 100,
+        "id": 167557,
+        "name": "Ruin3",
+        "player": 12,
+        "position": [
+            5056,
+            8896,
+            304
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0
+    },
+    "feature_0000000036": {
+        "born": 4059305,
+        "health": 100,
+        "id": 167555,
+        "name": "Ruin1",
+        "player": 12,
+        "position": [
+            4928,
+            9024,
+            304
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0
+    },
+    "feature_0000000037": {
+        "born": 4059305,
+        "health": 100,
+        "id": 167553,
+        "name": "Ruin1",
+        "player": 12,
+        "position": [
+            5184,
+            8640,
+            304
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0
+    },
+    "feature_0000000038": {
+        "born": 4059305,
+        "health": 75,
+        "id": 167551,
+        "name": "BarbWarehouse3",
+        "player": 12,
+        "position": [
+            4672,
+            7872,
+            392
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255
+    },
+    "feature_0000000039": {
+        "born": 4059305,
+        "health": 75,
+        "id": 167549,
+        "name": "BarbWarehouse3",
+        "player": 12,
+        "position": [
+            4800,
+            7872,
+            392
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255
+    },
+    "feature_0000000040": {
+        "born": 4059305,
+        "health": 75,
+        "id": 167547,
+        "name": "BarbWarehouse3",
+        "player": 12,
+        "position": [
+            4032,
+            6848,
+            402
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255
+    },
+    "feature_0000000041": {
+        "born": 4059305,
+        "health": 40,
+        "id": 167545,
+        "name": "WreckedSuzukiJeep",
+        "player": 12,
+        "position": [
+            4800,
+            7488,
+            298
+        ],
+        "rotation": [
+            0,
+            522,
+            65014
+        ],
+        "selected": 0,
+        "visible/7": 255
+    },
+    "feature_0000000042": {
+        "born": 4059305,
+        "health": 50,
+        "id": 167543,
+        "name": "WreckedVertCampVan",
+        "player": 12,
+        "position": [
+            1984,
+            7488,
+            71
+        ],
+        "rotation": [
+            0,
+            522,
+            64239
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "visible/7": 255
+    },
+    "feature_0000000043": {
+        "born": 4059305,
+        "health": 40,
+        "id": 167541,
+        "name": "WreckedSuzukiJeep",
+        "player": 12,
+        "position": [
+            2496,
+            3136,
+            150
+        ],
+        "rotation": [
+            0,
+            0,
+            63983
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "visible/7": 255
+    },
+    "feature_0000000044": {
+        "born": 4059305,
+        "health": 100,
+        "id": 167539,
+        "name": "BarbTechRuin",
+        "player": 12,
+        "position": [
+            1792,
+            1728,
+            84
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255
+    },
+    "feature_0000000045": {
+        "born": 4059305,
+        "health": 75,
+        "id": 167537,
+        "name": "BarbWarehouse2",
+        "player": 12,
+        "position": [
+            2944,
+            1856,
+            84
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "visible/7": 255
+    },
+    "feature_0000000046": {
+        "born": 4059305,
+        "health": 75,
+        "id": 167535,
+        "name": "BarbWarehouse2",
+        "player": 12,
+        "position": [
+            2944,
+            1728,
+            84
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255
+    },
+    "feature_0000000047": {
+        "born": 4059305,
+        "health": 75,
+        "id": 167533,
+        "name": "BarbWarehouse3",
+        "player": 12,
+        "position": [
+            2368,
+            1472,
+            84
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255
+    },
+    "feature_0000000048": {
+        "born": 4059305,
+        "health": 75,
+        "id": 167531,
+        "name": "BarbWarehouse3",
+        "player": 12,
+        "position": [
+            2240,
+            1472,
+            84
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255
+    },
+    "feature_0000000049": {
+        "born": 4059305,
+        "health": 75,
+        "id": 167529,
+        "name": "BarbWarehouse3",
+        "player": 12,
+        "position": [
+            1984,
+            1472,
+            84
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255
+    },
+    "feature_0000000050": {
+        "born": 4059305,
+        "health": 75,
+        "id": 167527,
+        "name": "BarbWarehouse3",
+        "player": 12,
+        "position": [
+            1856,
+            1472,
+            84
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/7": 255
+    }
+}

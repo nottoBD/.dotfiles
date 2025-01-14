@@ -1,0 +1,269 @@
+{
+    "area_0": {
+        "label": "RTLZ",
+        "player": -1,
+        "pos1": [
+            768,
+            10368
+        ],
+        "pos2": [
+            1920,
+            11264
+        ],
+        "subscriber": -1,
+        "triggered": 161557
+    },
+    "area_1": {
+        "label": "ambush1Trigger",
+        "player": -1,
+        "pos1": [
+            2816,
+            6272
+        ],
+        "pos2": [
+            5504,
+            6600
+        ],
+        "subscriber": 0,
+        "triggered": 0
+    },
+    "area_10": {
+        "label": "scavBaseTrigger",
+        "player": -1,
+        "pos1": [
+            2048,
+            3000
+        ],
+        "pos2": [
+            2944,
+            3300
+        ],
+        "subscriber": 0,
+        "triggered": 160471
+    },
+    "area_11": {
+        "label": "westScavs",
+        "player": -1,
+        "pos1": [
+            704,
+            4288
+        ],
+        "pos2": [
+            1472,
+            5184
+        ],
+        "subscriber": -1,
+        "triggered": 167743
+    },
+    "area_2": {
+        "label": "ambush2Trigger",
+        "player": -1,
+        "pos1": [
+            1024,
+            7680
+        ],
+        "pos2": [
+            1408,
+            8320
+        ],
+        "subscriber": 0,
+        "triggered": 0
+    },
+    "area_3": {
+        "label": "ambushScavs",
+        "player": -1,
+        "pos1": [
+            3904,
+            10944
+        ],
+        "pos2": [
+            4288,
+            11328
+        ],
+        "subscriber": -1,
+        "triggered": 0
+    },
+    "area_4": {
+        "label": "eastScavs",
+        "player": -1,
+        "pos1": [
+            2624,
+            1088
+        ],
+        "pos2": [
+            4160,
+            2496
+        ],
+        "subscriber": -1,
+        "triggered": 167789
+    },
+    "area_5": {
+        "label": "eastScavsNorth",
+        "player": -1,
+        "pos1": [
+            3456,
+            896
+        ],
+        "pos2": [
+            3968,
+            1536
+        ],
+        "subscriber": 0,
+        "triggered": 0
+    },
+    "area_6": {
+        "label": "eastScavsSouth",
+        "player": -1,
+        "pos1": [
+            3200,
+            2048
+        ],
+        "pos2": [
+            3712,
+            2560
+        ],
+        "subscriber": 0,
+        "triggered": 0
+    },
+    "area_7": {
+        "label": "factoryTrigger",
+        "player": -1,
+        "pos1": [
+            64,
+            4672
+        ],
+        "pos2": [
+            5440,
+            4928
+        ],
+        "subscriber": 0,
+        "triggered": 160459
+    },
+    "area_8": {
+        "label": "landingZone",
+        "player": -1,
+        "pos1": [
+            1024,
+            10624
+        ],
+        "pos2": [
+            1280,
+            10880
+        ],
+        "subscriber": -1,
+        "triggered": 161557
+    },
+    "area_9": {
+        "label": "northWestScavs",
+        "player": -1,
+        "pos1": [
+            448,
+            1088
+        ],
+        "pos2": [
+            960,
+            1728
+        ],
+        "subscriber": -1,
+        "triggered": 0
+    },
+    "object_0": {
+        "id": 167685,
+        "label": "frontBunkerLeft",
+        "player": 7,
+        "triggered": -1,
+        "type": 1
+    },
+    "object_1": {
+        "id": 167687,
+        "label": "frontBunkerRight",
+        "player": 7,
+        "triggered": -1,
+        "type": 1
+    },
+    "object_2": {
+        "id": 167631,
+        "label": "originalFlamerTower",
+        "player": 7,
+        "triggered": -1,
+        "type": 1
+    },
+    "object_3": {
+        "id": 167629,
+        "label": "originalLookoutTower",
+        "player": 7,
+        "triggered": -1,
+        "type": 1
+    },
+    "object_4": {
+        "id": 167693,
+        "label": "scavFactory1",
+        "player": 7,
+        "triggered": -1,
+        "type": 1
+    },
+    "position_0": {
+        "label": "Assembly",
+        "pos": [
+            2752,
+            2240
+        ],
+        "triggered": -1
+    },
+    "position_1": {
+        "label": "ambush1",
+        "pos": [
+            2240,
+            1728
+        ],
+        "triggered": -1
+    },
+    "position_2": {
+        "label": "ambush2",
+        "pos": [
+            2240,
+            10304
+        ],
+        "triggered": -1
+    },
+    "position_3": {
+        "label": "artifactLocation",
+        "pos": [
+            2112,
+            1600
+        ],
+        "triggered": -1
+    },
+    "position_4": {
+        "label": "startPosition",
+        "pos": [
+            1152,
+            10752
+        ],
+        "triggered": -1
+    },
+    "position_5": {
+        "label": "transporterEntry",
+        "pos": [
+            128,
+            11008
+        ],
+        "triggered": -1
+    },
+    "position_6": {
+        "label": "transporterExit",
+        "pos": [
+            640,
+            11392
+        ],
+        "triggered": -1
+    },
+    "position_7": {
+        "label": "westScoutPos",
+        "pos": [
+            1600,
+            2624
+        ],
+        "triggered": -1
+    }
+}

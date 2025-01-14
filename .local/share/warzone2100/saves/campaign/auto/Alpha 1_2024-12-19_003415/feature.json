@@ -1,0 +1,419 @@
+{
+    "feature_0000000000": {
+        "born": 571202,
+        "health": 0,
+        "id": 160347,
+        "name": "OilResource",
+        "player": 12,
+        "position": [
+            4800,
+            2112,
+            134
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255
+    },
+    "feature_0000000001": {
+        "born": 2,
+        "health": 25,
+        "id": 160167,
+        "name": "OilDrum",
+        "player": 12,
+        "position": [
+            1984,
+            5184,
+            72
+        ],
+        "rotation": [
+            0,
+            2058,
+            64239
+        ],
+        "selected": 0,
+        "visible/6": 255
+    },
+    "feature_0000000002": {
+        "born": 2,
+        "health": 25,
+        "id": 160165,
+        "name": "OilDrum",
+        "player": 12,
+        "position": [
+            2368,
+            5312,
+            52
+        ],
+        "rotation": [
+            0,
+            522,
+            522
+        ],
+        "selected": 0
+    },
+    "feature_0000000003": {
+        "born": 2,
+        "health": 25,
+        "id": 160163,
+        "name": "OilDrum",
+        "player": 12,
+        "position": [
+            1472,
+            4416,
+            32
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/6": 255
+    },
+    "feature_0000000004": {
+        "born": 2,
+        "health": 25,
+        "id": 160161,
+        "name": "OilDrum",
+        "player": 12,
+        "position": [
+            3392,
+            3648,
+            124
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/6": 255
+    },
+    "feature_0000000005": {
+        "born": 2,
+        "health": 25,
+        "id": 160159,
+        "name": "OilDrum",
+        "player": 12,
+        "position": [
+            6336,
+            4032,
+            65
+        ],
+        "rotation": [
+            0,
+            64497,
+            1297
+        ],
+        "selected": 0
+    },
+    "feature_0000000006": {
+        "born": 2,
+        "health": 25,
+        "id": 160155,
+        "name": "OilDrum",
+        "player": 12,
+        "position": [
+            1472,
+            4288,
+            32
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/6": 255
+    },
+    "feature_0000000007": {
+        "born": 2,
+        "health": 25,
+        "id": 160153,
+        "name": "OilDrum",
+        "player": 12,
+        "position": [
+            1600,
+            4160,
+            32
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/6": 255
+    },
+    "feature_0000000008": {
+        "born": 2,
+        "health": 50,
+        "id": 160149,
+        "name": "BarbHUT",
+        "player": 12,
+        "position": [
+            2240,
+            5056,
+            50
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/6": 255
+    },
+    "feature_0000000009": {
+        "born": 2,
+        "health": 50,
+        "id": 160147,
+        "name": "BarbHUT",
+        "player": 12,
+        "position": [
+            2240,
+            5312,
+            50
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0
+    },
+    "feature_0000000010": {
+        "born": 2,
+        "health": 50,
+        "id": 160145,
+        "name": "BarbHUT",
+        "player": 12,
+        "position": [
+            2624,
+            4416,
+            32
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/6": 255
+    },
+    "feature_0000000011": {
+        "born": 2,
+        "health": 50,
+        "id": 160143,
+        "name": "BarbHUT",
+        "player": 12,
+        "position": [
+            2368,
+            5184,
+            50
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0
+    },
+    "feature_0000000012": {
+        "born": 2,
+        "health": 50,
+        "id": 160141,
+        "name": "BarbHUT",
+        "player": 12,
+        "position": [
+            1472,
+            1856,
+            69
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/6": 255
+    },
+    "feature_0000000013": {
+        "born": 2,
+        "health": 50,
+        "id": 160139,
+        "name": "BarbHUT",
+        "player": 12,
+        "position": [
+            1472,
+            1600,
+            69
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/6": 255
+    },
+    "feature_0000000014": {
+        "born": 2,
+        "health": 50,
+        "id": 160137,
+        "name": "BarbHUT",
+        "player": 12,
+        "position": [
+            1344,
+            1856,
+            68
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/6": 255
+    },
+    "feature_0000000015": {
+        "born": 2,
+        "health": 50,
+        "id": 160135,
+        "name": "BarbHUT",
+        "player": 12,
+        "position": [
+            1344,
+            1600,
+            68
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/6": 255
+    },
+    "feature_0000000016": {
+        "born": 2,
+        "health": 200,
+        "id": 160133,
+        "name": "BarbWarehouse1",
+        "player": 12,
+        "position": [
+            1792,
+            4416,
+            32
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/6": 255
+    },
+    "feature_0000000017": {
+        "born": 2,
+        "health": 200,
+        "id": 160131,
+        "name": "BarbWarehouse1",
+        "player": 12,
+        "position": [
+            2304,
+            4800,
+            33
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/6": 255
+    },
+    "feature_0000000018": {
+        "born": 2,
+        "health": 100,
+        "id": 160129,
+        "name": "BarbTechRuin",
+        "player": 12,
+        "position": [
+            2432,
+            4544,
+            32
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/6": 255
+    },
+    "feature_0000000019": {
+        "born": 2,
+        "health": 0,
+        "id": 160107,
+        "name": "Boulder1",
+        "player": 12,
+        "position": [
+            5440,
+            4672,
+            36
+        ],
+        "rotation": [
+            0,
+            63478,
+            3969
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "visible/7": 255
+    },
+    "feature_0000000020": {
+        "born": 2,
+        "health": 25,
+        "id": 160099,
+        "name": "Boulder3",
+        "player": 12,
+        "position": [
+            3136,
+            6464,
+            7
+        ],
+        "rotation": [
+            0,
+            1297,
+            261
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "visible/7": 255
+    },
+    "feature_0000000021": {
+        "born": 2,
+        "health": 0,
+        "id": 160095,
+        "name": "Boulder1",
+        "player": 12,
+        "position": [
+            2880,
+            6208,
+            0
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "visible/7": 255
+    }
+}

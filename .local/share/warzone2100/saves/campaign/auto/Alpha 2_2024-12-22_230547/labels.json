@@ -1,0 +1,350 @@
+{
+    "area_0": {
+        "label": "AttackArea1",
+        "player": -1,
+        "pos1": [
+            4032,
+            8000
+        ],
+        "pos2": [
+            5440,
+            9024
+        ],
+        "subscriber": 0,
+        "triggered": 160305
+    },
+    "area_1": {
+        "label": "AttackArea2",
+        "player": -1,
+        "pos1": [
+            320,
+            9792
+        ],
+        "pos2": [
+            6720,
+            13120
+        ],
+        "subscriber": 0,
+        "triggered": 160293
+    },
+    "area_10": {
+        "label": "landingZone",
+        "player": -1,
+        "pos1": [
+            1280,
+            6528
+        ],
+        "pos2": [
+            1536,
+            6784
+        ],
+        "subscriber": -1,
+        "triggered": 161039
+    },
+    "area_2": {
+        "label": "NPSensorRemove",
+        "player": -1,
+        "pos1": [
+            6272,
+            13568
+        ],
+        "pos2": [
+            7040,
+            14336
+        ],
+        "subscriber": 1,
+        "triggered": 160687
+    },
+    "area_3": {
+        "label": "NPSensorTurn",
+        "player": -1,
+        "pos1": [
+            4600,
+            13376
+        ],
+        "pos2": [
+            5300,
+            14528
+        ],
+        "subscriber": 1,
+        "triggered": 160687
+    },
+    "area_4": {
+        "label": "enemy1Force1",
+        "player": -1,
+        "pos1": [
+            4288,
+            9024
+        ],
+        "pos2": [
+            5568,
+            9920
+        ],
+        "subscriber": -1,
+        "triggered": 160687
+    },
+    "area_5": {
+        "label": "enemybase1",
+        "player": -1,
+        "pos1": [
+            3840,
+            8960
+        ],
+        "pos2": [
+            5504,
+            10112
+        ],
+        "subscriber": -1,
+        "triggered": 160687
+    },
+    "area_6": {
+        "label": "enemybase2",
+        "player": -1,
+        "pos1": [
+            704,
+            8896
+        ],
+        "pos2": [
+            2496,
+            9728
+        ],
+        "subscriber": -1,
+        "triggered": 160905
+    },
+    "area_7": {
+        "label": "enemybase3",
+        "player": -1,
+        "pos1": [
+            2432,
+            10496
+        ],
+        "pos2": [
+            4224,
+            12288
+        ],
+        "subscriber": -1,
+        "triggered": 160533
+    },
+    "area_8": {
+        "label": "enemybase4",
+        "player": -1,
+        "pos1": [
+            2240,
+            12864
+        ],
+        "pos2": [
+            5312,
+            14400
+        ],
+        "subscriber": -1,
+        "triggered": 160687
+    },
+    "area_9": {
+        "label": "hillForce",
+        "player": -1,
+        "pos1": [
+            1088,
+            8891
+        ],
+        "pos2": [
+            1600,
+            9536
+        ],
+        "subscriber": -1,
+        "triggered": 160681
+    },
+    "group_0": {
+        "label": "base1group",
+        "members": [],
+        "player": -1,
+        "subscriber": 0,
+        "triggered": 0
+    },
+    "group_1": {
+        "label": "base2group",
+        "members": [],
+        "player": -1,
+        "subscriber": 0,
+        "triggered": 0
+    },
+    "group_2": {
+        "label": "base3group",
+        "members": [],
+        "player": -1,
+        "subscriber": 0,
+        "triggered": 0
+    },
+    "group_3": {
+        "label": "base4group",
+        "members": [],
+        "player": -1,
+        "subscriber": 0,
+        "triggered": 0
+    },
+    "object_0": {
+        "id": 160747,
+        "label": "base1factory",
+        "player": 6,
+        "triggered": -1,
+        "type": 1
+    },
+    "object_1": {
+        "id": 161105,
+        "label": "base1factory_artifact_label",
+        "player": 12,
+        "triggered": -1,
+        "type": 2
+    },
+    "object_2": {
+        "id": 160859,
+        "label": "base2factory",
+        "player": 7,
+        "triggered": -1,
+        "type": 1
+    },
+    "object_3": {
+        "id": 161303,
+        "label": "base2factory_artifact_label",
+        "player": 12,
+        "triggered": -1,
+        "type": 2
+    },
+    "object_4": {
+        "id": 160839,
+        "label": "base3sensor",
+        "player": 7,
+        "triggered": -1,
+        "type": 1
+    },
+    "object_5": {
+        "id": 161331,
+        "label": "base3sensor_artifact_label",
+        "player": 12,
+        "triggered": -1,
+        "type": 2
+    },
+    "object_6": {
+        "id": 160793,
+        "label": "base4factory",
+        "player": 7,
+        "triggered": -1,
+        "type": 1
+    },
+    "object_7": {
+        "id": 160775,
+        "label": "base4gen",
+        "player": 7,
+        "triggered": -1,
+        "type": 1
+    },
+    "object_8": {
+        "id": 161395,
+        "label": "base4gen_artifact_label",
+        "player": 12,
+        "triggered": -1,
+        "type": 2
+    },
+    "object_9": {
+        "id": 160687,
+        "label": "npscout",
+        "player": 1,
+        "triggered": -1,
+        "type": 0
+    },
+    "position_0": {
+        "label": "NPSensorWatch",
+        "pos": [
+            4800,
+            9200
+        ],
+        "triggered": -1
+    },
+    "position_1": {
+        "label": "assembly1",
+        "pos": [
+            4544,
+            10176
+        ],
+        "triggered": -1
+    },
+    "position_10": {
+        "label": "playerBase",
+        "pos": [
+            2100,
+            6700
+        ],
+        "triggered": -1
+    },
+    "position_11": {
+        "label": "startPosition",
+        "pos": [
+            1728,
+            6720
+        ],
+        "triggered": -1
+    },
+    "position_2": {
+        "label": "assembly2",
+        "pos": [
+            1344,
+            9152
+        ],
+        "triggered": -1
+    },
+    "position_3": {
+        "label": "assembly4",
+        "pos": [
+            3904,
+            13760
+        ],
+        "triggered": -1
+    },
+    "position_4": {
+        "label": "enemy1Force1Fallback",
+        "pos": [
+            2240,
+            10304
+        ],
+        "triggered": -1
+    },
+    "position_5": {
+        "label": "enemy1Force1Pos",
+        "pos": [
+            4928,
+            9024
+        ],
+        "triggered": -1
+    },
+    "position_6": {
+        "label": "patrol1",
+        "pos": [
+            1024,
+            7424
+        ],
+        "triggered": -1
+    },
+    "position_7": {
+        "label": "patrol2",
+        "pos": [
+            1536,
+            7552
+        ],
+        "triggered": -1
+    },
+    "position_8": {
+        "label": "patrol3",
+        "pos": [
+            2688,
+            7680
+        ],
+        "triggered": -1
+    },
+    "position_9": {
+        "label": "patrol4",
+        "pos": [
+            3712,
+            7040
+        ],
+        "triggered": -1
+    }
+}

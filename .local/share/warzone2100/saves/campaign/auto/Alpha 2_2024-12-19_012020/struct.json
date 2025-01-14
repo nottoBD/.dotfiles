@@ -1,0 +1,1430 @@
+{
+    "structure_0000000000": {
+        "Wall/type": 3,
+        "born": 3292503,
+        "currentBuildPts": 16,
+        "health": 69,
+        "id": 161499,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            5824,
+            14400,
+            72
+        ],
+        "rotation": [
+            16384,
+            0,
+            0
+        ],
+        "selected": 0,
+        "status": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000001": {
+        "Wall/type": 2,
+        "born": 3286903,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161497,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            5824,
+            14528,
+            56
+        ],
+        "rotation": [
+            16384,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000002": {
+        "Wall/type": 2,
+        "born": 3283903,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161495,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            5696,
+            14400,
+            76
+        ],
+        "rotation": [
+            32768,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000003": {
+        "Wall/type": 3,
+        "born": 3280203,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161493,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            5568,
+            14272,
+            110
+        ],
+        "rotation": [
+            16384,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000004": {
+        "Wall/type": 3,
+        "born": 3276303,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161491,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            5440,
+            14144,
+            118
+        ],
+        "rotation": [
+            16384,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000005": {
+        "Wall/type": 0,
+        "born": 3270303,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161489,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            5824,
+            14656,
+            52
+        ],
+        "rotation": [
+            49152,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000006": {
+        "Wall/type": 3,
+        "born": 3266103,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161487,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            5696,
+            14528,
+            48
+        ],
+        "rotation": [
+            49152,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000007": {
+        "Wall/type": 3,
+        "born": 3262003,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161483,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            5568,
+            14400,
+            86
+        ],
+        "rotation": [
+            49152,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000008": {
+        "Wall/type": 3,
+        "born": 3259403,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161481,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            5440,
+            14272,
+            110
+        ],
+        "rotation": [
+            49152,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000009": {
+        "Wall/type": 0,
+        "born": 3256203,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161479,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            5312,
+            14144,
+            112
+        ],
+        "rotation": [
+            32768,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000010": {
+        "Wall/type": 3,
+        "born": 3198103,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161475,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            5568,
+            13248,
+            18
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000011": {
+        "Wall/type": 3,
+        "born": 3193603,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161473,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            5696,
+            13120,
+            20
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000012": {
+        "Wall/type": 3,
+        "born": 3191503,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161471,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            5824,
+            12992,
+            20
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000013": {
+        "Wall/type": 3,
+        "born": 3188503,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161469,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            5952,
+            12864,
+            34
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000014": {
+        "Wall/type": 0,
+        "born": 3174203,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161467,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            5952,
+            12736,
+            56
+        ],
+        "rotation": [
+            49152,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000015": {
+        "ammo/0": 0,
+        "born": 3162203,
+        "currentBuildPts": 225,
+        "health": 230,
+        "id": 161465,
+        "lastFired/0": 0,
+        "name": "GuardTower4",
+        "parts/weapon/1": "Flame1Mk1-Tower",
+        "player": 0,
+        "position": [
+            5568,
+            12864,
+            9
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "structure_0000000016": {
+        "ammo/0": 0,
+        "born": 3151803,
+        "currentBuildPts": 225,
+        "health": 230,
+        "id": 161463,
+        "lastFired/0": 0,
+        "name": "GuardTower2",
+        "parts/weapon/1": "MG2-Tower",
+        "player": 0,
+        "position": [
+            5696,
+            12736,
+            0
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "structure_0000000017": {
+        "ammo/0": 0,
+        "born": 3140403,
+        "currentBuildPts": 225,
+        "health": 230,
+        "id": 161461,
+        "lastFired/0": 0,
+        "name": "GuardTower2",
+        "parts/weapon/1": "MG2-Tower",
+        "player": 0,
+        "position": [
+            5824,
+            12736,
+            7
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "structure_0000000018": {
+        "ammo/0": 0,
+        "born": 3127203,
+        "currentBuildPts": 225,
+        "health": 230,
+        "id": 161459,
+        "lastFired/0": 0,
+        "name": "GuardTower2",
+        "parts/weapon/1": "MG2-Tower",
+        "player": 0,
+        "position": [
+            5312,
+            13120,
+            29
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "structure_0000000019": {
+        "ammo/0": 0,
+        "born": 3116303,
+        "currentBuildPts": 225,
+        "health": 230,
+        "id": 161457,
+        "lastFired/0": 0,
+        "name": "GuardTower2",
+        "parts/weapon/1": "MG2-Tower",
+        "player": 0,
+        "position": [
+            5440,
+            13120,
+            10
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "structure_0000000020": {
+        "Wall/type": 0,
+        "born": 3113603,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161455,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            5440,
+            13248,
+            12
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000021": {
+        "Wall/type": 2,
+        "born": 3110303,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161453,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            5568,
+            13120,
+            18
+        ],
+        "rotation": [
+            49152,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000022": {
+        "Wall/type": 1,
+        "born": 3106303,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161451,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            5696,
+            12992,
+            20
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000023": {
+        "Wall/type": 2,
+        "born": 3101303,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161449,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            5824,
+            12864,
+            16
+        ],
+        "rotation": [
+            32768,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000024": {
+        "Wall/type": 0,
+        "born": 3084103,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161447,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            5312,
+            13248,
+            40
+        ],
+        "rotation": [
+            32768,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000025": {
+        "Wall/type": 3,
+        "born": 3076603,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161443,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            5568,
+            12992,
+            18
+        ],
+        "rotation": [
+            32768,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000026": {
+        "Wall/type": 3,
+        "born": 3072603,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161441,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            5696,
+            12864,
+            16
+        ],
+        "rotation": [
+            32768,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000027": {
+        "Wall/type": 0,
+        "born": 3068103,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161437,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            5952,
+            12608,
+            56
+        ],
+        "rotation": [
+            16384,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000028": {
+        "Wall/type": 3,
+        "born": 3019203,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161435,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            4288,
+            13888,
+            154
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000029": {
+        "Wall/type": 2,
+        "born": 3016503,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161433,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            4160,
+            13888,
+            154
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000030": {
+        "Wall/type": 2,
+        "born": 3013903,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161431,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            4032,
+            13888,
+            156
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000031": {
+        "Wall/type": 3,
+        "born": 3010803,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161429,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            3904,
+            13888,
+            232
+        ],
+        "rotation": [
+            49152,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000032": {
+        "Wall/type": 3,
+        "born": 3008203,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161427,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            4288,
+            13760,
+            128
+        ],
+        "rotation": [
+            16384,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000033": {
+        "Wall/type": 2,
+        "born": 3006003,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161425,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            4160,
+            13760,
+            148
+        ],
+        "rotation": [
+            32768,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000034": {
+        "Wall/type": 2,
+        "born": 3003403,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161423,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            4032,
+            13760,
+            156
+        ],
+        "rotation": [
+            32768,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000035": {
+        "Wall/type": 3,
+        "born": 3000503,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161421,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            3904,
+            13760,
+            188
+        ],
+        "rotation": [
+            32768,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000036": {
+        "Wall/type": 0,
+        "born": 2953803,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161419,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            3392,
+            13376,
+            248
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000037": {
+        "Wall/type": 0,
+        "born": 2948903,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161417,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            3264,
+            13376,
+            248
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000038": {
+        "Wall/type": 0,
+        "born": 2945003,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161415,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            3136,
+            13376,
+            248
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000039": {
+        "Wall/type": 0,
+        "born": 2940503,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161413,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            3008,
+            13376,
+            248
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000040": {
+        "Wall/type": 0,
+        "born": 2936503,
+        "currentBuildPts": 40,
+        "health": 150,
+        "id": 161411,
+        "name": "A0TankTrap",
+        "player": 0,
+        "position": [
+            2880,
+            13376,
+            252
+        ],
+        "rotation": [
+            32768,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000041": {
+        "ammo/0": 0,
+        "born": 2902803,
+        "currentBuildPts": 225,
+        "health": 230,
+        "id": 161407,
+        "lastFired/0": 0,
+        "name": "GuardTower2",
+        "parts/weapon/1": "MG2-Tower",
+        "player": 0,
+        "position": [
+            4032,
+            13376,
+            263
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "structure_0000000042": {
+        "ammo/0": 0,
+        "born": 2885203,
+        "currentBuildPts": 225,
+        "health": 230,
+        "id": 161405,
+        "lastFired/0": 0,
+        "name": "GuardTower2",
+        "parts/weapon/1": "MG2-Tower",
+        "player": 0,
+        "position": [
+            2880,
+            14144,
+            251
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "structure_0000000043": {
+        "ammo/0": 0,
+        "born": 2867103,
+        "currentBuildPts": 225,
+        "health": 230,
+        "id": 161403,
+        "lastFired/0": 0,
+        "name": "GuardTower2",
+        "parts/weapon/1": "MG2-Tower",
+        "player": 0,
+        "position": [
+            4288,
+            14272,
+            291
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "structure_0000000044": {
+        "ammo/0": 0,
+        "born": 2849003,
+        "currentBuildPts": 225,
+        "health": 230,
+        "id": 161401,
+        "lastFired/0": 0,
+        "name": "GuardTower4",
+        "parts/weapon/1": "Flame1Mk1-Tower",
+        "player": 0,
+        "position": [
+            3520,
+            13760,
+            248
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "structure_0000000045": {
+        "ammo/0": 0,
+        "born": 2836903,
+        "currentBuildPts": 225,
+        "health": 230,
+        "id": 161399,
+        "lastFired/0": 0,
+        "name": "GuardTower4",
+        "parts/weapon/1": "Flame1Mk1-Tower",
+        "player": 0,
+        "position": [
+            3136,
+            13760,
+            252
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "structure_0000000046": {
+        "animationEvent": 1,
+        "born": 2818203,
+        "currentBuildPts": 100,
+        "health": 200,
+        "id": 161397,
+        "name": "A0ResourceExtractor",
+        "player": 0,
+        "position": [
+            3392,
+            14016,
+            248
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "timeAnimationStarted": 2825440,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000047": {
+        "born": 2619103,
+        "currentBuildPts": 250,
+        "health": 500,
+        "id": 161389,
+        "modules": 1,
+        "name": "A0PowerGenerator",
+        "player": 0,
+        "position": [
+            1408,
+            5888,
+            22
+        ],
+        "resistance": 300,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000048": {
+        "Research/timeStartHold": 0,
+        "born": 2544703,
+        "currentBuildPts": 500,
+        "health": 400,
+        "id": 161371,
+        "modules": 0,
+        "name": "A0ResearchFacility",
+        "player": 0,
+        "position": [
+            1024,
+            6400,
+            14
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000049": {
+        "Factory/assemblyPoint/number": 1,
+        "Factory/assemblyPoint/pos": [
+            4928,
+            8512,
+            114
+        ],
+        "Factory/buildPointsRemaining": 0,
+        "Factory/loopsPerformed": 0,
+        "Factory/productionLoops": 0,
+        "Factory/productionRuns": 0,
+        "Factory/secondaryOrder": 158,
+        "Factory/timeStartHold": 0,
+        "Factory/timeStarted": 0,
+        "born": 1287202,
+        "currentBuildPts": 500,
+        "health": 500,
+        "id": 160527,
+        "modules": 0,
+        "name": "A0LightFactory",
+        "player": 0,
+        "position": [
+            1472,
+            6336,
+            11
+        ],
+        "productToGroup": 255,
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000050": {
+        "animationEvent": 1,
+        "born": 633402,
+        "currentBuildPts": 100,
+        "health": 200,
+        "id": 160353,
+        "name": "A0ResourceExtractor",
+        "player": 0,
+        "position": [
+            4800,
+            2112,
+            134
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "timeAnimationStarted": 644381,
+        "visible/0": 255,
+        "visible/6": 255,
+        "weapons": 0
+    },
+    "structure_0000000051": {
+        "animationEvent": 1,
+        "born": 438102,
+        "currentBuildPts": 100,
+        "health": 200,
+        "id": 160325,
+        "name": "A0ResourceExtractor",
+        "player": 0,
+        "position": [
+            4032,
+            4544,
+            48
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "timeAnimationStarted": 445980,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000052": {
+        "Research/timeStartHold": 0,
+        "born": 80002,
+        "currentBuildPts": 500,
+        "health": 400,
+        "id": 160291,
+        "modules": 0,
+        "name": "A0ResearchFacility",
+        "player": 0,
+        "position": [
+            640,
+            6400,
+            32
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000053": {
+        "Factory/Run/0/built": 3,
+        "Factory/Run/0/quantity": 9,
+        "Factory/Run/0/template": 230208,
+        "Factory/assemblyPoint/number": 0,
+        "Factory/assemblyPoint/pos": [
+            4416,
+            10048,
+            43
+        ],
+        "Factory/buildPointsRemaining": 0,
+        "Factory/loopsPerformed": 0,
+        "Factory/productionLoops": 1,
+        "Factory/productionRuns": 1,
+        "Factory/secondaryOrder": 158,
+        "Factory/timeStartHold": 0,
+        "Factory/timeStarted": 0,
+        "born": 71402,
+        "currentBuildPts": 500,
+        "health": 500,
+        "id": 160289,
+        "modules": 0,
+        "name": "A0LightFactory",
+        "player": 0,
+        "position": [
+            1984,
+            6464,
+            8
+        ],
+        "productToGroup": 255,
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000054": {
+        "born": 39902,
+        "currentBuildPts": 500,
+        "health": 500,
+        "id": 160287,
+        "modules": 0,
+        "name": "A0PowerGenerator",
+        "player": 0,
+        "position": [
+            1024,
+            5888,
+            17
+        ],
+        "resistance": 300,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000055": {
+        "born": 29602,
+        "currentBuildPts": 500,
+        "health": 500,
+        "id": 160285,
+        "name": "A0CommandCentre",
+        "player": 0,
+        "position": [
+            2432,
+            6400,
+            9
+        ],
+        "resistance": 300,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "structure_0000000056": {
+        "animationEvent": 1,
+        "born": 29302,
+        "currentBuildPts": 100,
+        "health": 200,
+        "id": 160283,
+        "lastEmission": 59979,
+        "name": "A0ResourceExtractor",
+        "player": 0,
+        "position": [
+            2752,
+            6336,
+            0
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "timeAnimationStarted": 76796,
+        "timeLastHit": 42702,
+        "visible/0": 255,
+        "visible/7": 255,
+        "weapons": 0
+    },
+    "structure_0000000057": {
+        "ammo/0": 0,
+        "born": 1494103,
+        "currentBuildPts": 10,
+        "health": 300,
+        "id": 160843,
+        "lastFired/0": 0,
+        "name": "A0BaBaBunker",
+        "parts/weapon/1": "MG3-Tower",
+        "player": 7,
+        "position": [
+            3392,
+            11712,
+            372
+        ],
+        "resistance": 150,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "selected": 0,
+        "shotsFired/0": 0,
+        "visible/0": 255,
+        "visible/7": 255,
+        "weapons": 1
+    }
+}

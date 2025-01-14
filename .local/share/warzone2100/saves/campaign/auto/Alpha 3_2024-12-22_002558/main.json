@@ -1,0 +1,835 @@
+{
+    "allianceSetting": 0,
+    "allowDesign": true,
+    "bComms": false,
+    "baseSetting": 1,
+    "builtInMap": true,
+    "camera_position": [
+        5046,
+        700,
+        2608
+    ],
+    "camera_rotation": [
+        56155,
+        61803,
+        0
+    ],
+    "campaignName": "Alpha Campaign",
+    "challengeActive": false,
+    "challengeFileName": "",
+    "droidsToSafetyFlag": false,
+    "gameHash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "gameName": "My Game",
+    "gameTime": 4631205,
+    "gameTimeLimitMinutes": 0,
+    "gameType": 12,
+    "hostPlayer": 0,
+    "inactivityMinutes": 0,
+    "landing_zones": [
+        {
+            "end": [
+                10,
+                85
+            ],
+            "start": [
+                8,
+                83
+            ]
+        },
+        {
+            "end": [
+                0,
+                0
+            ],
+            "start": [
+                0,
+                0
+            ]
+        },
+        {
+            "end": [
+                0,
+                0
+            ],
+            "start": [
+                0,
+                0
+            ]
+        },
+        {
+            "end": [
+                0,
+                0
+            ],
+            "start": [
+                0,
+                0
+            ]
+        },
+        {
+            "end": [
+                0,
+                0
+            ],
+            "start": [
+                0,
+                0
+            ]
+        },
+        {
+            "end": [
+                0,
+                0
+            ],
+            "start": [
+                0,
+                0
+            ]
+        },
+        {
+            "end": [
+                0,
+                0
+            ],
+            "start": [
+                0,
+                0
+            ]
+        },
+        {
+            "end": [
+                0,
+                0
+            ],
+            "start": [
+                0,
+                0
+            ]
+        },
+        {
+            "end": [
+                0,
+                0
+            ],
+            "start": [
+                0,
+                0
+            ]
+        },
+        {
+            "end": [
+                0,
+                0
+            ],
+            "start": [
+                0,
+                0
+            ]
+        },
+        {
+            "end": [
+                0,
+                0
+            ],
+            "start": [
+                0,
+                0
+            ]
+        },
+        {
+            "end": [
+                0,
+                0
+            ],
+            "start": [
+                0,
+                0
+            ]
+        }
+    ],
+    "levelName": "SUB_1_1",
+    "mapHasScavengers": false,
+    "mapMod": false,
+    "mapName": "Sk-Rush",
+    "mapRandom": false,
+    "maxPlayers": 10,
+    "missionCheatTime": 0,
+    "missionETA": -1000,
+    "missionHomeLZ": [
+        1408,
+        6656
+    ],
+    "missionOffTime": 1275000,
+    "missionPlayerPos": [
+        1447,
+        3637
+    ],
+    "missionScrollMax": [
+        53,
+        128
+    ],
+    "missionScrollMin": [
+        0,
+        0
+    ],
+    "missionTime": 3995204,
+    "modList": "",
+    "multiplayer": false,
+    "objId": 20975,
+    "offWorldKeepLists": true,
+    "playCountDown": true,
+    "playerBuiltHQ": false,
+    "playerCount": 0,
+    "playerHasLost": false,
+    "playerHasWon": false,
+    "playerLeaveMode": 0,
+    "players": [
+        {
+            "aDefaultECM": 0,
+            "aDefaultRepair": 0,
+            "aDefaultSensor": 0,
+            "ai": 0,
+            "alliances": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "allocated": true,
+            "autoGame": false,
+            "colour": 5,
+            "difficulty": -2,
+            "faction": 0,
+            "iTranspEntryTile": [
+                1,
+                86
+            ],
+            "iTranspExitTile": [
+                5,
+                89
+            ],
+            "index": 0,
+            "ip": "",
+            "name": "Commander",
+            "nameAI": "Nexus",
+            "position": 0,
+            "power": 6182,
+            "recentDroidPowerLost": 0,
+            "recentDroidsBuilt": 98,
+            "recentDroidsKilled": 0,
+            "recentDroidsLost": 0,
+            "recentKills": 0,
+            "recentPowerLost": 0,
+            "recentPowerWon": 0,
+            "recentResearchComplete": 23,
+            "recentResearchPerformance": 13136,
+            "recentResearchPotential": 65438,
+            "recentScore": 0,
+            "recentStructurePowerLost": 0,
+            "recentStructuresBuilt": 72,
+            "recentStructuresKilled": 0,
+            "recentStructuresLost": 0,
+            "recycled_droids": [],
+            "team": 0
+        },
+        {
+            "aDefaultECM": 0,
+            "aDefaultRepair": 0,
+            "aDefaultSensor": 0,
+            "ai": 0,
+            "alliances": [
+                0,
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "allocated": false,
+            "autoGame": false,
+            "colour": 1,
+            "difficulty": -1,
+            "faction": 0,
+            "iTranspEntryTile": [
+                0,
+                0
+            ],
+            "iTranspExitTile": [
+                0,
+                0
+            ],
+            "index": 1,
+            "ip": "",
+            "name": "Orange-Nexus",
+            "nameAI": "Nexus",
+            "position": 1,
+            "power": 999999,
+            "recentDroidPowerLost": 0,
+            "recentDroidsBuilt": 0,
+            "recentDroidsKilled": 0,
+            "recentDroidsLost": 0,
+            "recentKills": 0,
+            "recentPowerLost": 0,
+            "recentPowerWon": 0,
+            "recentResearchComplete": 1,
+            "recentResearchPerformance": 0,
+            "recentResearchPotential": 0,
+            "recentScore": 0,
+            "recentStructurePowerLost": 0,
+            "recentStructuresBuilt": 0,
+            "recentStructuresKilled": 0,
+            "recentStructuresLost": 0,
+            "recycled_droids": [],
+            "team": 1
+        },
+        {
+            "aDefaultECM": 0,
+            "aDefaultRepair": 0,
+            "aDefaultSensor": 0,
+            "ai": 0,
+            "alliances": [
+                0,
+                0,
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "allocated": false,
+            "autoGame": false,
+            "colour": 2,
+            "difficulty": -1,
+            "faction": 0,
+            "iTranspEntryTile": [
+                0,
+                0
+            ],
+            "iTranspExitTile": [
+                0,
+                0
+            ],
+            "index": 2,
+            "ip": "",
+            "name": "Grey-Nexus",
+            "nameAI": "Nexus",
+            "position": 2,
+            "power": 999999,
+            "recentDroidPowerLost": 0,
+            "recentDroidsBuilt": 0,
+            "recentDroidsKilled": 0,
+            "recentDroidsLost": 0,
+            "recentKills": 0,
+            "recentPowerLost": 0,
+            "recentPowerWon": 0,
+            "recentResearchComplete": 0,
+            "recentResearchPerformance": 0,
+            "recentResearchPotential": 0,
+            "recentScore": 0,
+            "recentStructurePowerLost": 0,
+            "recentStructuresBuilt": 0,
+            "recentStructuresKilled": 0,
+            "recentStructuresLost": 0,
+            "recycled_droids": [],
+            "team": 2
+        },
+        {
+            "aDefaultECM": 0,
+            "aDefaultRepair": 0,
+            "aDefaultSensor": 0,
+            "ai": 0,
+            "alliances": [
+                0,
+                0,
+                0,
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "allocated": false,
+            "autoGame": false,
+            "colour": 3,
+            "difficulty": -1,
+            "faction": 0,
+            "iTranspEntryTile": [
+                0,
+                0
+            ],
+            "iTranspExitTile": [
+                0,
+                0
+            ],
+            "index": 3,
+            "ip": "",
+            "name": "Black-Nexus",
+            "nameAI": "Nexus",
+            "position": 3,
+            "power": 999999,
+            "recentDroidPowerLost": 0,
+            "recentDroidsBuilt": 0,
+            "recentDroidsKilled": 0,
+            "recentDroidsLost": 0,
+            "recentKills": 0,
+            "recentPowerLost": 0,
+            "recentPowerWon": 0,
+            "recentResearchComplete": 0,
+            "recentResearchPerformance": 0,
+            "recentResearchPotential": 0,
+            "recentScore": 0,
+            "recentStructurePowerLost": 0,
+            "recentStructuresBuilt": 0,
+            "recentStructuresKilled": 0,
+            "recentStructuresLost": 0,
+            "recycled_droids": [],
+            "team": 3
+        },
+        {
+            "aDefaultECM": 0,
+            "aDefaultRepair": 0,
+            "aDefaultSensor": 0,
+            "ai": 0,
+            "alliances": [
+                0,
+                0,
+                0,
+                0,
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "allocated": false,
+            "autoGame": false,
+            "colour": 4,
+            "difficulty": -1,
+            "faction": 0,
+            "iTranspEntryTile": [
+                0,
+                0
+            ],
+            "iTranspExitTile": [
+                0,
+                0
+            ],
+            "index": 4,
+            "ip": "",
+            "name": "Red-Nexus",
+            "nameAI": "Nexus",
+            "position": 4,
+            "power": 999999,
+            "recentDroidPowerLost": 0,
+            "recentDroidsBuilt": 0,
+            "recentDroidsKilled": 0,
+            "recentDroidsLost": 0,
+            "recentKills": 0,
+            "recentPowerLost": 0,
+            "recentPowerWon": 0,
+            "recentResearchComplete": 0,
+            "recentResearchPerformance": 0,
+            "recentResearchPotential": 0,
+            "recentScore": 0,
+            "recentStructurePowerLost": 0,
+            "recentStructuresBuilt": 0,
+            "recentStructuresKilled": 0,
+            "recentStructuresLost": 0,
+            "recycled_droids": [],
+            "team": 4
+        },
+        {
+            "aDefaultECM": 0,
+            "aDefaultRepair": 0,
+            "aDefaultSensor": 0,
+            "ai": 0,
+            "alliances": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                3,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "allocated": false,
+            "autoGame": false,
+            "colour": 5,
+            "difficulty": -1,
+            "faction": 0,
+            "iTranspEntryTile": [
+                0,
+                0
+            ],
+            "iTranspExitTile": [
+                0,
+                0
+            ],
+            "index": 5,
+            "ip": "",
+            "name": "Blue-Nexus",
+            "nameAI": "Nexus",
+            "position": 5,
+            "power": 999999,
+            "recentDroidPowerLost": 0,
+            "recentDroidsBuilt": 0,
+            "recentDroidsKilled": 0,
+            "recentDroidsLost": 0,
+            "recentKills": 0,
+            "recentPowerLost": 0,
+            "recentPowerWon": 0,
+            "recentResearchComplete": 0,
+            "recentResearchPerformance": 0,
+            "recentResearchPotential": 0,
+            "recentScore": 0,
+            "recentStructurePowerLost": 0,
+            "recentStructuresBuilt": 0,
+            "recentStructuresKilled": 0,
+            "recentStructuresLost": 0,
+            "recycled_droids": [],
+            "team": 5
+        },
+        {
+            "aDefaultECM": 0,
+            "aDefaultRepair": 0,
+            "aDefaultSensor": 0,
+            "ai": 0,
+            "alliances": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3,
+                0,
+                0,
+                0,
+                0
+            ],
+            "allocated": false,
+            "autoGame": false,
+            "colour": 6,
+            "difficulty": -1,
+            "faction": 0,
+            "iTranspEntryTile": [
+                0,
+                0
+            ],
+            "iTranspExitTile": [
+                0,
+                0
+            ],
+            "index": 6,
+            "ip": "",
+            "name": "Pink-Nexus",
+            "nameAI": "Nexus",
+            "position": 6,
+            "power": 999999,
+            "recentDroidPowerLost": 0,
+            "recentDroidsBuilt": 133,
+            "recentDroidsKilled": 0,
+            "recentDroidsLost": 0,
+            "recentKills": 0,
+            "recentPowerLost": 0,
+            "recentPowerWon": 0,
+            "recentResearchComplete": 8,
+            "recentResearchPerformance": 0,
+            "recentResearchPotential": 0,
+            "recentScore": 0,
+            "recentStructurePowerLost": 0,
+            "recentStructuresBuilt": 0,
+            "recentStructuresKilled": 0,
+            "recentStructuresLost": 0,
+            "recycled_droids": [],
+            "team": 6
+        },
+        {
+            "aDefaultECM": 0,
+            "aDefaultRepair": 0,
+            "aDefaultSensor": 0,
+            "ai": 0,
+            "alliances": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3,
+                0,
+                0,
+                0
+            ],
+            "allocated": false,
+            "autoGame": false,
+            "colour": 7,
+            "difficulty": -1,
+            "faction": 0,
+            "iTranspEntryTile": [
+                0,
+                0
+            ],
+            "iTranspExitTile": [
+                0,
+                0
+            ],
+            "index": 7,
+            "ip": "",
+            "name": "Cyan-Nexus",
+            "nameAI": "Nexus",
+            "position": 7,
+            "power": 999991,
+            "recentDroidPowerLost": 0,
+            "recentDroidsBuilt": 167,
+            "recentDroidsKilled": 0,
+            "recentDroidsLost": 0,
+            "recentKills": 0,
+            "recentPowerLost": 0,
+            "recentPowerWon": 0,
+            "recentResearchComplete": 10,
+            "recentResearchPerformance": 0,
+            "recentResearchPotential": 0,
+            "recentScore": 0,
+            "recentStructurePowerLost": 0,
+            "recentStructuresBuilt": 0,
+            "recentStructuresKilled": 0,
+            "recentStructuresLost": 0,
+            "recycled_droids": [],
+            "team": 7
+        },
+        {
+            "aDefaultECM": 0,
+            "aDefaultRepair": 0,
+            "aDefaultSensor": 0,
+            "ai": 0,
+            "alliances": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3,
+                0,
+                0
+            ],
+            "allocated": false,
+            "autoGame": false,
+            "colour": 8,
+            "difficulty": -1,
+            "faction": 0,
+            "iTranspEntryTile": [
+                0,
+                0
+            ],
+            "iTranspExitTile": [
+                0,
+                0
+            ],
+            "index": 8,
+            "ip": "",
+            "name": "Yellow-Nexus",
+            "nameAI": "Nexus",
+            "position": 8,
+            "power": 0,
+            "recentDroidPowerLost": 0,
+            "recentDroidsBuilt": 0,
+            "recentDroidsKilled": 0,
+            "recentDroidsLost": 0,
+            "recentKills": 0,
+            "recentPowerLost": 0,
+            "recentPowerWon": 0,
+            "recentResearchComplete": 0,
+            "recentResearchPerformance": 0,
+            "recentResearchPotential": 0,
+            "recentScore": 0,
+            "recentStructurePowerLost": 0,
+            "recentStructuresBuilt": 0,
+            "recentStructuresKilled": 0,
+            "recentStructuresLost": 0,
+            "recycled_droids": [],
+            "team": 8
+        },
+        {
+            "aDefaultECM": 0,
+            "aDefaultRepair": 0,
+            "aDefaultSensor": 0,
+            "ai": 0,
+            "alliances": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3,
+                0
+            ],
+            "allocated": false,
+            "autoGame": false,
+            "colour": 9,
+            "difficulty": -1,
+            "faction": 0,
+            "iTranspEntryTile": [
+                0,
+                0
+            ],
+            "iTranspExitTile": [
+                0,
+                0
+            ],
+            "index": 9,
+            "ip": "",
+            "name": "Purple-Nexus",
+            "nameAI": "Nexus",
+            "position": 9,
+            "power": 0,
+            "recentDroidPowerLost": 0,
+            "recentDroidsBuilt": 0,
+            "recentDroidsKilled": 0,
+            "recentDroidsLost": 0,
+            "recentKills": 0,
+            "recentPowerLost": 0,
+            "recentPowerWon": 0,
+            "recentResearchComplete": 0,
+            "recentResearchPerformance": 0,
+            "recentResearchPotential": 0,
+            "recentScore": 0,
+            "recentStructurePowerLost": 0,
+            "recentStructuresBuilt": 0,
+            "recentStructuresKilled": 0,
+            "recentStructuresLost": 0,
+            "recycled_droids": [],
+            "team": 9
+        },
+        {
+            "aDefaultECM": 0,
+            "aDefaultRepair": 0,
+            "aDefaultSensor": 0,
+            "ai": 0,
+            "alliances": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3
+            ],
+            "allocated": false,
+            "autoGame": false,
+            "colour": 10,
+            "difficulty": -1,
+            "faction": 0,
+            "iTranspEntryTile": [
+                0,
+                0
+            ],
+            "iTranspExitTile": [
+                0,
+                0
+            ],
+            "index": 10,
+            "ip": "",
+            "name": "White-Nexus",
+            "nameAI": "Nexus",
+            "position": 10,
+            "power": 0,
+            "recentDroidPowerLost": 0,
+            "recentDroidsBuilt": 0,
+            "recentDroidsKilled": 0,
+            "recentDroidsLost": 0,
+            "recentKills": 0,
+            "recentPowerLost": 0,
+            "recentPowerWon": 0,
+            "recentResearchComplete": 0,
+            "recentResearchPerformance": 0,
+            "recentResearchPotential": 0,
+            "recentScore": 0,
+            "recentStructurePowerLost": 0,
+            "recentStructuresBuilt": 0,
+            "recentStructuresKilled": 0,
+            "recentStructuresLost": 0,
+            "recycled_droids": [],
+            "team": 10
+        }
+    ],
+    "powerSetting": 1,
+    "radarPermitted": true,
+    "radarZoom": 24,
+    "reinforceTime": 0,
+    "rubbleTile": 67,
+    "saveKey": 257,
+    "saveType": 4,
+    "scavengers": 1,
+    "scriptSetPlayerDataStrings": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "scrollMax": [
+        44,
+        93
+    ],
+    "scrollMin": [
+        0,
+        0
+    ],
+    "selectedPlayer": 0,
+    "techLevel": 1,
+    "tweakOptions": {
+        "autosavesOnly": false,
+        "classicTimers": false,
+        "playerUnitCap40": false,
+        "ps1Modifiers": false,
+        "timerPowerBonus": true
+    },
+    "useTerrainOverrides": true,
+    "version": 410,
+    "versionFile": 2,
+    "waterTile": 17
+}

@@ -1,0 +1,3019 @@
+{
+    "droid_0000000000": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 3272003,
+        "bumpDir": 52702,
+        "bumpPosition": [
+            1799,
+            6723
+        ],
+        "bumpTime": 0,
+        "droidType": 0,
+        "experience": 1749376,
+        "group": 255,
+        "health": 255,
+        "id": 167467,
+        "lastBump": 0,
+        "lastFired/0": 0,
+        "moveDestination": [
+            1472,
+            6720
+        ],
+        "moveDirection": 50848,
+        "moveSource": [
+            1600,
+            6699
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            1472,
+            6720
+        ],
+        "name": "Twin Machinegun Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            1280,
+            6528
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 25,
+        "orderList/size": 0,
+        "originalBody": 255,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "MG2Mk1"
+        },
+        "pathIndex": 0,
+        "pathLength": 0,
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            1280,
+            6528,
+            11
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            50848,
+            0,
+            65022
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 0,
+        "shotsFired/0": 0,
+        "shuffleStart": 3425803,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "droid_0000000001": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "aigroup": 0,
+        "aigroup/type": 2,
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 3795104,
+        "bumpDir": 0,
+        "bumpPosition": [
+            0,
+            0
+        ],
+        "bumpTime": 0,
+        "droidType": 13,
+        "group": 255,
+        "health": 10010,
+        "id": 167503,
+        "lastBump": 0,
+        "lastFired/0": 0,
+        "moveDestination": [
+            0,
+            0
+        ],
+        "moveDirection": 0,
+        "moveSource": [
+            0,
+            0
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            0,
+            0
+        ],
+        "name": "Transport",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            0,
+            0
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 0,
+        "orderList/size": 0,
+        "originalBody": 10010,
+        "parts": {
+            "body": "TransporterBody",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "V-Tol",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "MG3-VTOL"
+        },
+        "pathIndex": 0,
+        "pathLength": 0,
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            1472,
+            6720,
+            10
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            0,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 94,
+        "selected": 0,
+        "shotsFired/0": 0,
+        "shuffleStart": 0,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "droid_0000000002": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "aigroup": 0,
+        "aigroup/type": 2,
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 1393002,
+        "bumpDir": 9310,
+        "bumpPosition": [
+            2920,
+            6409
+        ],
+        "bumpTime": 0,
+        "died": 1,
+        "droidType": 0,
+        "experience": 386070,
+        "group": 255,
+        "health": 220,
+        "id": 160551,
+        "kills": 7,
+        "lastBump": 0,
+        "lastEmission": 2684704,
+        "lastFired/0": 2635864,
+        "moveDestination": [
+            1472,
+            6720
+        ],
+        "moveDirection": 48506,
+        "moveSource": [
+            1601,
+            6728
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            1472,
+            6720
+        ],
+        "name": "Flamer Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            0,
+            0
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 0,
+        "orderList/size": 0,
+        "originalBody": 220,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "Flame1Mk1"
+        },
+        "pathIndex": 7,
+        "pathLength": 7,
+        "pathNode/0": [
+            2240,
+            6720
+        ],
+        "pathNode/1": [
+            2112,
+            6720
+        ],
+        "pathNode/2": [
+            1984,
+            6720
+        ],
+        "pathNode/3": [
+            1856,
+            6720
+        ],
+        "pathNode/4": [
+            1728,
+            6720
+        ],
+        "pathNode/5": [
+            1600,
+            6720
+        ],
+        "pathNode/6": [
+            1472,
+            6720
+        ],
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            1594,
+            6728,
+            0
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            48506,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 150,
+        "selected": 0,
+        "shotsFired/0": 16,
+        "shuffleStart": 3801804,
+        "timeLastHit": 2639203,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "droid_0000000003": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "aigroup": 0,
+        "aigroup/type": 2,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 670602,
+        "bumpDir": 49899,
+        "bumpPosition": [
+            2510,
+            6765
+        ],
+        "bumpTime": 0,
+        "died": 1,
+        "droidType": 8,
+        "group": 255,
+        "health": 230,
+        "id": 160361,
+        "lastBump": 0,
+        "moveDestination": [
+            1472,
+            6720
+        ],
+        "moveDirection": 48525,
+        "moveSource": [
+            1605,
+            6728
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            1472,
+            6720
+        ],
+        "name": "Repair Turret Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            0,
+            0
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 0,
+        "orderList/size": 0,
+        "originalBody": 230,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "LightRepair1",
+            "sensor": "ZNULLSENSOR"
+        },
+        "pathIndex": 14,
+        "pathLength": 14,
+        "pathNode/0": [
+            3136,
+            6720
+        ],
+        "pathNode/1": [
+            3008,
+            6720
+        ],
+        "pathNode/10": [
+            1856,
+            6720
+        ],
+        "pathNode/11": [
+            1728,
+            6720
+        ],
+        "pathNode/12": [
+            1600,
+            6720
+        ],
+        "pathNode/13": [
+            1472,
+            6720
+        ],
+        "pathNode/2": [
+            2880,
+            6720
+        ],
+        "pathNode/3": [
+            2752,
+            6720
+        ],
+        "pathNode/4": [
+            2624,
+            6720
+        ],
+        "pathNode/5": [
+            2496,
+            6720
+        ],
+        "pathNode/6": [
+            2368,
+            6720
+        ],
+        "pathNode/7": [
+            2240,
+            6720
+        ],
+        "pathNode/8": [
+            2112,
+            6720
+        ],
+        "pathNode/9": [
+            1984,
+            6720
+        ],
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            1598,
+            6728,
+            0
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            48525,
+            0,
+            0
+        ],
+        "secondaryOrder": 150,
+        "selected": 0,
+        "shuffleStart": 3303503,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "droid_0000000004": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "aigroup": 0,
+        "aigroup/type": 2,
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 2487403,
+        "bumpDir": 50287,
+        "bumpPosition": [
+            2688,
+            6517
+        ],
+        "bumpTime": 0,
+        "died": 1,
+        "droidType": 0,
+        "group": 1,
+        "health": 220,
+        "id": 161355,
+        "lastBump": 0,
+        "lastFired/0": 0,
+        "moveDestination": [
+            1472,
+            6720
+        ],
+        "moveDirection": 50040,
+        "moveSource": [
+            1601,
+            6709
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            1472,
+            6720
+        ],
+        "name": "Flamer Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            0,
+            0
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 0,
+        "orderList/size": 0,
+        "originalBody": 220,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "Flame1Mk1"
+        },
+        "pathIndex": 11,
+        "pathLength": 11,
+        "pathNode/0": [
+            2752,
+            6592
+        ],
+        "pathNode/1": [
+            2624,
+            6592
+        ],
+        "pathNode/10": [
+            1472,
+            6720
+        ],
+        "pathNode/2": [
+            2496,
+            6592
+        ],
+        "pathNode/3": [
+            2368,
+            6592
+        ],
+        "pathNode/4": [
+            2240,
+            6720
+        ],
+        "pathNode/5": [
+            2112,
+            6720
+        ],
+        "pathNode/6": [
+            1984,
+            6720
+        ],
+        "pathNode/7": [
+            1856,
+            6720
+        ],
+        "pathNode/8": [
+            1728,
+            6720
+        ],
+        "pathNode/9": [
+            1600,
+            6720
+        ],
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            1594,
+            6709,
+            0
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            50040,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 150,
+        "selected": 0,
+        "shotsFired/0": 0,
+        "shuffleStart": 3454503,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "droid_0000000005": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "aigroup": 0,
+        "aigroup/type": 2,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 2,
+        "bumpDir": 9792,
+        "bumpPosition": [
+            2778,
+            6686
+        ],
+        "bumpTime": 0,
+        "died": 1,
+        "droidType": 3,
+        "group": 255,
+        "health": 210,
+        "id": 160005,
+        "lastBump": 0,
+        "moveDestination": [
+            1472,
+            6720
+        ],
+        "moveDirection": 49641,
+        "moveSource": [
+            1600,
+            6714
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            1472,
+            6720
+        ],
+        "name": "Truck Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            0,
+            0
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 0,
+        "orderList/size": 0,
+        "originalBody": 210,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "Spade1Mk1",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR"
+        },
+        "pathIndex": 8,
+        "pathLength": 8,
+        "pathNode/0": [
+            2368,
+            6720
+        ],
+        "pathNode/1": [
+            2240,
+            6720
+        ],
+        "pathNode/2": [
+            2112,
+            6720
+        ],
+        "pathNode/3": [
+            1984,
+            6720
+        ],
+        "pathNode/4": [
+            1856,
+            6720
+        ],
+        "pathNode/5": [
+            1728,
+            6720
+        ],
+        "pathNode/6": [
+            1600,
+            6720
+        ],
+        "pathNode/7": [
+            1472,
+            6720
+        ],
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            1593,
+            6714,
+            0
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            49641,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 0,
+        "shuffleStart": 3792604,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "droid_0000000006": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "aigroup": 0,
+        "aigroup/type": 2,
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 3337503,
+        "bumpDir": 46585,
+        "bumpPosition": [
+            1975,
+            6832
+        ],
+        "bumpTime": 0,
+        "died": 1,
+        "droidType": 0,
+        "experience": 1296648,
+        "group": 255,
+        "health": 255,
+        "id": 167477,
+        "lastBump": 0,
+        "lastFired/0": 0,
+        "moveDestination": [
+            1472,
+            6720
+        ],
+        "moveDirection": 51154,
+        "moveSource": [
+            1603,
+            6751
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            1472,
+            6720
+        ],
+        "name": "Twin Machinegun Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            0,
+            0
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 0,
+        "orderList/size": 0,
+        "originalBody": 255,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "MG2Mk1"
+        },
+        "pathIndex": 5,
+        "pathLength": 5,
+        "pathNode/0": [
+            1984,
+            6848
+        ],
+        "pathNode/1": [
+            1856,
+            6720
+        ],
+        "pathNode/2": [
+            1728,
+            6720
+        ],
+        "pathNode/3": [
+            1600,
+            6720
+        ],
+        "pathNode/4": [
+            1472,
+            6720
+        ],
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            1595,
+            6753,
+            0
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            51154,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 0,
+        "shotsFired/0": 0,
+        "shuffleStart": 0,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "droid_0000000007": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "aigroup": 0,
+        "aigroup/type": 2,
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 3303403,
+        "bumpDir": 47455,
+        "bumpPosition": [
+            1708,
+            6638
+        ],
+        "bumpTime": 0,
+        "died": 1,
+        "droidType": 0,
+        "experience": 1624864,
+        "group": 255,
+        "health": 255,
+        "id": 167471,
+        "lastBump": 0,
+        "lastFired/0": 0,
+        "moveDestination": [
+            1472,
+            6720
+        ],
+        "moveDirection": 49878,
+        "moveSource": [
+            1604,
+            6640
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            1472,
+            6720
+        ],
+        "name": "Twin Machinegun Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            0,
+            0
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 0,
+        "orderList/size": 0,
+        "originalBody": 255,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "MG2Mk1"
+        },
+        "pathIndex": 5,
+        "pathLength": 5,
+        "pathNode/0": [
+            1984,
+            6720
+        ],
+        "pathNode/1": [
+            1856,
+            6720
+        ],
+        "pathNode/2": [
+            1728,
+            6720
+        ],
+        "pathNode/3": [
+            1600,
+            6720
+        ],
+        "pathNode/4": [
+            1472,
+            6720
+        ],
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            1596,
+            6641,
+            1
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            49878,
+            65481,
+            64757
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 0,
+        "shotsFired/0": 0,
+        "shuffleStart": 3517104,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "droid_0000000008": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "aigroup": 0,
+        "aigroup/type": 2,
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 3274703,
+        "bumpDir": 46564,
+        "bumpPosition": [
+            1717,
+            6868
+        ],
+        "bumpTime": 0,
+        "died": 1,
+        "droidType": 0,
+        "experience": 1112333,
+        "group": 255,
+        "health": 255,
+        "id": 167469,
+        "lastBump": 0,
+        "lastFired/0": 0,
+        "moveDestination": [
+            1472,
+            6720
+        ],
+        "moveDirection": 46312,
+        "moveSource": [
+            1607,
+            6844
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            1472,
+            6720
+        ],
+        "name": "Twin Machinegun Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            0,
+            0
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 0,
+        "orderList/size": 0,
+        "originalBody": 255,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "MG2Mk1"
+        },
+        "pathIndex": 5,
+        "pathLength": 5,
+        "pathNode/0": [
+            1984,
+            6848
+        ],
+        "pathNode/1": [
+            1856,
+            6720
+        ],
+        "pathNode/2": [
+            1728,
+            6720
+        ],
+        "pathNode/3": [
+            1600,
+            6720
+        ],
+        "pathNode/4": [
+            1472,
+            6720
+        ],
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            1598,
+            6841,
+            1
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            46312,
+            65285,
+            65466
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 0,
+        "shotsFired/0": 0,
+        "shuffleStart": 3427403,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "droid_0000000009": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "aigroup": 0,
+        "aigroup/type": 2,
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 3366203,
+        "bumpDir": 36205,
+        "bumpPosition": [
+            1934,
+            6698
+        ],
+        "bumpTime": 0,
+        "died": 1,
+        "droidType": 0,
+        "experience": 1271698,
+        "group": 255,
+        "health": 255,
+        "id": 167479,
+        "lastBump": 0,
+        "lastFired/0": 0,
+        "moveDestination": [
+            1472,
+            6720
+        ],
+        "moveDirection": 48093,
+        "moveSource": [
+            1602,
+            6619
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            1472,
+            6720
+        ],
+        "name": "Twin Machinegun Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            0,
+            0
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 0,
+        "orderList/size": 0,
+        "originalBody": 255,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "MG2Mk1"
+        },
+        "pathIndex": 5,
+        "pathLength": 5,
+        "pathNode/0": [
+            1984,
+            6720
+        ],
+        "pathNode/1": [
+            1856,
+            6720
+        ],
+        "pathNode/2": [
+            1728,
+            6720
+        ],
+        "pathNode/3": [
+            1600,
+            6720
+        ],
+        "pathNode/4": [
+            1472,
+            6720
+        ],
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            1594,
+            6618,
+            3
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            48093,
+            106,
+            64502
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 0,
+        "shotsFired/0": 0,
+        "shuffleStart": 3425303,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "droid_0000000010": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "aigroup": 0,
+        "aigroup/type": 2,
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 3368903,
+        "bumpDir": 31560,
+        "bumpPosition": [
+            1884,
+            6786
+        ],
+        "bumpTime": 0,
+        "died": 1,
+        "droidType": 0,
+        "experience": 1190145,
+        "group": 255,
+        "health": 255,
+        "id": 167481,
+        "lastBump": 0,
+        "lastFired/0": 0,
+        "moveDestination": [
+            1472,
+            6720
+        ],
+        "moveDirection": 47977,
+        "moveSource": [
+            1601,
+            6703
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            1472,
+            6720
+        ],
+        "name": "Twin Machinegun Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            0,
+            0
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 0,
+        "orderList/size": 0,
+        "originalBody": 255,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "MG2Mk1"
+        },
+        "pathIndex": 4,
+        "pathLength": 4,
+        "pathNode/0": [
+            1856,
+            6848
+        ],
+        "pathNode/1": [
+            1728,
+            6848
+        ],
+        "pathNode/2": [
+            1600,
+            6848
+        ],
+        "pathNode/3": [
+            1472,
+            6720
+        ],
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            1593,
+            6702,
+            0
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            47977,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 0,
+        "shotsFired/0": 0,
+        "shuffleStart": 3515804,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "droid_0000000011": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "aigroup": 0,
+        "aigroup/type": 2,
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 3334803,
+        "bumpDir": 43233,
+        "bumpPosition": [
+            1912,
+            6933
+        ],
+        "bumpTime": 0,
+        "died": 1,
+        "droidType": 0,
+        "experience": 1326489,
+        "group": 255,
+        "health": 255,
+        "id": 167475,
+        "lastBump": 0,
+        "lastFired/0": 0,
+        "moveDestination": [
+            1472,
+            6720
+        ],
+        "moveDirection": 45654,
+        "moveSource": [
+            1602,
+            6811
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            1472,
+            6720
+        ],
+        "name": "Twin Machinegun Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            0,
+            0
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 0,
+        "orderList/size": 0,
+        "originalBody": 255,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "MG2Mk1"
+        },
+        "pathIndex": 6,
+        "pathLength": 6,
+        "pathNode/0": [
+            1984,
+            6976
+        ],
+        "pathNode/1": [
+            1984,
+            6848
+        ],
+        "pathNode/2": [
+            1856,
+            6720
+        ],
+        "pathNode/3": [
+            1728,
+            6720
+        ],
+        "pathNode/4": [
+            1600,
+            6720
+        ],
+        "pathNode/5": [
+            1472,
+            6720
+        ],
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            1594,
+            6808,
+            0
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            45654,
+            65451,
+            246
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 0,
+        "shotsFired/0": 0,
+        "shuffleStart": 3514504,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "droid_0000000012": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 3400303,
+        "bumpDir": 0,
+        "bumpPosition": [
+            0,
+            0
+        ],
+        "bumpTime": 0,
+        "droidType": 0,
+        "experience": 1150459,
+        "group": 255,
+        "health": 255,
+        "id": 167485,
+        "lastBump": 0,
+        "lastFired/0": 0,
+        "moveDestination": [
+            2752,
+            7488
+        ],
+        "moveDirection": 6133,
+        "moveSource": [
+            2737,
+            7466
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            2752,
+            7488
+        ],
+        "name": "Twin Machinegun Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            2737,
+            7466
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 25,
+        "orderList/size": 0,
+        "originalBody": 255,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "MG2Mk1"
+        },
+        "pathIndex": 4,
+        "pathLength": 4,
+        "pathNode/0": [
+            2496,
+            7232
+        ],
+        "pathNode/1": [
+            2624,
+            7302
+        ],
+        "pathNode/2": [
+            2752,
+            7360
+        ],
+        "pathNode/3": [
+            2752,
+            7488
+        ],
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            2737,
+            7466,
+            55
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            6133,
+            2483,
+            64170
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 0,
+        "shotsFired/0": 0,
+        "shuffleStart": 0,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "droid_0000000013": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 3397603,
+        "bumpDir": 53493,
+        "bumpPosition": [
+            3120,
+            7264
+        ],
+        "bumpTime": 0,
+        "droidType": 0,
+        "experience": 1163365,
+        "group": 255,
+        "health": 255,
+        "id": 167483,
+        "lastBump": 0,
+        "lastFired/0": 0,
+        "moveDestination": [
+            3185,
+            7265
+        ],
+        "moveDirection": 53493,
+        "moveSource": [
+            3136,
+            7121
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            3067,
+            7229
+        ],
+        "name": "Twin Machinegun Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            3136,
+            7121
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 25,
+        "orderList/size": 0,
+        "originalBody": 255,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "MG2Mk1"
+        },
+        "pathIndex": 0,
+        "pathLength": 0,
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            3120,
+            7268,
+            16
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            53493,
+            0,
+            0
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 0,
+        "shotsFired/0": 0,
+        "shuffleStart": 3426003,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "droid_0000000014": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 3306103,
+        "bumpDir": 23204,
+        "bumpPosition": [
+            3081,
+            7180
+        ],
+        "bumpTime": 0,
+        "droidType": 0,
+        "experience": 1473109,
+        "group": 255,
+        "health": 255,
+        "id": 167473,
+        "lastBump": 0,
+        "lastFired/0": 0,
+        "moveDestination": [
+            2849,
+            7217
+        ],
+        "moveDirection": 60650,
+        "moveSource": [
+            3081,
+            7181
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            2958,
+            7214
+        ],
+        "name": "Twin Machinegun Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            3077,
+            7180
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 25,
+        "orderList/size": 0,
+        "originalBody": 255,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "MG2Mk1"
+        },
+        "pathIndex": 0,
+        "pathLength": 0,
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            2954,
+            7210,
+            4
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            60650,
+            65068,
+            347
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 158,
+        "selected": 0,
+        "shotsFired/0": 0,
+        "shuffleStart": 3506204,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "droid_0000000015": {
+        "action": 0,
+        "action/pos": [
+            2176,
+            6912
+        ],
+        "actionPoints": 2,
+        "actionStarted": 3793804,
+        "actionString": "DACTION_NONE",
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 2,
+        "bumpDir": 20296,
+        "bumpPosition": [
+            2390,
+            6681
+        ],
+        "bumpTime": 0,
+        "droidType": 3,
+        "group": 255,
+        "health": 210,
+        "id": 160001,
+        "lastBump": 0,
+        "moveDestination": [
+            2176,
+            6912
+        ],
+        "moveDirection": 20296,
+        "moveSource": [
+            2426,
+            6786
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            2434,
+            6659
+        ],
+        "name": "Truck Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            0,
+            0
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 0,
+        "orderList/size": 0,
+        "originalBody": 210,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "Spade1Mk1",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR"
+        },
+        "pathIndex": 0,
+        "pathLength": 0,
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            2394,
+            6684,
+            15
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            20296,
+            382,
+            967
+        ],
+        "secondaryOrder": 154,
+        "selected": 0,
+        "shuffleStart": 3824004,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "droid_0000000016": {
+        "action": 0,
+        "action/pos": [
+            2417,
+            6611
+        ],
+        "actionPoints": 300,
+        "actionStarted": 3774604,
+        "actionString": "DACTION_NONE",
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 2,
+        "bumpDir": 54943,
+        "bumpPosition": [
+            2441,
+            6618
+        ],
+        "bumpTime": 0,
+        "droidType": 3,
+        "group": 255,
+        "health": 210,
+        "id": 160003,
+        "lastBump": 0,
+        "moveDestination": [
+            2417,
+            6611
+        ],
+        "moveDirection": 54943,
+        "moveSource": [
+            2447,
+            6617
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            2504,
+            6731
+        ],
+        "name": "Truck Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            0,
+            0
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 0,
+        "orderList/size": 0,
+        "originalBody": 210,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "Spade1Mk1",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR"
+        },
+        "pathIndex": 0,
+        "pathLength": 0,
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            2439,
+            6616,
+            15
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            54943,
+            412,
+            664
+        ],
+        "secondaryOrder": 158,
+        "selected": 0,
+        "shuffleStart": 3825604,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "droid_0000000017": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 1519203,
+        "bumpDir": 9490,
+        "bumpPosition": [
+            2788,
+            6489
+        ],
+        "bumpTime": 3851404,
+        "droidType": 0,
+        "experience": 59866,
+        "group": 255,
+        "health": 220,
+        "id": 160909,
+        "lastBump": 0,
+        "lastEmission": 2858304,
+        "lastFired/0": 2658464,
+        "moveDestination": [
+            2837,
+            6376
+        ],
+        "moveDirection": 9490,
+        "moveSource": [
+            2789,
+            6491
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 8,
+        "moveTarget": [
+            2907,
+            6541
+        ],
+        "name": "Flamer Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            2775,
+            6511
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 25,
+        "orderList/size": 0,
+        "originalBody": 220,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "Flame1Mk1"
+        },
+        "pathIndex": 0,
+        "pathLength": 0,
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            2789,
+            6491,
+            10
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            9490,
+            229,
+            64397
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 150,
+        "selected": 0,
+        "shotsFired/0": 17,
+        "shuffleStart": 3855104,
+        "timeLastHit": 2650303,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "droid_0000000018": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 1550103,
+        "bumpDir": 6491,
+        "bumpPosition": [
+            2838,
+            6394
+        ],
+        "bumpTime": 0,
+        "droidType": 0,
+        "experience": 123411,
+        "group": 255,
+        "health": 220,
+        "id": 160915,
+        "kills": 3,
+        "lastBump": 0,
+        "lastEmission": 2658004,
+        "lastFired/0": 2596004,
+        "moveDestination": [
+            2837,
+            6376
+        ],
+        "moveDirection": 6491,
+        "moveSource": [
+            2841,
+            6395
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            2783,
+            6509
+        ],
+        "name": "Flamer Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            2823,
+            6400
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 25,
+        "orderList/size": 0,
+        "originalBody": 220,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "Flame1Mk1"
+        },
+        "pathIndex": 0,
+        "pathLength": 0,
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            2841,
+            6395,
+            0
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            6491,
+            211,
+            65384
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 150,
+        "selected": 0,
+        "shotsFired/0": 10,
+        "shuffleStart": 3844104,
+        "timeLastHit": 2602503,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "droid_0000000019": {
+        "action": 0,
+        "action/pos": [
+            3572,
+            6711
+        ],
+        "actionPoints": 0,
+        "actionStarted": 3302103,
+        "actionString": "DACTION_NONE",
+        "actionTarget/0/id": 161345,
+        "actionTarget/0/player": 0,
+        "actionTarget/0/type": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 1594003,
+        "bumpDir": 8314,
+        "bumpPosition": [
+            3287,
+            6650
+        ],
+        "bumpTime": 0,
+        "droidType": 8,
+        "group": 255,
+        "health": 230,
+        "id": 160935,
+        "lastBump": 0,
+        "moveDestination": [
+            3147,
+            6852
+        ],
+        "moveDirection": 8314,
+        "moveSource": [
+            3304,
+            6591
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            3297,
+            6718
+        ],
+        "name": "Repair Turret Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            0,
+            0
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 0,
+        "orderList/size": 0,
+        "originalBody": 230,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "LightRepair1",
+            "sensor": "ZNULLSENSOR"
+        },
+        "pathIndex": 0,
+        "pathLength": 0,
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            3288,
+            6649,
+            15
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            8314,
+            191,
+            551
+        ],
+        "secondaryOrder": 150,
+        "selected": 0,
+        "shuffleStart": 3304303,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "droid_0000000020": {
+        "action": 0,
+        "action/pos": [
+            3572,
+            6711
+        ],
+        "actionPoints": 0,
+        "actionStarted": 3302403,
+        "actionString": "DACTION_NONE",
+        "actionTarget/0/id": 161345,
+        "actionTarget/0/player": 0,
+        "actionTarget/0/type": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 1813603,
+        "bumpDir": 12366,
+        "bumpPosition": [
+            3337,
+            6506
+        ],
+        "bumpTime": 0,
+        "droidType": 8,
+        "group": 255,
+        "health": 230,
+        "id": 161039,
+        "lastBump": 0,
+        "lastEmission": 2141804,
+        "moveDestination": [
+            3572,
+            6711
+        ],
+        "moveDirection": 9620,
+        "moveSource": [
+            3378,
+            6518
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            3572,
+            6711
+        ],
+        "name": "Repair Turret Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            0,
+            0
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 0,
+        "orderList/size": 0,
+        "originalBody": 230,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "LightRepair1",
+            "sensor": "ZNULLSENSOR"
+        },
+        "pathIndex": 3,
+        "pathLength": 3,
+        "pathNode/0": [
+            3392,
+            6464
+        ],
+        "pathNode/1": [
+            3520,
+            6592
+        ],
+        "pathNode/2": [
+            3572,
+            6711
+        ],
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            3391,
+            6527,
+            20
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            9620,
+            64907,
+            830
+        ],
+        "secondaryOrder": 150,
+        "selected": 0,
+        "shuffleStart": 3006403,
+        "timeLastHit": 2111203,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "weapons": 0
+    },
+    "droid_0000000021": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 2079903,
+        "bumpDir": 55360,
+        "bumpPosition": [
+            2686,
+            6390
+        ],
+        "bumpTime": 0,
+        "droidType": 0,
+        "experience": 144488,
+        "group": 255,
+        "health": 220,
+        "id": 161173,
+        "kills": 1,
+        "lastBump": 0,
+        "lastEmission": 2653804,
+        "lastFired/0": 2591784,
+        "moveDestination": [
+            2837,
+            6376
+        ],
+        "moveDirection": 55360,
+        "moveSource": [
+            2682,
+            6389
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            2685,
+            6517
+        ],
+        "name": "Flamer Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            2688,
+            6386
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 25,
+        "orderList/size": 0,
+        "originalBody": 220,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "Flame1Mk1"
+        },
+        "pathIndex": 0,
+        "pathLength": 0,
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            2682,
+            6389,
+            1
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            55360,
+            723,
+            140
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 150,
+        "selected": 0,
+        "shotsFired/0": 8,
+        "shuffleStart": 3453503,
+        "timeLastHit": 2597203,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "droid_0000000022": {
+        "action": 1,
+        "action/pos": [
+            2837,
+            6376
+        ],
+        "actionPoints": 0,
+        "actionStarted": 3354303,
+        "actionString": "DACTION_MOVE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 2394703,
+        "bumpDir": 3044,
+        "bumpPosition": [
+            2762,
+            6411
+        ],
+        "bumpTime": 3852304,
+        "droidType": 0,
+        "formation": {
+            "direction": 37509,
+            "x": 2837,
+            "y": 6376
+        },
+        "group": 1,
+        "health": 220,
+        "id": 161323,
+        "lastBump": 2800,
+        "lastFired/0": 0,
+        "moveDestination": [
+            2837,
+            6376
+        ],
+        "moveDirection": 2042,
+        "moveSource": [
+            2760,
+            6413
+        ],
+        "moveSpeed": 154,
+        "moveStatus": 3,
+        "moveTarget": [
+            2880,
+            6464
+        ],
+        "name": "Flamer Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            2837,
+            6376
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 2,
+        "orderList/size": 0,
+        "originalBody": 220,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "Flame1Mk1"
+        },
+        "pathIndex": 2,
+        "pathLength": 3,
+        "pathNode/0": [
+            2752,
+            6464
+        ],
+        "pathNode/1": [
+            2880,
+            6464
+        ],
+        "pathNode/2": [
+            2837,
+            6376
+        ],
+        "pauseTime": 1600,
+        "player": 0,
+        "position": [
+            2760,
+            6413,
+            2
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            2042,
+            1272,
+            65283
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 150,
+        "selected": 0,
+        "shotsFired/0": 0,
+        "shuffleStart": 3346103,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "droid_0000000023": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 2404603,
+        "bumpDir": 36576,
+        "bumpPosition": [
+            2617,
+            6499
+        ],
+        "bumpTime": 0,
+        "droidType": 0,
+        "group": 1,
+        "health": 220,
+        "id": 161327,
+        "lastBump": 0,
+        "lastFired/0": 0,
+        "moveDestination": [
+            2837,
+            6376
+        ],
+        "moveDirection": 33432,
+        "moveSource": [
+            2611,
+            6488
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            2576,
+            6365
+        ],
+        "name": "Flamer Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            2704,
+            6558
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 25,
+        "orderList/size": 0,
+        "originalBody": 220,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "Flame1Mk1"
+        },
+        "pathIndex": 0,
+        "pathLength": 0,
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            2573,
+            6384,
+            8
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            33432,
+            33,
+            520
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 150,
+        "selected": 0,
+        "shotsFired/0": 0,
+        "shuffleStart": 3815704,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "droid_0000000024": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 2435503,
+        "bumpDir": 20433,
+        "bumpPosition": [
+            2887,
+            6551
+        ],
+        "bumpTime": 3851504,
+        "droidType": 0,
+        "group": 1,
+        "health": 220,
+        "id": 161339,
+        "lastBump": 0,
+        "lastFired/0": 0,
+        "moveDestination": [
+            2837,
+            6376
+        ],
+        "moveDirection": 20433,
+        "moveSource": [
+            2887,
+            6551
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            3004,
+            6603
+        ],
+        "name": "Flamer Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            2881,
+            6553
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 25,
+        "orderList/size": 0,
+        "originalBody": 220,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "Flame1Mk1"
+        },
+        "pathIndex": 0,
+        "pathLength": 0,
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            2889,
+            6550,
+            14
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            20433,
+            65042,
+            64334
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 150,
+        "selected": 0,
+        "shotsFired/0": 0,
+        "shuffleStart": 3851404,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "droid_0000000025": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 2456503,
+        "bumpDir": 37443,
+        "bumpPosition": [
+            2806,
+            6586
+        ],
+        "bumpTime": 0,
+        "droidType": 0,
+        "experience": 8301,
+        "group": 1,
+        "health": 220,
+        "id": 161345,
+        "lastBump": 0,
+        "lastFired/0": 2850164,
+        "moveDestination": [
+            2837,
+            6376
+        ],
+        "moveDirection": 37509,
+        "moveSource": [
+            2794,
+            6587
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            2837,
+            6376
+        ],
+        "name": "Flamer Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            2794,
+            6587
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 25,
+        "orderList/size": 0,
+        "originalBody": 220,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "Flame1Mk1"
+        },
+        "pathIndex": 4,
+        "pathLength": 4,
+        "pathNode/0": [
+            2624,
+            6720
+        ],
+        "pathNode/1": [
+            2752,
+            6592
+        ],
+        "pathNode/2": [
+            2880,
+            6464
+        ],
+        "pathNode/3": [
+            2837,
+            6376
+        ],
+        "pauseTime": 1600,
+        "player": 0,
+        "position": [
+            2794,
+            6587,
+            20
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            37509,
+            64139,
+            685
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 150,
+        "selected": 0,
+        "shotsFired/0": 2,
+        "shuffleStart": 3351403,
+        "timeLastHit": 2849603,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "droid_0000000026": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 2497303,
+        "bumpDir": 7855,
+        "bumpPosition": [
+            2867,
+            6473
+        ],
+        "bumpTime": 3851404,
+        "droidType": 0,
+        "experience": 8301,
+        "group": 1,
+        "health": 220,
+        "id": 161357,
+        "lastBump": 0,
+        "lastFired/0": 2849064,
+        "moveDestination": [
+            2837,
+            6376
+        ],
+        "moveDirection": 7855,
+        "moveSource": [
+            2867,
+            6473
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            2984,
+            6525
+        ],
+        "name": "Flamer Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            2873,
+            6473
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 25,
+        "orderList/size": 0,
+        "originalBody": 220,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "Flame1Mk1"
+        },
+        "pathIndex": 0,
+        "pathLength": 0,
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            2869,
+            6473,
+            7
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            7855,
+            760,
+            64824
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 150,
+        "selected": 0,
+        "shotsFired/0": 2,
+        "shuffleStart": 3851404,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "weapons": 1
+    },
+    "droid_0000000027": {
+        "action": 0,
+        "action/pos": [
+            0,
+            0
+        ],
+        "actionPoints": 0,
+        "actionStarted": 0,
+        "actionString": "DACTION_NONE",
+        "ammo/0": 0,
+        "attackRun/0": 0,
+        "attackRun/1": 0,
+        "attackRun/2": 0,
+        "born": 2528203,
+        "bumpDir": 46181,
+        "bumpPosition": [
+            2950,
+            6485
+        ],
+        "bumpTime": 0,
+        "droidType": 0,
+        "experience": 30136,
+        "group": 1,
+        "health": 220,
+        "id": 161365,
+        "kills": 1,
+        "lastBump": 0,
+        "lastFired/0": 2849464,
+        "moveDestination": [
+            2837,
+            6376
+        ],
+        "moveDirection": 46181,
+        "moveSource": [
+            2950,
+            6485
+        ],
+        "moveSpeed": 0,
+        "moveStatus": 0,
+        "moveTarget": [
+            2828,
+            6522
+        ],
+        "name": "Flamer Viper Wheels",
+        "onMission": false,
+        "order/direction": 0,
+        "order/index": 0,
+        "order/pos": [
+            2954,
+            6488
+        ],
+        "order/pos2": [
+            0,
+            0
+        ],
+        "order/rtrType": 0,
+        "order/type": 25,
+        "orderList/size": 0,
+        "originalBody": 220,
+        "parts": {
+            "body": "Body1REC",
+            "brain": "ZNULLBRAIN",
+            "construct": "ZNULLCONSTRUCT",
+            "ecm": "ZNULLECM",
+            "propulsion": "wheeled01",
+            "repair": "ZNULLREPAIR",
+            "sensor": "ZNULLSENSOR",
+            "weapon/1": "Flame1Mk1"
+        },
+        "pathIndex": 0,
+        "pathLength": 0,
+        "pauseTime": 0,
+        "player": 0,
+        "position": [
+            2950,
+            6485,
+            8
+        ],
+        "repairGroup": 255,
+        "rotation": [
+            46181,
+            65243,
+            998
+        ],
+        "rotation/0": [
+            0,
+            0,
+            0
+        ],
+        "secondaryOrder": 150,
+        "selected": 0,
+        "shotsFired/0": 3,
+        "shuffleStart": 3842304,
+        "vertSpeed": 0,
+        "visible/0": 255,
+        "weapons": 1
+    }
+}
