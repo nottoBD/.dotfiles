@@ -23,3 +23,6 @@ fi
 if [ -f /etc/bash.command-not-found ]; then
     . /etc/bash.command-not-found
 fi
+
+bind 'set show-mode-in-prompt off'
+

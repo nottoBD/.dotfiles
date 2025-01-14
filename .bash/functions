@@ -17,6 +17,16 @@ lt() {
 }
 
 
+function ls() {
+    local target="${1:-.}"
+    if [ -d "$target" ]; then
+        exa -al --color=always --group-directories-first --icons "$target"
+    else
+        command ls "$@"
+    fi
+}
+
+
 cd() {
 	if [ -z "$1" ]; then
 		builtin cd

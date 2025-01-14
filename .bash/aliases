@@ -9,7 +9,6 @@ alias cat='bat'
 alias cheat='cheat -c '
 alias emacs="emacsclient -a '' -c"
 alias grep='grep --color=auto'
-alias ls='exa -al --color=always --group-directories-first --icons'
 alias nano='vim'
 alias paru='yay'
 alias pull='git pull'

@@ -2,8 +2,8 @@
 
 # Define backup sources and their corresponding destinations
 declare -A BACKUP_PATHS=(
-    ["$HOME/.local/share/warzone2100/savegames"]="warzone2100/saves"
-    ["$HOME/.local/share/0ad/saves"]="0ad/saves"
+    ["$HOME/.local/share/warzone2100/savegames"]="warzone2100"
+    ["$HOME/.local/share/0ad/saves"]="0ad"
     # ["$HOME/.local/share/"]=""
 )
 
