@@ -1,0 +1,41 @@
+#!/bin/bash
+
+# Define output file
+OUTPUT_FILE="$HOME/.dotfiles/.packages"
+
+mkdir -p "$HOME/.dotfiles"
+
+> "$OUTPUT_FILE"
+
+echo "# System Packages Snapshot" > "$OUTPUT_FILE"
+echo "# Generated on $(date '+%Y-%m-%d %H:%M:%S')" >> "$OUTPUT_FILE"
+echo "# System: $(uname -rs)" >> "$OUTPUT_FILE"
+echo "" >> "$OUTPUT_FILE"
+
+echo "## Official Repository Packages" >> "$OUTPUT_FILE"
+echo "# Packages from official Arch repositories installed via pacman" >> "$OUTPUT_FILE"
+echo "" >> "$OUTPUT_FILE"
+pacman -Qe | grep -v "$(pacman -Qqm)" | sort | while read -r pkg version; do
+    echo "- $pkg ($version)" >> "$OUTPUT_FILE"
+done
+
+echo "" >> "$OUTPUT_FILE"
+
+echo "## AUR Packages" >> "$OUTPUT_FILE"
+echo "# Packages from Arch User Repository installed via yay" >> "$OUTPUT_FILE"
+echo "" >> "$OUTPUT_FILE"
+pacman -Qqm | sort | while read -r pkg; do
+    version=$(pacman -Q "$pkg" | cut -d' ' -f2)
+    echo "- $pkg ($version)" >> "$OUTPUT_FILE"
+done
+
+echo "" >> "$OUTPUT_FILE"
+echo "## Summary" >> "$OUTPUT_FILE"
+OFFICIAL_COUNT=$(pacman -Qe | grep -v "$(pacman -Qqm)" | wc -l)
+AUR_COUNT=$(pacman -Qqm | wc -l)
+TOTAL_COUNT=$((OFFICIAL_COUNT + AUR_COUNT))
+
+echo "Official packages: $OFFICIAL_COUNT" >> "$OUTPUT_FILE"
+echo "AUR packages: $AUR_COUNT" >> "$OUTPUT_FILE"
+echo "Total explicit packages: $TOTAL_COUNT" >> "$OUTPUT_FILE"
+
