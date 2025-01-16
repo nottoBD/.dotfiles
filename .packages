@@ -1,5 +1,5 @@
 # System Packages Snapshot
-# Generated on 2025-01-15 08:56:48
+# Generated on 2025-01-16 10:08:53
 # System: Linux 6.12.9-arch1-1
 
 ## Official Repository Packages
@@ -30,16 +30,17 @@
 - bluez (5.79-1)
 - bluez-utils (5.79-1)
 - btop (1.4.0-4)
+- calibre (7.24.0-1)
 - catimg (2.7.0-1)
 - checksec (2.7.1-1)
 - cmake (3.31.4-1)
 - conky (1.21.5-1)
-- couchdb (3.3.3-3)
 - delve (1.24.0-1)
 - dhcpcd (10.1.0-1)
 - dmidecode (3.6-1)
 - dnsmasq (2.90-2)
 - docker (1:27.3.1-1)
+- docker-compose (2.32.3-1)
 - dunst (1.12.1-1)
 - efibootmgr (18-3)
 - emacs-nativecomp (29.4-3)
@@ -97,6 +98,7 @@
 - man-db (2.13.0-1)
 - mission-center (0.6.2-3)
 - mpv (1:0.39.0-4)
+- mupdf (1.25.2-1)
 - ncdu (2.7-1)
 - neovim (0.10.3-1)
 - net-tools (2.10-3)
@@ -178,10 +180,6 @@
 - unclutter (1:1.6-4)
 - unzip (6.0-21)
 - vi (1:070224-6)
-- virtualbox (7.1.4-4)
-- virtualbox-guest-iso (7.1.4-1)
-- virtualbox-guest-utils (7.1.4-4)
-- virtualbox-host-modules-arch (7.1.4-21)
 - warzone2100 (4.5.5-1)
 - wesnoth (1:1.18.3-1)
 - wget (1.25.0-1)
@@ -250,8 +248,7 @@
 - android-sdk-platform-tools (35.0.2-1)
 - anki-bin (24.11-1)
 - ast-firmware (501-1)
-- brave-nightly-bin (1.76.9-1)
-- canonical-multipass (1.15.0-1)
+- brave-nightly-bin (1.76.12-1)
 - cheat (4.4.2-3)
 - dmenu-distrotube-git (5.0.r42.71a03bd-1)
 - dmenu-distrotube-git-debug (5.0.r42.71a03bd-1)
@@ -279,13 +276,12 @@
 - python311 (3.11.11-1)
 - ttf-mononoki (1.6-2)
 - upd72020x-fw (1:1.0.0-2)
-- virtualbox-ext-oracle (7.1.4-1)
 - warzone2100-sequences (3.2.3-3)
 - wd719x-firmware (1-7)
 - yay (12.4.2-1)
 - yay-debug (12.4.2-1)
 
 ## Summary
-Official packages: 236
-AUR packages: 39
-Total explicit packages: 275
+Official packages: 234
+AUR packages: 37
+Total explicit packages: 271
