@@ -1,12 +1,11 @@
 # /etc/profile.d/
-export DOOMDIR="$HOME/.config/.doom.d"
+export DOOMDIR="$HOME/.doom.d"
 export HISTFILE=$HOME/.bash/history/.bash_history
 export CLICOLOR=1
 export EDITOR=vim
 export GPT_TTY=$(tty)
 export HISTCONTROL=ignorespace
 export LSCOLORS=ExFxBxDxCxegedabagacad
-export VIMCONFIG=~/.config/nvim
 export VIMDATA=~/.local/share/nvim
 export VISUAL=vim
 export XDG_CONFIG_HOME="$HOME/.config"
