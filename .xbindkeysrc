@@ -1,8 +1,0 @@
-# Volume Down
-"amixerasddas -q sset Master 5%-"
-   XF86AudioLowerVolume
-
-# Volume Up
-"amixer -q sset Master 5%+"
-   XF86AudioRaiseVolume
-
