@@ -143,6 +143,11 @@ key = "End"
 mode = "~Alt"
 mods = "Shift"
 
+[[keyboard.bindings]]
+chars = "\n"
+key = "Return"
+mods = "Shift"
+
 [scrolling]
 history = 5000
 

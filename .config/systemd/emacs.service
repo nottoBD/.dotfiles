@@ -1,0 +1,16 @@
+[Unit]
+Description=Doom Emacs Daemon
+Documentation=https://github.com/doomemacs/doomemacs
+StartLimitIntervalSec=500
+StartLimitBurst=5
+
+[Service]
+Environment=LC_CTYPE=en_US.UTF-8
+ExecStart=/usr/bin/emacs --daemon
+ExecStop=/usr/bin/emacsclient -e "(kill-emacs)"
+Restart=on-failure
+RestartSec=5s
+Type=forking
+
+[Install]
+WantedBy=default.target

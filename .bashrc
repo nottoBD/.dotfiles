@@ -26,3 +26,4 @@ fi
 
 bind 'set show-mode-in-prompt off'
 
+export PATH="$HOME/.emacs.d/bin:$PATH"

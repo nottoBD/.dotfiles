@@ -308,7 +308,7 @@ gsSystem =
 
 gsUtilities =
   [ ("Emacs", "emacs")
-  , ("Emacsclient", "emacs -c -a \'vim\' --socket-name=doom")
+  , ("Emacsclient", "emacsclient -c -a '' --eval '(progn (+doom-dashboard/open (selected-frame)))'")
   , ("Nitrogen", "nitrogen")
   , ("Vim", (myTerminal ++ " -e vim"))
   ]
@@ -569,7 +569,7 @@ myKeys c =
   ^++^ subKeys "Favorite programs"
   [ ("M-<Return>", addName "Launch terminal"   $ spawn (myTerminal))
   , ("M-b", addName "Launch web browser"       $ spawn (myBrowser))
-  , ("M-d", addName "Launch Doom Emacs"        $ spawn "emacsclient -c -a \"vim\" --socket-name=doom")
+  , ("M-d", addName "Launch Doom Emacs"        $ spawn "emacsclient -c -a '' --eval '(progn (+doom-dashboard/open (selected-frame)))'")
   , ("M-M1-h", addName "Launch htop"           $ spawn (myTerminal ++ " -e htop"))
   , ("M-<Escape>", addName "Selection screenshot" $ spawn "QT_STYLE_OVERRIDE=qt5ct flameshot gui")
   , ("M-C-v", addName "Primary paste"          $ spawn "xdotool click 1")
