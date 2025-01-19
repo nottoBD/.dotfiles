@@ -20,7 +20,7 @@ perform_backup() {
     # -a: archive mode (preserves permissions, timestamps, etc.)
     # -u: skip files that are newer on the receiver
     # --delete: remove files that aren't in the source
-    rsync -au --delete "$source/" "$full_dest/"
+    rsync -a "$source/" "$full_dest/"
 }
 
 for source in "${!BACKUP_PATHS[@]}"; do

@@ -1,0 +1,16 @@
+[Added Associations]
+application/x-compressed-tar=thunar.desktop;
+application/x-zerosize=gvim.desktop;org.pwmt.zathura-pdf-mupdf.desktop;vim.desktop;
+application/pdf=org.pwmt.zathura-pdf-mupdf.desktop;
+
+# Use thunar for brave browser
+# take care to not exec scripts auto
+# ~/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml
+[Default Applications]
+application/x-zerosize=vim.desktop
+application/pdf=org.pwmt.zathura.desktop
+inode/directory=Thunar.desktop
+x-scheme-handler/file=Thunar.desktop
+application/x-shellscript=vim.desktop
+application/x-executable=vim.desktop
+application/x-desktop=vim.desktop
