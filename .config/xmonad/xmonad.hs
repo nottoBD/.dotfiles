@@ -370,7 +370,8 @@ monocle  = renamed [Replace "monocle"]
            $ windowNavigation
            $ addTabs shrinkText myTabTheme
            $ subLayout [] (smartBorders Simplest)
-           $ avoidStruts Full
+           $ avoidStruts 
+           $ Full
 floats   = renamed [Replace "floats"]
            $ smartBorders
            $ simplestFloat
@@ -410,7 +411,7 @@ myShowWNameTheme = def
 myLayoutHook = avoidStruts
                $ mouseResize
                $ windowArrange
-               $ T.toggleLayouts floats
+               $ T.toggleLayouts (noBorders Full)
                $ mkToggle (NBFULL ?? NOBORDERS ?? EOT) myDefaultLayout
   where
     myDefaultLayout = withBorder myBorderWidth tall
@@ -459,6 +460,7 @@ myManageHook = composeAll
   , className =? "splash"             --> doFloat
   , className =? "toolbar"            --> doFloat
   , className =? "Yad"                --> doCenterFloat
+  , className =? "cs2"                --> doCenterFloat
   , title =? "Oracle VM VirtualBox Manager"   --> doFloat
   , title =? "Order Chain - Market Snapshots" --> doFloat
   , title =? "emacs-run-launcher" --> doFloat
