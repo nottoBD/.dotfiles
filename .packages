@@ -1,5 +1,5 @@
 # System Packages Snapshot
-# Generated on 2025-01-20 21:55:21
+# Generated on 2025-01-23 10:16:15
 # System: Linux 6.12.10-arch1-1
 
 ## Official Repository Packages
@@ -16,6 +16,7 @@
 - android-udev (20241109-1)
 - arandr (0.1.11-4)
 - arc-gtk-theme (20221218-2)
+- arch-wiki-docs (20250101-1)
 - azure-cli (2.68.0-1)
 - barrier (2.4.0-3)
 - base (3-2)
@@ -301,6 +302,6 @@
 - yay-debug (12.4.2-1)
 
 ## Summary
-Official packages: 253
+Official packages: 254
 AUR packages: 37
-Total explicit packages: 290
+Total explicit packages: 291
