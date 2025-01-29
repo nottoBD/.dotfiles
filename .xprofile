@@ -1,10 +1,20 @@
+# At-Login, Graphic Server-oriented # 
+# # # # # # # # # # # # # # # # # # #
+
+# Mute Audio 
 pactl set-sink-mute @DEFAULT_SINK@ 1
-xidlehook --timer 240 "if pactl list sinks | grep -q 'RUNNING'; then if [ $(volume) -gt 10 ]; then exit 0; else xtrlock; fi; else xtrlock; fi" '' --timer 1800 'systemctl suspend' '' &
+# Inactivity 
+xidlehook  --not-when-audio --timer 240 'xtrlock' '' --timer 1800 'systemctl suspend' '' &
+# No Bell
 xset b off
+# Monitor
 xset s off
 xset s noblank
+# Typing Rate
 xset r rate 280 80
-xset dpms 2900 4100 4900
+# Path
 export PATH="$PATH:$HOME/.config/emacs/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/go/bin:/home/devid/go/bin:/home/devid/.local/bin:/home/devid/.config/dmscripts/scripts:/home/devid/.cron"
+# Qt
 export QT_QPA_PLATFORMTHEME=qt6ct
 export QT_STYLE_OVERRIDE=kvantum
+

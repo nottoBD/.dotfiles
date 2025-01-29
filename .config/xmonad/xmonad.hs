@@ -139,7 +139,7 @@ myStartupHook = do
 
     -- Start trayer and conky
     safeSpawn "trayer" ["--edge", "top", "--align", "right", "--widthtype", "request", "--padding", "4", "--SetDockType", "true", "--SetPartialStrut", "false", "--expand", "true", "--transparent", "true", "--alpha", "0", "--tint", "0x282c34", "--height", "22", "--monitor", "primary"]
-    spawnOnce "blueman-applet"
+    spawn $ "bluetoothctl info | grep -q 'Connected: yes' && blueman-applet"
 
     safeSpawn "unclutter" ["-idle", "1"]
     safeSpawn "dunst" []
