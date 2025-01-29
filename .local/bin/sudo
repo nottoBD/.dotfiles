@@ -1,1 +1,0 @@
-1000 tee /sys/class/backlight/intel_backlight/brightness
