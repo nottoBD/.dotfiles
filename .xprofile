@@ -1,6 +1,5 @@
 pactl set-sink-mute @DEFAULT_SINK@ 1
-#xautolock -time 4 -locker "xtrlock" &
-xidlehook --not-when-audio --timer 240 "if pactl list sinks | grep 'RUNNING' >/dev/null && pactl list sinks | grep -q 'Volume.*[1-9][0-9]%\|Volume.*100%'; then exit 0; else xtrlock; fi" '' --timer 2400 'systemctl suspend' '' &
+xidlehook --timer 240 "if pactl list sinks | grep -q 'RUNNING'; then if [ $(volume) -gt 10 ]; then exit 0; else xtrlock; fi; else xtrlock; fi" '' --timer 1800 'systemctl suspend' '' &
 xset b off
 xset s off
 xset s noblank
