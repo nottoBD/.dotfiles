@@ -4,7 +4,7 @@
 # Mute Audio 
 pactl set-sink-mute @DEFAULT_SINK@ 1
 # Inactivity 
-xidlehook  --not-when-audio --timer 240 'xtrlock' '' --timer 1800 'systemctl suspend' '' &
+xidlehook  --not-when-audio --timer 240 'xtrlock' '' --not-when-audio --timer 1800 'systemctl suspend' '' &
 # No Bell
 xset b off
 # Monitor

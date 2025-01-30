@@ -1,5 +1,5 @@
 # System Packages Snapshot
-# Generated on 2025-01-29 03:00:00
+# Generated on 2025-01-30 03:00:00
 # System: Linux 6.12.10-arch1-1
 
 ## Official Repository Packages
@@ -76,7 +76,7 @@
 - grub (2:2.12-3)
 - gtkmm (1:2.24.5-5)
 - gtkmm3 (3.24.9-1)
-- gvim (9.1.1043-1)
+- gvim (9.1.1055-1)
 - hashcat (1:6.2.6-2)
 - htop (3.3.0-3)
 - hunspell-fr (7.0-4)
@@ -103,9 +103,9 @@
 - man-db (2.13.0-1)
 - mission-center (0.6.2-3)
 - mpv (1:0.39.0-4)
-- mupdf (1.25.2-1)
+- mupdf (1.25.4-1)
 - ncdu (2.7-1)
-- neovim (0.10.3-1)
+- neovim (0.10.4-1)
 - net-tools (2.10-3)
 - network-manager-applet (1.36.0-1)
 - networkmanager (1.50.2-1)
@@ -123,7 +123,7 @@
 - openssh (9.9p1-2)
 - pacman-contrib (1.10.6-2)
 - pamixer (1.6-3)
-- pandoc-cli (3.1.12.1-1)
+- pandoc-cli (3.1.12.1-2)
 - partitionmanager (24.12.1-1)
 - pass (1.7.4-7)
 - patchelf (0.18.0-3)
@@ -160,7 +160,7 @@
 - sshfs (3.7.3-2)
 - stalonetray (0.8.5-2)
 - strace (6.13-1)
-- stylelint (16.13.2-1)
+- stylelint (16.14.1-1)
 - sudo (1.9.16.p2-2)
 - terminus-font (4.49.1-7)
 - texlive-basic (2024.2-4)
@@ -176,13 +176,14 @@
 - tlp-rdw (1.7.0-1)
 - tmux (3.5_a-1)
 - torbrowser-launcher (0.3.7-3)
-- transmission-qt (4.0.6-6)
+- transmission-qt (4.0.6-8)
 - trayer (1.1.8-4)
 - ttf-arimo-nerd (3.3.0-1)
 - ttf-fira-code (6.2-2)
 - ttf-fira-sans (1:4.301-2)
 - ttf-font-awesome (6.7.2-1)
 - ttf-hack (3.003-7)
+- ttf-jetbrains-mono-nerd (3.3.0-1)
 - ttf-joypixels (8.0.0-2)
 - ttf-ubuntu-font-family (1:0.83-2)
 - tumbler (4.20.0-2)
@@ -255,7 +256,7 @@
 - xterm (397-2)
 - yt-dlp (2025.01.26-1)
 - zathura (0.5.11-1)
-- zathura-pdf-mupdf (0.4.4-10)
+- zathura-pdf-mupdf (0.4.4-12)
 - zip (3.0-11)
 - zsh (5.9-5)
 
@@ -288,6 +289,8 @@
 - kvantum-theme-arc (20220908-3)
 - libtiff5-debug (4.4.0-2)
 - light (1.2.2-5)
+- markdown-reader (1.1.1-1)
+- markdown-reader-debug (1.1.1-1)
 - mockgen (0.5.0-1)
 - mockgen-debug (0.5.0-1)
 - phinger-cursors (2.1-1)
@@ -303,6 +306,6 @@
 - yay-debug (12.4.2-1)
 
 ## Summary
-Official packages: 253
-AUR packages: 39
-Total explicit packages: 292
+Official packages: 254
+AUR packages: 41
+Total explicit packages: 295
