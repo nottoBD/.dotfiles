@@ -1,6 +1,6 @@
 # System Packages Snapshot
-# Generated on 2025-02-06 21:21:48
-# System: Linux 6.12.10-arch1-1
+# Generated on 2025-02-07 20:35:35
+# System: Linux 6.13.1-arch1-1
 
 ## Official Repository Packages
 # Packages from official Arch repositories installed via pacman
@@ -146,6 +146,7 @@
 - pulseaudio-alsa (1:1.2.12-4)
 - pulseaudio-bluetooth (17.0+r43+g3e2bb8a1e-1)
 - pulseaudio-jack (17.0+r43+g3e2bb8a1e-1)
+- pwgen (2.08-3)
 - python-isort (5.13.2-4)
 - python-nose (1.3.7-18)
 - python-pipenv (2024.4.1-1)
@@ -328,6 +329,6 @@
 - yay-debug (12.4.2-1)
 
 ## Summary
-Official packages: 264
+Official packages: 265
 AUR packages: 53
-Total explicit packages: 317
+Total explicit packages: 318
