@@ -1,5 +1,5 @@
 # System Packages Snapshot
-# Generated on 2025-02-07 20:35:35
+# Generated on 2025-02-08 14:17:07
 # System: Linux 6.13.1-arch1-1
 
 ## Official Repository Packages
@@ -152,6 +152,7 @@
 - python-pipenv (2024.4.1-1)
 - python-pytest (1:8.3.4-1)
 - python-setuptools (1:75.2.0-4)
+- python-uv (0.5.29-1)
 - qbittorrent-nox (5.0.3-1)
 - qt5ct (1.9-1)
 - qt6-base (6.8.2-2)
@@ -329,6 +330,6 @@
 - yay-debug (12.4.2-1)
 
 ## Summary
-Official packages: 265
+Official packages: 266
 AUR packages: 53
-Total explicit packages: 318
+Total explicit packages: 319
