@@ -1,5 +1,5 @@
 # System Packages Snapshot
-# Generated on 2025-02-09 16:49:33
+# Generated on 2025-02-09 21:24:35
 # System: Linux 6.13.1-arch1-1
 
 ## Official Repository Packages
@@ -86,7 +86,6 @@
 - ispell (3.4.05-2)
 - iwd (3.3-1)
 - jq (1.7.1-2)
-- kooha (2.3.0-6)
 - languagetool (6.5-1)
 - lib32-gamemode (1.8.2-1)
 - lib32-gnutls (3.8.8-1)
@@ -332,6 +331,6 @@
 - yay-debug (12.4.2-1)
 
 ## Summary
-Official packages: 266
+Official packages: 265
 AUR packages: 55
-Total explicit packages: 321
+Total explicit packages: 320
