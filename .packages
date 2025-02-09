@@ -1,5 +1,5 @@
 # System Packages Snapshot
-# Generated on 2025-02-08 14:17:07
+# Generated on 2025-02-09 16:49:33
 # System: Linux 6.13.1-arch1-1
 
 ## Official Repository Packages
@@ -280,6 +280,8 @@
 - android-sdk-platform-tools (35.0.2-1)
 - anki-bin (24.11-1)
 - ast-firmware (501-1)
+- autojump (22.5.3-9)
+- bashdb (5.0_1.1.2-1)
 - brave-nightly-bin (1.77.5-1)
 - cheat (4.4.2-3)
 - coreshot (4.5.0-2)
@@ -331,5 +333,5 @@
 
 ## Summary
 Official packages: 266
-AUR packages: 53
-Total explicit packages: 319
+AUR packages: 55
+Total explicit packages: 321
