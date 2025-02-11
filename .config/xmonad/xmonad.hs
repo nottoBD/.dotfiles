@@ -145,7 +145,14 @@ myStartupHook = do
     safeSpawn "dunst" []
     safeSpawn "batsignal" ["-w", "30", "-c", "20", "-d", "10", "-f", "89"]
     safeSpawn "conky" ["-c", "/home/devid/.config/conky/doom-one-01.conkyrc"]
-
+    -- Audio controls - simple process checks are fine here
+    spawn "pgrep -x pavucontrol || pavucontrol"
+    spawn "pgrep -x blueman-manager || blueman-manager"
+    
+    -- Browser checks using domain detection
+    spawn "if ! xwininfo -root -tree | grep -i 'cloud.timeedit.net' > /dev/null; then brave-browser-nightly 'https://cloud.timeedit.net/be_ulb/web/etudiant/ri167XQQ689Z50Qv9Q078gZ6y5Y990375Y79Y.html'; fi"
+    spawn "if ! xwininfo -root -tree | grep -i 'discord.com' > /dev/null; then brave-browser-nightly 'https://discord.com/app'; fi"
+    
     -- Run startup utilities
     spawnOnce "emacs-29.4 --daemon=doom &"
     spawnOnce "$HOME/.local/bin/x-settings"
@@ -447,7 +454,11 @@ myManageHook = composeAll
   -- using 'doShift ( myWorkspaces !! 7)' sends program to workspace 8!
   -- I'm doing it this way because otherwise I would have to write out the full
   -- name of my workspaces and the names would be very long if using clickable workspaces.
-  [ className =? "confirm"            --> doFloat
+  [ className =? "Pavucontrol"        --> doShift ( myWorkspaces !! 8 )
+  , className =? "Blueman-manager"    --> doShift ( myWorkspaces !! 8 )
+  , title     =? "Discord"            --> doShift ( myWorkspaces !! 7 )
+  , title     =? "TimeEdit"           --> doShift ( myWorkspaces !! 7 )
+  , className =? "confirm"            --> doFloat
   , className =? "file_progress"      --> doFloat
   , className =? "flameshot"          --> doFloat
   , className =? "dialog"             --> doFloat
