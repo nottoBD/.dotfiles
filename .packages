@@ -1,5 +1,5 @@
 # System Packages Snapshot
-# Generated on 2025-02-11 14:54:28
+# Generated on 2025-02-11 22:47:32
 # System: Linux 6.13.1-arch1-1
 
 ## Official Repository Packages
@@ -201,6 +201,7 @@
 - unclutter (1:1.6-4)
 - unzip (6.0-22)
 - vi (1:070224-6)
+- virtualbox (7.1.6-2)
 - warzone2100 (4.5.5-1)
 - wesnoth (1:1.18.3-2)
 - wget (1.25.0-1)
@@ -275,7 +276,6 @@
 # Packages from Arch User Repository installed via yay
 
 - aic94xx-firmware (30-10)
-- android-ndk (r27.c-1)
 - android-sdk-platform-tools (35.0.2-1)
 - anki-bin (24.11-1)
 - ast-firmware (501-1)
@@ -331,6 +331,6 @@
 - yay-debug (12.4.2-1)
 
 ## Summary
-Official packages: 265
-AUR packages: 55
+Official packages: 266
+AUR packages: 54
 Total explicit packages: 320
