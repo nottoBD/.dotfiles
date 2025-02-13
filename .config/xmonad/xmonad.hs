@@ -140,7 +140,7 @@ myStartupHook = do
     -- Start trayer and conky
     safeSpawn "trayer" ["--edge", "top", "--align", "right", "--widthtype", "request", "--padding", "4", "--SetDockType", "true", "--SetPartialStrut", "false", "--expand", "true", "--transparent", "true", "--alpha", "0", "--tint", "0x282c34", "--height", "22", "--monitor", "primary"]
     spawn $ "bluetoothctl info | grep -q 'Connected: yes' && blueman-applet"
-
+    spawn $ "GTK_THEME=Dracula pavucontrol pavucontrol"
     safeSpawn "unclutter" ["-idle", "1"]
     safeSpawn "dunst" []
     safeSpawn "batsignal" ["-w", "30", "-c", "20", "-d", "10", "-f", "89"]
@@ -450,7 +450,8 @@ myManageHook = composeAll
   -- using 'doShift ( myWorkspaces !! 7)' sends program to workspace 8!
   -- I'm doing it this way because otherwise I would have to write out the full
   -- name of my workspaces and the names would be very long if using clickable workspaces.
-  [ className =? "Blueman-manager"    --> doShift ( myWorkspaces !! 8 )
+  [ className =? "Blueman-manager"    --> doShift ( myWorkspaces !! 8 ) <+> doF W.focusDown
+  , className =? "pavucontrol"        --> doShift ( myWorkspaces !! 8 ) <+> doF W.focusDown
   , className =? "confirm"            --> doFloat
   , className =? "file_progress"      --> doFloat
   , className =? "flameshot"          --> doFloat

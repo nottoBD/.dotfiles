@@ -1,6 +1,6 @@
 # System Packages Snapshot
-# Generated on 2025-02-11 22:47:32
-# System: Linux 6.13.1-arch1-1
+# Generated on 2025-02-13 17:12:40
+# System: Linux 6.13.2-arch1-1
 
 ## Official Repository Packages
 # Packages from official Arch repositories installed via pacman
@@ -76,6 +76,7 @@
 - grub (2:2.12-3)
 - gtkmm (1:2.24.5-5)
 - gtkmm3 (3.24.9-1)
+- gvfs (1.56.1-2)
 - gvim (9.1.1065-1)
 - hashcat (1:6.2.6-2)
 - htop (3.3.0-3)
@@ -331,6 +332,6 @@
 - yay-debug (12.4.2-1)
 
 ## Summary
-Official packages: 266
+Official packages: 267
 AUR packages: 54
-Total explicit packages: 320
+Total explicit packages: 321
