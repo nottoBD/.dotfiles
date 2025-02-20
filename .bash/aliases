@@ -24,3 +24,4 @@ alias _recompile='ghc --make $HOME/.config/xmonad/xmonad.hs -i -ilib -dynamic -f
 alias s='sudo'
 alias v='vim'
 alias doom="~/.emacs.d/bin/doom"
+alias _psoccreator='WINEDLLOVERRIDES=mshtml=d wine psoccreator_4.4_Windows_x86-x64.exe'
