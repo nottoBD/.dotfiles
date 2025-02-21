@@ -38,11 +38,10 @@ cd() {
 		fi
 	fi
 }
-
-_bytes() {
+_bytes () {
     if [ -z "$1" ]; then
         echo "Usage: random_clip <number_of_bytes>"
         return 1
     fi
-    head -c "$1" /dev/urandom | base64 | xclip -selection clipboard
+    printf 'A%.0s' $(seq 1 "$1") | xclip -selection clipboard
 }

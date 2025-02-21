@@ -1,4 +1,24 @@
 [global]
+    show_indicators = no
+    ignore_dbusclose = false
+    notification_stacking = false
+    # Defines list of actions for each mouse event
+    # Possible values are:
+    # * none: Don't do anything.
+    # * do_action: Invoke the action determined by the action_name rule. If there is no
+    #              such action, open the context menu.
+    # * open_url: If the notification has exactly one url, open it. If there are multiple
+    #             ones, open the context menu.
+    # * close_current: Close current notification.
+    # * close_all: Close all notifications.
+    # * context: Open context menu for the notification.
+    # * context_all: Open context menu for all notifications.
+    # These values can be strung together for each mouse event, and
+    # will be executed in sequence.
+    mouse_left_click = close_current
+    mouse_middle_click = do_action, close_current
+    mouse_right_click = close_all
+
     font = Monospace 8
     notification_limit = 1
     # allow a small subset of html markup:
@@ -10,6 +30,9 @@
     # for a complete reference see http://developer.gnome.org/pango/stable/PangoMarkupFormat.html
     # If markup is not allowed, those tags will be stripped out of the message.
     markup = yes
+
+    # Stack together notifications with the same content
+    stack_duplicates = false
 
     # The format of the message. Possible variables are:
     #   %a  appname
@@ -68,11 +91,12 @@
     #
     # If this option is set to mouse or keyboard, the monitor option will be
     # ignored.
-    follow = keyboard
+    follow = mouse
 
     # should a notification popped up from history be sticky or
     # timeout as if it would normally do.
     sticky_history = no
+    history_length = 1
 
     # The height of a single line. If the height is smaller than the font height,
     # it will get raised to the font height.
@@ -107,18 +131,19 @@
     background = "#282a36"
     foreground = "#f8f8f2"
     frame_color = "#6272a4"
-    timeout = 2
+    timeout = 1
 
 [urgency_normal]
     background = "#282a36"
     foreground = "#f8f8f2"
     frame_color = "#bd93f9"
-    timeout = 3
+    timeout = 2
 
 [urgency_critical]
     background = "#ff5555"
     foreground = "#f8f8f2"
     frame_color = "#ff5555"
+    frame_color = "#000000"
     timeout = 5
 
 # Every section that isn't one of the above is interpreted as a rules
@@ -178,3 +203,5 @@
 #    summary = *twitter.com*
 #    urgency = normal
 #
+
+

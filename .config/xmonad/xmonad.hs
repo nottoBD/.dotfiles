@@ -64,7 +64,7 @@ import qualified XMonad.Layout.MultiToggle as MT (Toggle(..))
 import XMonad.Util.Dmenu
 import XMonad.Util.EZConfig (additionalKeysP, mkNamedKeymap)
 import XMonad.Util.Hacks (windowedFullscreenFixEventHook, javaHack, trayerAboveXmobarEventHook, trayAbovePanelEventHook, trayerPaddingXmobarEventHook, trayPaddingXmobarEventHook, trayPaddingEventHook)
-import XMonad.Util.NamedActions
+import XMonad.Util.NamedActions as NamedActions
 import XMonad.Util.NamedScratchpad
 import XMonad.Util.Run (runProcessWithInput, safeSpawn, spawnPipe)
 import XMonad.Util.SpawnOnce
@@ -653,6 +653,8 @@ myKeys c =
   , ("<XF86Calculator>", addName "Calculator"         $ runOrRaise "qalculate-gtk" (resource =? "qalculate-gtk"))
   , ("<XF86Eject>", addName "Eject /dev/cdrom"        $ spawn "eject /dev/cdrom")
   , ("<Print>", addName "Take screenshot (dmscripts)" $ spawn "dm-maim")
+  , ("<F2>", addName "Toggle audio output"    $ spawn "pactl set-sink-port alsa_output.pci-0000_00_1f.3.analog-stereo $(pactl list sinks | grep -A 15 'analog-stereo' | grep 'Active Port' | grep -q 'speaker' && echo 'analog-output-headphones' || echo 'analog-output-speaker')")
+
   ]
   -- The following lines are needed for named scratchpads.
     where nonNSP          = WSIs (return (\ws -> W.tag ws /= "NSP"))

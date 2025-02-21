@@ -1,8 +1,5 @@
 #!/bin/bash
-
-# Define output file
 OUTPUT_FILE="$HOME/.dotfiles/.packages"
-
 mkdir -p "$HOME/.dotfiles"
 
 > "$OUTPUT_FILE"
