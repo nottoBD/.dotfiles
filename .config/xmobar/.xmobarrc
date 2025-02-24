@@ -48,7 +48,7 @@ Config { font            = "Source Code Pro Semibold 9"
                           ] 160
 
                         -- CALENDAR
-                    , Run Date "%A, %B %d %H:%M" "date" 10
+                    , Run Date "%a %d/%m/%Y %H:%M" "date" 10
 
                         -- VOLUME
                     , Run Com "bash" ["-c", "/home/devid/.local/bin/get-volume"] "volume" 5

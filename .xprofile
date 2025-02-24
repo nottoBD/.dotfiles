@@ -1,8 +1,10 @@
 # At-Login, Graphic Server-oriented # 
 # # # # # # # # # # # # # # # # # # #
 
-# Mute Audio 
+# Mute Audio output
 pactl set-sink-mute @DEFAULT_SINK@ 1
+# Mute Audio input
+pactl list short sources | grep -v "monitor" | awk '{print $1}' | xargs -I{} sh -c 'pactl set-source-mute {} 1 && pactl set-source-volume {} 0%'
 # Inactivity 
 xidlehook  --not-when-audio --timer 240 'xtrlock' '' --not-when-audio --timer 1800 'systemctl suspend' '' &
 # No Bell
