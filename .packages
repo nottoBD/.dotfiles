@@ -1,5 +1,5 @@
 # System Packages Snapshot
-# Generated on 2025-02-22 16:26:21
+# Generated on 2025-02-24 07:55:47
 # System: Linux 6.13.3-arch1-1
 
 ## Official Repository Packages
@@ -18,7 +18,6 @@
 - arc-gtk-theme (20221218-2)
 - arch-wiki-docs (20250202-1)
 - azure-cli (2.69.0-1)
-- barrier (2.4.0-3)
 - base (3-2)
 - base-devel (1-2)
 - bash-completion (2.16.0-1)
@@ -88,6 +87,7 @@
 - ispell (3.4.05-2)
 - iwd (3.4-1)
 - jq (1.7.1-2)
+- kate (24.12.2-1)
 - languagetool (6.5-1)
 - lib32-gamemode (1.8.2-1)
 - lib32-gnutls (3.8.9-1)
@@ -159,6 +159,7 @@
 - qt6-base (6.8.2-3)
 - qt6-tools (6.8.2-2)
 - qt6ct (0.9-13)
+- r (4.4.2-2)
 - rclone (1.69.1-1)
 - reflector (2023-3)
 - ripgrep (14.1.1-1)
@@ -321,6 +322,6 @@
 - yay-debug (12.4.2-1)
 
 ## Summary
-Official packages: 271
+Official packages: 272
 AUR packages: 39
-Total explicit packages: 310
+Total explicit packages: 311

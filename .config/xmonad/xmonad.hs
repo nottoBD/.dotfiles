@@ -360,7 +360,7 @@ tall     = renamed [Replace "tall"]
            $ windowNavigation
            $ addTabs shrinkText myTabTheme
            $ subLayout [] (smartBorders Simplest)
-           $ mySpacing 4
+           $ mySpacing 3
            $ reflectHoriz                           -- Right handed master pane
            $ ResizableTall 1 (3/100) (1/2) []
 monocle  = renamed [Replace "monocle"]
@@ -643,8 +643,8 @@ myKeys c =
   , ("<XF86AudioPrev>", addName "mocp next"           $ spawn "mocp --previous")
   , ("<XF86AudioNext>", addName "mocp prev"           $ spawn "mocp --next")
   , ("<XF86AudioMute>", addName "Toggle audio mute"   $ spawn "amixer set Master toggle")
-  , ("<XF86AudioLowerVolume>", addName "Lower vol"    $ spawn "amixer set Master 5%- unmute")
-  , ("<XF86AudioRaiseVolume>", addName "Raise vol"    $ spawn "amixer set Master 2%+ unmute")
+  , ("<XF86AudioLowerVolume>", addName "Lower vol" $ spawn "pactl set-sink-volume @DEFAULT_SINK@ -5%")
+  , ("<XF86AudioRaiseVolume>", addName "Raise vol" $ spawn "pactl set-sink-volume @DEFAULT_SINK@ +5%")
   , ("<XF86MonBrightnessDown>", addName "Decrease brightness" $ spawn "$HOME/.local/bin/brightness-decrease")
   , ("<XF86MonBrightnessUp>", addName "Increase brightness" $ spawn "$HOME/.local/bin/brightness-increase")
   , ("<XF86HomePage>", addName "Open home page"       $ spawn (myBrowser ++ " https://www.youtube.com/c/DistroTube"))
