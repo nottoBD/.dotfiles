@@ -20,6 +20,7 @@ alias psoccreator='WINEDLLOVERRIDES=mshtml=d wine psoccreator_4.4_Windows_x86-x6
 alias s='sudo'
 alias sshP='eval "$(ssh-agent -s)" && ssh-add ~/.ssh/id_ed25519_github'
 alias st='git status'
-alias v='vim'
+alias v='nvim'
 alias vi='vim'
+alias vim='nvim'
 alias vmware='sudo sysctl vm.compaction_proactiveness=0 && vmware'

@@ -6,7 +6,7 @@ pactl set-sink-mute @DEFAULT_SINK@ 1
 # Mute Audio input
 pactl list short sources | grep -v "monitor" | awk '{print $1}' | xargs -I{} sh -c 'pactl set-source-mute {} 1 && pactl set-source-volume {} 0%'
 # Inactivity 
-xidlehook  --not-when-audio --timer 240 'xtrlock' '' --not-when-audio --timer 1800 'systemctl suspend' '' &
+xidlehook  --not-when-audio --timer 300 'xtrlock' '' --timer 1800 'systemctl suspend' '' &
 # No Bell
 xset b off
 # Monitor
@@ -19,4 +19,3 @@ export PATH="$PATH:$HOME/.config/emacs/bin:/usr/local/sbin:/usr/local/bin:/usr/b
 # Qt
 export QT_QPA_PLATFORMTHEME=qt6ct
 export QT_STYLE_OVERRIDE=kvantum
-

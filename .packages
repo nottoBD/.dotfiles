@@ -1,6 +1,6 @@
 # System Packages Snapshot
-# Generated on 2025-02-24 14:56:46
-# System: Linux 6.13.3-arch1-1
+# Generated on 2025-02-25 12:11:48
+# System: Linux 6.13.4-arch1-1
 
 ## Official Repository Packages
 # Packages from official Arch repositories installed via pacman
@@ -320,8 +320,9 @@
 - xrectsel (0.3.2-1)
 - yay (12.4.2-1)
 - yay-debug (12.4.2-1)
+- zen-browser-bin (1.8b-1)
 
 ## Summary
 Official packages: 272
-AUR packages: 39
-Total explicit packages: 311
+AUR packages: 40
+Total explicit packages: 312

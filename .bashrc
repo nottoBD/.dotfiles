@@ -24,12 +24,4 @@ if [ -f /etc/bash.command-not-found ]; then
     . /etc/bash.command-not-found
 fi
 
-bind 'set show-mode-in-prompt off'
-
-export PATH="$HOME/.emacs.d/bin:$PATH"
-
-# Added by LM Studio CLI (lms)
-export PATH="$PATH:/home/devid/.lmstudio/bin"
-
 [[ -s /etc/profile.d/autojump.sh ]] && source /etc/profile.d/autojump.sh
-
