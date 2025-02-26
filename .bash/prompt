@@ -1,5 +1,5 @@
 source /usr/share/git/git-prompt.sh
 PS1_CMD1='$(__git_ps1 " (%s)")';
 #export PS1="\[\033[2;36m\]${PS1_CMD1} \[\033[1;32m\]\u ֍  \[\033[1;33m\]\w \$(if [[ \$? != 0 ]]; then echo '\[\e[31m\]✗'; else echo '\[\e[1;32m\]✓'; fi) \[\e[38;5;248m\]» \[\e[0m\]"
-export PS1="\[\033[2;36m\]${PS1_CMD1} \[\033[1;32m\]\u ֍  \[\033[1;33m\]\w \$(if [[ \$? != 0 ]]; then echo '\[\e[1;31m\]✗'; else echo '\[\e[1;32m\]✓'; fi) \[\e[38;5;248m\]» \[\e[0m\]"
+export PS1="\[\033[2;36m\]${PS1_CMD1} \[\033[1;32m\]\u 🙭  \[\033[1;33m\]\w \$(if [[ \$? != 0 ]]; then echo '\[\e[1;31m\]✗'; else echo '\[\e[1;32m\]✓'; fi) \[\e[38;5;248m\]» \[\e[0m\]"
 
