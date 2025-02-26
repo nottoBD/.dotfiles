@@ -1,5 +1,5 @@
 # System Packages Snapshot
-# Generated on 2025-02-25 12:11:48
+# Generated on 2025-02-26 07:40:46
 # System: Linux 6.13.4-arch1-1
 
 ## Official Repository Packages
@@ -44,7 +44,6 @@
 - docker-compose (2.33.1-1)
 - dunst (1.12.1-1)
 - efibootmgr (18-3)
-- emacs-nativecomp (30.1-1)
 - ethtool (1:6.11-1)
 - eza (0.20.22-1)
 - fastfetch (2.37.0-1)
@@ -291,6 +290,7 @@
 - coreshot (4.5.0-2)
 - dmenu-distrotube-git (5.0.r42.71a03bd-1)
 - dmenu-distrotube-git-debug (5.0.r42.71a03bd-1)
+- emacs-nativecomp (30.1-1)
 - ffcast (1:2.5.1-1)
 - gdown (5.2.0-1)
 - ginkgo-git (2.22.2.r6.g60cc4e2-1)
@@ -323,6 +323,6 @@
 - zen-browser-bin (1.8b-1)
 
 ## Summary
-Official packages: 272
-AUR packages: 40
+Official packages: 271
+AUR packages: 41
 Total explicit packages: 312

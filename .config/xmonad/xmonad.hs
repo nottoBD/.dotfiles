@@ -107,7 +107,7 @@ myTerminal :: String
 myTerminal = "alacritty"
 
 myBrowser :: String
-myBrowser = "brave-browser-nightly"
+myBrowser = "zen-browser"
 
 myEditor :: String
 myEditor = myTerminal ++ " -e vim "
@@ -254,7 +254,7 @@ gsEducation =
   ]
 
 gsInternet =
-  [ ("Brave", "brave")
+  [ ("Zen", "zen-browser")
   , ("Discord", "discord")
   , ("Element", "element-desktop")
   , ("Firefox", "firefox")
