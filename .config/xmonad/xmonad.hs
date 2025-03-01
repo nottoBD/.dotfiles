@@ -149,7 +149,7 @@ myStartupHook = do
     spawnOnce "$HOME/.local/bin/x-settings"
     spawnOnce "numlockx"
     spawnOnce "feh --bg-fill $HOME/pictures/wallpapers/kde6Pata-dark.png"
-    spawn "if ! mountpoint -q $HOME/password-store; then alacritty -e $HOME/.local/bin/mount-password-store; fi"
+    --spawn "if ! mountpoint -q $HOME/password-store; then alacritty -e $HOME/.local/bin/mount-password-store; fi"
     spawnOnce "sudo tlp start"
     
 
