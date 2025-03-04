@@ -1,5 +1,5 @@
 # System Packages Snapshot
-# Generated on 2025-03-03 16:15:51
+# Generated on 2025-03-04 15:46:44
 # System: Linux 6.13.4-arch1-1
 
 ## Official Repository Packages
@@ -293,6 +293,7 @@
 - dmenu-distrotube-git (5.0.r42.71a03bd-1)
 - dmenu-distrotube-git-debug (5.0.r42.71a03bd-1)
 - ffcast (1:2.5.1-1)
+- freetube-bin (0.23.2-1)
 - gdown (5.2.0-1)
 - ginkgo-git (2.22.2.r6.g60cc4e2-1)
 - go-impl (1.1.0-1)
@@ -325,5 +326,5 @@
 
 ## Summary
 Official packages: 273
-AUR packages: 40
-Total explicit packages: 313
+AUR packages: 41
+Total explicit packages: 314

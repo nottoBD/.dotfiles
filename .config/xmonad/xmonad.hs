@@ -663,7 +663,6 @@ myKeys c =
 
 main :: IO ()
 main = do
---  callCommand "$HOME/.local/bin/pacupdate"
 
  -- Launching three instances of xmobar on their monitors.
   xmproc0 <- spawnPipe ("xmobar -x 0 $HOME/.config/xmobar/.xmobarrc")
@@ -709,4 +708,3 @@ main = do
         , ppOrder  = \(ws:l:t:ex) -> [ws,l]++ex++[t]
         }
     }
-
