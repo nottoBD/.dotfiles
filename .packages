@@ -1,5 +1,5 @@
 # System Packages Snapshot
-# Generated on 2025-03-04 15:46:44
+# Generated on 2025-03-05 07:33:14
 # System: Linux 6.13.4-arch1-1
 
 ## Official Repository Packages
@@ -16,7 +16,7 @@
 - android-udev (20241109-1)
 - arandr (0.1.11-4)
 - arc-gtk-theme (20221218-2)
-- arch-wiki-docs (20250202-1)
+- arch-wiki-docs (20250301-1)
 - azure-cli (2.69.0-1)
 - base (3-2)
 - base-devel (1-2)
@@ -37,7 +37,7 @@
 - cmake (3.31.6-1)
 - conky (1.22.0-1)
 - delve (1.24.0-2)
-- dhcpcd (10.2.0-1)
+- dhcpcd (10.2.2-1)
 - dmidecode (3.6-1)
 - dnsmasq (2.90-2)
 - docker (1:28.0.0-1)
@@ -154,7 +154,7 @@
 - python-pipenv (2024.4.1-1)
 - python-pytest (1:8.3.5-1)
 - python-setuptools (1:75.8.0-1)
-- python-uv (0.6.3-1)
+- python-uv (0.6.4-1)
 - qbittorrent-nox (5.0.4-3)
 - qt5ct (1.9-1)
 - qt6-base (6.8.2-3)
