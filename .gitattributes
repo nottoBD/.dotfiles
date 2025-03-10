@@ -2,6 +2,7 @@
 .config/cheat/** filter=git-crypt diff=git-crypt
 .config/tabliss/** filter=git-crypt diff=git-crypt
 .config/zen/** filter=git-crypt diff=git-crypt
+.config/browser/** filter=git-crypt diff=git-crypt
 .cron/cron_github filter=git-crypt diff=git-crypt
 .git-crypt/** filter=git-crypt diff=git-crypt
 .gnupg/** filter=git-crypt diff=git-crypt
