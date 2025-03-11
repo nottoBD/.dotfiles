@@ -45,3 +45,32 @@ _bytes () {
     fi
     printf 'A%.0s' $(seq 1 "$1") | xclip -selection clipboard
 }
+
+cp() {
+    local dest="${@: -1}"  # last argument = destination
+    local dest_dir
+
+    # destination ? directory : file
+    if [[ -d "$dest" || "$dest" == */ ]]; then
+        dest_dir="$dest"
+    else
+        dest_dir=$(dirname "$dest")
+    fi
+
+    # destination dir
+    if [[ ! -d "$dest_dir" ]]; then
+        read -p "Directory '$dest_dir' does not exist. Create it? [Y/n] " response
+        case "$response" in
+            [yY]|"" )
+                mkdir -p "$dest_dir" || return 1
+                ;;
+            * )
+                echo "Aborted."
+                return 1
+                ;;
+        esac
+    fi
+
+    command cp "$@"
+}
+
