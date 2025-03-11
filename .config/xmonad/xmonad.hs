@@ -576,6 +576,7 @@ myKeys c =
   , ("M-v", addName "Selection paste"          $ spawn "$HOME/.local/bin/paste_primary")
   , ("C-M1-t", addName "Secondary Terminal"    $ spawn "xterm")
   , ("M-S-l", addName "Input lock"             $ spawn "xtrlock")
+  , ("M-f", addName "Freetube"                 $ spawn "freetube")
   , ("M-n", addName "Thunar"                   $ spawn "thunar")]
 
   ^++^ subKeys "Monitors"
@@ -597,8 +598,8 @@ myKeys c =
 
   -- Floating windows
   ^++^ subKeys "Floating windows"
-  [ ("M-f", addName "Toggle float layout"        $ sendMessage (T.Toggle "floats"))
-  , ("M-t", addName "Sink a floating window"     $ withFocused $ windows . W.sink)
+  [ ("M-t", addName "Sink a floating window"     $ withFocused $ windows . W.sink)
+--("M-f", addName "Toggle float layout"        $ sendMessage (T.Toggle "floats"))
   , ("M-S-t", addName "Sink all floated windows" $ sinkAll)]
 
   -- Increase/decrease spacing (gaps)
