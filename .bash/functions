@@ -1,4 +1,5 @@
 #!/bin/bash
+
 function _img() { 
     if [[ -f $1 ]]; then 
         mpv --no-terminal --loop-file --image-display-duration=inf "$1" || {
