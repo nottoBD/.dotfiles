@@ -1,5 +1,5 @@
 # System Packages Snapshot
-# Generated on 2025-03-12 15:21:40
+# Generated on 2025-03-13 09:43:57
 # System: Linux 6.13.6-arch1-1
 
 ## Official Repository Packages
@@ -51,7 +51,7 @@
 - fcrackzip (1.0-6)
 - fd (10.2.0-1)
 - feh (3.10.3-1)
-- firefox (136.0-1)
+- firefox (136.0.1-1)
 - flameshot (12.1.0-5)
 - fuse2 (2.9.9-5)
 - fwupd (2.0.6-1)
@@ -77,7 +77,7 @@
 - gtkmm (1:2.24.5-5)
 - gtkmm3 (3.24.9-1)
 - gvfs (1.56.1-3)
-- gvim (9.1.1165-1)
+- gvim (9.1.1198-1)
 - hashcat (1:6.2.6-2)
 - htop (3.4.0-1)
 - hunspell-fr (7.0-4)
@@ -94,13 +94,13 @@
 - lib32-gnutls (3.8.9-1)
 - lib32-nvidia-utils (570.124.04-1)
 - libaio (0.3.113-3)
-- libayatana-appindicator (0.5.93-1)
+- libayatana-appindicator (0.5.94-1)
 - libnotify (0.8.4-1)
 - libreoffice-extension-texmaths (0.52.3-1)
 - libreoffice-extension-writer2latex (1.6.1-3)
 - libreoffice-fresh (25.2.1-2)
 - linux (6.13.6.arch1-1)
-- linux-firmware (20250210.5bc5868b-1)
+- linux-firmware (20250311.b69d4b74-2)
 - linux-headers (6.13.6.arch1-1)
 - lolcat (100.0.1-3)
 - lsof (4.99.4-1)
@@ -154,7 +154,8 @@
 - python-pipenv (2024.4.1-1)
 - python-pytest (1:8.3.5-1)
 - python-setuptools (1:75.8.0-1)
-- python-uv (0.6.5-1)
+- python-uv (0.6.6-1)
+- qalculate-qt (5.5.1-1)
 - qbittorrent-nox (5.0.4-3)
 - qt5ct (1.9-1)
 - qt6-base (6.8.2-3)
@@ -252,7 +253,7 @@
 - xorg-xev (1.2.6-1)
 - xorg-xgamma (1.0.7-2)
 - xorg-xhost (1.0.10-1)
-- xorg-xinit (1.4.3-1)
+- xorg-xinit (1.4.4-1)
 - xorg-xinput (1.6.4-2)
 - xorg-xkbcomp (1.4.7-1)
 - xorg-xkbevd (1.1.6-1)
@@ -333,6 +334,6 @@
 - zen-browser-bin (1.8.2b-1)
 
 ## Summary
-Official packages: 274
+Official packages: 275
 AUR packages: 48
-Total explicit packages: 322
+Total explicit packages: 323
