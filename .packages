@@ -1,5 +1,5 @@
 # System Packages Snapshot
-# Generated on 2025-03-13 09:43:57
+# Generated on 2025-03-13 15:22:36
 # System: Linux 6.13.6-arch1-1
 
 ## Official Repository Packages
@@ -334,6 +334,3 @@
 - zen-browser-bin (1.8.2b-1)
 
 ## Summary
-Official packages: 275
-AUR packages: 48
-Total explicit packages: 323
