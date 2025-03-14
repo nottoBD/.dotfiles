@@ -1,5 +1,5 @@
 # System Packages Snapshot
-# Generated on 2025-03-14 16:20:32
+# Generated on 2025-03-14 21:06:54
 # System: Linux 6.13.6-arch1-1
 
 ## Official Repository Packages
@@ -26,6 +26,7 @@
 - bbswitch (0.8-734)
 - bc (1.08.1-1)
 - bind (9.20.6-1)
+- binwalk (3.1.0-1)
 - bleachbit (4.6.2-3)
 - blueman (2.4.4-1)
 - bluez (5.79-1)
@@ -320,6 +321,8 @@
 - python311 (3.11.11-1)
 - quarto-cli (1.6.42-1)
 - rstudio-desktop (2024.12.1.563-1)
+- ruby-iostruct (0.4.0-1)
+- ruby-zpng (0.4.5-1)
 - spotube-bin (3.9.0-1)
 - spotube-bin-debug (3.9.0-1)
 - steghide (0.5.1-13)
@@ -335,8 +338,9 @@
 - yay (12.4.2-1)
 - yay-debug (12.4.2-1)
 - zen-browser-bin (1.8.2b-1)
+- zsteg (0.2.13-2)
 
 ## Summary
-Official packages: 276
-AUR packages: 50
-Total explicit packages: 326
+Official packages: 277
+AUR packages: 53
+Total explicit packages: 330
