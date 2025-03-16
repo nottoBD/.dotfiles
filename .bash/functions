@@ -1,6 +1,6 @@
 #!/bin/bash
 
-function _img() { 
+function img() { 
     if [[ -f $1 ]]; then 
         mpv --no-terminal --loop-file --image-display-duration=inf "$1" || {
             tmpfile="/tmp/$(basename "$1").mp4"

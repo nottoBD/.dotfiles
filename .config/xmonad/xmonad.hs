@@ -586,8 +586,8 @@ myKeys c =
 
   -- Switch layouts
   ^++^ subKeys "Switch layouts"
-  [ -- ("M-<Tab>", addName "Switch to next layout"   $ sendMessage NextLayout)
-   ("M-<Space>", addName "Toggle noborders/full" $ sendMessage (MT.Toggle NBFULL) >> sendMessage ToggleStruts)]
+  [ ("M-<Escape>", addName "Switch to next layout"   $ sendMessage NextLayout)
+  , ("M-<Space>", addName "Toggle noborders/full" $ sendMessage (MT.Toggle NBFULL) >> sendMessage ToggleStruts)]
 
   -- Window resizing
   ^++^ subKeys "Window resizing"
@@ -655,8 +655,7 @@ myKeys c =
   , ("<XF86Calculator>", addName "Calculator"         $ runOrRaise "qalculate-gtk" (resource =? "qalculate-gtk"))
   , ("<XF86Eject>", addName "Eject /dev/cdrom"        $ spawn "eject /dev/cdrom")
   , ("<Print>", addName "Take screenshot (dmscripts)" $ spawn "dm-maim")
-  , ("<F2>", addName "Toggle audio output"    $ spawn "pactl set-sink-port alsa_output.pci-0000_00_1f.3.analog-stereo $(pactl list sinks | grep -A 15 'analog-stereo' | grep 'Active Port' | grep -q 'speaker' && echo 'analog-output-headphones' || echo 'analog-output-speaker')")
-
+  , ("<F2>", addName "Toggle audio output" $ spawn "pactl set-sink-port alsa_output.pci-0000_00_1f.3.analog-stereo $(pactl list sinks | grep -A 15 'analog-stereo' | grep 'Active Port' | grep -q 'speaker' && echo 'analog-output-headphones' || echo 'analog-output-speaker'); pactl set-sink-mute alsa_output.pci-0000_00_1f.3.analog-stereo 0; pactl set-sink-volume alsa_output.pci-0000_00_1f.3.analog-stereo 20%")
   ]
   -- The following lines are needed for named scratchpads.
     where nonNSP          = WSIs (return (\ws -> W.tag ws /= "NSP"))
