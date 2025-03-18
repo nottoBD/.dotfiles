@@ -10,6 +10,7 @@ alias .vmware='sudo sysctl vm.compaction_proactiveness=0 && vmware'
 alias .xev='xev | grep keycode'
 alias .xprop='xprop | grep WM_CLASS'
 alias C='xclip -selection clipboard'
+alias c='\cat'
 alias cat='bat --number'
 alias cheat='cheat -c '
 alias doom="~/.emacs.d/bin/doom"
