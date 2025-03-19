@@ -39,37 +39,37 @@ TERM = "xterm-256color"
 [font]
 size = 8.0
 
-[font.bold]
-family = "Monocraft Nerd Font"
-style = "Bold"
-
-[font.bold_italic]
-family = "Monocraft Nerd Font"
-style = "Bold"
-
-[font.italic]
-family = "Monocraft Nerd Font"
-style = "Regular"
-
-[font.normal]
-family = "Monocraft Nerd Font"
-style = "Regular"
-
 # [font.bold]
-# family = "Source Code Pro"
+# family = "Monocraft Nerd Font"
 # style = "Bold"
 # 
 # [font.bold_italic]
-# family = "Source Code Pro"
-# style = "Bold Italic"
+# family = "Monocraft Nerd Font"
+# style = "Bold"
 # 
 # [font.italic]
-# family = "Source Code Pro"
-# style = "Italic"
+# family = "Monocraft Nerd Font"
+# style = "Regular"
 # 
 # [font.normal]
-# family = "Source Code Pro"
-# style = "Semibold"
+# family = "Monocraft Nerd Font"
+# style = "Regular"
+
+[font.bold]
+family = "Source Code Pro"
+style = "Bold"
+
+[font.bold_italic]
+family = "Source Code Pro"
+style = "Bold Italic"
+
+[font.italic]
+family = "Source Code Pro"
+style = "Italic"
+
+[font.normal]
+family = "Source Code Pro"
+style = "Semibold"
 
 [font.offset]
 x = 0

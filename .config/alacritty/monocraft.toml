@@ -1,0 +1,15 @@
+[font.normal]
+family = "Monocraft Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "Monocraft Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "Monocraft Nerd Font"
+style = "Regular"  # Monocraft doesn't have italic variant
+
+[font.bold_italic]
+family = "Monocraft Nerd Font"
+style = "Bold"

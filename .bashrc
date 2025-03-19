@@ -24,4 +24,6 @@ if [ -f /etc/bash.command-not-found ]; then
     . /etc/bash.command-not-found
 fi
 
-[[ -s /etc/profile.d/autojump.sh ]] && source /etc/profile.d/autojump.sh
+eval "$(zoxide init bash)"
+
+[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
