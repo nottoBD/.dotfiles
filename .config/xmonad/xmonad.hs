@@ -571,7 +571,7 @@ myKeys c =
   , ("M-b", addName "Launch web browser"       $ spawn (myBrowser))
   , ("M-d", addName "Launch Doom Emacs"        $ spawn "emacsclient -c -a '' --eval '(progn (+doom-dashboard/open (selected-frame)))'")
   , ("M-M1-h", addName "Launch htop"           $ spawn (myTerminal ++ " -e htop"))
-  , ("M-<Escape>", addName "Selection screenshot" $ spawn "QT_STYLE_OVERRIDE=qt5ct flameshot gui")
+  , ("M-<F2>", addName "Selection screenshot" $ spawn "QT_STYLE_OVERRIDE=qt5ct flameshot gui")
   , ("M-C-v", addName "Primary paste"          $ spawn "xdotool click 1")
   , ("M-v", addName "Selection paste"          $ spawn "$HOME/.local/bin/paste_primary")
   , ("C-M1-t", addName "Secondary Terminal"    $ spawn "xterm")
@@ -655,7 +655,7 @@ myKeys c =
   , ("<XF86Calculator>", addName "Calculator"         $ runOrRaise "qalculate-gtk" (resource =? "qalculate-gtk"))
   , ("<XF86Eject>", addName "Eject /dev/cdrom"        $ spawn "eject /dev/cdrom")
   , ("<Print>", addName "Take screenshot (dmscripts)" $ spawn "dm-maim")
-  , ("<F2>", addName "Toggle audio output" $ spawn "pactl set-sink-port alsa_output.pci-0000_00_1f.3.analog-stereo $(pactl list sinks | grep -A 15 'analog-stereo' | grep 'Active Port' | grep -q 'speaker' && echo 'analog-output-headphones' || echo 'analog-output-speaker'); pactl set-sink-mute alsa_output.pci-0000_00_1f.3.analog-stereo 0; pactl set-sink-volume alsa_output.pci-0000_00_1f.3.analog-stereo 20%")
+  , ("<F8>", addName "Toggle audio output" $ spawn "pactl set-sink-port alsa_output.pci-0000_00_1f.3.analog-stereo $(pactl list sinks | grep -A 15 'analog-stereo' | grep 'Active Port' | grep -q 'speaker' && echo 'analog-output-headphones' || echo 'analog-output-speaker'); pactl set-sink-mute alsa_output.pci-0000_00_1f.3.analog-stereo 0; pactl set-sink-volume alsa_output.pci-0000_00_1f.3.analog-stereo 20%")
   ]
   -- The following lines are needed for named scratchpads.
     where nonNSP          = WSIs (return (\ws -> W.tag ws /= "NSP"))
