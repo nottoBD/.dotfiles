@@ -1,5 +1,5 @@
 # System Packages Snapshot
-# Generated on 2025-03-19 09:19:40
+# Generated on 2025-03-21 12:48:14
 # System: Linux 6.13.7-arch1-1
 
 ## Official Repository Packages
@@ -25,18 +25,18 @@
 - batsignal (1.8.0-2)
 - bbswitch (0.8-735)
 - bc (1.08.1-1)
-- bind (9.20.6-1)
+- bind (9.20.7-1)
 - binwalk (3.1.0-1)
 - bleachbit (4.6.2-3)
 - blueman (2.4.4-1)
 - bluez (5.80-1)
 - bluez-utils (5.80-1)
 - btop (1.4.0-5)
-- calibre (7.26.0-2)
+- calibre (8.0.1-1)
 - catimg (2.7.0-1)
 - checksec (2.7.1-1)
 - cmake (3.31.6-1)
-- conky (1.22.0-2)
+- conky (1.22.1-1)
 - delve (1.24.1-1)
 - dhcpcd (10.2.2-1)
 - dmidecode (3.6-1)
@@ -49,7 +49,7 @@
 - engrampa (1.28.2-2)
 - ethtool (1:6.11-1)
 - eza (0.20.24-1)
-- fastfetch (2.38.0-1)
+- fastfetch (2.39.1-1)
 - fcrackzip (1.0-6)
 - fd (10.2.0-1)
 - feh (3.10.3-1)
@@ -58,6 +58,7 @@
 - foremost (1.5.7-7)
 - fuse2 (2.9.9-5)
 - fwupd (2.0.6-1)
+- fzf (0.60.3-1)
 - gamemode (1.8.2-1)
 - garcon (4.20.0-2)
 - gdb (16.2-1)
@@ -66,7 +67,7 @@
 - git-crypt (0.7.0-3)
 - git-filter-repo (2.47.0-2)
 - git-lfs (3.6.1-1)
-- github-cli (2.68.1-1)
+- github-cli (2.69.0-1)
 - gnome-common (3.18.0-5)
 - gnome-keyring (1:46.2-1)
 - gnu-netcat (0.7.1-10)
@@ -86,7 +87,7 @@
 - httpie (3.2.4-1)
 - hunspell-fr (7.0-4)
 - iftop (1.0pre4-6)
-- imagemagick (7.1.1.45-1)
+- imagemagick (7.1.1.46-1)
 - intel-ucode (20250211-1)
 - ispell (3.4.05-2)
 - iwd (3.4-1)
@@ -159,7 +160,7 @@
 - python-pipenv (2024.4.1-1)
 - python-pytest (1:8.3.5-1)
 - python-setuptools (1:75.8.0-1)
-- python-uv (0.6.8-1)
+- python-uv (0.6.9-1)
 - qalculate-qt (5.5.1-1)
 - qbittorrent-nox (5.0.4-3)
 - qt5ct (1.9-1)
@@ -285,6 +286,7 @@
 - zathura (0.5.11-1)
 - zathura-pdf-mupdf (0.4.4-13)
 - zip (3.0-11)
+- zoxide (0.9.7-1)
 - zsh (5.9-5)
 
 ## AUR Packages
@@ -294,11 +296,11 @@
 - anki-bin (25.02-1)
 - anki-bin-debug (25.02-1)
 - ast-firmware (501-1)
-- autojump (22.5.3-9)
 - bashdb (5.0_1.1.2-1)
 - brave-nightly-bin (1.78.19-1)
 - cheat (4.4.2-3)
 - coreshot (4.5.0-2)
+- cryptomator (1.15.1-1)
 - dmenu-distrotube-git (5.0.r42.71a03bd-1)
 - dmenu-distrotube-git-debug (5.0.r42.71a03bd-1)
 - ffcast (1:2.5.1-1)
@@ -316,13 +318,15 @@
 - libfixbuf (3.0.0.alpha2-1)
 - libfixbuf-debug (3.0.0.alpha2-1)
 - light (1.2.2-5)
+- logseq-desktop (0.10.9-5)
+- logseq-desktop-debug (0.10.9-5)
 - markdown-reader (1.1.1-1)
 - mockgen (0.5.0-1)
-- nvm (0.40.2-1)
 - openvpn-update-systemd-resolved (1.3.0-4)
 - phinger-cursors (2.1-1)
 - pnmixer (0.7.2-1)
 - postman-bin (11.35.4-1)
+- python-async-timeout (4.0.3-6)
 - python2 (2.7.18-11)
 - python2-setuptools (2:44.1.1-2)
 - python311 (3.11.11-1)
@@ -332,6 +336,7 @@
 - ruby-zpng (0.4.5-1)
 - softflowd (1.0.0-1)
 - softflowd-debug (1.0.0-1)
+- spotify (1:1.2.59.514-1)
 - spotube-bin (3.9.0-1)
 - spotube-bin-debug (3.9.0-1)
 - steghide (0.5.1-13)
@@ -352,6 +357,6 @@
 - zsteg (0.2.13-2)
 
 ## Summary
-Official packages: 281
-AUR packages: 60
-Total explicit packages: 341
+Official packages: 283
+AUR packages: 63
+Total explicit packages: 346
