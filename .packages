@@ -353,3 +353,20 @@
 - upd72020x-fw (1:1.0.0-2)
 - vmware-keymaps (1.0-3)
 - vmware-workstation (17.6.2-2)
+- vpcs (0.8.3-1)
+- vpcs-debug (0.8.3-1)
+- warzone2100-sequences (3.2.3-3)
+- wd719x-firmware (1-7)
+- xidlehook (0.10.0-1)
+- xrectsel (0.3.2-1)
+- yay (12.4.2-1)
+- yay-debug (12.4.2-1)
+- zeek (7.0.3-1)
+- zeek-debug (7.0.3-1)
+- zen-browser-bin (1.8.2b-1)
+- zsteg (0.2.13-2)
+
+## Summary
+Official packages: 287
+AUR packages: 69
+Total explicit packages: 356
