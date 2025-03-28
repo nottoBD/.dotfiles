@@ -1,0 +1,14 @@
+#!/bin/bash
+
+SOURCE_DIR="/home/devid/synthesis"
+BACKUP_DIR="/mnt/timeshift/synthesis_backups"
+MAX_BACKUPS=4
+
+TIMESTAMP=$(date +%Y-%m-%d_%H-%M-%S)
+BACKUP_PATH="$BACKUP_DIR/$TIMESTAMP"
+
+mkdir -p "$BACKUP_PATH"
+rsync -a --delete "$SOURCE_DIR/" "$BACKUP_PATH"
+
+cd "$BACKUP_DIR" || exit
+ls -t | tail -n +$((MAX_BACKUPS + 1)) | xargs -d '\n' rm -rf --  # No sudo here
