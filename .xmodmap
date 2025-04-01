@@ -58,3 +58,5 @@ keycode 61 = slash question section
 ! caps_lock = two-way delete
 keycode 66 = BackSpace Delete Delete
 
+! Testing: paste key is right-hand linux key
+keycode 135 = Super_L
