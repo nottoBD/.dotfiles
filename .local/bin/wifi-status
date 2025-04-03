@@ -3,7 +3,7 @@ SSID=$(iwgetid -r)
 CHANNEL=$(iw dev wlan0 info | grep 'channel' | awk '{print $2}')
 
 if [ -z "$CHANNEL" ]; then
-    BAND="X"
+    BAND=""
 else
     if [ "$CHANNEL" -le 14 ]; then
 	BAND="(2.4)"
@@ -21,7 +21,7 @@ if [ -n "$SSID" ]; then
         SSID_SHORT="$SSID_SHORT$CHAR_8"
     fi
 else
-    SSID_SHORT="Nihil"
+    SSID_SHORT="nihil"
 fi
 
 echo "$SSID_SHORT$BAND"
