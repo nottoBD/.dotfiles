@@ -58,5 +58,16 @@ keycode 61 = slash question section
 ! caps_lock = two-way delete
 keycode 66 = BackSpace Delete Delete
 
+! xmonad: numpad workspaces
+keycode 79 = 7 
+keycode 80 = 8 
+keycode 81 = 9 
+keycode 85 = 6 
+keycode 87 = 1 
+keycode 88 = 2 
+keycode 89 = 3 
+keycode 83 = 4 
+keycode 84 = 5 
+
 ! Testing: paste key is right-hand linux key
 keycode 135 = Super_L
