@@ -1,5 +1,5 @@
 # System Packages Snapshot
-# Generated on 2025-04-06 22:11:26
+# Generated on 2025-04-08 11:29:08
 # System: Linux 6.13.8-arch1-1
 
 ## Official Repository Packages
@@ -350,3 +350,29 @@
 - spotube-bin-debug (4.0.2-1)
 - steghide (0.5.1-13)
 - steghide-debug (0.5.1-13)
+- ttf-joypixels (8.0.0-2)
+- ttf-mononoki (1.6-2)
+- ubridge (0.9.18-1)
+- ubridge-debug (0.9.18-1)
+- unimatrix-git (r89.5cf67aa-1)
+- upd72020x-fw (1:1.0.0-2)
+- vmware-keymaps (1.0-3)
+- vmware-workstation (17.6.2-2)
+- vpcs (0.8.3-1)
+- vpcs-debug (0.8.3-1)
+- warzone2100-sequences (3.2.3-3)
+- wd719x-firmware (1-7)
+- xautolock (2.2-7)
+- xidlehook (0.10.0-1)
+- xrectsel (0.3.2-1)
+- yay (12.4.2-1)
+- yay-debug (12.4.2-1)
+- zeek (7.0.3-1)
+- zeek-debug (7.0.3-1)
+- zen-browser-bin (1.10.3b-1)
+- zsteg (0.2.13-2)
+
+## Summary
+Official packages: 288
+AUR packages: 74
+Total explicit packages: 362
