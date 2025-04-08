@@ -20,6 +20,7 @@ alias doom="~/.emacs.d/bin/doom"
 alias grep='grep --color=auto'
 alias halt='poweroff'
 alias j='zi'
+alias lsblk='lsblk -o NAME,SIZE,FSTYPE,LABEL,MOUNTPOINT,UUID,MODEL,SERIAL'
 alias nano='vim'
 alias paru='yay'
 alias pc='sudo pacman'

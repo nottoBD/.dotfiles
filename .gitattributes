@@ -1,11 +1,12 @@
 .bash/paths filter=git-crypt diff=git-crypt
+.config/browser/** filter=git-crypt diff=git-crypt
 .config/cheat/** filter=git-crypt diff=git-crypt
 .config/tabliss/** filter=git-crypt diff=git-crypt
 .config/zen/** filter=git-crypt diff=git-crypt
-.config/browser/** filter=git-crypt diff=git-crypt
 .cron/cron_github filter=git-crypt diff=git-crypt
 .git-crypt/** filter=git-crypt diff=git-crypt
 .gnupg/** filter=git-crypt diff=git-crypt
+.local/bin/usb-backup filter=git-crypt diff=git-crypt
 .local/share/zathura/** filter=git-crypt diff=git-crypt
 .ssh/** filter=git-crypt diff=git-crypt
 racine/** filter=git-crypt diff=git-crypt

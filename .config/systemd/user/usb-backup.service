@@ -1,0 +1,15 @@
+[Unit]
+Description=USB Backup Service
+Requires=media-SYNTH_126.mount
+After=media-SYNTH_126.mount
+
+[Service]
+Type=oneshot
+Environment="DISPLAY=:0"
+Environment="DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/%U/bus"
+ExecStart=%h/.local/bin/usb-backup
+TimeoutStopSec=30
+KillMode=process
+
+[Install]
+WantedBy=media-SYNTH_126.mount

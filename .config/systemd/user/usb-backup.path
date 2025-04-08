@@ -1,0 +1,9 @@
+[Unit]
+Description=USB Backup Trigger
+
+[Path]
+PathExists=/media/%u/SYNTH_126
+Unit=usb-backup.service
+
+[Install]
+WantedBy=default.target
