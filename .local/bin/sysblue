@@ -1,8 +1,10 @@
 #!/bin/bash
-
-sudo systemctl start bluetooth.service
-
 MOUSE_NAME="HP 435 Wireless Mouse"
+
+# bash sec
+set -euo pipefail
+
+systemctl start bluetooth.service && blueman-applet
 
 echo "Waiting for $MOUSE_NAME to pair..."
 while ! xinput list | grep -F "$MOUSE_NAME" | grep -v "Keyboard" > /dev/null; do
@@ -11,9 +13,17 @@ done
 
 echo "$MOUSE_NAME paired. Configuring sensitivity..."
 
-MOUSEID=$(xinput list | grep -F "$MOUSE_NAME" | grep -v "Keyboard" | grep -oP 'id=\K[0-9]+')
+MOUSEID=$(xinput list | grep -F "$MOUSE_NAME" | grep -v "Keyboard" | grep -oP 'id=\K[0-9]+' || echo "")
+if [ -z "$MOUSEID" ]; then
+    echo "Error: Could not find mouse ID" >&2
+    exit 1
+fi
+
+if ! [[ "$MOUSEID" =~ ^[0-9]+$ ]]; then
+    echo "Error: Invalid mouse ID format" >&2
+    exit 1
+fi
 
 xinput --set-prop "$MOUSEID" "Coordinate Transformation Matrix" 0.74 0 0 0 0.74 0 0 0 1
 
 echo "Sensitivity for $MOUSE_NAME adjusted (ID: $MOUSEID)."
-
