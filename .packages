@@ -1,5 +1,5 @@
 # System Packages Snapshot
-# Generated on 2025-04-13 21:59:34
+# Generated on 2025-04-14 21:52:59
 # System: Linux 6.14.2-arch1-1
 
 ## Official Repository Packages
@@ -144,7 +144,7 @@
 - openvpn (2.6.14-1)
 - pacman-contrib (1.11.0-1)
 - pamixer (1.6-3)
-- pandoc-cli (3.1.12.1-61)
+- pandoc-cli (3.1.12.1-62)
 - partitionmanager (24.12.3-1)
 - pass (1.7.4-7)
 - patchelf (0.18.0-3)
@@ -185,7 +185,7 @@
 - scrcpy (3.2-1)
 - screen (5.0.0-2)
 - sha3sum (1.2.3.1-1)
-- shellcheck (0.10.0-50)
+- shellcheck (0.10.0-51)
 - sl (5.05-5)
 - smartmontools (7.4-2)
 - speedtest-cli (2.1.3-9)
@@ -247,10 +247,10 @@
 - xfdesktop (4.20.1-1)
 - xfwm4 (4.20.0-2)
 - xfwm4-themes (4.10.0-6)
-- xmobar (0.49-27)
-- xmonad (0.18.0-53)
-- xmonad-contrib (0.18.1-38)
-- xmonad-utils (0.1.3.3-271)
+- xmobar (0.49-28)
+- xmonad (0.18.0-54)
+- xmonad-contrib (0.18.1-39)
+- xmonad-utils (0.1.3.3-272)
 - xorg-bdftopcf (1.1.2-1)
 - xorg-iceauth (1.0.10-1)
 - xorg-mkfontscale (1.2.3-1)

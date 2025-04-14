@@ -6,7 +6,7 @@ clear Lock
 ! keycode 64 = Mode_switch              
 !
 ! 108: right Alt
-! keycode 108 = Mode_switch
+ keycode 108 = Mode_switch
 !
 ! 94: chevron key <>
 keycode 94 = Mode_switch
@@ -69,5 +69,7 @@ keycode 89 = 3
 keycode 83 = 4 
 keycode 84 = 5 
 
+! Make Home / End
+keycode 110 = Home NoSymbol End
 ! Testing: paste key is right-hand linux key
 keycode 135 = Super_L
