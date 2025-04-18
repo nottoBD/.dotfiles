@@ -1,5 +1,5 @@
 # System Packages Snapshot
-# Generated on 2025-04-17 11:05:15
+# Generated on 2025-04-18 17:42:18
 # System: Linux 6.14.2-arch1-1
 
 ## Official Repository Packages
@@ -43,7 +43,7 @@
 - dmidecode (3.6-1)
 - dnsmasq (2.91-1)
 - docker (1:28.0.4-2)
-- docker-compose (2.35.0-1)
+- docker-compose (2.35.1-1)
 - dunst (1.12.2-1)
 - efibootmgr (18-3)
 - emacs (30.1-4)
@@ -166,7 +166,7 @@
 - python-nose (1.3.7-18)
 - python-pipenv (2024.4.1-1)
 - python-pytest (1:8.3.5-1)
-- python-setuptools (1:75.8.0-1)
+- python-setuptools (1:78.1.0-1)
 - python-uv (0.6.14-1)
 - qalculate-qt (5.5.1-1)
 - qbittorrent-nox (5.0.4-3)
@@ -180,7 +180,7 @@
 - rclone (1.69.1-1)
 - reflector (2023-3)
 - ripgrep (14.1.1-1)
-- samba (2:4.22.0-1)
+- samba (2:4.22.1-1)
 - scapy (2.6.1-1)
 - scrcpy (3.2-1)
 - screen (5.0.0-2)
@@ -305,9 +305,8 @@
 - arc-gtk-theme (20221218-2)
 - ast-firmware (501-1)
 - bashdb (5.0_1.1.2-1)
-- brave-nightly-bin (1.79.55-1)
+- brave-nightly-bin (1.79.77-1)
 - cheat (4.4.2-3)
-- coreshot (4.5.0-2)
 - cryptomator (1.15.3-1)
 - dmenu-distrotube-git (5.0.r42.71a03bd-1)
 - dmenu-distrotube-git-debug (5.0.r42.71a03bd-1)
@@ -326,7 +325,6 @@
 - gotestsum (1.12.0-1)
 - haskell-data-array-byte (0.1.0.1-84)
 - kvantum-theme-arc (20220908-3)
-- libcprime (4.5.0-2)
 - libfixbuf (3.0.0.alpha2-1)
 - libfixbuf-debug (3.0.0.alpha2-1)
 - light (1.2.2-5)
@@ -374,10 +372,10 @@
 - yay-debug (12.4.2-1)
 - zeek (7.0.3-1)
 - zeek-debug (7.0.3-1)
-- zen-browser-bin (1.11.2b-1)
+- zen-browser-bin (1.11.3b-1)
 - zsteg (0.2.13-2)
 
 ## Summary
 Official packages: 290
-AUR packages: 77
-Total explicit packages: 367
+AUR packages: 75
+Total explicit packages: 365
