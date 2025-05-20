@@ -1,5 +1,9 @@
 #!/bin/bash
 
+function crun() {
+  gcc -std=c99 -pedantic -Wall -Wextra -Werror -Wshadow -Wunused -Wconversion -Wformat=2 -g -O0 "$1" -o "${1%.*}" && "./${1%.*}"
+}
+
 function img() { 
     if [[ -f $1 ]]; then 
         mpv --no-terminal --loop-file --image-display-duration=inf "$1" || {
