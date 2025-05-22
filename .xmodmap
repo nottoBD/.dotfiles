@@ -71,5 +71,3 @@ keycode 84 = 5
 
 ! Make Home / End
 keycode 110 = Home NoSymbol End
-! Testing: paste key is right-hand linux key
-keycode 135 = Super_L
