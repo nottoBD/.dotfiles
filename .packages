@@ -1,5 +1,5 @@
 # System Packages Snapshot
-# Generated on 2025-05-26 12:00:50
+# Generated on 2025-05-28 11:55:08
 # System: Linux 6.14.7-arch2-1
 
 ## Official Repository Packages
@@ -23,7 +23,7 @@
 - bat (0.25.0-4)
 - batsignal (1.8.0-2)
 - bbswitch (0.8-746)
-- bc (1.08.1-1)
+- bc (1.08.2-1)
 - bind (9.20.9-1)
 - binwalk (3.1.0-1)
 - bleachbit (5.0.0-1)
@@ -37,10 +37,12 @@
 - checksec (2.7.1-1)
 - cmake (4.0.2-1)
 - conky (1.22.1-2)
+- connman (1.44-1)
 - crystal (1.16.3-1)
 - cuda-tools (12.8.1-3)
 - cudnn (9.8.0.87-1)
 - delve (1.24.2-2)
+- dhclient (4.4.3.P1-4)
 - dhcpcd (10.2.3-1)
 - dmidecode (3.6-1)
 - dnsmasq (2.91-1)
@@ -58,7 +60,7 @@
 - fcrackzip (1.0-6)
 - fd (10.2.0-1)
 - feh (3.10.3-1)
-- firefox (138.0.4-1)
+- firefox (139.0-1)
 - flameshot (12.1.0-6)
 - flatpak (1:1.16.1-1)
 - foremost (1.5.7-7)
@@ -121,7 +123,7 @@
 - lsof (4.99.4-1)
 - lxappearance (0.6.4-1)
 - man-db (2.13.1-1)
-- mission-center (1.0.0-1)
+- mission-center (1.0.2-1)
 - mpv (1:0.40.0-3)
 - mupdf (1.26.1-1)
 - ncdu (2.7-1)
@@ -184,7 +186,7 @@
 - qt6ct (0.10-3)
 - r (4.5.0-1)
 - radare2 (5.9.8-1)
-- rclone (1.69.1-1)
+- rclone (1.69.3-1)
 - reflector (2023-3)
 - ripgrep (14.1.1-1)
 - samba (2:4.22.1-1)
@@ -240,7 +242,7 @@
 - warzone2100 (4.5.5-2)
 - wesnoth (1:1.18.5-1)
 - wget (1.25.0-2)
-- whois (5.5.23-1)
+- whois (5.6.1-1)
 - wine (10.8-1)
 - wine-gecko (2.47.4-2)
 - wine-mono (10.0.0-1)
@@ -302,11 +304,12 @@
 - xorg-xwud (1.0.7-1)
 - xterm (399-1)
 - yad (14.1-2)
+- yamllint (1.37.1-1)
 - yt-dlp (2025.05.22-1)
 - zathura (0.5.11-1)
 - zathura-pdf-mupdf (0.4.4-16)
 - zip (3.0-11)
-- zoxide (0.9.7-1)
+- zoxide (0.9.8-2)
 - zsh (5.9-5)
 
 ## AUR Packages
@@ -316,9 +319,10 @@
 - anki-bin (25.02.5-1)
 - anki-bin-debug (25.02.5-1)
 - arc-gtk-theme (20221218-2)
+- asp (8-1)
 - ast-firmware (501-1)
 - bashdb (5.0_1.1.2-1)
-- brave-nightly-bin (1.81.7-1)
+- brave-nightly-bin (1.81.17-1)
 - cheat (4.4.2-3)
 - cryptomator (1.16.0-1)
 - dmenu-distrotube-git (5.0.r42.71a03bd-1)
@@ -327,8 +331,8 @@
 - freetube (0.23.5-1)
 - gdown (5.2.0-1)
 - ginkgo-git (2.22.2.r6.g60cc4e2-1)
-- gns3-gui (3.0.4-2)
-- gns3-server (3.0.4-2)
+- gns3-gui (3.0.5-1)
+- gns3-server (3.0.5-1)
 - go-impl (1.4.0-1)
 - golines (0.12.2-1)
 - gomodifytags (1.17.0-1)
@@ -337,6 +341,7 @@
 - gotestsum-debug (1.12.2-1)
 - invidious (2.20250314.0-1)
 - invidious-debug (2.20250314.0-1)
+- iproute2-debug (6.15.0-2)
 - kvantum-theme-arc (20220908-3)
 - light (1.2.2-5)
 - logseq-desktop (0.10.11-1)
@@ -377,6 +382,6 @@
 - zsteg (0.2.13-2)
 
 ## Summary
-Official packages: 303
-AUR packages: 63
-Total explicit packages: 366
+Official packages: 306
+AUR packages: 65
+Total explicit packages: 371

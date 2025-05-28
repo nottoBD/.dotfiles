@@ -22,7 +22,7 @@ alias .xprop='xprop | grep WM_CLASS'
 alias C='xclip -selection clipboard'
 alias c='\cat'
 alias cat='bat --number'
-alias cheat='cheat -c '
+alias cheat='cheat -p personal '
 alias doom="~/.emacs.d/bin/doom"
 alias grep='grep --color=auto'
 alias halt='poweroff'
