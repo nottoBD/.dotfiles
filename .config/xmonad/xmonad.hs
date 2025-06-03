@@ -471,7 +471,7 @@ myManageHook = composeAll
   , isFullscreen -->  doFullFloat
   ] <+> namedScratchpadManageHook myScratchPads
 
-soundDir = "/opt/dtos-sounds/" -- The directory that has the sound files
+soundDir = "/opt/sounds/" -- The directory that has the sound files
 
 startupSound  = soundDir ++ "startup-01.mp3"
 shutdownSound = soundDir ++ "shutdown-02.mp3"
@@ -587,8 +587,8 @@ myKeys c =
   -- Switch layouts
   ^++^ subKeys "Switch layouts"
   [ ("M-<Escape>", addName "Switch to next layout"   $ sendMessage NextLayout)
-  , ("M-<Space>", addName "Toggle noborders/full" $ sendMessage (MT.Toggle NBFULL) >> sendMessage ToggleStruts)]
-
+--  , ("M-<Space>", addName "Toggle noborders/full" $ sendMessage (MT.Toggle NBFULL) >> sendMessage ToggleStruts)]
+  , ("M-<Space>", addName "Toggle noborders/full" $ sendMessage (MT.Toggle NBFULL))]
   -- Window resizing
   ^++^ subKeys "Window resizing"
   [ ("M-l", addName "Shrink master window"        $ sendMessage Shrink)
