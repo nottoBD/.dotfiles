@@ -24,11 +24,3 @@ if [ -f /etc/bash.command-not-found ]; then
     . /etc/bash.command-not-found
 fi
 
-eval "$(zoxide init bash)"
-set -o vi
-
-[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
-
-# export NVM_DIR="$HOME/.config/nvm"
-# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
