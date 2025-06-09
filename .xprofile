@@ -1,21 +1,19 @@
 # At-Login, Graphic Server-oriented # 
 # # # # # # # # # # # # # # # # # # #
+export QT_QPA_PLATFORMTHEME=qt6ct
+export QT_STYLE_OVERRIDE=kvantum
+
+xset b off
+xset s off
+xset s noblank
+xset r rate 280 80
+
 
 # Mute Audio output
 pactl set-sink-mute @DEFAULT_SINK@ 1
 # Mute Audio input
 pactl list short sources | grep -v "monitor" | awk '{print $1}' | xargs -I{} sh -c 'pactl set-source-mute {} 1 && pactl set-source-volume {} 0%'
-# Inactivity 
+
+
 xidlehook  --not-when-audio --timer 400 'xtrlock' '' --timer 1500 'systemctl suspend' '' &
-# No Bell
-xset b off
-# Monitor
-xset s off
-xset s noblank
-# Typing Rate
-xset r rate 280 80
-# Path
-export PATH="$PATH:$HOME/.config/emacs/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/go/bin:/home/devid/go/bin:/home/devid/.local/bin:/home/devid/.config/dmscripts/scripts:/home/devid/.cron"
-# Qt
-export QT_QPA_PLATFORMTHEME=qt6ct
-export QT_STYLE_OVERRIDE=kvantum
+
