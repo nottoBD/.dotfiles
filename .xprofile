@@ -2,6 +2,7 @@
 # # # # # # # # # # # # # # # # # # #
 export QT_QPA_PLATFORMTHEME=qt6ct
 export QT_STYLE_OVERRIDE=kvantum
+export PATH="$PATH:$HOME/.local/bin"
 
 xset b off
 xset s off
@@ -13,7 +14,6 @@ xset r rate 280 80
 pactl set-sink-mute @DEFAULT_SINK@ 1
 # Mute Audio input
 pactl list short sources | grep -v "monitor" | awk '{print $1}' | xargs -I{} sh -c 'pactl set-source-mute {} 1 && pactl set-source-volume {} 0%'
-
 
 xidlehook  --not-when-audio --timer 400 'xtrlock' '' --timer 1500 'systemctl suspend' '' &
 

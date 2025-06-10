@@ -1,0 +1,56 @@
+#!/bin/bash
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+REPOS=(
+    "/home/devid/.dotfiles/"
+    "/home/devid/synthesis/"
+)
+
+BRANCH="master"
+rsync -av --delete "$HOME/.local/share/warzone2100/savegames/" "$HOME/.dotfiles/.local/share/warzone2100/savegames/"
+
+eval "$(/usr/bin/ssh-agent -s)"
+/usr/bin/ssh-add /home/devid/.ssh/cron_github
+
+process_repo() {
+    local REPO_PATH="$1"
+    /usr/bin/echo "Processing repository at $REPO_PATH"
+
+    cd "$REPO_PATH" || { /usr/bin/echo "Repository not found: $REPO_PATH"; return; }
+
+    if ! /usr/bin/git rev-parse --is-inside-work-tree &>/dev/null; then
+        /usr/bin/echo "Not a valid git repository: $REPO_PATH"
+        return
+    fi
+
+    if [[ "$REPO_PATH" == *"synthesis"* ]]; then
+        /usr/bin/git add . --ignore-removal
+    else
+        /usr/bin/git add .
+    fi
+
+    if /usr/bin/git diff --cached --quiet; then
+        /usr/bin/echo "No new changes to commit in $REPO_PATH."
+    else
+        files_added=$(/usr/bin/git diff --cached --name-status | /usr/bin/grep "^A" | /usr/bin/awk '{print $2}' | /usr/bin/xargs echo)
+        files_updated=$(/usr/bin/git diff --cached --name-status | /usr/bin/grep "^M" | /usr/bin/awk '{print $2}' | /usr/bin/xargs echo)
+        files_removed=$(/usr/bin/git diff --cached --name-status | /usr/bin/grep "^D" | /usr/bin/awk '{print $2}' | /usr/bin/xargs echo)
+
+        commit_message="[$(/bin/date '+%m/%d')] Added: ${files_added:-none}, Updated: ${files_updated:-none}, Removed: ${files_removed:-none}"
+        /usr/bin/git commit -S -m "$commit_message"
+    fi
+
+    if /usr/bin/git status | /usr/bin/grep -q "Your branch is ahead"; then
+        /usr/bin/echo "Pushing commits for $REPO_PATH..."
+        /usr/bin/git push origin "$BRANCH"
+    else
+        /usr/bin/echo "Nothing to push for $REPO_PATH."
+    fi
+}
+
+for REPO in "${REPOS[@]}"; do
+    process_repo "$REPO"
+done
+
+/usr/bin/echo "All repositories processed."
+
